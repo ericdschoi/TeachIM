@@ -74,7 +74,12 @@ h2.sec{font-size:1.12rem;margin:1.8em 0 .6em;color:var(--acc);text-transform:upp
 .res b{color:var(--ink)}
 /* lesson view */
 .lhead{padding:6px 0 0}
-.actions{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0 4px}
+.actions{display:flex;gap:8px;flex-wrap:wrap;margin:6px 0 4px}
+.agroup{margin-top:14px}
+.aglabel{font-size:.74rem;font-weight:700;color:var(--mut);text-transform:uppercase;letter-spacing:.06em}
+.setuphint{margin:14px 0 2px;padding:11px 14px;border-radius:11px;background:var(--accSoft);
+  border:1px solid var(--line);font-size:.86rem;color:var(--mut);line-height:1.5}
+.setuphint b{color:var(--ink)}
 .secnav{position:sticky;top:57px;z-index:25;background:var(--bg);padding:8px 0;margin:0 -2px}
 .content section{background:var(--card);border:1px solid var(--line);border-radius:var(--r);
   padding:18px 20px;margin:14px 0;box-shadow:var(--shadow);scroll-margin-top:130px}
@@ -198,7 +203,7 @@ window.addEventListener("hashchange",render);
 function renderHome(){
   const app=document.getElementById("app");
   let html='<h1 style="margin-top:4px">Chalk Talks</h1>'+
-    '<div class="sub">'+DATA.length+' interactive chalk talks - tap a lesson, or play to teach</div>'+
+    '<div class="sub">'+DATA.length+' interactive chalk talks - tap a lesson; ▶ opens the presenter guide (works on your phone)</div>'+
     '<div style="margin-top:14px"><input class="search" id="q" type="search" autocomplete="off" autocorrect="off" autocapitalize="none" spellcheck="false" enterkeyhint="search" placeholder="Search everything - lessons, cases, questions, pearls..." value="'+esc(homeState.q)+'"></div>'+
     '<div class="chips" id="chips"></div><div id="list"></div>';
   app.innerHTML=html;
@@ -231,7 +236,7 @@ function drawList(){
       '<h3>'+esc(l.title)+'</h3>'+
       '<div class="meta">'+(l.duration?'<span>⏱ '+esc(l.duration)+'</span>':'')+
       '<span>'+l.cases.length+' cases - '+l.mcqs.length+' MCQs - '+l.anki.length+' cards</span></div>'+
-      '<div class="foot"><button class="btn acc" style="flex:1" onclick="event.stopPropagation();go(\'#/teach/'+l.slug+'\')">▶ Teach</button>'+
+      '<div class="foot"><button class="btn acc" style="flex:1" onclick="event.stopPropagation();go(\'#/teach/'+l.slug+'\')">▶ Presenter guide</button>'+
       '<a class="btn" href="'+enc(l.folder+"/"+l.package)+'" onclick="event.stopPropagation()">Original</a></div>'+
       (p.status==="taught"?'<div class="sub" style="margin-top:8px;color:var(--good)">Taught '+(p.date||"")+(p.note?" - "+esc(p.note):"")+'</div>':"")+
       '</div>';
@@ -298,13 +303,20 @@ function renderLesson(slugAnchor){
   if(l.dot)secs.push(["s-dot","Dotphrase"]);
   if(l.takehome.length)secs.push(["s-takehome","Take-home"]);
   const spdf=slidesPdfOf(l);
+  const studentBtns=
+    (onlineViewOk(l)?'<a class="btn warm" target="_blank" rel="noopener" href="'+officeUrl(l)+'">▶ PowerPoint online — best quality</a>':"")+
+    (spdf?'<button class="btn" onclick="go(\'#/present/'+l.slug+'\')">▶ Slides in-app (PDF)</button>':"")+
+    fl(f.presenter,"Download pptx");
   let h='<div class="lhead">'+pill(l.tag)+'<h1>'+esc(l.title)+'</h1>'+
     '<div class="sub">'+esc(l.subtitle)+'</div>'+
-    '<div class="actions"><button class="btn acc" onclick="go(\'#/teach/'+l.slug+'\')">▶ Teach mode</button>'+
-    (spdf?'<button class="btn warm" onclick="go(\'#/present/'+l.slug+'\')">▶ Present slides</button>':"")+
-    (onlineViewOk(l)?'<a class="btn" target="_blank" rel="noopener" href="'+officeUrl(l)+'">PowerPoint online</a>':"")+
-    fl(f.presenter,"Slides (pptx)")+fl(f.onepager_pdf,"One-pager")+fl(f.handout,"Handout")+fl(f.anki,"Anki.txt")+
+    '<div class="agroup"><div class="aglabel">Your guide — open on your phone (presenter only)</div>'+
+    '<div class="actions"><button class="btn acc" onclick="go(\'#/teach/'+l.slug+'\')">▶ Presenter guide</button></div></div>'+
+    (studentBtns?'<div class="agroup"><div class="aglabel">Student screen — put slides on a separate display</div>'+
+      '<div class="actions">'+studentBtns+'</div></div>':"")+
+    '<div class="agroup"><div class="aglabel">Materials</div><div class="actions">'+
+    fl(f.onepager_pdf,"One-pager")+fl(f.handout,"Handout")+fl(f.anki,"Anki.txt")+
     '<a class="btn" href="'+enc(l.folder+"/"+l.package)+'">Original</a></div></div>'+
+    '<div class="setuphint">How to run it: open the <b>Presenter guide</b> on your phone — it’s your private script, cases, and timer. Students should never see it. Show the slides on a separate screen they can see; try <b>PowerPoint online</b> first for the truest rendering.</div></div>'+
     '<div class="secnav"><div class="chips">'+
     secs.map(s=>'<button class="chip" onclick="jump(\''+s[0]+'\')">'+esc(s[1])+'</button>').join("")+
     '</div></div><div class="content">';
@@ -458,7 +470,9 @@ function drawTeach(){
   const t=teach;if(!t)return;
   const l=t.l,sl=t.slides[t.i];
   let body="";
-  if(sl.type==="title"){body='<h2>'+esc(l.title)+"</h2><div class='sub'>"+esc(l.subtitle)+"</div><h3 style='margin-top:22px'>Objectives</h3><ol>"+
+  if(sl.type==="title"){body='<h2>'+esc(l.title)+"</h2><div class='sub'>"+esc(l.subtitle)+"</div>"+
+    "<div class='sub' style='margin-top:8px'>Presenter guide — for your eyes only. Put the slides on a separate screen for the students.</div>"+
+    "<h3 style='margin-top:22px'>Objectives</h3><ol>"+
     l.objectives.map(o=>"<li>"+esc(o)+"</li>").join("")+"</ol>";}
   else if(sl.type==="seg"){body="<h2>"+esc(sl.s.label)+"</h2>"+sl.s.html;}
   else if(sl.type==="case"){body="<h2>"+esc(sl.c.title)+"</h2>"+sl.c.stem+
@@ -469,7 +483,7 @@ function drawTeach(){
   const segMin=sl.type==="seg"?sl.s.min:null;
   document.getElementById("teachRoot").innerHTML=
     '<div class="teach"><div class="slide content" id="slideBox">'+body+"</div>"+
-    '<div class="nav"><button class="iconbtn" onclick="exitTeach()" aria-label="Exit teach mode">✕</button>'+
+    '<div class="nav"><button class="iconbtn" onclick="exitTeach()" aria-label="Exit presenter guide">✕</button>'+
     '<button class="iconbtn" onclick="step(-1)" aria-label="Previous slide">‹</button>'+
     '<div class="ctr">'+(t.i+1)+" / "+t.slides.length+'<div class="sess" id="sess"></div></div>'+
     '<button class="iconbtn'+(autoT?" acc":"")+'" onclick="toggleAuto()" title="Auto-start segment timer" aria-label="Auto-start segment timer">a⏱</button>'+

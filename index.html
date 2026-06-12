@@ -43,17 +43,39 @@ h1{font-size:1.7rem;margin:.3em 0 .15em;line-height:1.2}
 h2.sec{font-size:1.12rem;margin:1.8em 0 .6em;color:var(--acc);text-transform:uppercase;
   letter-spacing:.06em;font-size:.85rem;font-weight:700}
 .sub{color:var(--mut);font-size:.92rem}
-.pill{display:inline-block;font-size:.74rem;font-weight:600;border-radius:999px;padding:3px 11px}
+.pill{display:inline-block;font-size:.74rem;font-weight:600;border-radius:999px;padding:3px 11px;
+  background:var(--pb);color:var(--pt)}
+[data-theme="dark"] .pill{background:var(--pt);color:#fff}
 .search{width:100%;font-size:1rem;padding:13px 16px;border:1px solid var(--line);border-radius:13px;
   background:var(--card);color:var(--ink);outline:none;box-shadow:var(--shadow)}
 .search:focus{border-color:var(--acc)}
 .chips{display:flex;gap:8px;overflow-x:auto;padding:12px 0 4px;-webkit-overflow-scrolling:touch;scrollbar-width:none}
 .chips::-webkit-scrollbar{display:none}
+@media(hover:hover) and (pointer:fine){.chips{flex-wrap:wrap;overflow-x:visible}}
 .chip{flex:0 0 auto;font-size:.84rem;padding:8px 15px;border-radius:999px;border:1px solid var(--line);
   background:var(--card);color:var(--ink);cursor:pointer}
 .chip.on{background:var(--acc);color:#fff;border-color:var(--acc)}
+.chip .ct{opacity:.65;margin-left:5px;font-size:.78em}
+.chip.tagc{background:var(--pb);color:var(--pt);border-color:transparent}
+.chip.tagc.on{box-shadow:0 0 0 2px var(--acc);font-weight:700}
+[data-theme="dark"] .chip.tagc{background:var(--pt);color:#fff}
+.hero{display:flex;align-items:flex-end;justify-content:space-between;gap:14px;flex-wrap:wrap}
+.hero .stats{color:var(--mut);font-size:.92rem}
+.prog{flex:0 1 250px;min-width:200px}
+.prog .lbl{display:flex;justify-content:space-between;font-size:.76rem;color:var(--mut);margin-bottom:4px}
+.prog .bar{height:6px;border-radius:999px;background:var(--line);overflow:hidden;display:flex}
+.prog .bar i{display:block;height:100%}
+.shead{font-size:.78rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--mut);
+  margin:22px 2px 2px;display:flex;align-items:baseline;gap:8px}
+.shead .cnt{font-weight:400}
+.upnext{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--warm);border-radius:0 12px 12px 0;
+  padding:11px 14px;margin-top:8px;display:flex;align-items:center;gap:10px;flex-wrap:wrap;cursor:pointer;box-shadow:var(--shadow)}
+.upnext .t{font-weight:600;font-size:.95rem}
+@media(hover:hover){.card{transition:transform .12s,box-shadow .12s,border-color .12s}
+  .card:hover{transform:translateY(-2px);border-color:var(--acc);box-shadow:0 4px 8px rgba(15,30,40,.1),0 12px 32px rgba(15,30,40,.12)}}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px;margin-top:12px}
-.card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow);
+.card{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--tc,var(--line));
+  border-radius:0 var(--r) var(--r) 0;box-shadow:var(--shadow);
   padding:16px 16px 13px;display:flex;flex-direction:column;cursor:pointer}
 .card .row1{display:flex;justify-content:space-between;align-items:center;gap:8px}
 .card h3{margin:9px 0 3px;font-size:1.08rem;line-height:1.3}
@@ -178,7 +200,7 @@ function esc(s){return (s||"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">"
 function enc(p){return encodeURI(p);}
 function go(h){location.hash=h;}
 function pill(tag){const c=TAGCOL[tag]||TAGCOL.General;
- return '<span class="pill" style="background:'+c[0]+';color:'+c[1]+'">'+esc(tag)+'</span>';}
+ return '<span class="pill" style="--pb:'+c[0]+';--pt:'+c[1]+'">'+esc(tag)+'</span>';}
 
 let homeState={q:"",tag:"All",untaught:false};
 
@@ -202,8 +224,14 @@ window.addEventListener("hashchange",render);
 /* ---------------- HOME ---------------- */
 function renderHome(){
   const app=document.getElementById("app");
-  let html='<h1 style="margin-top:4px">Chalk Talks</h1>'+
-    '<div class="sub">'+DATA.length+' interactive chalk talks - tap a lesson; ▶ opens the presenter guide (works on your phone)</div>'+
+  const nT=DATA.filter(l=>(prog[l.folder]||{}).status==="taught").length;
+  const nP=DATA.filter(l=>(prog[l.folder]||{}).status==="planned").length;
+  const nM=DATA.reduce((a,l)=>a+l.mcqs.length,0),nC=DATA.reduce((a,l)=>a+l.anki.length,0);
+  let html='<div class="hero"><div><h1 style="margin:4px 0 2px">Chalk Talks</h1>'+
+    '<div class="stats">'+DATA.length+' lessons · '+nM+' board MCQs · '+nC+' Anki cards</div>'+
+    '<div class="sub" style="margin-top:2px">Tap any topic for the full lesson; ▶ starts the presenter guide on your phone</div></div>'+
+    '<div class="prog"><div class="lbl"><span><span style="color:var(--good);font-weight:700">'+nT+' taught</span>'+(nP?' · '+nP+' planned':'')+'</span><span>'+DATA.length+' total</span></div>'+
+    '<div class="bar"><i style="width:'+(100*nT/DATA.length)+'%;background:var(--good)"></i><i style="width:'+(100*nP/DATA.length)+'%;background:var(--warm)"></i></div></div></div>'+
     '<div style="margin-top:14px"><input class="search" id="q" type="search" autocomplete="off" autocorrect="off" autocapitalize="none" spellcheck="false" enterkeyhint="search" placeholder="Search everything - lessons, cases, questions, pearls..." value="'+esc(homeState.q)+'"></div>'+
     '<div class="chips" id="chips"></div><div id="list"></div>';
   app.innerHTML=html;
@@ -213,36 +241,51 @@ function renderHome(){
 }
 function drawChips(){
   const box=document.getElementById("chips"); if(!box)return;
-  let h='<button class="chip'+(homeState.tag==="All"&&!homeState.untaught?" on":"")+'" onclick="homeState.tag=\'All\';homeState.untaught=false;drawChips();drawList()">All</button>';
-  TAGS.forEach((t,i)=>{h+='<button class="chip'+(homeState.tag===t?" on":"")+'" onclick="pickTag('+i+')">'+esc(t)+'</button>';});
+  let h='<button class="chip'+(homeState.tag==="All"&&!homeState.untaught?" on":"")+'" onclick="homeState.tag=\'All\';homeState.untaught=false;drawChips();drawList()">All<span class="ct">'+DATA.length+'</span></button>';
+  TAGS.forEach((t,i)=>{const c=TAGCOL[t]||TAGCOL.General;const n=DATA.filter(l=>l.tag===t).length;
+    h+='<button class="chip tagc'+(homeState.tag===t?" on":"")+'" style="--pb:'+c[0]+';--pt:'+c[1]+'" onclick="pickTag('+i+')">'+esc(t)+'<span class="ct">'+n+'</span></button>';});
   h+='<button class="chip'+(homeState.untaught?" on":"")+'" onclick="homeState.untaught=!homeState.untaught;drawChips();drawList()">Not taught</button>';
   box.innerHTML=h;
 }
 function pickTag(i){const t=TAGS[i];homeState.tag=(homeState.tag===t?"All":t);drawChips();drawList();}
+function cardHTML(l){
+  const p=prog[l.folder]||{};
+  const st=p.status==="taught"?"taught":(p.status==="planned"?"planned":"");
+  const mark=p.status==="taught"?"✓":(p.status==="planned"?"◷":"○");
+  const c=TAGCOL[l.tag]||TAGCOL.General;
+  return '<div class="card" style="--tc:'+c[1]+'" onclick="go(\'#/lesson/'+l.slug+'\')">'+
+    '<div class="row1">'+pill(l.tag)+'<button class="state '+st+'" onclick="event.stopPropagation();cycle(\''+l.slug+'\')" title="Cycle planned / taught">'+mark+'</button></div>'+
+    '<h3>'+esc(l.title)+'</h3>'+
+    '<div class="meta">'+(l.duration?'<span>⏱ '+esc(l.duration)+'</span>':'')+
+    '<span>'+l.cases.length+' cases · '+l.mcqs.length+' MCQs · '+l.anki.length+' cards</span></div>'+
+    '<div class="foot"><button class="btn acc" style="flex:1" onclick="event.stopPropagation();go(\'#/teach/'+l.slug+'\')">▶ Presenter guide</button>'+
+    '<button class="btn" onclick="go(\'#/lesson/'+l.slug+'\')">Lesson ›</button></div>'+
+    (p.status==="taught"?'<div class="sub" style="margin-top:8px;color:var(--good)">Taught '+(p.date||"")+(p.note?" - "+esc(p.note):"")+'</div>':"")+
+    '</div>';
+}
 function drawList(){
   const box=document.getElementById("list"); if(!box)return;
   const q=homeState.q.trim().toLowerCase();
   if(q.length>1){box.innerHTML=searchResults(q);return;}
-  let h='<div class="grid">',n=0;
-  DATA.forEach(l=>{
-    if(homeState.tag!=="All"&&l.tag!==homeState.tag)return;
-    const p=prog[l.folder]||{};
-    if(homeState.untaught&&p.status==="taught")return;
-    n++;
-    const st=p.status==="taught"?"taught":(p.status==="planned"?"planned":"");
-    const mark=p.status==="taught"?"✓":(p.status==="planned"?"◷":"○");
-    h+='<div class="card" onclick="go(\'#/lesson/'+l.slug+'\')">'+
-      '<div class="row1">'+pill(l.tag)+'<button class="state '+st+'" onclick="event.stopPropagation();cycle(\''+l.slug+'\')">'+mark+'</button></div>'+
-      '<h3>'+esc(l.title)+'</h3>'+
-      '<div class="meta">'+(l.duration?'<span>⏱ '+esc(l.duration)+'</span>':'')+
-      '<span>'+l.cases.length+' cases - '+l.mcqs.length+' MCQs - '+l.anki.length+' cards</span></div>'+
-      '<div class="foot"><button class="btn acc" style="flex:1" onclick="event.stopPropagation();go(\'#/teach/'+l.slug+'\')">▶ Presenter guide</button>'+
-      '<a class="btn" href="'+enc(l.folder+"/"+l.package)+'" onclick="event.stopPropagation()">Original</a></div>'+
-      (p.status==="taught"?'<div class="sub" style="margin-top:8px;color:var(--good)">Taught '+(p.date||"")+(p.note?" - "+esc(p.note):"")+'</div>':"")+
-      '</div>';
-  });
-  h+='</div>';
-  box.innerHTML=n?h:'<div class="empty">Nothing matches.</div>';
+  const vis=DATA.filter(l=>(homeState.tag==="All"||l.tag===homeState.tag)&&
+    !(homeState.untaught&&(prog[l.folder]||{}).status==="taught"));
+  if(!vis.length){box.innerHTML='<div class="empty">Nothing matches.</div>';return;}
+  let h="";
+  if(homeState.tag==="All"&&!homeState.untaught){
+    const up=DATA.filter(l=>(prog[l.folder]||{}).status==="planned");
+    if(up.length){h+='<div class="shead">Up next · planned</div>';
+      up.forEach(l=>{h+='<div class="upnext" onclick="go(\'#/lesson/'+l.slug+'\')">'+pill(l.tag)+
+        '<span class="t">'+esc(l.title)+'</span>'+(l.duration?'<span class="sub">'+esc(l.duration)+'</span>':'')+
+        '<span style="flex:1"></span><button class="btn acc" onclick="event.stopPropagation();go(\'#/teach/'+l.slug+'\')">▶ Presenter guide</button></div>';});}
+  }
+  if(homeState.tag==="All"){
+    TAGS.forEach(t=>{const ls=vis.filter(l=>l.tag===t);if(!ls.length)return;
+      h+='<div class="shead">'+esc(t)+'<span class="cnt">'+ls.length+'</span></div><div class="grid" style="margin-top:8px">'+
+        ls.map(cardHTML).join("")+'</div>';});
+  }else{
+    h+='<div class="grid">'+vis.map(cardHTML).join("")+'</div>';
+  }
+  box.innerHTML=h;
 }
 function cycle(slug){
   const l=BY[slug];const p=prog[l.folder]||{};
@@ -253,7 +296,7 @@ function cycle(slug){
       const note=window.prompt("Session note (optional):",p.note||"");if(note)rec.note=note;}
     prog[l.folder]=rec;}
   saveProg();
-  if((location.hash||"#/")==="#/"){drawList();}else{render();}
+  if((location.hash||"#/")==="#/"){renderHome();}else{render();}
 }
 
 /* ---------------- SEARCH ---------------- */

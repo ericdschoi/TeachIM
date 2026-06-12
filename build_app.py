@@ -189,6 +189,14 @@ def parse_lesson(folder_name):
     cases_label = label_of("cases") or "Cases"
     cases_intro = ""
     cb = body_of("cases")
+    def case_items(html):
+        """Every <details> in a chunk -> a {q, a} reveal item (not just the first)."""
+        items = []
+        for d in re.findall(r"<details>(.*?)</details>", html, re.S):
+            q = first(r"<summary>(.*?)</summary>", d).strip()
+            a = fix_hrefs(re.sub(r"<summary>.*?</summary>", "", d, flags=re.S).strip(), folder_name)
+            items.append({"q": fix_hrefs(q, folder_name) or "Answer", "a": a})
+        return items
     if "<h3>" in cb:
         intro = cb.split("<h3>")[0]
         cases_intro = fix_hrefs(re.sub(r'<p class="small">.*?</p>', "", intro, flags=re.S).strip(), folder_name)
@@ -198,16 +206,14 @@ def parse_lesson(folder_name):
             ctitle = clean(first(r"<h3>(.*?)</h3>", ch))
             after = re.sub(r"<h3>.*?</h3>", "", ch, count=1, flags=re.S)
             stem = fix_hrefs(after.split("<details>")[0].strip(), folder_name)
-            reveal = fix_hrefs(re.sub(r"<summary>.*?</summary>", "",
-                                      first(r"<details>(.*?)</details>", after), flags=re.S).strip(), folder_name)
-            cases.append({"title": ctitle, "stem": stem, "reveal": reveal})
+            cases.append({"title": ctitle, "stem": stem, "items": case_items(after)})
     else:
         cases_intro = fix_hrefs(cb.split("<details>")[0].strip(), folder_name)
         for i, d in enumerate(re.findall(r"<details>(.*?)</details>", cb, re.S), 1):
-            stem = first(r"<summary>(.*?)</summary>", d)
-            reveal = re.sub(r"<summary>.*?</summary>", "", d, flags=re.S).strip()
-            cases.append({"title": cases_label + " " + str(i),
-                          "stem": "<p>" + stem + "</p>", "reveal": fix_hrefs(reveal, folder_name)})
+            q = first(r"<summary>(.*?)</summary>", d).strip()
+            a = fix_hrefs(re.sub(r"<summary>.*?</summary>", "", d, flags=re.S).strip(), folder_name)
+            cases.append({"title": cases_label + " " + str(i), "stem": "",
+                          "items": [{"q": fix_hrefs(q, folder_name) or "Answer", "a": a}]})
 
     # MCQs - split on the opening tag so a nested <div class="stem"> can't truncate a block.
     # stem is <div class="stem"> (newer) or the leading <p> (older); options <ol ...>.
@@ -415,6 +421,9 @@ details.qa summary{cursor:pointer;font-weight:600;font-size:.94rem;color:var(--a
 details.qa[open]{background:var(--accSoft)}
 .case{border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:12px 0}
 .case .ct{font-weight:700;margin-bottom:6px}
+.qrev{margin:12px 0;padding-top:10px;border-top:1px dashed var(--line)}
+.qrev:first-of-type{border-top:none;padding-top:0}
+.qq{font-weight:600;margin-bottom:2px}
 .reveal-btn{margin-top:8px;border:1px solid var(--acc);color:var(--acc);background:transparent;
   border-radius:10px;padding:9px 16px;font-size:.88rem;cursor:pointer}
 .reveal-body{margin-top:10px;border-top:1px dashed var(--line);padding-top:10px;display:none}
@@ -603,7 +612,7 @@ function buildIndex(){
     add("Lesson",l.title,l.title+" "+l.tag,"");
     l.objectives.forEach(o=>add("Objective","",o,"s-objectives"));
     l.takehome.forEach(t=>add("Take-home","",t,"s-takehome"));
-    l.cases.forEach((c,i)=>add("Case",c.title,strip(c.stem)+" "+strip(c.reveal),"case-"+i));
+    l.cases.forEach((c,i)=>add("Case",c.title,strip(c.stem)+" "+(c.items||[]).map(it=>strip(it.q)+" "+strip(it.a)).join(" "),"case-"+i));
     l.mcqs.forEach((m,i)=>add("MCQ","",m.stem,"mcq-"+l.slug+"-"+i));
     l.prework.forEach(p=>add("Pre-work","",p.q,"s-prework"));
     l.segments.forEach(s=>add("Script",s.label,strip(s.html).slice(0,400),"s-script"));
@@ -671,8 +680,7 @@ function renderLesson(slugAnchor){
   l.extras.forEach(x=>{h+='<section><h2 class="sec">'+esc(x.label)+"</h2>"+x.html+"</section>";});
 
   if(l.cases.length){h+='<section id="s-cases"><h2 class="sec">'+esc(l.casesLabel)+"</h2>"+(l.casesIntro||"");
-    l.cases.forEach((c,i)=>{h+='<div class="case" id="case-'+i+'"><div class="ct">'+esc(c.title)+"</div>"+c.stem+
-      '<button class="reveal-btn" onclick="rev(this)">Reveal answer</button><div class="reveal-body">'+c.reveal+"</div></div>";});
+    l.cases.forEach((c,i)=>{h+='<div class="case" id="case-'+i+'"><div class="ct">'+esc(c.title)+"</div>"+caseBody(c,false)+"</div>";});
     h+="</section>";}
 
   if(l.mcqs.length){h+='<section id="s-mcq"><h2 class="sec">Board-style MCQs</h2>'+
@@ -699,6 +707,14 @@ function renderLesson(slugAnchor){
 function jump(id){const el=document.getElementById(id);if(el)el.scrollIntoView({behavior:"smooth",block:"start"});}
 function rev(btn){const b=btn.nextElementSibling;const open=b.style.display==="block";
   b.style.display=open?"none":"block";btn.textContent=open?"Reveal answer":"Hide answer";}
+function caseBody(c,big){
+  let h=c.stem||"";
+  const cls="reveal-btn"+(big?" bigreveal":"");
+  (c.items||[]).forEach(it=>{h+='<div class="qrev">'+(it.q?'<div class="qq">'+it.q+'</div>':"")+
+    '<button class="'+cls+'" onclick="rev(this)">Reveal answer</button>'+
+    '<div class="reveal-body">'+it.a+'</div></div>';});
+  return h;
+}
 function copyDot(slug,btn){
   const txt=BY[slug].dot;
   const done=()=>{btn.textContent="Copied ✓";setTimeout(()=>btn.textContent="Copy to clipboard",1500);};
@@ -812,8 +828,7 @@ function drawTeach(){
     "<h3 style='margin-top:22px'>Objectives</h3><ol>"+
     l.objectives.map(o=>"<li>"+esc(o)+"</li>").join("")+"</ol>";}
   else if(sl.type==="seg"){body="<h2>"+esc(sl.s.label)+"</h2>"+sl.s.html;}
-  else if(sl.type==="case"){body="<h2>"+esc(sl.c.title)+"</h2>"+sl.c.stem+
-    '<button class="reveal-btn bigreveal" onclick="rev(this)">Reveal answer</button><div class="reveal-body">'+sl.c.reveal+"</div>";}
+  else if(sl.type==="case"){body="<h2>"+esc(sl.c.title)+"</h2>"+caseBody(sl.c,true);}
   else if(sl.type==="mcq"){body="<h2>Question "+(sl.i+1)+" / "+l.mcqs.length+"</h2>"+
     mcqHTML(sl.m,"teach-"+l.slug+"-"+sl.i,null,null);}
   else{body="<h2>Take-home points</h2><ol>"+l.takehome.map(x=>"<li>"+esc(x)+"</li>").join("")+"</ol>";}

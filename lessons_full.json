@@ -1,5 +1,5 @@
 {
- "generated": "2026-06-12 00:59",
+ "generated": "2026-06-12 03:08",
  "lessons": [
   {
    "slug": "management-of-acute-coronary-syndrome",
@@ -1647,6 +1647,264 @@
      "Acid_Base_Optimized": "Acid_Base_Optimized_slides.pdf"
     },
     "presenter_mb": 0.2
+   }
+  },
+  {
+   "slug": "acute-decompensated-heart-failure",
+   "folder": "Acute Decompensated Heart Failure",
+   "package": "ADHF_Lesson_Package.html",
+   "title": "Acute Decompensated Heart Failure",
+   "tag": "Cardiology",
+   "duration": "25 min (talk) / 35 min (with cases)",
+   "subtitle": "Optimized lesson package · Facilitator-led interactive chalk talk for IM residents · 25 min (talk) / 35 min (with cases)",
+   "credit": "Original hospitalist-workflow lesson built June 2026 for IM residents. Grounded in AHA/ACC/HFSA 2022 and ESC 2021/2023 HF guidelines plus landmark decongestion/GDMT trials (DOSE, ADVOR, EMPULSE, STRONG-HF). Educational use only; not medical advice.",
+   "objectives": [
+    "Profile a decompensated HF patient using the congestion (wet/dry) × perfusion (warm/cold) framework rather than EF alone.",
+    "Dose and titrate IV loop diuretics using a measured natriuretic response (DOSE / spot urine Na).",
+    "Initiate and continue the four pillars of GDMT during the hospitalization, knowing the hold parameters.",
+    "Assemble a discharge bundle that lowers 30-day readmission (euvolemia, education, early follow-up)."
+   ],
+   "prework": [
+    {
+     "q": "Q1. A patient on 80 mg PO furosemide daily is admitted wet. What IV furosemide dose should you start?",
+     "a": "At least the same total daily dose given IV, and the DOSE trial favored the high-intensity arm of ~2.5&times; the home dose. Reasonable: 80 mg IV BID (160 mg/day). Then reassess natriuretic response at 2 hours and double if inadequate."
+    },
+    {
+     "q": "Q2. Why give loop diuretics IV rather than PO in acute decompensation?",
+     "a": "Splanchnic/gut wall edema reduces oral bioavailability and slows absorption; IV dosing bypasses this and produces a reliable, brisk natriuresis."
+    },
+    {
+     "q": "Q3. The creatinine rises 0.3 mg/dL on day 2 of effective diuresis in a still-congested patient making good urine. Stop diuresing?",
+     "a": "No — a modest creatinine bump during decongestion (often hemoconcentration / WRF) is not an indication to stop if the patient remains volume-overloaded and is producing urine. Persistent congestion is the bigger driver of bad outcomes."
+    }
+   ],
+   "segments": [
+    {
+     "label": "Hook (2 min)",
+     "min": 2,
+     "html": "<p>\"Three patients are admitted 'for CHF.' One is a 72-year-old who stopped her diuretic for a beach trip; one is hypotensive with cold mottled knees and a lactate of 4; one came in with a new fast atrial fibrillation. Same chief complaint — but the EF on the chart tells you almost nothing about what to do in the next hour. Two bedside questions do.\" Set up the 2&times;2.</p>"
+    },
+    {
+     "label": "Step 1 — Profile: congestion × perfusion",
+     "min": 7,
+     "html": "<div class=\"ask\"><b>ASK:</b> \"Forget the EF for a second. At the bedside, how do you decide if this patient is WET, and separately whether they are COLD?\"</div>\n<p>Draw the Stevenson 2&times;2. <b>Wet</b> = congestion: orthopnea, JVD, edema, weight gain, B-lines on POCUS, S3. <b>Cold</b> = hypoperfusion: narrow pulse pressure (&lt;25% of systolic), cool/mottled extremities, rising lactate and creatinine, mental slowing. Emphasize hypoperfusion is NOT the same as a low cuff pressure — a patient can be 110/95 and cold. Most ward admits are <b>warm-and-wet</b> and need diuresis alone. <b>Cold-and-wet</b> patients belong in a higher-acuity setting and may need an inotrope or vasodilator.</p>\n<div class=\"pearl\"><b>Pearl:</b> The profile, not the EF, drives the first orders. A preserved-EF (HFpEF) patient who is warm-and-wet still gets IV loop diuretics.</div>"
+    },
+    {
+     "label": "Step 2 — Decongest with IV loops",
+     "min": 8,
+     "html": "<div class=\"ask\"><b>ASK:</b> \"Your patient takes 80 of torsemide at home. What's your starting IV furosemide order, and how do you know in two hours whether it worked?\"</div>\n<p>Anchor on the <b>DOSE trial</b>: IV beats PO; bolus and infusion are equivalent; the high-intensity strategy (~2.5&times; the home oral dose, given IV) relieved symptoms faster with a transient, reversible creatinine bump. Convert home dose, give IV, and <b>measure the response</b> — a spot urine sodium &gt; 50&ndash;70 mmol/L at 2 hours, or urine output &gt; 100&ndash;150 mL/h, means you dosed adequately. If not, <b>double the dose now</b> rather than waiting a day. Inadequate despite a high loop dose &rarr; sequential nephron blockade with a thiazide (metolazone or IV chlorothiazide), with acetazolamide (ADVOR) and early SGLT2i as evidence-based add-ons. Track daily weights, strict ins-and-outs, BMP every 12&ndash;24 h for K and Cr.</p>\n<div class=\"pearl\"><b>Pearl:</b> \"Diuretic resistance\" is usually under-dosing or too-infrequent dosing — not a true ceiling. Reassess and escalate the same day.</div>"
+    },
+    {
+     "label": "Step 3 — Start GDMT before discharge",
+     "min": 7,
+     "html": "<div class=\"ask\"><b>ASK:</b> \"The patient is decongesting nicely on day 2. Which long-term medications should already be going in — and which one do you NOT start yet?\"</div>\n<p>For HFrEF, the <b>four pillars</b>: ARNI (or ACEi/ARB), evidence-based beta-blocker, MRA, and SGLT2 inhibitor. The <b>STRONG-HF</b> trial showed that rapid in-hospital initiation and up-titration with close follow-up improves outcomes; <b>EMPULSE</b> showed in-hospital SGLT2i is safe and adds clinical benefit. Start the SGLT2i and MRA early. Continue a chronic beta-blocker unless the patient is cold/hypoperfused — do NOT newly start or up-titrate a beta-blocker until the patient is euvolemic and off inotropes, because it is negatively inotropic. Mind the hold parameters: SBP, potassium, and renal function.</p>\n<div class=\"pearl\"><b>Pearl:</b> The hospitalization is the intervention. Every pillar you start inpatient is one the outpatient world often never gets to.</div>"
+    },
+    {
+     "label": "Close — precipitant + retrieval (2 min)",
+     "min": 2,
+     "html": "<p>Always name the precipitant before discharge (the <b>FAILURE</b> mnemonic). Hide the board; learners rebuild the 2&times;2, the DOSE dosing rule, and the four pillars from memory. Finish: \"Which pillar do you hold in a cold patient, and why?\" (beta-blocker — negative inotropy.)</p>"
+    }
+   ],
+   "casesLabel": "Cases",
+   "casesIntro": "",
+   "cases": [
+    {
+     "title": "Case 1 — warm & wet",
+     "stem": "<p>72F with HFrEF (EF 30%) on furosemide 80 mg PO daily stopped her meds on vacation. BP 138/82, warm extremities, JVD to the jaw, 3+ edema, lungs with bibasilar crackles. Cr 1.1 (baseline 1.0).</p>",
+     "items": [
+      {
+       "q": "Profile?",
+       "a": "Warm-and-wet — perfused but congested. The classic ward admission."
+      },
+      {
+       "q": "Starting diuretic order?",
+       "a": "IV furosemide &ge; her home daily dose, dosed for high intensity per DOSE: ~80 mg IV BID. Reassess natriuretic response at 2 h; double if UOP/urine Na inadequate."
+      },
+      {
+       "q": "What else by day 2?",
+       "a": "Confirm the precipitant (med nonadherence), restart/continue all four GDMT pillars, daily weights, low-Na diet teaching, 7-day follow-up."
+      }
+     ]
+    },
+    {
+     "title": "Case 2 — cold & wet",
+     "stem": "<p>64M, EF 20%, BP 88/72 (pulse pressure 16), cool mottled knees, lactate 3.8, Cr up from 1.3 to 2.1, somnolent. JVD elevated, anasarca.</p>",
+     "items": [
+      {
+       "q": "Profile + disposition?",
+       "a": "Cold-and-wet — congested AND hypoperfused. Higher-acuity/ICU setting; this is cardiogenic-shock-spectrum."
+      },
+      {
+       "q": "Pitfall to avoid?",
+       "a": "Don't start or continue a beta-blocker, and don't diurese aggressively into a hypoperfused kidney without addressing output — may need an inotrope (e.g., dobutamine/milrinone) or vasodilator to restore perfusion so diuresis works. Cardiology involvement."
+      }
+     ]
+    },
+    {
+     "title": "Case 3 — the creatinine bump",
+     "stem": "<p>68F admitted warm-and-wet, down 4 L over 48 h, still with JVD and 2+ edema, good urine output, Cr risen from 1.0 to 1.4. The night team held her diuretic \"for AKI.\"</p>",
+     "items": [
+      {
+       "q": "Right call?",
+       "a": "No. She is still congested and making urine; the modest Cr rise is expected hemoconcentration/worsening renal function during effective decongestion and is not, by itself, a reason to stop. Resume diuresis, monitor electrolytes, continue toward euvolemia."
+      }
+     ]
+    }
+   ],
+   "mcqs": [
+    {
+     "stem": "A 70-year-old man with HFrEF (EF 25%) on torsemide 40 mg PO daily is admitted with orthopnea, JVD, and 3+ edema. BP 130/80, warm extremities. What is the most appropriate initial diuretic strategy?",
+     "opts": [
+      "Oral torsemide 40 mg daily continued unchanged",
+      "IV furosemide at roughly 1–2.5× his home oral dose, reassessing response at 2 hours",
+      "Fluid restriction alone for 24 hours before diuretics",
+      "Low-dose dopamine to augment diuresis",
+      "Immediate ultrafiltration"
+     ],
+     "ans": "B",
+     "exp": "<b>B.</b> DOSE trial: IV dosing (bypassing gut edema) at an adequate, often high-intensity dose, with a measured natriuretic response, is first-line for the warm-and-wet patient. A: PO is unreliably absorbed when congested and his current regimen failed. C: delays decongestion with no benefit. D: low-dose 'renal' dopamine does not improve diuresis or outcomes (ROSE-AHF). E: ultrafiltration is reserved for true diuretic resistance, not first-line (CARRESS-HF showed no renal benefit)."
+    },
+    {
+     "stem": "Two days into effective IV diuresis, a still-congested HF patient making 150 mL/h of urine has a creatinine rise from 1.1 to 1.5 mg/dL. The patient feels much better. What is the best next step?",
+     "opts": [
+      "Stop diuretics for acute kidney injury",
+      "Give a 1 L normal saline bolus",
+      "Continue diuresis toward euvolemia while monitoring electrolytes",
+      "Start dopamine for renal protection",
+      "Order urgent dialysis"
+     ],
+     "ans": "C",
+     "exp": "<b>C.</b> A modest creatinine rise during decongestion (hemoconcentration / WRF) in a patient still wet and making urine is expected and not an indication to stop — residual congestion predicts worse outcomes than this transient bump. A: stopping perpetuates congestion. B: fluid worsens the overload. D: no benefit. E: no indication."
+    },
+    {
+     "stem": "A euvolemic, normotensive HFrEF patient is ready for discharge on day 4. He is on furosemide and lisinopril only. Which change most reduces his risk of death and rehospitalization?",
+     "opts": [
+      "Add a non-dihydropyridine calcium channel blocker",
+      "Initiate the remaining GDMT pillars (switch to ARNI, add beta-blocker, MRA, and SGLT2 inhibitor) with early follow-up",
+      "Discharge now and defer all medication changes to the outpatient clinic",
+      "Add an NSAID for his knee pain",
+      "Double the furosemide indefinitely"
+     ],
+     "ans": "B",
+     "exp": "<b>B.</b> STRONG-HF: rapid in-hospital initiation/up-titration of guideline therapy with close follow-up improves outcomes; in-hospital SGLT2i (EMPULSE) is safe and beneficial. A: non-DHP CCBs are negatively inotropic and contraindicated in HFrEF. C: deferral is the status quo that STRONG-HF improved upon — many patients never get titrated. D: NSAIDs cause sodium retention and worsen HF. E: chronic over-diuresis risks hypovolemia/AKI without disease modification."
+    },
+    {
+     "stem": "Which finding best indicates hypoperfusion (a 'cold' profile) rather than simply a low blood pressure reading?",
+     "opts": [
+      "Bibasilar crackles",
+      "Narrow pulse pressure with cool extremities, rising lactate and creatinine",
+      "Elevated BNP",
+      "Pedal edema",
+      "Jugular venous distension"
+     ],
+     "ans": "B",
+     "exp": "<b>B.</b> Hypoperfusion is defined by end-organ signs: narrow pulse pressure (&lt;25% of systolic), cool/mottled skin, rising lactate/creatinine, altered mentation — independent of the cuff number. A, D, E are congestion (wet) signs; C reflects wall stress, not perfusion."
+    },
+    {
+     "stem": "In a patient admitted with decompensated HFrEF who is warm and wet and already taking carvedilol at home, what should you do with the beta-blocker?",
+     "opts": [
+      "Stop it immediately because it is negatively inotropic",
+      "Continue it at the home dose while decongesting, since the patient is well-perfused",
+      "Double the dose to control heart rate",
+      "Switch to IV metoprolol",
+      "Hold it until the day of discharge then restart at half dose"
+     ],
+     "ans": "B",
+     "exp": "<b>B.</b> A chronic beta-blocker should be continued during decompensation in a warm (well-perfused) patient — abrupt withdrawal worsens outcomes. You avoid NEW initiation or up-titration until euvolemic, and you would only reduce/hold it if the patient becomes cold/hypoperfused. A/E: unnecessary withdrawal harms. C: up-titration during decompensation is unsafe. D: no role for routine IV beta-blockade here."
+    }
+   ],
+   "anki": [
+    [
+     "The two axes for profiling acute HF?",
+     "Congestion (wet vs dry) and perfusion (warm vs cold) — the Stevenson 2&times;2; drives first orders more than EF."
+    ],
+    [
+     "Most common ward HF profile?",
+     "Warm-and-wet — perfused but congested; treat with IV loop diuretics."
+    ],
+    [
+     "Signs of the 'cold' profile?",
+     "Narrow pulse pressure, cool/mottled extremities, rising lactate &amp; creatinine, somnolence — hypoperfusion, not just low BP."
+    ],
+    [
+     "DOSE trial diuretic teaching?",
+     "IV beats PO; bolus = infusion; high-intensity (~2.5&times; home oral dose IV) relieved symptoms faster with a transient, reversible Cr rise."
+    ],
+    [
+     "Why IV not PO loop diuretics in ADHF?",
+     "Gut/splanchnic edema reduces oral bioavailability; IV gives reliable brisk natriuresis."
+    ],
+    [
+     "How to confirm adequate diuretic dose at 2 h?",
+     "Spot urine Na &gt; 50&ndash;70 mmol/L or UOP &gt; 100&ndash;150 mL/h; if inadequate, double the dose."
+    ],
+    [
+     "Next step for inadequate response to high-dose loop?",
+     "Sequential nephron blockade — add thiazide (metolazone/IV chlorothiazide); consider acetazolamide (ADVOR) and early SGLT2i."
+    ],
+    [
+     "Creatinine rises during effective diuresis in a still-wet patient making urine — stop?",
+     "No — usually hemoconcentration/WRF; residual congestion is worse. Continue toward euvolemia, watch electrolytes."
+    ],
+    [
+     "The four pillars of HFrEF GDMT?",
+     "ARNI (or ACEi/ARB), evidence-based beta-blocker, MRA, SGLT2 inhibitor."
+    ],
+    [
+     "STRONG-HF lesson?",
+     "Rapid in-hospital initiation/up-titration of GDMT with close follow-up improves outcomes."
+    ],
+    [
+     "EMPULSE lesson?",
+     "In-hospital SGLT2i (empagliflozin) is safe and adds clinical benefit regardless of EF/diabetes."
+    ],
+    [
+     "Which pillar do you NOT start in a wet or cold patient?",
+     "Beta-blocker — negatively inotropic; start only when euvolemic and off inotropes; continue a chronic BB if warm."
+    ],
+    [
+     "FAILURE precipitant mnemonic?",
+     "Forgot meds/Fluid, Arrhythmia, Ischemia/Infection, Lifestyle, Upregulation (thyroid/anemia/pregnancy), Renal/Rx (NSAIDs), Embolus (PE)."
+    ],
+    [
+     "Drugs to avoid in HFrEF?",
+     "NSAIDs, thiazolidinediones, most non-dihydropyridine CCBs (negative inotropes)."
+    ],
+    [
+     "Key discharge-bundle elements?",
+     "Euvolemic 24 h on PO diuretic, documented EF/dry weight/diuretic dose/GDMT, daily-weight teaching, 7-day follow-up."
+    ],
+    [
+     "Does low-dose dopamine help diuresis in ADHF?",
+     "No — ROSE-AHF showed no benefit on renal function or decongestion."
+    ]
+   ],
+   "dot": "#ADHF: HF with EF *__%; profile [warm-wet / cold-wet / warm-dry / cold-dry]\ncongestion: [JVD/orthopnea/edema/weight +__kg/B-lines]; perfusion: [warm / cool extremities/PP __/lactate __/Cr __]\nprecipitant (FAILURE): [nonadherence/diet/AF-RVR/ischemia/infection/NSAID/PE/thyroid/anemia/other *]\ndecongestion: home diuretic *__ → IV furosemide *__ mg IV BID (DOSE high-intensity ≈ 1–2.5× home PO)\n 2-h response: UOP __ mL/h / spot UNa __ → [adequate / double dose]; +thiazide [metolazone/chlorothiazide] if resistant\nmonitoring: daily weight (dry wt *__), strict I/O, BMP q12–24h (K __, Cr __); goal net −1–2 L/day\nGDMT (HFrEF): ARNI/ACEi/ARB [*], beta-blocker [continue/hold if cold] [*], MRA [K __ eGFR __] [*], SGLT2i [start] [*]\navoid: NSAIDs, non-DHP CCB, TZD; do not start/uptitrate BB until euvolemic\ndispo: euvolemic ×24h on PO diuretic; teach daily weights; 7-day follow-up; discharge diuretic *__",
+   "takehome": [
+    "Profile every patient on two axes — congestion and perfusion — before you reach for the EF; warm-and-wet gets IV loop diuretics.",
+    "Dose IV loops to a measured natriuretic response (DOSE / spot urine Na at 2 h) and double promptly if inadequate; don't wait a day.",
+    "A modest creatinine rise during effective decongestion is usually hemoconcentration — keep diuresing the still-wet patient who is making urine.",
+    "Start the four GDMT pillars in-house (STRONG-HF, EMPULSE); hold beta-blocker initiation only while wet or cold.",
+    "Discharge euvolemic with the precipitant named, GDMT documented, weight teaching, and 7-day follow-up to cut readmission."
+   ],
+   "extras": [],
+   "refs": "<ul>\n<li>Heidenreich PA, et al. 2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure. <i>Circulation</i> 2022;145:e895&ndash;e1032.</li>\n<li>McDonagh TA, et al. 2021 ESC Guidelines for HF; 2023 Focused Update. <i>Eur Heart J</i> 2021/2023.</li>\n<li>Felker GM, et al. Diuretic strategies in acute decompensated HF (DOSE). <i>N Engl J Med</i> 2011;364:797&ndash;805.</li>\n<li>Mullens W, et al. Acetazolamide in acute decompensated HF (ADVOR). <i>N Engl J Med</i> 2022;387:1185&ndash;1195.</li>\n<li>Voors AA, et al. Empagliflozin in patients hospitalized for acute HF (EMPULSE). <i>Nat Med</i> 2022;28:568&ndash;574.</li>\n<li>Mebazaa A, et al. High-intensity care after acute HF (STRONG-HF). <i>Lancet</i> 2022;400:1938&ndash;1952.</li>\n<li>Chen HH, et al. Low-dose dopamine/nesiritide in acute HF (ROSE-AHF). <i>JAMA</i> 2013;310:2533&ndash;2543.</li>\n</ul>",
+   "changelog": "<p class=\"small\">New lesson authored June 2026 for a hospitalist teaching block, modeled on the house style of the existing TeachIM-derived packages in this library (2&times;2 framework + measured-response decongestion + discharge bundle). Clinical content cross-checked against the AHA/ACC/HFSA 2022 HF guideline, the ESC 2021 guideline with 2023 focused update, and the landmark trials cited below. Educational use only.</p>",
+   "files": {
+    "presenter": "ADHF_Optimized.pptx",
+    "learner_board": null,
+    "handout": null,
+    "onepager_pdf": "ADHF_OnePager.pdf",
+    "anki": "ADHF_Anki_Cards.txt",
+    "package": "ADHF_Lesson_Package.html",
+    "other": [
+     "ADHF-worksheet.docx",
+     "ADHF_OnePager.html"
+    ],
+    "slides": {
+     "ADHF_Optimized": "ADHF_Optimized_slides.pdf"
+    },
+    "presenter_mb": 0.0
    }
   },
   {
@@ -3594,6 +3852,252 @@
    }
   },
   {
+   "slug": "alcohol-withdrawal",
+   "folder": "Alcohol Withdrawal",
+   "package": "Alcohol_Withdrawal_Lesson_Package.html",
+   "title": "Alcohol Withdrawal",
+   "tag": "Psychiatry",
+   "duration": "25 min (talk) / 35 min (with cases)",
+   "subtitle": "Optimized lesson package · Facilitator-led interactive chalk talk for IM residents · 25 min (talk) / 35 min (with cases)",
+   "credit": "Original hospitalist-workflow lesson built June 2026 for IM residents. Grounded in the ASAM 2020 Alcohol Withdrawal Management Guideline and validated tools (CIWA-Ar, PAWSS). Educational use only; not medical advice.",
+   "objectives": [
+    "Risk-stratify alcohol withdrawal with PAWSS and place a patient on the syndrome timeline.",
+    "Choose between symptom-triggered, fixed, and front-loaded benzodiazepine strategies and know when CIWA is invalid.",
+    "Escalate to phenobarbital for severe or benzodiazepine-resistant withdrawal, and use adjuncts correctly.",
+    "Apply supportive care — thiamine before glucose, electrolyte repletion — and link to addiction treatment."
+   ],
+   "prework": [
+    {
+     "q": "Q1. Why must thiamine be given before glucose in a malnourished patient with alcohol use disorder?",
+     "a": "A glucose load consumes thiamine as a cofactor; in a thiamine-deficient patient, giving dextrose first can precipitate or worsen Wernicke encephalopathy. Give parenteral thiamine before or with glucose."
+    },
+    {
+     "q": "Q2. A confused patient who cannot communicate has a high CIWA-Ar score. Should you escalate benzodiazepines based on that score?",
+     "a": "No — CIWA-Ar requires a patient who can be validly assessed/communicate. In a confused or non-communicative patient the score is unreliable; use a fixed-dose or front-loaded (or phenobarbital) strategy and look for other causes of altered mentation."
+    },
+    {
+     "q": "Q3. What distinguishes alcoholic hallucinosis from delirium tremens?",
+     "a": "Alcoholic hallucinosis features hallucinations with a clear sensorium and relatively normal vital signs; delirium tremens involves an altered sensorium (delirium) plus autonomic instability (tachycardia, hypertension, fever, diaphoresis) and is far more dangerous."
+    }
+   ],
+   "segments": [
+    {
+     "label": "Hook (2 min)",
+     "min": 2,
+     "html": "<p>\"Your patient admitted with pancreatitis is now day two, tremulous and anxious, heart rate 118. The night float gives glucose-containing fluids and a dose of an antipsychotic for 'agitation.' Both choices can hurt him — one risks Wernicke's, the other does nothing to prevent the seizure that's coming. Let's build the right reflex.\" Set up predict &rarr; treat &rarr; escalate &rarr; support.</p>"
+    },
+    {
+     "label": "Step 1 — Predict and place on the timeline",
+     "min": 6,
+     "html": "<div class=\"ask\"><b>ASK:</b> \"When does each withdrawal syndrome appear — tremor, seizure, DTs?\"</div>\n<p>Use <b>PAWSS</b> on admission (&ge;4 flags risk of complicated withdrawal). The clock: minor symptoms at 6&ndash;24 h; withdrawal seizures 12&ndash;48 h; alcoholic hallucinosis 12&ndash;48 h (clear sensorium); <b>delirium tremens 48&ndash;96 h</b> (altered sensorium + autonomic storm). Stress the hallucinosis-vs-DT distinction: hallucinations with clear sensorium and normal vitals is not DTs.</p>\n<div class=\"pearl\"><b>Pearl:</b> The patient who 'sees bugs' but is otherwise lucid and stable has hallucinosis, not DTs — but watch them, because the storm can still come.</div>"
+    },
+    {
+     "label": "Step 2 — Treat: benzodiazepines first-line",
+     "min": 8,
+     "html": "<div class=\"ask\"><b>ASK:</b> \"Symptom-triggered or fixed dosing — and when is CIWA the wrong tool?\"</div>\n<p>Benzodiazepines are first-line and reduce seizures and DTs. <b>Symptom-triggered CIWA-Ar</b> dosing uses less drug and shortens treatment in patients who can be validly scored. <b>Front-loading</b> a long-acting benzo suits high-risk/severe presentations. Long-acting agents (diazepam, chlordiazepoxide) self-taper; switch to <b>lorazepam</b> in significant liver disease (no active metabolites). The key safety point: <b>CIWA is invalid</b> in a patient who can't communicate or whose confusion has another cause — don't titrate off a meaningless number.</p>\n<div class=\"pearl\"><b>Pearl:</b> A high CIWA in a non-communicative patient is noise — find the real cause of the delirium and switch to a fixed/front-loaded protocol.</div>"
+    },
+    {
+     "label": "Step 3 — Escalate: phenobarbital",
+     "min": 7,
+     "html": "<div class=\"ask\"><b>ASK:</b> \"The patient keeps needing benzos and isn't settling. What's next, and what won't fix it?\"</div>\n<p>For severe or <b>benzodiazepine-resistant</b> withdrawal, <b>phenobarbital</b> is effective alone or as an adjunct — long half-life, self-tapering, and acting on both GABA and glutamate. ICU-level adjuncts (dexmedetomidine, propofol) control autonomic symptoms but <b>do not prevent seizures by themselves</b>. Transfer to ICU for DTs, airway risk, or escalating requirements.</p>\n<div class=\"pearl\"><b>Pearl:</b> Clonidine, dexmedetomidine, and antipsychotics treat the autonomic and agitation symptoms but do NOT prevent seizures or DTs — always keep a GABAergic agent on board.</div>"
+    },
+    {
+     "label": "Step 4 — Support",
+     "min": 2,
+     "html": "<p>Thiamine <b>before</b> glucose; replete magnesium, potassium, and phosphate. Hunt for coexisting infection, GI bleed, head injury, and pancreatitis. Before discharge, treat the underlying alcohol use disorder — offer naltrexone or acamprosate and link to care.</p>"
+    }
+   ],
+   "casesLabel": "Cases",
+   "casesIntro": "",
+   "cases": [
+    {
+     "title": "Case 1 — the glucose trap",
+     "stem": "<p>48M with alcohol use disorder, malnourished, brought in obtunded. The team hangs D50 for a glucose of 55.</p>",
+     "items": [
+      {
+       "q": "What was missed?",
+       "a": "Thiamine before/with glucose — a dextrose load in a thiamine-deficient patient can precipitate Wernicke encephalopathy. Give parenteral thiamine."
+      },
+      {
+       "q": "Other repletion?",
+       "a": "Magnesium, potassium, phosphate; magnesium also supports the seizure threshold."
+      }
+     ]
+    },
+    {
+     "title": "Case 2 — invalid CIWA",
+     "stem": "<p>60F, post-op, intubated and sedated, 'CIWA 18' charted by protocol; team about to escalate benzodiazepines.</p>",
+     "items": [
+      {
+       "q": "Right move?",
+       "a": "No — CIWA-Ar is invalid in a patient who cannot be validly assessed. Use a fixed-dose/front-loaded or phenobarbital approach and investigate other causes of the abnormal exam."
+      }
+     ]
+    },
+    {
+     "title": "Case 3 — benzo-resistant withdrawal",
+     "stem": "<p>52M, day 3, escalating tachycardia, agitation, and tremor despite repeated high benzodiazepine doses; now febrile and confused.</p>",
+     "items": [
+      {
+       "q": "Diagnosis + next step?",
+       "a": "Severe withdrawal/early DTs with benzodiazepine resistance — escalate to phenobarbital (alone or adjunctive) and transfer to ICU; consider dexmedetomidine for autonomic control but keep a GABAergic agent on board."
+      }
+     ]
+    }
+   ],
+   "mcqs": [
+    {
+     "stem": "A malnourished patient with alcohol use disorder presents with hypoglycemia. What is the correct order of administration?",
+     "opts": [
+      "Glucose first, then thiamine",
+      "Thiamine before or with glucose",
+      "Glucose only",
+      "Thiamine only after 24 hours",
+      "Magnesium before everything else"
+     ],
+     "ans": "B",
+     "exp": "<b>B.</b> Thiamine must be given before or with a glucose load — dextrose consumes thiamine and can precipitate Wernicke encephalopathy in a deficient patient. A/C: glucose-first risks Wernicke. D: delaying thiamine is harmful. E: magnesium repletion matters but isn't the Wernicke-prevention step."
+    },
+    {
+     "stem": "Which dosing strategy generally uses the least total benzodiazepine and shortens treatment in alcohol withdrawal for an assessable patient?",
+     "opts": [
+      "Fixed-schedule dosing",
+      "Symptom-triggered dosing guided by CIWA-Ar",
+      "As-needed antipsychotics",
+      "Clonidine monotherapy",
+      "Dexmedetomidine infusion"
+     ],
+     "ans": "B",
+     "exp": "<b>B.</b> Symptom-triggered (CIWA-Ar) dosing reduces total benzodiazepine use and treatment duration versus fixed schedules in patients who can be validly scored. A: fixed dosing uses more drug. C/D/E: adjuncts that don't prevent seizures and aren't first-line."
+    },
+    {
+     "stem": "A patient has worsening withdrawal despite repeated, escalating benzodiazepine doses. What is the most appropriate escalation?",
+     "opts": [
+      "Add an antipsychotic as the primary agent",
+      "Phenobarbital (alone or adjunctive)",
+      "Clonidine monotherapy",
+      "Stop all sedatives and observe",
+      "Switch to oral diazepam taper only"
+     ],
+     "ans": "B",
+     "exp": "<b>B.</b> Benzodiazepine-resistant or severe withdrawal is effectively treated with phenobarbital, which acts on GABA and glutamate and self-tapers. A/C: antipsychotics/clonidine don't prevent seizures or DTs. D: dangerous undertreatment. E: inadequate for resistant severe withdrawal."
+    },
+    {
+     "stem": "Which feature best distinguishes delirium tremens from alcoholic hallucinosis?",
+     "opts": [
+      "Presence of visual hallucinations",
+      "Altered sensorium with autonomic instability",
+      "Onset within 6 hours",
+      "A normal heart rate and blood pressure",
+      "A clear sensorium"
+     ],
+     "ans": "B",
+     "exp": "<b>B.</b> DTs are defined by an altered sensorium (delirium) plus autonomic instability (tachycardia, hypertension, fever, diaphoresis); hallucinosis has hallucinations with a clear sensorium and relatively normal vitals. A: both can have hallucinations. C: DTs typically appear at 48&ndash;96 h. D/E describe hallucinosis."
+    },
+    {
+     "stem": "Which statement about adjunctive agents (clonidine, dexmedetomidine, antipsychotics) in alcohol withdrawal is correct?",
+     "opts": [
+      "They reliably prevent withdrawal seizures",
+      "They treat autonomic and agitation symptoms but do not prevent seizures or DTs",
+      "They should replace benzodiazepines as first-line",
+      "Antipsychotics lower the seizure threshold and are therefore preferred",
+      "Dexmedetomidine alone is sufficient for severe withdrawal"
+     ],
+     "ans": "B",
+     "exp": "<b>B.</b> These adjuncts help control autonomic hyperactivity and agitation but do not prevent seizures or DTs — a GABAergic agent (benzodiazepine or phenobarbital) must remain on board. A/C/E overstate their role; D is backwards — antipsychotics can lower the seizure threshold."
+    }
+   ],
+   "anki": [
+    [
+     "Tool to predict complicated withdrawal on admission?",
+     "PAWSS (Prediction of Alcohol Withdrawal Severity Scale); &ge;4 flags risk."
+    ],
+    [
+     "Withdrawal timeline?",
+     "Minor sx 6–24 h; seizures 12–48 h; hallucinosis 12–48 h; delirium tremens 48–96 h."
+    ],
+    [
+     "Hallucinosis vs DTs?",
+     "Hallucinosis = hallucinations with CLEAR sensorium + near-normal vitals; DTs = altered sensorium + autonomic instability."
+    ],
+    [
+     "First-line pharmacotherapy?",
+     "Benzodiazepines — reduce seizures and DTs (ASAM)."
+    ],
+    [
+     "Benefit of symptom-triggered (CIWA-Ar) dosing?",
+     "Less total benzodiazepine and shorter treatment vs fixed schedules in assessable patients."
+    ],
+    [
+     "When is CIWA-Ar invalid?",
+     "In patients who can't communicate or whose confusion has another cause — don't titrate off it."
+    ],
+    [
+     "Benzo choice in significant liver disease?",
+     "Lorazepam (no active metabolites); long-acting agents (diazepam/chlordiazepoxide) self-taper otherwise."
+    ],
+    [
+     "Treatment for severe / benzo-resistant withdrawal?",
+     "Phenobarbital — long half-life, self-tapering, acts on GABA and glutamate."
+    ],
+    [
+     "Do clonidine/dexmedetomidine/antipsychotics prevent seizures?",
+     "No — they treat autonomic/agitation symptoms only; keep a GABAergic agent on board."
+    ],
+    [
+     "Thiamine vs glucose order?",
+     "Thiamine before/with glucose — dextrose first can precipitate Wernicke encephalopathy."
+    ],
+    [
+     "Key electrolytes to replete?",
+     "Magnesium, potassium, phosphate; magnesium supports the seizure threshold."
+    ],
+    [
+     "Front-loading strategy — when?",
+     "High-risk/severe presentations — large early doses of a long-acting benzodiazepine."
+    ],
+    [
+     "ICU transfer triggers?",
+     "Delirium tremens, airway risk, escalating sedation requirements."
+    ],
+    [
+     "Discharge step for the underlying disorder?",
+     "Offer naltrexone/acamprosate and link to addiction treatment."
+    ],
+    [
+     "Mortality of untreated DTs?",
+     "Meaningful — DTs are a medical emergency; undertreatment is dangerous."
+    ]
+   ],
+   "dot": "#Alcohol withdrawal: last drink *__ ; PAWSS *__ [≥4 = high risk]; prior seizure/DTs? *\ntimeline: [minor 6–24h / seizure 12–48h / hallucinosis 12–48h / DTs 48–96h]\nassessment: CIWA-Ar *__ [valid only if patient can be assessed]; hallucinosis vs DTs [sensorium __ / autonomics __]\ntreatment: benzodiazepine [symptom-triggered CIWA / fixed / front-load]; agent *[diazepam/chlordiazepoxide; lorazepam if liver dz]\nescalation: phenobarbital if severe/benzo-resistant; adjunct [dexmed/clonidine — NOT seizure prevention]; ICU if DTs/airway\nsupport: THIAMINE before glucose *; Mg *__ K *__ Phos *__ replete; screen infection/GIB/head injury/pancreatitis\nAUD treatment: offer naltrexone/acamprosate; link to care; counseling",
+   "takehome": [
+    "Risk-stratify with PAWSS and know the timeline: seizures at 12–48 h, delirium tremens at 48–96 h.",
+    "Benzodiazepines are first-line; symptom-triggered CIWA dosing uses less drug — but CIWA is invalid in a patient who can't be assessed.",
+    "Escalate to phenobarbital for severe or benzodiazepine-resistant withdrawal.",
+    "Adjuncts (clonidine, dexmedetomidine, antipsychotics) treat symptoms but do not prevent seizures or DTs — keep a GABAergic agent on board.",
+    "Give thiamine before glucose, replete magnesium, and link the patient to addiction treatment at discharge."
+   ],
+   "extras": [],
+   "refs": "<ul>\n<li>The ASAM Clinical Practice Guideline on Alcohol Withdrawal Management. <i>J Addict Med</i> 2020;14(3S):1&ndash;72.</li>\n<li>Sullivan JT, et al. Assessment of alcohol withdrawal: the CIWA-Ar. <i>Br J Addict</i> 1989;84:1353&ndash;1357.</li>\n<li>Maldonado JR, et al. The Prediction of Alcohol Withdrawal Severity Scale (PAWSS). <i>Alcohol</i> 2014;48:375&ndash;390.</li>\n<li>Rosenson J, et al. Phenobarbital for acute alcohol withdrawal. <i>J Emerg Med</i> 2013;44:592&ndash;598.</li>\n</ul>",
+   "changelog": "<p class=\"small\">New lesson authored June 2026 in the house style of this library. Clinical content cross-checked against the ASAM 2020 Alcohol Withdrawal Management Guideline and validated assessment tools (CIWA-Ar, PAWSS). Educational use only.</p>",
+   "files": {
+    "presenter": "Alcohol_Withdrawal_Optimized.pptx",
+    "learner_board": null,
+    "handout": null,
+    "onepager_pdf": "Alcohol_Withdrawal_OnePager.pdf",
+    "anki": "Alcohol_Withdrawal_Anki_Cards.txt",
+    "package": "Alcohol_Withdrawal_Lesson_Package.html",
+    "other": [
+     "Alcohol_Withdrawal-worksheet.docx",
+     "Alcohol_Withdrawal_OnePager.html"
+    ],
+    "slides": {
+     "Alcohol_Withdrawal_Optimized": "Alcohol_Withdrawal_Optimized_slides.pdf"
+    },
+    "presenter_mb": 0.0
+   }
+  },
+  {
    "slug": "alcohol-related-liver-disease",
    "folder": "Alcohol-related Liver Disease",
    "package": "Alcohol-related_Liver_Disease_Lesson_Package.html",
@@ -4710,6 +5214,256 @@
      "C_diff_Infection_Optimized": "C_diff_Infection_Optimized_slides.pdf"
     },
     "presenter_mb": 0.2
+   }
+  },
+  {
+   "slug": "copd-exacerbation-inpatient",
+   "folder": "COPD Exacerbation",
+   "package": "COPD_Exacerbation_Lesson_Package.html",
+   "title": "COPD Exacerbation (Inpatient)",
+   "tag": "Pulmonary",
+   "duration": "25 min (talk) / 35 min (with cases)",
+   "subtitle": "Optimized lesson package · Facilitator-led interactive chalk talk for IM residents · 25 min (talk) / 35 min (with cases)",
+   "credit": "Original hospitalist-workflow lesson built June 2026 for IM residents. Grounded in the GOLD 2026 report, the REDUCE steroid trial, and NIV evidence. Educational use only; not medical advice.",
+   "objectives": [
+    "Recognize and triage a COPD exacerbation, including the indications for admission and for NIV.",
+    "Deliver the core bundle — bronchodilators, a 5-day oral steroid course, criteria-based antibiotics, and controlled oxygen to 88–92%.",
+    "Identify NIV as the intervention with the largest mortality benefit in acute hypercapnic respiratory failure, and know when to intubate.",
+    "Exclude mimics (pneumonia, HF, PE) and build a discharge plan that lowers recurrence."
+   ],
+   "prework": [
+    {
+     "q": "Q1. A COPD patient on 4 L nasal cannula has an SpO2 of 99% and is becoming drowsy. What happened, and what is your target SpO2?",
+     "a": "Hyperoxia worsened hypercapnia (V/Q mismatch, Haldane effect, reduced respiratory drive) — CO2 narcosis. Titrate oxygen down to a target SpO2 of 88&ndash;92% and check a blood gas."
+    },
+    {
+     "q": "Q2. Which three symptoms make up the Anthonisen criteria for antibiotics, and which one matters most?",
+     "a": "Increased dyspnea, increased sputum volume, and increased sputum purulence. Antibiotics are indicated with &ge;2 of the three (or if mechanically ventilated); sputum purulence is the strongest single predictor of bacterial benefit."
+    },
+    {
+     "q": "Q3. How long a steroid course does the REDUCE trial support, and is IV better than oral?",
+     "a": "Five days of systemic steroids (prednisone 40 mg/day) was non-inferior to 14 days, with no taper needed; oral is equivalent to IV for most patients who can take PO."
+    }
+   ],
+   "segments": [
+    {
+     "label": "Hook (2 min)",
+     "min": 2,
+     "html": "<p>\"Your COPD patient is working hard to breathe, sats 84%, drowsy. The nurse turns the oxygen up to 6 liters and the sats hit 100% — and twenty minutes later he's harder to rouse. Two of your orders in the next ten minutes change whether he gets intubated: the oxygen target and the decision to start NIV.\" Set up the bundle plus the two big levers.</p>"
+    },
+    {
+     "label": "Step 1 — Triage & the oxygen target",
+     "min": 6,
+     "html": "<div class=\"ask\"><b>ASK:</b> \"What's the SpO2 target in a COPD patient, and why is 100% dangerous?\"</div>\n<p>Define the exacerbation (acute increase in dyspnea/cough/sputum). Decide admission (rest dyspnea, severe baseline disease, failed outpatient therapy, new gas derangement, poor support). Then the oxygen teaching point: target <b>88&ndash;92%</b>. Over-oxygenation worsens hypercapnia through V/Q mismatch, the Haldane effect, and blunted drive — the cause of \"CO2 narcosis.\" Get an early ABG/VBG to identify retainers.</p>\n<div class=\"pearl\"><b>Pearl:</b> The pulse oximeter target in COPD is one of the few numbers where higher is worse.</div>"
+    },
+    {
+     "label": "Step 2 — The core bundle",
+     "min": 8,
+     "html": "<div class=\"ask\"><b>ASK:</b> \"Steroids — how much, how long, IV or PO? And what triggers antibiotics?\"</div>\n<p>Scheduled short-acting bronchodilators (SABA &plusmn; SAMA). Systemic steroids: <b>prednisone 40 mg PO for 5 days</b> per the REDUCE trial — oral equals IV, no taper. Antibiotics by Anthonisen criteria: &ge;2 of increased dyspnea/sputum-volume/purulence, or if ventilated; cover the usual respiratory pathogens for ~5 days and add antipseudomonal coverage only for risk factors. Always titrate oxygen to 88&ndash;92%.</p>\n<div class=\"pearl\"><b>Pearl:</b> Purulence is the antibiotic trigger that carries the most weight — a green-sputum bump with dyspnea earns antibiotics; a dry cough with wheeze usually does not.</div>"
+    },
+    {
+     "label": "Step 3 — NIV: the mortality lever",
+     "min": 7,
+     "html": "<div class=\"ask\"><b>ASK:</b> \"Of everything we do for a severe exacerbation, which single intervention most reduces mortality?\"</div>\n<p>NIV (BiPAP) in acute hypercapnic respiratory failure (pH &le; 7.35 with hypercapnia) reduces intubation and death — the strongest evidence-based intervention in a severe exacerbation. Start it early; reassess with serial gases. Intubate for NIV failure, falling pH/mentation, inability to protect the airway, or instability. GOLD 2026 adds high-flow nasal cannula as a supportive option, but NIV remains first-line for hypercapnic acidosis.</p>\n<div class=\"pearl\"><b>Pearl:</b> Hesitating on NIV is the classic missed lever — a patient with pH 7.28 and PaCO2 70 needs BiPAP now, not another neb and a recheck in an hour.</div>"
+    },
+    {
+     "label": "Step 4 — Mimics & discharge",
+     "min": 2,
+     "html": "<p>Exclude pneumonia, heart failure, and especially <b>PE</b> in any unexplained exacerbation. Before discharge: inhaler technique, maintenance step-up (LAMA+LABA, add ICS if eosinophils up and &ge;1 moderate/severe event per GOLD 2026), smoking cessation, vaccines, and a pulmonary-rehab referral within 4 weeks for its mortality benefit.</p>"
+    }
+   ],
+   "casesLabel": "Cases",
+   "casesIntro": "",
+   "cases": [
+    {
+     "title": "Case 1 — the oxygen trap",
+     "stem": "<p>70M, severe COPD, brought in dyspneic, SpO2 82%. Placed on a non-rebreather; sats now 99% but he is somnolent. VBG: pH 7.26, PaCO2 78.</p>",
+     "items": [
+      {
+       "q": "What happened?",
+       "a": "Hyperoxia-induced hypercapnia (CO2 narcosis) — too much oxygen worsened V/Q matching and drive."
+      },
+      {
+       "q": "Next steps?",
+       "a": "Titrate O2 down to 88&ndash;92%, start NIV for the hypercapnic acidosis (pH 7.26), bronchodilators, prednisone 40 mg, antibiotics if purulent. Reassess gas in 1 h."
+      }
+     ]
+    },
+    {
+     "title": "Case 2 — antibiotics or not?",
+     "stem": "<p>64F with moderate COPD: 3 days of more dyspnea and clearly purulent, higher-volume sputum. Afebrile, CXR clear. SpO2 90% on room air.</p>",
+     "items": [
+      {
+       "q": "Antibiotics?",
+       "a": "Yes — she meets Anthonisen criteria (&ge;2 cardinal symptoms including purulence). Add a 5-day course covering H. flu/pneumococcus/Moraxella plus prednisone 40 mg &times; 5 days and bronchodilators."
+      },
+      {
+       "q": "If instead she had wheeze and dry cough, no purulence?",
+       "a": "Steroids + bronchodilators, but hold antibiotics — absent purulence and not ventilated, the bacterial yield is low."
+      }
+     ]
+    },
+    {
+     "title": "Case 3 — the mimic",
+     "stem": "<p>58M, COPD, sudden severe dyspnea and pleuritic pain, SpO2 88%, clear CXR, no sputum change, tachycardic. Minimal wheeze.</p>",
+     "items": [
+      {
+       "q": "What must you exclude?",
+       "a": "Pulmonary embolism — sudden dyspnea without a sputum/purulence change, pleuritic pain, and tachycardia in a COPD patient should trigger PE work-up (Wells/D-dimer or CTPA). Don't anchor on \"exacerbation.\""
+      }
+     ]
+    }
+   ],
+   "mcqs": [
+    {
+     "stem": "A 72-year-old with COPD presents with increased dyspnea and a blood gas of pH 7.29, PaCO2 68, on controlled oxygen. He is alert. What intervention most reduces his risk of intubation and death?",
+     "opts": [
+      "Increase FiO2 to achieve SpO2 of 98%",
+      "Start non-invasive ventilation (BiPAP)",
+      "IV aminophylline",
+      "Immediate intubation",
+      "A 14-day prednisone taper"
+     ],
+     "ans": "B",
+     "exp": "<b>B.</b> NIV in acute hypercapnic respiratory failure (pH &le; 7.35 with hypercapnia) is the intervention with the strongest mortality and intubation-reduction evidence. A: hyperoxia worsens hypercapnia. C: methylxanthines are not recommended (toxicity, no benefit). D: he is alert and a NIV candidate — intubation is for NIV failure. E: REDUCE supports 5 days, no taper."
+    },
+    {
+     "stem": "Which patient most clearly warrants antibiotics for a COPD exacerbation?",
+     "opts": [
+      "Increased dyspnea and wheeze with clear sputum",
+      "Increased dyspnea, increased sputum volume, and new sputum purulence",
+      "Dry cough and mild dyspnea, no sputum change",
+      "Stable symptoms with an abnormal spirometry",
+      "Isolated chest tightness, no sputum"
+     ],
+     "ans": "B",
+     "exp": "<b>B.</b> Anthonisen: antibiotics for &ge;2 of increased dyspnea/sputum volume/purulence (or if ventilated); purulence is the strongest single indicator. A, C, E lack purulence and &ge;2 criteria. D is not an acute exacerbation."
+    },
+    {
+     "stem": "What is the evidence-based systemic corticosteroid regimen for most COPD exacerbations?",
+     "opts": [
+      "IV methylprednisolone for 14 days with a taper",
+      "Prednisone 40 mg orally daily for 5 days, no taper",
+      "Prednisone 60 mg for 21 days",
+      "Inhaled corticosteroid only",
+      "No steroids unless intubated"
+     ],
+     "ans": "B",
+     "exp": "<b>B.</b> The REDUCE trial showed 5 days of prednisone 40 mg/day is non-inferior to 14 days; oral equals IV for patients who can take PO; no taper needed for a short course. The others overtreat or undertreat."
+    },
+    {
+     "stem": "A COPD patient on 5 L/min nasal cannula has SpO2 100% and rising drowsiness; VBG shows worsening hypercapnia. What is the best immediate action?",
+     "opts": [
+      "Continue current oxygen, it is reassuring",
+      "Titrate oxygen down to a target SpO2 of 88–92% and reassess, escalating to NIV if acidotic",
+      "Give a fluid bolus",
+      "Start a beta-blocker",
+      "Order a chest CT first"
+     ],
+     "ans": "B",
+     "exp": "<b>B.</b> Hyperoxia precipitated CO2 retention; controlled oxygen to 88&ndash;92% and NIV for hypercapnic acidosis are the fixes. A: 100% is harmful here. C/D: irrelevant/harmful. E: stabilize gas exchange first."
+    },
+    {
+     "stem": "A COPD patient with sudden severe dyspnea, pleuritic chest pain, tachycardia, a clear chest X-ray, and NO change in sputum is most concerning for which diagnosis?",
+     "opts": [
+      "Typical bacterial exacerbation",
+      "Pulmonary embolism",
+      "Simple bronchospasm",
+      "Anxiety",
+      "Pneumonia"
+     ],
+     "ans": "B",
+     "exp": "<b>B.</b> PE is a frequently missed mimic — sudden dyspnea, pleuritic pain, tachycardia, clear CXR, and no sputum change should prompt PE evaluation rather than reflexively treating an 'exacerbation.' A/C/E don't fit the abrupt pleuritic picture and absent sputum change; pneumonia would usually show an infiltrate."
+    }
+   ],
+   "anki": [
+    [
+     "Oxygen target in a COPD exacerbation?",
+     "SpO2 88&ndash;92% — hyperoxia worsens hypercapnia (V/Q mismatch, Haldane, ↓drive)."
+    ],
+    [
+     "Steroid regimen per REDUCE trial?",
+     "Prednisone 40 mg PO daily &times; 5 days, no taper; oral = IV for most."
+    ],
+    [
+     "Anthonisen criteria for antibiotics?",
+     "&ge;2 of: ↑dyspnea, ↑sputum volume, ↑sputum purulence (or if mechanically ventilated); purulence is the strongest."
+    ],
+    [
+     "Highest-mortality-benefit intervention in severe exacerbation?",
+     "NIV (BiPAP) for acute hypercapnic respiratory failure — reduces intubation and death."
+    ],
+    [
+     "When to start NIV?",
+     "pH &le; 7.35 with hypercapnia, severe dyspnea/accessory muscle use, or persistent hypoxemia despite O2."
+    ],
+    [
+     "When to intubate instead of NIV?",
+     "NIV failure / falling pH, can't protect airway, decreased consciousness, instability, apnea."
+    ],
+    [
+     "Most common triggers of exacerbation?",
+     "Viral and bacterial respiratory infections; also pollution and nonadherence."
+    ],
+    [
+     "Key mimics to exclude?",
+     "Pneumonia, heart failure, pulmonary embolism, pneumothorax, arrhythmia."
+    ],
+    [
+     "Typical antibiotic targets in exacerbation?",
+     "H. influenzae, S. pneumoniae, M. catarrhalis; add Pseudomonas coverage with risk factors."
+    ],
+    [
+     "GOLD 2026 ICS-at-discharge rule?",
+     "Consider adding ICS to dual bronchodilator if blood eosinophils elevated and &ge;1 moderate/severe exacerbation."
+    ],
+    [
+     "Maintenance step-up after an exacerbation?",
+     "LAMA + LABA; add ICS per eosinophils; optimize inhaler technique."
+    ],
+    [
+     "Discharge intervention with a mortality benefit?",
+     "Pulmonary rehabilitation referral (ideally within 4 weeks); plus smoking cessation and vaccines."
+    ],
+    [
+     "Are methylxanthines (theophylline) recommended acutely?",
+     "No — limited benefit, significant toxicity."
+    ],
+    [
+     "When should home oxygen need be assessed?",
+     "After recovery and stabilization, not at the time of acute discharge."
+    ],
+    [
+     "GOLD 2026 view on high-flow nasal cannula?",
+     "A supportive option, but NIV remains first-line for acute hypercapnic acidosis."
+    ]
+   ],
+   "dot": "#COPD exacerbation: baseline severity *[mild/mod/severe], home inhalers *\ncardinal sx (Anthonisen): ↑dyspnea [ ] ↑sputum volume [ ] ↑purulence [ ] → antibiotics if ≥2 or ventilated\noxygen: target SpO2 88–92%; current device *__ → titrate; ABG/VBG pH *__ PaCO2 *__\nbundle: SABA±SAMA scheduled+PRN; prednisone 40 mg PO ×5 d (REDUCE, no taper); abx *[macrolide/doxy/amox-clav] ×5 d [±antipseudomonal if risk]\nresp support: [room air / NC / NIV (pH≤7.35 + hypercapnia) / HFNC]; intubate if NIV failing/↓LOC/unstable\nexclude mimics: CXR [pna?], BNP/exam [HF?], PE risk [Wells/CTPA?], ECG, CBC/BMP\ndispo: inhaler technique checked; maintenance LAMA+LABA [±ICS if eos↑ & ≥1 mod/severe]; smoking cessation; vaccines; pulm rehab referral ≤4 wk; action plan; follow-up *",
+   "takehome": [
+    "Target SpO2 88–92% — in COPD, over-oxygenation causes hypercapnia and narcosis.",
+    "Core bundle: scheduled bronchodilators, prednisone 40 mg PO × 5 days (REDUCE, no taper), and antibiotics only for ≥2 Anthonisen criteria or ventilation.",
+    "NIV is the single biggest mortality lever in acute hypercapnic respiratory failure — start it early for pH ≤ 7.35 with hypercapnia.",
+    "Always exclude mimics — pneumonia, heart failure, and especially PE in an unexplained exacerbation.",
+    "Discharge to prevent the next event: inhaler technique, maintenance step-up, cessation, vaccines, and pulmonary rehab within 4 weeks."
+   ],
+   "extras": [],
+   "refs": "<ul>\n<li>Global Initiative for Chronic Obstructive Lung Disease. GOLD 2026 Report &amp; Pocket Guide. goldcopd.org.</li>\n<li>Leuppi JD, et al. Short-term vs conventional glucocorticoid therapy in acute COPD exacerbations (REDUCE). <i>JAMA</i> 2013;309:2223&ndash;2231.</li>\n<li>Anthonisen NR, et al. Antibiotic therapy in exacerbations of COPD. <i>Ann Intern Med</i> 1987;106:196&ndash;204.</li>\n<li>Osadnik CR, et al. Non-invasive ventilation for acute hypercapnic respiratory failure in COPD. <i>Cochrane Database Syst Rev</i> 2017.</li>\n<li>Wedzicha JA, et al. ERS/ATS guideline on management of COPD exacerbations. <i>Eur Respir J</i> 2017.</li>\n</ul>",
+   "changelog": "<p class=\"small\">New lesson authored June 2026 for a hospitalist teaching block in the house style of this library. Clinical content cross-checked against the GOLD 2026 report (revised exacerbation chapter), the REDUCE steroid trial, and NIV evidence. Educational use only.</p>",
+   "files": {
+    "presenter": "COPD_Exacerbation_Optimized.pptx",
+    "learner_board": null,
+    "handout": null,
+    "onepager_pdf": "COPD_Exacerbation_OnePager.pdf",
+    "anki": "COPD_Exacerbation_Anki_Cards.txt",
+    "package": "COPD_Exacerbation_Lesson_Package.html",
+    "other": [
+     "COPD_Exacerbation-worksheet.docx",
+     "COPD_Exacerbation_OnePager.html"
+    ],
+    "slides": {
+     "COPD_Exacerbation_Optimized": "COPD_Exacerbation_Optimized_slides.pdf"
+    },
+    "presenter_mb": 0.0
    }
   },
   {
@@ -7190,6 +7944,256 @@
    }
   },
   {
+   "slug": "dka-hhs",
+   "folder": "DKA and HHS",
+   "package": "DKA_HHS_Lesson_Package.html",
+   "title": "DKA & HHS",
+   "tag": "Endocrine",
+   "duration": "25 min (talk) / 35 min (with cases)",
+   "subtitle": "Optimized lesson package · Facilitator-led interactive chalk talk for IM residents · 25 min (talk) / 35 min (with cases)",
+   "credit": "Original hospitalist-workflow lesson built June 2026 for IM residents. Grounded in the 2024 ADA-led international consensus on hyperglycemic crises in adults. Educational use only; not medical advice.",
+   "objectives": [
+    "Diagnose and distinguish DKA and HHS using the 2024 consensus criteria, including euglycemic DKA.",
+    "Sequence resuscitation correctly: balanced fluids, the potassium gate, then insulin.",
+    "Treat to anion-gap/ketone resolution (not glucose alone) and add dextrose to keep insulin running.",
+    "Transition safely off the insulin drip with overlapping subcutaneous basal insulin and identify the precipitant."
+   ],
+   "prework": [
+    {
+     "q": "Q1. A patient in DKA has a potassium of 3.0. Do you start the insulin drip?",
+     "a": "No — hold insulin until potassium is replaced above 3.3. Insulin shifts potassium intracellularly and, in an already-low patient, can cause life-threatening hypokalemia and arrhythmia. Give potassium first, then start insulin."
+    },
+    {
+     "q": "Q2. When do you add dextrose to the fluids in DKA, and why?",
+     "a": "When the glucose falls to roughly 200&ndash;250 mg/dL — you add dextrose so the insulin infusion can keep running to clear ketones and close the anion gap without causing hypoglycemia. You treat the gap, not just the glucose."
+    },
+    {
+     "q": "Q3. A patient on an SGLT2 inhibitor has a high anion-gap metabolic acidosis with ketones but a glucose of only 180. What is this?",
+     "a": "Euglycemic DKA — SGLT2 inhibitors (also pregnancy and starvation) can produce ketoacidosis with a near-normal glucose. Treat as DKA (fluids, insulin with dextrose, close the gap); don't be falsely reassured by the glucose."
+    }
+   ],
+   "segments": [
+    {
+     "label": "Hook (2 min)",
+     "min": 2,
+     "html": "<p>\"Two orders kill people in DKA, and they're both easy to get wrong under pressure: starting insulin before you've checked the potassium, and stopping the drip the moment the glucose looks normal. Let's make the sequence automatic.\" Set up diagnose &rarr; fluids/potassium &rarr; insulin/gap &rarr; transition.</p>"
+    },
+    {
+     "label": "Step 1 — Diagnose & distinguish",
+     "min": 6,
+     "html": "<div class=\"ask\"><b>ASK:</b> \"How do DKA and HHS differ — and how can a patient be in DKA with a glucose of 180?\"</div>\n<p>DKA: ketoacidosis (the 2024 consensus lowered the bicarbonate cutoff to 15), often alert, glucose &ge;200 but sometimes lower. HHS: glucose &gt;600, effective osmolality &gt;320, minimal ketosis, pH &gt;7.3, often obtunded — and a higher mortality. Flag <b>euglycemic DKA</b> (SGLT2 inhibitors, pregnancy, starvation): a gap acidosis with ketones and a near-normal glucose.</p>\n<div class=\"pearl\"><b>Pearl:</b> Check ketones (beta-hydroxybutyrate) and the anion gap, not just the glucose — euglycemic DKA hides behind a normal sugar.</div>"
+    },
+    {
+     "label": "Step 2 — Fluids & the potassium gate",
+     "min": 8,
+     "html": "<div class=\"ask\"><b>ASK:</b> \"Potassium is 3.1 and the glucose is 600. What's your first move — insulin or potassium?\"</div>\n<p>Fluids first — and the 2024 consensus now favors <b>balanced crystalloids</b> over saline (faster resolution, less hyperchloremic acidosis, shorter stays). Then the <b>potassium gate</b>: if K &lt;3.3, hold insulin and replace potassium first, because insulin will drive it intracellularly and can be fatal. K 3.3&ndash;5.2 means give insulin and add potassium to fluids; K &gt;5.2 means insulin and recheck. Remember total-body potassium is depleted even when serum K looks fine.</p>\n<div class=\"pearl\"><b>Pearl:</b> The potassium gate is the single most important safety check before the insulin drip.</div>"
+    },
+    {
+     "label": "Step 3 — Insulin & closing the gap",
+     "min": 7,
+     "html": "<div class=\"ask\"><b>ASK:</b> \"Glucose is down to 210 and the gap is still open. Stop insulin?\"</div>\n<p>IV insulin infusion for moderate/severe DKA and HHS; subcutaneous rapid-acting protocols are reasonable for mild, uncomplicated DKA. Treat to <b>gap/ketone resolution</b>, not the glucose — when glucose hits ~200&ndash;250, <b>add dextrose</b> so the insulin keeps clearing ketones. Bicarbonate only if pH &lt;7.0; phosphate only if &lt;1.0 with weakness/cardiorespiratory compromise. Declare DKA resolved by glucose &lt;200 plus gap closure (bicarb &ge;15&ndash;18, pH &gt;7.3).</p>\n<div class=\"pearl\"><b>Pearl:</b> A normal glucose with an open gap is still DKA — keep the insulin running with dextrose.</div>"
+    },
+    {
+     "label": "Step 4 — Transition & trigger",
+     "min": 2,
+     "html": "<p>Before stopping the drip, give subcutaneous <b>long-acting insulin 1&ndash;2 hours before</b> discontinuation — the drip has no reservoir, so an unbridged stop rebounds into ketoacidosis. Find the precipitant (the I's: infection, infarction, insulin omission, iatrogenic) and check an HbA1c.</p>"
+    }
+   ],
+   "casesLabel": "Cases",
+   "casesIntro": "",
+   "cases": [
+    {
+     "title": "Case 1 — the potassium gate",
+     "stem": "<p>24F, type 1 DM, nausea/vomiting, glucose 540, pH 7.10, bicarb 8, K 3.1.</p>",
+     "items": [
+      {
+       "q": "First move — insulin or potassium?",
+       "a": "Replace potassium first and hold insulin until K &gt;3.3 — insulin would shift K intracellularly and risk fatal hypokalemia. Start balanced crystalloid concurrently."
+      },
+      {
+       "q": "When add dextrose?",
+       "a": "When glucose falls to ~200&ndash;250, to keep the insulin running until the gap closes."
+      }
+     ]
+    },
+    {
+     "title": "Case 2 — euglycemic DKA",
+     "stem": "<p>58M with type 2 DM on an SGLT2 inhibitor, post-op, nausea, glucose 175, anion gap 22, beta-hydroxybutyrate elevated, pH 7.24.</p>",
+     "items": [
+      {
+       "q": "Diagnosis?",
+       "a": "Euglycemic DKA — the SGLT2 inhibitor produced ketoacidosis with a near-normal glucose. Treat as DKA."
+      },
+      {
+       "q": "Insulin without high glucose?",
+       "a": "Yes — run insulin WITH dextrose-containing fluids from the start to clear ketones while preventing hypoglycemia; hold the SGLT2 inhibitor."
+      }
+     ]
+    },
+    {
+     "title": "Case 3 — premature drip-off",
+     "stem": "<p>30M recovering from DKA: glucose now 160, but anion gap still 18; night team stops the insulin drip because 'the sugar is normal.'</p>",
+     "items": [
+      {
+       "q": "Problem?",
+       "a": "The gap is still open — stopping insulin restarts ketoacidosis. Resume the drip with dextrose, resolve the gap, and only then transition with overlapping subcutaneous basal insulin given 1&ndash;2 h before stopping."
+      }
+     ]
+    }
+   ],
+   "mcqs": [
+    {
+     "stem": "A patient with DKA has an initial potassium of 3.1 mmol/L. What is the most appropriate immediate action?",
+     "opts": [
+      "Start the insulin infusion immediately",
+      "Hold insulin and replace potassium until it exceeds 3.3",
+      "Give IV bicarbonate",
+      "Administer 50% dextrose",
+      "Start an SGLT2 inhibitor"
+     ],
+     "ans": "B",
+     "exp": "<b>B.</b> Insulin shifts potassium intracellularly; with a K of 3.1, starting insulin risks fatal hypokalemia. Replace potassium (and give fluids) first, then start insulin once K &gt;3.3. A: dangerous. C: bicarbonate is only for pH &lt;7.0. D: no hypoglycemia. E: SGLT2 inhibitors can cause DKA and are held."
+    },
+    {
+     "stem": "When should dextrose be added to fluids during treatment of DKA?",
+     "opts": [
+      "When the anion gap normalizes",
+      "When blood glucose falls to approximately 200–250 mg/dL",
+      "Only if the patient becomes hypoglycemic",
+      "At the start of therapy in all patients",
+      "Never during active DKA"
+     ],
+     "ans": "B",
+     "exp": "<b>B.</b> Add dextrose when glucose reaches ~200&ndash;250 so the insulin infusion can continue clearing ketones and closing the gap without causing hypoglycemia. A: the gap typically closes after glucose falls. C: too late — you anticipate. D/E: incorrect timing."
+    },
+    {
+     "stem": "A patient on an SGLT2 inhibitor presents with a high anion-gap metabolic acidosis, elevated beta-hydroxybutyrate, and a glucose of 185 mg/dL. The best description and management is:",
+     "opts": [
+      "Lactic acidosis; give bicarbonate",
+      "Euglycemic DKA; treat with fluids and insulin plus dextrose, and hold the SGLT2 inhibitor",
+      "HHS; give large-volume saline only",
+      "Normal anion gap; no treatment",
+      "Starvation ketosis; discharge"
+     ],
+     "ans": "B",
+     "exp": "<b>B.</b> SGLT2 inhibitors can cause euglycemic DKA — ketoacidosis with a near-normal glucose. Treat as DKA (fluids, insulin with dextrose to avoid hypoglycemia, close the gap) and stop the SGLT2 inhibitor. A: ketones, not lactate. C: glucose is far below HHS range. D/E: there is a clear gap acidosis with ketosis."
+    },
+    {
+     "stem": "Which criterion best indicates that DKA has resolved?",
+     "opts": [
+      "Blood glucose less than 200 alone",
+      "Glucose <200 plus closure of the anion gap (and bicarbonate/pH recovery)",
+      "A single normal potassium",
+      "Resolution of thirst",
+      "Glucose less than 250 within 2 hours"
+     ],
+     "ans": "B",
+     "exp": "<b>B.</b> Resolution requires glucose &lt;200 AND metabolic recovery — anion gap normalization with bicarbonate &ge;15&ndash;18 and venous pH &gt;7.3. Glucose alone (A/E) is insufficient and stopping insulin then restarts ketoacidosis. C/D are not resolution criteria."
+    },
+    {
+     "stem": "According to the 2024 consensus, which fluid is now preferred for initial resuscitation in hyperglycemic crises when available?",
+     "opts": [
+      "0.45% saline",
+      "Balanced crystalloids (lactated Ringer's or Plasma-Lyte)",
+      "Dextrose 5% in water",
+      "Hydroxyethyl starch",
+      "Albumin"
+     ],
+     "ans": "B",
+     "exp": "<b>B.</b> The 2024 consensus suggests balanced crystalloids for initial resuscitation — faster resolution, less hyperchloremic acidosis, and shorter hospital stay than 0.9% saline. A: hypotonic fluid is not first-line for initial resuscitation. C: dextrose is added later. D/E: not resuscitation fluids here."
+    }
+   ],
+   "anki": [
+    [
+     "DKA vs HHS — glucose and ketones?",
+     "DKA: ketoacidosis, glucose ≥200 (can be lower). HHS: glucose >600, minimal ketosis, effective osm >320, pH >7.3."
+    ],
+    [
+     "2024 ADA consensus DKA bicarbonate cutoff?",
+     "Lowered to 15 mmol/L (to allow for insulinopenic acidosis)."
+    ],
+    [
+     "What is euglycemic DKA?",
+     "Gap acidosis + ketones with near-normal glucose — SGLT2 inhibitors, pregnancy, starvation."
+    ],
+    [
+     "Preferred initial resuscitation fluid (2024)?",
+     "Balanced crystalloid (LR/Plasma-Lyte) over saline."
+    ],
+    [
+     "The potassium gate?",
+     "K <3.3: hold insulin, replace K first. K 3.3–5.2: insulin + add K. K >5.2: insulin, recheck, hold K."
+    ],
+    [
+     "Why is total-body K depleted despite normal serum K?",
+     "Acidosis shifts K out of cells; insulin then drives it back in — anticipate the fall."
+    ],
+    [
+     "When add dextrose in DKA?",
+     "When glucose ~200–250, to keep insulin running and clear ketones."
+    ],
+    [
+     "What do you treat to in DKA — glucose or the gap?",
+     "The anion gap / ketones, not glucose alone."
+    ],
+    [
+     "DKA resolution criteria?",
+     "Glucose <200 AND two of: bicarb ≥15–18, venous pH >7.3, anion gap normalized."
+    ],
+    [
+     "When is bicarbonate indicated?",
+     "Only if pH <7.0 — not routine."
+    ],
+    [
+     "When is phosphate replaced?",
+     "Only if <1.0 mmol/L with muscle weakness or cardiac/respiratory compromise."
+    ],
+    [
+     "Insulin route by severity?",
+     "IV infusion for moderate/severe DKA and HHS; SC rapid-acting protocols for mild uncomplicated DKA."
+    ],
+    [
+     "How to transition off the insulin drip safely?",
+     "Give SC long-acting insulin 1–2 h BEFORE stopping the drip to prevent rebound ketoacidosis."
+    ],
+    [
+     "Common DKA/HHS precipitants (the I's)?",
+     "Infection, Infarction (MI), Insulin omission, Ischemia, Iatrogenic (steroids/SGLT2i); also new-onset DM, pregnancy."
+    ],
+    [
+     "Why not stop the drip when only glucose is normal?",
+     "The gap may still be open — stopping insulin restarts ketoacidosis."
+    ]
+   ],
+   "dot": "#Hyperglycemic crisis: [DKA / HHS / euglycemic DKA]; glucose *__ ; gap *__ ; VBG pH *__ bicarb *__ ; BHB *__ ; eff osm *__\ntrigger (I's): [infection/MI/insulin omission/ischemia/steroids/SGLT2i/new-onset/pregnancy] *\nfluids: balanced crystalloid *__ ; add dextrose when glucose ~200–250\nPOTASSIUM GATE: K *__ → [<3.3 hold insulin + replace K / 3.3–5.2 insulin + add K / >5.2 insulin, recheck]\ninsulin: [IV infusion (mod/severe) / SC rapid-acting (mild)]; treat to GAP closure not glucose\nadjuncts: bicarbonate only if pH<7.0; phosphate only if <1.0 + weakness/cardioresp\nresolution: glucose <200 AND [bicarb ≥15–18 / pH >7.3 / gap normalized]\ntransition: SC basal insulin 1–2 h BEFORE stopping drip; HbA1c *__ ; diabetes education",
+   "takehome": [
+    "Distinguish DKA from HHS and watch for euglycemic DKA (SGLT2 inhibitors) — check ketones and the gap, not just glucose.",
+    "Resuscitate with balanced crystalloid and respect the potassium gate: hold insulin and replace K if it is below 3.3.",
+    "Treat to anion-gap/ketone resolution and add dextrose at glucose ~200–250 to keep insulin running.",
+    "Use bicarbonate only for pH <7.0 and phosphate only for severe hypophosphatemia with symptoms.",
+    "Overlap subcutaneous basal insulin 1–2 hours before stopping the drip, and always identify the precipitant."
+   ],
+   "extras": [],
+   "refs": "<ul>\n<li>Umpierrez GE, et al. Hyperglycemic Crises in Adults With Diabetes: A Consensus Report (ADA/EASD/AACE/JBDS/DTS). <i>Diabetes Care</i> 2024;47:1257&ndash;1275.</li>\n<li>Cleveland Clinic J Med. Hyperglycemic crises in adults: a look at the 2024 consensus report. <i>CCJM</i> 2025;92:152.</li>\n<li>Semler MW, et al. Balanced crystalloids versus saline (SMART). <i>N Engl J Med</i> 2018;378:829&ndash;839.</li>\n</ul>",
+   "changelog": "<p class=\"small\">New lesson authored June 2026 in the house style of this library. Clinical content cross-checked against the 2024 ADA-led international consensus report on hyperglycemic crises in adults. Educational use only.</p>",
+   "files": {
+    "presenter": "DKA_HHS_Optimized.pptx",
+    "learner_board": null,
+    "handout": null,
+    "onepager_pdf": "DKA_HHS_OnePager.pdf",
+    "anki": "DKA_HHS_Anki_Cards.txt",
+    "package": "DKA_HHS_Lesson_Package.html",
+    "other": [
+     "DKA_HHS-worksheet.docx",
+     "DKA_HHS_OnePager.html"
+    ],
+    "slides": {
+     "DKA_HHS_Optimized": "DKA_HHS_Optimized_slides.pdf"
+    },
+    "presenter_mb": 0.0
+   }
+  },
+  {
    "slug": "management-of-decompensated-cirrhosis",
    "folder": "Decompensated Cirrhosis",
    "package": "Decompensated_Cirrhosis_Lesson_Package.html",
@@ -7452,6 +8456,252 @@
      "Decompensated_Cirrhosis_Optimized": "Decompensated_Cirrhosis_Optimized_slides.pdf"
     },
     "presenter_mb": 0.1
+   }
+  },
+  {
+   "slug": "delirium-altered-mental-status",
+   "folder": "Delirium and AMS",
+   "package": "Delirium_AMS_Lesson_Package.html",
+   "title": "Delirium & Altered Mental Status",
+   "tag": "Neurology",
+   "duration": "25 min (talk) / 35 min (with cases)",
+   "subtitle": "Optimized lesson package · Facilitator-led interactive chalk talk for IM residents · 25 min (talk) / 35 min (with cases)",
+   "credit": "Original hospitalist-workflow lesson built June 2026 for IM residents. Grounded in the 2025 APA delirium guideline, NICE guidance, the CAM, and the HELP prevention program. Educational use only; not medical advice.",
+   "objectives": [
+    "Diagnose delirium with the CAM, recognizing hypoactive delirium and distinguishing it from dementia and depression.",
+    "Approach delirium as a symptom and search systematically for reversible causes (medications and infection first).",
+    "Lead with multicomponent non-pharmacologic care and de-prescribing, knowing antipsychotics neither prevent nor shorten delirium.",
+    "Use antipsychotics and benzodiazepines only in their narrow, appropriate roles, and prevent delirium in at-risk patients."
+   ],
+   "prework": [
+    {
+     "q": "Q1. A quiet, withdrawn elderly patient who is hard to engage and inattentive — is this depression, dementia, or delirium?",
+     "a": "Most likely hypoactive delirium — acute, fluctuating inattention. It is the most common and most frequently missed subtype and carries worse outcomes than the agitated form. Screen with the CAM and look for a cause rather than assuming depression."
+    },
+    {
+     "q": "Q2. Do scheduled antipsychotics prevent delirium or shorten its duration?",
+     "a": "No — the 2025 APA guideline recommends against using antipsychotics to prevent delirium or hasten its resolution; the evidence base is multicomponent non-pharmacologic care. Antipsychotics are reserved for severe agitation threatening safety after non-drug measures fail."
+    },
+    {
+     "q": "Q3. Which two categories of reversible cause are most common on the wards?",
+     "a": "Medications (especially anticholinergics, benzodiazepines, and opioids) and infection. Review the medication list and screen for infection before reaching for neuroimaging."
+    }
+   ],
+   "segments": [
+    {
+     "label": "Hook (2 min)",
+     "min": 2,
+     "html": "<p>\"The night nurse calls about a 'pleasantly confused' 82-year-old &mdash; not agitated, just quiet and not quite himself. The reflex is to chart it and move on, or to order a head CT. Both miss the point: this is probably hypoactive delirium, it's a symptom of something fixable, and the head CT is usually the wrong first test.\" Set up diagnose &rarr; find the cause &rarr; treat non-pharmacologically.</p>"
+    },
+    {
+     "label": "Step 1 — Diagnose with the CAM",
+     "min": 6,
+     "html": "<div class=\"ask\"><b>ASK:</b> \"What are the four CAM features, and which two are mandatory?\"</div>\n<p>Delirium is acute, fluctuating inattention with a medical cause. The CAM: (1) acute onset/fluctuating course AND (2) inattention, plus either (3) disorganized thinking OR (4) altered level of consciousness. Emphasize that <b>hypoactive</b> delirium &mdash; quiet, withdrawn, the patient who's easy to overlook &mdash; is the most common and most missed, with worse outcomes than the agitated form. Distinguish from dementia (chronic, attention relatively preserved) and depression.</p>\n<div class=\"pearl\"><b>Pearl:</b> Test attention directly &mdash; months of the year backward, or days of the week backward. The 'pleasant' quiet patient who can't do it is delirious.</div>"
+    },
+    {
+     "label": "Step 2 — Find the cause",
+     "min": 8,
+     "html": "<div class=\"ask\"><b>ASK:</b> \"Delirium is a symptom. Before you image the head, where do you look first?\"</div>\n<p>Work the <b>DELIRIUM(S)</b> mnemonic: Drugs, Electrolytes/Endocrine, Lack of drugs (withdrawal)/pain, Infection, Reduced sensory input, Intracranial, Urinary/fecal retention, Metabolic (hypoxia, hypercarbia, glucose, organ failure), Sleep/Subdural. The two highest-yield culprits are <b>medications</b> (anticholinergics, benzodiazepines, opioids) and <b>infection</b>. Targeted work-up: med review, BMP/Ca/Mg, CBC, UA, infection screen, glucose, oxygenation. Reserve <b>neuroimaging, LP, and EEG for focal signs, trauma, or an unexplained case</b> &mdash; not as a reflex.</p>\n<div class=\"pearl\"><b>Pearl:</b> The head CT is low-yield in delirium without focal deficits or trauma &mdash; the medication list is higher-yield and free.</div>"
+    },
+    {
+     "label": "Step 3 — Treat: non-pharm first",
+     "min": 7,
+     "html": "<div class=\"ask\"><b>ASK:</b> \"What's the evidence-based treatment &mdash; and what's the evidence on scheduled antipsychotics?\"</div>\n<p>The core is <b>multicomponent non-pharmacologic care</b> (HELP): reorient (clocks, calendars, family, glasses, hearing aids), mobilize and remove tethers, protect sleep, and de-prescribe deliriogenic drugs while treating pain, constipation, and retention. The <b>2025 APA</b> guideline is clear that antipsychotics neither prevent delirium nor shorten it. Reserve a low dose of an antipsychotic for <b>severe agitation that threatens safety or essential care</b> after non-drug measures fail &mdash; a short bridge, not a treatment &mdash; and avoid it in Parkinson's/Lewy body disease. Benzodiazepines are only for alcohol/sedative withdrawal; otherwise they cause delirium.</p>\n<div class=\"pearl\"><b>Pearl:</b> If you reach for haloperidol, you're managing the behavior, not the delirium &mdash; the cause and the non-drug bundle do the actual work.</div>"
+    },
+    {
+     "label": "Step 4 — Prevent",
+     "min": 2,
+     "html": "<p>The biggest win is prevention in at-risk patients (older, cognitively impaired, sensory deficits, severely ill): the same HELP levers reduce incident delirium. Avoid restraints and unnecessary catheters &mdash; they worsen and prolong it.</p>"
+    }
+   ],
+   "casesLabel": "Cases",
+   "casesIntro": "",
+   "cases": [
+    {
+     "title": "Case 1 — the quiet one",
+     "stem": "<p>82M, post-op day 2, 'pleasantly confused,' withdrawn, won't engage, can't recite the months backward. Vitals stable.</p>",
+     "items": [
+      {
+       "q": "Diagnosis?",
+       "a": "Hypoactive delirium &mdash; acute, fluctuating inattention. The most common and most missed subtype; don't dismiss it as fatigue or depression."
+      },
+      {
+       "q": "First steps?",
+       "a": "Treat as a symptom: review meds (opioids? anticholinergics?), screen for infection/retention/electrolytes/hypoxia, optimize the non-pharmacologic bundle. Head CT only if focal signs or trauma."
+      }
+     ]
+    },
+    {
+     "title": "Case 2 — the reflex sedative",
+     "stem": "<p>78F agitated overnight, pulling at lines; intern orders scheduled lorazepam.</p>",
+     "items": [
+      {
+       "q": "Problem?",
+       "a": "Benzodiazepines worsen delirium (except in alcohol/sedative withdrawal). Use non-pharmacologic de-escalation first; if severe agitation threatens safety after that fails, a low-dose antipsychotic is the bridge &mdash; not a scheduled benzodiazepine."
+      }
+     ]
+    },
+    {
+     "title": "Case 3 — prevention",
+     "stem": "<p>85M with baseline mild cognitive impairment and hearing loss admitted with pneumonia; no delirium yet.</p>",
+     "items": [
+      {
+       "q": "What reduces his risk?",
+       "a": "Multicomponent prevention: hearing aids/glasses in, reorientation, early mobilization, sleep protection, avoid tethers and deliriogenic drugs &mdash; the HELP levers cut incident delirium in exactly this patient."
+      }
+     ]
+    }
+   ],
+   "mcqs": [
+    {
+     "stem": "An 80-year-old is quiet, withdrawn, and inattentive two days after admission, with a fluctuating course. Which is the most likely diagnosis and its significance?",
+     "opts": [
+      "Depression — generally benign",
+      "Hypoactive delirium — common and often missed, with worse outcomes",
+      "Dementia — chronic and expected",
+      "Normal post-operative fatigue",
+      "Primary psychiatric illness"
+     ],
+     "ans": "B",
+     "exp": "<b>B.</b> Acute, fluctuating inattention is delirium; the hypoactive subtype is the most common and most frequently overlooked and is associated with worse outcomes. A/E: mislabeling delays the cause hunt. C: dementia is chronic without acute inattention. D: dismisses a medical emergency."
+    },
+    {
+     "stem": "Which combination of CAM features is required to diagnose delirium?",
+     "opts": [
+      "Any two of the four features",
+      "Acute onset/fluctuating course AND inattention, plus either disorganized thinking OR altered consciousness",
+      "Inattention alone",
+      "Altered consciousness alone",
+      "Disorganized thinking AND altered consciousness only"
+     ],
+     "ans": "B",
+     "exp": "<b>B.</b> The CAM requires features 1 (acute/fluctuating) and 2 (inattention), plus either 3 (disorganized thinking) or 4 (altered level of consciousness). The other options misstate the algorithm."
+    },
+    {
+     "stem": "What does the 2025 APA guideline say about antipsychotics for delirium?",
+     "opts": [
+      "They should be given prophylactically to all at-risk patients",
+      "They do not prevent delirium or shorten its duration and should be reserved for severe agitation after non-drug measures fail",
+      "They are first-line treatment for all delirium",
+      "They are contraindicated in every circumstance",
+      "They shorten hypoactive delirium specifically"
+     ],
+     "ans": "B",
+     "exp": "<b>B.</b> Antipsychotics neither prevent delirium nor hasten resolution; they are reserved for severe agitation threatening safety/essential care when non-pharmacologic measures have failed. A/C/E overstate benefit; D overstates the restriction (they have a narrow role)."
+    },
+    {
+     "stem": "A delirious patient has no focal neurologic signs, no trauma, and a medication list including oxybutynin, lorazepam, and oxycodone. What is the highest-yield next step?",
+     "opts": [
+      "Immediate non-contrast head CT",
+      "Review and de-prescribe deliriogenic medications and screen for infection",
+      "Lumbar puncture",
+      "EEG",
+      "Scheduled haloperidol"
+     ],
+     "ans": "B",
+     "exp": "<b>B.</b> Medications (here anticholinergic, benzodiazepine, opioid) and infection are the most common reversible causes; a med review plus infection screen is higher-yield than neuroimaging without focal signs or trauma. A/C/D are low-yield without focal findings. E treats behavior, not cause."
+    },
+    {
+     "stem": "Which intervention is the evidence-based core of preventing and managing delirium in hospitalized older adults?",
+     "opts": [
+      "Scheduled benzodiazepines",
+      "Multicomponent non-pharmacologic care (reorientation, mobilization, sleep, sensory aids, de-prescribing)",
+      "Physical restraints to ensure safety",
+      "Routine indwelling urinary catheters",
+      "Prophylactic antipsychotics"
+     ],
+     "ans": "B",
+     "exp": "<b>B.</b> Multicomponent non-pharmacologic programs (HELP) are the proven core for prevention and management. A: benzodiazepines cause delirium. C/D: restraints and catheters worsen and prolong it. E: antipsychotics don't prevent delirium."
+    }
+   ],
+   "anki": [
+    [
+     "Definition of delirium?",
+     "Acute, fluctuating disturbance of attention and awareness with a medical cause."
+    ],
+    [
+     "CAM diagnostic rule?",
+     "Features 1 (acute/fluctuating) AND 2 (inattention), plus 3 (disorganized thinking) OR 4 (altered consciousness)."
+    ],
+    [
+     "Most common and most missed subtype?",
+     "Hypoactive delirium (quiet, withdrawn) — worse outcomes than hyperactive."
+    ],
+    [
+     "Delirium vs dementia?",
+     "Delirium is acute, fluctuating, with inattention; dementia is chronic with relatively preserved attention (early)."
+    ],
+    [
+     "Two highest-yield reversible causes on the wards?",
+     "Medications (anticholinergics, benzodiazepines, opioids) and infection."
+    ],
+    [
+     "DELIRIUM(S) mnemonic?",
+     "Drugs, Electrolytes/Endocrine, Lack of drugs/pain, Infection, Reduced sensory input, Intracranial, Urinary/fecal retention, Metabolic, Sleep/Subdural."
+    ],
+    [
+     "When is neuroimaging/LP/EEG indicated in delirium?",
+     "Only with focal neurologic signs, trauma, or no cause found — not routinely."
+    ],
+    [
+     "Evidence-based core treatment?",
+     "Multicomponent non-pharmacologic care (HELP): reorient, mobilize, sleep, sensory aids, de-prescribe."
+    ],
+    [
+     "Do antipsychotics prevent or shorten delirium (2025 APA)?",
+     "No — reserve low-dose for severe agitation threatening safety after non-drug measures fail."
+    ],
+    [
+     "When are benzodiazepines appropriate in delirium?",
+     "Only for alcohol/sedative withdrawal — otherwise they cause delirium."
+    ],
+    [
+     "Antipsychotic to avoid in which conditions?",
+     "Parkinson's disease and Lewy body dementia."
+    ],
+    [
+     "How to test attention at the bedside?",
+     "Months of the year backward or days of the week backward."
+    ],
+    [
+     "Two 'tethers' that worsen delirium?",
+     "Physical restraints and indwelling urinary catheters (plus lines)."
+    ],
+    [
+     "Highest-impact strategy overall?",
+     "Prevention in at-risk patients using the same multicomponent levers."
+    ],
+    [
+     "Risk factors for delirium?",
+     "Older age, baseline cognitive impairment, sensory deficits, severe illness, polypharmacy."
+    ]
+   ],
+   "dot": "#Delirium/AMS: CAM [1 acute/fluctuating ✓ + 2 inattention ✓ + (3 disorganized / 4 ↓LOC)] → delirium [yes/no]; subtype [hypoactive/hyperactive/mixed]\nbaseline cognition *__ ; attention test (months backward) *__\ncause search (DELIRIUM-S): meds *[anticholinergic/benzo/opioid/steroid] ; electrolytes *__ ; infection *__ ; retention *__ ; hypoxia/CO2 *__ ; glucose *__ ; intracranial [focal signs? *]\nwork-up: med review, BMP/Ca/Mg, CBC, UA/cultures, glucose, O2; imaging/LP/EEG ONLY if focal/trauma/unexplained\nmanagement: multicomponent non-pharm [reorient, mobilize, sleep, glasses/hearing aids, de-prescribe, treat pain/constipation]\nmeds: antipsychotic ONLY for severe agitation threatening safety after non-drug fails [avoid Parkinson/Lewy]; benzo ONLY for alcohol/sedative withdrawal\navoid: restraints, unnecessary catheter/lines; scheduled benzodiazepines",
+   "takehome": [
+    "Delirium is acute, fluctuating inattention — diagnose with the CAM and actively look for the hypoactive subtype, which is the most missed.",
+    "It is a symptom, not a diagnosis: hunt the cause, with medications and infection the highest-yield culprits.",
+    "Reserve neuroimaging, LP, and EEG for focal signs, trauma, or an unexplained case — not as a reflex.",
+    "Lead with multicomponent non-pharmacologic care and de-prescribing; antipsychotics neither prevent nor shorten delirium.",
+    "Use antipsychotics only as a short bridge for dangerous agitation, benzodiazepines only for withdrawal, and prevent delirium in at-risk patients."
+   ],
+   "extras": [],
+   "refs": "<ul>\n<li>American Psychiatric Association. Practice Guideline for the Prevention and Treatment of Delirium (2025).</li>\n<li>Inouye SK, et al. Clarifying confusion: the Confusion Assessment Method. <i>Ann Intern Med</i> 1990;113:941&ndash;948.</li>\n<li>Inouye SK, Westendorp RGJ, Saczynski JS. Delirium in elderly people. <i>Lancet</i> 2014;383:911&ndash;922.</li>\n<li>NICE. Delirium: prevention, diagnosis and management (CG103), updated.</li>\n<li>Hshieh TT, et al. Hospital Elder Life Program (HELP) effectiveness. <i>JAMA Intern Med</i> 2015.</li>\n</ul>",
+   "changelog": "<p class=\"small\">New lesson authored June 2026 in the house style of this library. Clinical content cross-checked against the 2025 APA delirium practice guideline, NICE delirium guidance, the CAM, and the HELP prevention literature. Educational use only.</p>",
+   "files": {
+    "presenter": "Delirium_AMS_Optimized.pptx",
+    "learner_board": null,
+    "handout": null,
+    "onepager_pdf": "Delirium_AMS_OnePager.pdf",
+    "anki": "Delirium_AMS_Anki_Cards.txt",
+    "package": "Delirium_AMS_Lesson_Package.html",
+    "other": [
+     "Delirium_AMS-worksheet.docx",
+     "Delirium_AMS_OnePager.html"
+    ],
+    "slides": {
+     "Delirium_AMS_Optimized": "Delirium_AMS_Optimized_slides.pdf"
+    },
+    "presenter_mb": 0.0
    }
   },
   {
@@ -7750,6 +9000,260 @@
      "Depression_and_Anxiety_Optimized": "Depression_and_Anxiety_Optimized_slides.pdf"
     },
     "presenter_mb": 1.7
+   }
+  },
+  {
+   "slug": "acute-gi-bleeding",
+   "folder": "GI Bleeding",
+   "package": "GI_Bleed_Lesson_Package.html",
+   "title": "Acute GI Bleeding",
+   "tag": "Gastroenterology",
+   "duration": "25 min (talk) / 35 min (with cases)",
+   "subtitle": "Optimized lesson package · Facilitator-led interactive chalk talk for IM residents · 25 min (talk) / 35 min (with cases)",
+   "credit": "Original hospitalist-workflow lesson built June 2026 for IM residents. Grounded in ACG upper (2021) and lower (2016) GI bleeding guidelines, the Villanueva restrictive-transfusion trial, and AASLD portal hypertension guidance. Educational use only; not medical advice.",
+   "objectives": [
+    "Resuscitate a GI bleed and use clinical clues to localize upper versus lower sources.",
+    "Apply the restrictive transfusion threshold (Hb 7) and its exceptions, and avoid over-transfusion in variceal bleeding.",
+    "Risk-stratify with the Glasgow-Blatchford score and choose pre-endoscopy medications and endoscopy timing.",
+    "Recognize and manage the distinct variceal-bleed pathway (octreotide, antibiotics, band ligation)."
+   ],
+   "prework": [
+    {
+     "q": "Q1. A hemodynamically stable patient with melena has a hemoglobin of 8.5. Do you transfuse?",
+     "a": "No — the restrictive threshold for most GI bleeding is a hemoglobin of 7 g/dL (target 7&ndash;9), which improves survival versus a liberal strategy (Villanueva). A higher threshold (~8) applies only with acute coronary syndrome or significant cardiovascular disease."
+    },
+    {
+     "q": "Q2. What does a Glasgow-Blatchford score of 0–1 allow you to consider?",
+     "a": "Very-low-risk patients (GBS 0&ndash;1) can be considered for discharge with outpatient endoscopy rather than admission, because the risk of needing intervention or dying is very low."
+    },
+    {
+     "q": "Q3. A patient with cirrhosis presents with hematemesis. Beyond a PPI, which two medications reduce mortality/complications and should start early?",
+     "a": "Octreotide (lowers portal pressure) and prophylactic antibiotics such as ceftriaxone — antibiotics in particular reduce mortality in variceal bleeding. Definitive therapy is endoscopic band ligation."
+    }
+   ],
+   "segments": [
+    {
+     "label": "Hook (2 min)",
+     "min": 2,
+     "html": "<p>\"Two GI bleeders hit the floor in the same hour. One is a stable woman with melena and a hemoglobin of 8.2 — and the well-meaning intern orders two units. The other is a cirrhotic vomiting blood, and the team reaches for a PPI and nothing else. Both reflexes are wrong, and both are common.\" Set up resuscitate &rarr; localize &rarr; the right transfusion &rarr; the right pathway.</p>"
+    },
+    {
+     "label": "Step 1 — Resuscitate & localize",
+     "min": 6,
+     "html": "<div class=\"ask\"><b>ASK:</b> \"The first hemoglobin is 13. Does that reassure you? And how do you tell upper from lower at the bedside?\"</div>\n<p>Stabilize first: two large-bore IVs, type &amp; cross, fluids, judge severity by <b>hemodynamics</b> (the initial Hb lags — equilibration takes hours). Localize: hematemesis/coffee-grounds and melena point upper; a <b>BUN:Cr &gt; 30</b> without renal disease suggests an upper source (digested blood). Hematochezia is usually lower — <i>unless</i> the patient is unstable, in which case treat it as a brisk upper bleed until proven otherwise.</p>\n<div class=\"pearl\"><b>Pearl:</b> Unstable hematochezia is an upper bleed until an upper scope says otherwise.</div>"
+    },
+    {
+     "label": "Step 2 — Transfuse restrictively",
+     "min": 7,
+     "html": "<div class=\"ask\"><b>ASK:</b> \"Stable patient, hemoglobin 8.2 — transfuse or not? What's your threshold and your exception?\"</div>\n<p>The <b>restrictive threshold is Hb 7</b> (target 7&ndash;9) — Villanueva showed better survival and less rebleeding than a liberal strategy. The main exception is a higher (~8) threshold with ACS or significant cardiovascular disease. In <b>variceal</b> bleeding, restrictive transfusion is especially important and over-transfusing plasma/platelets is harmful — it raises portal pressure and worsens bleeding.</p>\n<div class=\"pearl\"><b>Pearl:</b> 'Topping up' to a normal hemoglobin causes harm in GI bleeding — resist it.</div>"
+    },
+    {
+     "label": "Step 3 — Risk-stratify & prep for endoscopy",
+     "min": 7,
+     "html": "<div class=\"ask\"><b>ASK:</b> \"Which patients are safe to send home, and what do you give before the scope?\"</div>\n<p>Use the <b>Glasgow-Blatchford score</b>: GBS 0&ndash;1 is very low risk and can be considered for outpatient management. Pre-endoscopy, give <b>IV PPI</b> for suspected ulcer bleeding and <b>IV erythromycin</b> ~20&ndash;90 minutes before the scope to clear the stomach for a better view. Endoscopy timing is <b>within 24 hours</b> after resuscitation for most UGIB — pushing to &lt;12 hours does not help and can harm an under-resuscitated patient.</p>\n<div class=\"pearl\"><b>Pearl:</b> Resuscitation before endoscopy, not the reverse — a hemodynamically optimized patient tolerates the procedure far better.</div>"
+    },
+    {
+     "label": "Step 4 — The variceal pathway",
+     "min": 3,
+     "html": "<p>With cirrhosis/portal hypertension, add <b>octreotide</b> and <b>prophylactic antibiotics</b> (ceftriaxone) early — antibiotics reduce mortality. Definitive therapy is <b>endoscopic band ligation</b>; balloon tamponade and TIPS are rescue options. Keep transfusion restrictive.</p>"
+    }
+   ],
+   "casesLabel": "Cases",
+   "casesIntro": "",
+   "cases": [
+    {
+     "title": "Case 1 — the reflex transfusion",
+     "stem": "<p>62F, melena, HR 88, BP 124/76, Hb 8.2, BUN 38/Cr 0.9, no cardiac history.</p>",
+     "items": [
+      {
+       "q": "Transfuse?",
+       "a": "No — she is stable and above the restrictive Hb 7 threshold; transfusion would not help and could harm. Admit, IV PPI, plan endoscopy within 24 h."
+      },
+      {
+       "q": "Upper or lower?",
+       "a": "Upper — melena plus a BUN:Cr >30 without renal disease points to an upper source."
+      }
+     ]
+    },
+    {
+     "title": "Case 2 — unstable hematochezia",
+     "stem": "<p>70M, brisk bright-red rectal bleeding, HR 122, BP 86/54, pale.</p>",
+     "items": [
+      {
+       "q": "First assumption?",
+       "a": "A brisk UPPER bleed until proven otherwise — unstable hematochezia warrants resuscitation and an upper endoscopy; a massive UGIB can present as hematochezia."
+      },
+      {
+       "q": "Management?",
+       "a": "Two large-bore IVs, crossmatch, resuscitate to vitals, IV PPI, urgent GI involvement; restrictive transfusion to Hb 7 (8 if cardiac disease)."
+      }
+     ]
+    },
+    {
+     "title": "Case 3 — the cirrhotic",
+     "stem": "<p>54M with cirrhosis, hematemesis, HR 110, BP 96/60, Hb 7.5.</p>",
+     "items": [
+      {
+       "q": "What besides a PPI?",
+       "a": "Octreotide (portal pressure) and prophylactic ceftriaxone (mortality benefit), plus restrictive transfusion. Definitive: endoscopic band ligation; TIPS/balloon tamponade as rescue."
+      },
+      {
+       "q": "Transfusion pitfall?",
+       "a": "Don't over-transfuse blood or plasma/platelets — raising portal pressure worsens variceal bleeding. Target Hb 7."
+      }
+     ]
+    }
+   ],
+   "mcqs": [
+    {
+     "stem": "A hemodynamically stable 60-year-old with melena has a hemoglobin of 8.0 g/dL and no cardiovascular disease. What is the most appropriate transfusion strategy?",
+     "opts": [
+      "Transfuse to a hemoglobin of 10",
+      "Withhold transfusion and use a restrictive threshold of 7 g/dL",
+      "Transfuse 2 units now regardless of stability",
+      "Transfuse only fresh frozen plasma",
+      "Transfuse to a hemoglobin of 9 immediately"
+     ],
+     "ans": "B",
+     "exp": "<b>B.</b> The Villanueva trial established a restrictive threshold of 7 g/dL (target 7&ndash;9) as superior to liberal transfusion in acute upper GI bleeding. A/E: liberal targets increase rebleeding and mortality. C: transfusion isn't indicated in a stable patient above threshold. D: no coagulopathy indication is given."
+    },
+    {
+     "stem": "A patient with a Glasgow-Blatchford score of 0 presents with a single episode of coffee-ground emesis and normal vitals. What does the score support?",
+     "opts": [
+      "Immediate ICU admission",
+      "Consideration of discharge with outpatient endoscopy",
+      "Emergent surgery",
+      "Mandatory transfusion",
+      "Empiric variceal banding"
+     ],
+     "ans": "B",
+     "exp": "<b>B.</b> A GBS of 0&ndash;1 identifies very-low-risk patients who can be considered for outpatient management with elective endoscopy. The other options overtreat a low-risk patient."
+    },
+    {
+     "stem": "A cirrhotic patient presents with hematemesis. In addition to a PPI and restrictive transfusion, which therapy most clearly reduces mortality?",
+     "opts": [
+      "Liberal platelet transfusion",
+      "Prophylactic antibiotics (e.g., ceftriaxone)",
+      "High-dose vitamin K alone",
+      "Beta-blocker bolus",
+      "Immediate TIPS in all patients"
+     ],
+     "ans": "B",
+     "exp": "<b>B.</b> Prophylactic antibiotics reduce mortality and infection in variceal bleeding and are a core part of the bundle (with octreotide and band ligation). A: over-transfusing platelets/plasma raises portal pressure and worsens bleeding. C/D: not acute hemostatic priorities. E: TIPS is a rescue/secondary option, not first-line for all."
+    },
+    {
+     "stem": "Which finding most strongly suggests an upper rather than lower GI source in a patient with melena?",
+     "opts": [
+      "Bright red blood per rectum",
+      "A BUN-to-creatinine ratio greater than 30 without renal disease",
+      "Left lower quadrant pain",
+      "A history of diverticulosis",
+      "Painless large-volume hematochezia while stable"
+     ],
+     "ans": "B",
+     "exp": "<b>B.</b> An elevated BUN:Cr (>30) without renal impairment reflects absorbed nitrogen from digested blood and points to an upper source. A/E suggest lower sources; C/D are not localizing to upper."
+    },
+    {
+     "stem": "After initial resuscitation of a stable patient with upper GI bleeding, what is the recommended timing of endoscopy?",
+     "opts": [
+      "Within 6 hours in all patients",
+      "Within 24 hours after adequate resuscitation",
+      "Only after 72 hours",
+      "Immediately, before any resuscitation",
+      "Endoscopy is rarely needed"
+     ],
+     "ans": "B",
+     "exp": "<b>B.</b> Endoscopy within 24 hours (after resuscitation) is recommended for most UGIB; very early (&lt;12 h) endoscopy in under-resuscitated patients does not improve outcomes and may worsen them. A/D: premature. C: too delayed. E: endoscopy is central to diagnosis and hemostasis."
+    }
+   ],
+   "anki": [
+    [
+     "Restrictive transfusion threshold in GI bleeding?",
+     "Hb 7 g/dL (target 7&ndash;9); improves survival vs liberal (Villanueva)."
+    ],
+    [
+     "Transfusion-threshold exception?",
+     "~8 g/dL with acute coronary syndrome or significant cardiovascular disease."
+    ],
+    [
+     "Why is over-transfusion dangerous in variceal bleeding?",
+     "It raises portal pressure and worsens/rebleeds varices — keep restrictive, avoid excess plasma/platelets."
+    ],
+    [
+     "Glasgow-Blatchford 0–1 means?",
+     "Very low risk — consider discharge with outpatient endoscopy."
+    ],
+    [
+     "BUN:Cr > 30 without renal disease suggests?",
+     "Upper GI source (absorbed nitrogen from digested blood)."
+    ],
+    [
+     "Unstable hematochezia — assume what?",
+     "Brisk upper GI bleed until proven otherwise (upper endoscopy)."
+    ],
+    [
+     "Pre-endoscopy meds for suspected ulcer bleed?",
+     "IV PPI; IV erythromycin 250 mg ~20–90 min before to clear the stomach."
+    ],
+    [
+     "Endoscopy timing for most UGIB?",
+     "Within 24 h after resuscitation; <12 h doesn't help and may harm."
+    ],
+    [
+     "Variceal-bleed bundle?",
+     "Octreotide + prophylactic antibiotics (ceftriaxone) + endoscopic band ligation; TIPS/tamponade as rescue."
+    ],
+    [
+     "Which variceal drug reduces mortality?",
+     "Prophylactic antibiotics (ceftriaxone) reduce mortality."
+    ],
+    [
+     "Does the initial Hb reflect blood loss?",
+     "No — it lags; equilibration takes hours. Resuscitate to hemodynamics."
+    ],
+    [
+     "Common causes of lower GI bleed?",
+     "Diverticulosis, angioectasia, post-polypectomy, ischemic/IBD colitis, hemorrhoids."
+    ],
+    [
+     "Work-up for ongoing brisk LGIB?",
+     "CT angiography ± embolization; colonoscopy after prep when stable; rule out upper source if unstable."
+    ],
+    [
+     "Should you delay endoscopy to normalize INR/platelets?",
+     "No — don't withhold endoscopy chasing a perfect coagulation profile; correct judiciously."
+    ],
+    [
+     "First steps in any GI bleed?",
+     "Two large-bore IVs, type & cross, fluids, resuscitate to vitals, then localize and risk-stratify."
+    ]
+   ],
+   "dot": "#GI bleed: presentation [hematemesis/coffee-ground/melena/hematochezia]; hemodynamics HR *__ BP *__\nlocalize: BUN:Cr *__ [>30 → upper]; [stable hematochezia → lower / unstable hematochezia → assume upper]\nresuscitate: 2 large-bore IVs, type & cross, fluids; initial Hb *__ (lags — trend it)\ntransfusion: restrictive Hb 7 [target 7–9]; threshold 8 if ACS/CVD; AVOID over-transfusion (esp. varices)\nrisk score: Glasgow-Blatchford *__ [0–1 → consider outpatient]\npre-endoscopy: IV PPI [suspected ulcer]; IV erythromycin 250 mg [clear stomach]; endoscopy within 24 h after resuscitation\nVARICEAL [cirrhosis]: octreotide + ceftriaxone (mortality benefit) → band ligation; TIPS/tamponade rescue\nanticoag: [hold/reverse per agent]; don't delay scope for perfect INR/plt",
+   "takehome": [
+    "Resuscitate to hemodynamics before scoping — the initial hemoglobin lags real blood loss.",
+    "Transfuse restrictively to Hb 7 (target 7–9); use ~8 only with ACS or significant cardiovascular disease.",
+    "Over-transfusion harms, especially in varices, by raising portal pressure — don't top up to 'normal.'",
+    "Risk-stratify with Glasgow-Blatchford (0–1 = outpatient), give pre-endoscopy IV PPI/erythromycin, and scope within 24 hours.",
+    "Treat suspected variceal bleeding differently: octreotide plus prophylactic antibiotics plus band ligation."
+   ],
+   "extras": [],
+   "refs": "<ul>\n<li>Laine L, et al. ACG Clinical Guideline: Upper Gastrointestinal and Ulcer Bleeding. <i>Am J Gastroenterol</i> 2021;116:899&ndash;917.</li>\n<li>Strate LL, Gralnek IM. ACG Clinical Guideline: Management of Patients With Acute Lower GI Bleeding. <i>Am J Gastroenterol</i> 2016;111:459&ndash;474.</li>\n<li>Villanueva C, et al. Transfusion strategies for acute upper gastrointestinal bleeding. <i>N Engl J Med</i> 2013;368:11&ndash;21.</li>\n<li>Blatchford O, et al. A risk score to predict need for treatment for upper-GI haemorrhage. <i>Lancet</i> 2000;356:1318&ndash;1321.</li>\n<li>AASLD. Portal Hypertensive Bleeding in Cirrhosis: Practice Guidance. <i>Hepatology</i> 2017/updates.</li>\n</ul>",
+   "changelog": "<p class=\"small\">New lesson authored June 2026 in the house style of this library. Clinical content cross-checked against the ACG upper (2021) and lower (2016) GI bleeding guidelines, the Villanueva restrictive-transfusion trial, and AASLD portal-hypertension guidance. Educational use only.</p>",
+   "files": {
+    "presenter": "GI_Bleed_Optimized.pptx",
+    "learner_board": null,
+    "handout": null,
+    "onepager_pdf": "GI_Bleed_OnePager.pdf",
+    "anki": "GI_Bleed_Anki_Cards.txt",
+    "package": "GI_Bleed_Lesson_Package.html",
+    "other": [
+     "GI_Bleed-worksheet.docx",
+     "GI_Bleed_OnePager.html"
+    ],
+    "slides": {
+     "GI_Bleed_Optimized": "GI_Bleed_Optimized_slides.pdf"
+    },
+    "presenter_mb": 0.0
    }
   },
   {
@@ -14306,6 +15810,252 @@
    }
   },
   {
+   "slug": "s-aureus-bacteremia",
+   "folder": "S aureus Bacteremia",
+   "package": "Staph_aureus_Bacteremia_Lesson_Package.html",
+   "title": "S. aureus Bacteremia",
+   "tag": "Infectious Disease",
+   "duration": "25 min (talk) / 35 min (with cases)",
+   "subtitle": "Optimized lesson package · Facilitator-led interactive chalk talk for IM residents · 25 min (talk) / 35 min (with cases)",
+   "credit": "Original hospitalist-workflow lesson built June 2026 for IM residents. Grounded in the IDSA S. aureus bacteremia quality measures and contemporary management literature. Educational use only; not medical advice.",
+   "objectives": [
+    "Treat every positive S. aureus blood culture as significant and apply the five core interventions.",
+    "Choose pathogen-directed therapy — empiric vancomycin, then de-escalate MSSA to cefazolin or an antistaphylococcal penicillin.",
+    "Classify SAB as complicated vs uncomplicated and set the correct duration from the first negative culture.",
+    "Search systematically for metastatic foci and use echocardiography (TTE vs TEE) appropriately."
+   ],
+   "prework": [
+    {
+     "q": "Q1. A blood culture grows methicillin-susceptible S. aureus and the patient is on vancomycin. What should you do?",
+     "a": "De-escalate to cefazolin or an antistaphylococcal penicillin (nafcillin/oxacillin) — both are superior to vancomycin for MSSA, which is associated with higher failure and mortality if continued. Leaving an MSSA patient on vancomycin is a classic error."
+    },
+    {
+     "q": "Q2. Name the five core interventions for S. aureus bacteremia.",
+     "a": "Infectious diseases consultation, echocardiography to evaluate for endocarditis, repeat blood cultures to document clearance, source control (remove lines/drain foci), and appropriate antibiotic choice and duration based on complicated vs uncomplicated status."
+    },
+    {
+     "q": "Q3. What four criteria must all be met to call SAB uncomplicated, and how long do you treat?",
+     "a": "Negative follow-up cultures (documented clearance), defervescence within 72 hours, no endocarditis and no prosthetic material/hardware, and no metastatic foci. Uncomplicated SAB is treated with at least 14 days of IV therapy counted from the first negative culture; complicated SAB requires 4&ndash;6 weeks or longer."
+    }
+   ],
+   "segments": [
+    {
+     "label": "Hook (2 min)",
+     "min": 2,
+     "html": "<p>\"The lab calls: one of four bottles is growing Gram-positive cocci in clusters, and the cross-cover resident says 'probably a contaminant, recheck in the morning.' For S. aureus, that sentence can kill the patient. There is no such thing as a contaminant <i>Staphylococcus aureus</i> in the blood &mdash; and there are five things you owe every one of these patients.\" Set up: take it seriously &rarr; right drug &rarr; complicated vs uncomplicated &rarr; find the foci.</p>"
+    },
+    {
+     "label": "Step 1 — The five core interventions",
+     "min": 7,
+     "html": "<div class=\"ask\"><b>ASK:</b> \"Name everything you owe a patient with S. aureus in the blood &mdash; before you even pick the antibiotic.\"</div>\n<p>Five evidence-based interventions, every time: <b>ID consultation</b> (independently lowers mortality), <b>echocardiography</b> for endocarditis, <b>repeat blood cultures</b> every 48&ndash;72 hours to document clearance, <b>source control</b> (remove infected lines, drain abscesses), and <b>appropriate antibiotic choice and duration</b>. Emphasize that S. aureus in the blood is never a contaminant.</p>\n<div class=\"pearl\"><b>Pearl:</b> An ID consult in SAB is itself a mortality intervention &mdash; call them on every case, complicated or not.</div>"
+    },
+    {
+     "label": "Step 2 — The right drug",
+     "min": 7,
+     "html": "<div class=\"ask\"><b>ASK:</b> \"The culture is back as MSSA and the patient's on vancomycin. What now?\"</div>\n<p>Start empiric <b>vancomycin</b> to cover MRSA while you wait. Once you know it's <b>MSSA, de-escalate to cefazolin or an antistaphylococcal penicillin</b> (nafcillin/oxacillin) &mdash; both are superior to vancomycin, which performs worse for MSSA. Cefazolin is convenient and well-tolerated; antistaph penicillins avoid the theoretical inoculum effect in deep-seated infection. For <b>MRSA</b>, use vancomycin (AUC-guided) or daptomycin.</p>\n<div class=\"pearl\"><b>Pearl:</b> 'Vanc covers everything' is the trap &mdash; for MSSA, vancomycin is the inferior drug. Switch.</div>"
+    },
+    {
+     "label": "Step 3 — Complicated vs uncomplicated",
+     "min": 7,
+     "html": "<div class=\"ask\"><b>ASK:</b> \"What lets you give only two weeks &mdash; and what forces four to six?\"</div>\n<p><b>Uncomplicated</b> requires <b>all</b> of: documented culture clearance, defervescence within 72 hours, no endocarditis and no prosthetic material, and no metastatic foci. That earns <b>&ge;14 days IV from the first negative culture</b>. Any of persistent bacteremia, endocarditis, hardware, or metastatic infection makes it <b>complicated</b> &mdash; <b>4&ndash;6 weeks</b> or longer (e.g., osteomyelitis, prosthetic valve endocarditis). The clock starts at clearance, not at the first positive.</p>\n<div class=\"pearl\"><b>Pearl:</b> If you haven't documented a negative culture, you can't start counting &mdash; and you can't call it uncomplicated.</div>"
+    },
+    {
+     "label": "Step 4 — Hunt the foci",
+     "min": 3,
+     "html": "<p>S. aureus seeds widely: <b>endocarditis, vertebral osteomyelitis/discitis, epidural abscess, septic arthritis, psoas/splenic abscess, septic emboli</b>. Ask about back and joint pain, listen for a new murmur, and image (MRI for spine). <b>TEE</b> beats TTE for endocarditis &mdash; pursue it in prosthetic valves/devices, persistent bacteremia, community-onset disease, or when no source is found.</p>"
+    }
+   ],
+   "casesLabel": "Cases",
+   "casesIntro": "",
+   "cases": [
+    {
+     "title": "Case 1 — 'contaminant'",
+     "stem": "<p>Cross-cover is told one bottle grew Gram-positive cocci in clusters; species pending. Plan offered: 'recheck in AM, likely contaminant.'</p>",
+     "items": [
+      {
+       "q": "Right response?",
+       "a": "Treat as significant until speciated; if S. aureus, it is NEVER a contaminant. Start empiric vancomycin, draw repeat cultures, consult ID, arrange an echo, and look for a source."
+      }
+     ]
+    },
+    {
+     "title": "Case 2 — the MSSA on vanc",
+     "stem": "<p>Day 2: cultures speciate as MSSA. Patient stable on vancomycin.</p>",
+     "items": [
+      {
+       "q": "Action?",
+       "a": "De-escalate to cefazolin or nafcillin/oxacillin &mdash; both outperform vancomycin for MSSA. Continue the five core interventions; document clearance with repeat cultures."
+      },
+      {
+       "q": "Duration if uncomplicated?",
+       "a": "At least 14 days IV counted from the first negative blood culture, provided all uncomplicated criteria are met."
+      }
+     ]
+    },
+    {
+     "title": "Case 3 — the missed focus",
+     "stem": "<p>MSSA bacteremia, now afebrile on appropriate therapy, but new severe low back pain on day 5; repeat cultures still positive.</p>",
+     "items": [
+      {
+       "q": "Concern?",
+       "a": "Persistent bacteremia + back pain = metastatic focus &mdash; vertebral osteomyelitis/discitis &plusmn; epidural abscess. Get spine MRI and a TEE; this is complicated SAB requiring 4&ndash;6 weeks (or longer) and possible source control."
+      }
+     ]
+    }
+   ],
+   "mcqs": [
+    {
+     "stem": "A blood culture grows methicillin-susceptible Staphylococcus aureus in a patient currently receiving vancomycin. What is the best antibiotic management?",
+     "opts": [
+      "Continue vancomycin for the full course",
+      "De-escalate to cefazolin or an antistaphylococcal penicillin (nafcillin/oxacillin)",
+      "Switch to oral linezolid immediately",
+      "Add gentamicin to vancomycin",
+      "Stop antibiotics if afebrile"
+     ],
+     "ans": "B",
+     "exp": "<b>B.</b> For MSSA, cefazolin or an antistaphylococcal penicillin is superior to vancomycin, which is associated with higher failure/mortality — de-escalate. A: keeping MSSA on vancomycin is a classic error. C: early oral switch is not standard for SAB. D: aminoglycoside addition is not routinely recommended. E: SAB requires a full course regardless of fever."
+    },
+    {
+     "stem": "Which set best represents the five core interventions for S. aureus bacteremia?",
+     "opts": [
+      "Oral step-down, outpatient follow-up, CRP, repeat CBC, discharge planning",
+      "ID consultation, echocardiography, repeat blood cultures, source control, appropriate antibiotic/duration",
+      "Vancomycin, gentamicin, rifampin, CT chest, restraint",
+      "Blood cultures once, empiric meropenem, no consult, 7-day course, TTE only",
+      "Procalcitonin, steroids, antipyretics, fluids, telemetry"
+     ],
+     "ans": "B",
+     "exp": "<b>B.</b> The evidence-based five are ID consultation, echocardiography, repeat blood cultures to document clearance, source control, and appropriate drug/duration. The other options omit core elements or add non-recommended ones."
+    },
+    {
+     "stem": "Which feature would make a case of S. aureus bacteremia 'complicated,' mandating 4–6 weeks of therapy?",
+     "opts": [
+      "Defervescence within 48 hours",
+      "Vertebral osteomyelitis on MRI",
+      "A single negative follow-up culture",
+      "No prosthetic material",
+      "Rapid clinical improvement"
+     ],
+     "ans": "B",
+     "exp": "<b>B.</b> Metastatic infection such as vertebral osteomyelitis defines complicated SAB requiring 4&ndash;6 weeks (or longer). A, C, D, and E are features consistent with an uncomplicated course."
+    },
+    {
+     "stem": "From what point should the duration of therapy for uncomplicated SAB be counted?",
+     "opts": [
+      "From the first positive blood culture",
+      "From the first negative (clearance) blood culture",
+      "From hospital admission",
+      "From defervescence only",
+      "From the day of the echocardiogram"
+     ],
+     "ans": "B",
+     "exp": "<b>B.</b> Duration is counted from the first negative blood culture documenting clearance — at least 14 days IV for uncomplicated SAB. The other anchors would under- or over-estimate the true treatment window."
+    },
+    {
+     "stem": "Why is infectious diseases consultation recommended for every case of S. aureus bacteremia?",
+     "opts": [
+      "It is required only for MRSA",
+      "It independently improves survival and adherence to evidence-based care",
+      "It is only useful for antibiotic dosing",
+      "It replaces the need for echocardiography",
+      "It shortens every course to 7 days"
+     ],
+     "ans": "B",
+     "exp": "<b>B.</b> ID consultation is independently associated with improved survival and better adherence to the core interventions in SAB. A: it benefits both MSSA and MRSA. C/D: it complements, not replaces, the other interventions. E: duration is set by complicated vs uncomplicated status, not the consult."
+    }
+   ],
+   "anki": [
+    [
+     "Is S. aureus in a blood culture ever a contaminant?",
+     "No — always significant; treat as true bacteremia."
+    ],
+    [
+     "The five core interventions for SAB?",
+     "ID consult, echocardiography, repeat blood cultures (clearance), source control, appropriate drug & duration."
+    ],
+    [
+     "Empiric therapy for suspected SAB?",
+     "Vancomycin (covers MRSA) while awaiting susceptibilities."
+    ],
+    [
+     "Preferred therapy for MSSA bacteremia?",
+     "Cefazolin or an antistaphylococcal penicillin (nafcillin/oxacillin) — both beat vancomycin."
+    ],
+    [
+     "Why not keep MSSA on vancomycin?",
+     "Vancomycin is inferior for MSSA — higher failure and mortality; de-escalate."
+    ],
+    [
+     "Therapy for MRSA bacteremia?",
+     "Vancomycin (AUC-guided) or daptomycin."
+    ],
+    [
+     "Criteria for UNCOMPLICATED SAB (all required)?",
+     "Negative follow-up cultures, defervescence within 72 h, no endocarditis/prosthetic material, no metastatic foci."
+    ],
+    [
+     "Duration for uncomplicated SAB?",
+     "≥14 days IV from the first negative blood culture."
+    ],
+    [
+     "Duration for complicated SAB?",
+     "4–6 weeks or longer (endocarditis, osteomyelitis, hardware)."
+    ],
+    [
+     "When does the treatment clock start?",
+     "From the first negative (clearance) blood culture, not the first positive."
+    ],
+    [
+     "Common metastatic foci of S. aureus?",
+     "Endocarditis, vertebral osteomyelitis/discitis, epidural abscess, septic arthritis, psoas/splenic abscess, septic emboli."
+    ],
+    [
+     "TTE vs TEE in SAB?",
+     "TEE is more sensitive for endocarditis; pursue with prosthetic valve/device, persistent bacteremia, community-onset, or unclear source."
+    ],
+    [
+     "Why repeat blood cultures in SAB?",
+     "To document clearance — persistent positives indicate complicated infection and reset duration."
+    ],
+    [
+     "Does ID consultation affect outcomes in SAB?",
+     "Yes — independently improves survival; recommended for every case."
+    ],
+    [
+     "New back pain + persistent bacteremia in SAB suggests?",
+     "Vertebral osteomyelitis/discitis ± epidural abscess — image with MRI; complicated SAB."
+    ]
+   ],
+   "dot": "#S. aureus bacteremia: [MSSA / MRSA]; onset [community/hospital]; source *__\n5 core interventions: [1] ID consult ✓ [2] echo [TTE/TEE] ✓ [3] repeat cx q48–72h → clearance date *__ [4] source control [line removed? drain?] ✓ [5] drug+duration set ✓\nantibiotic: empiric vancomycin → [MSSA: cefazolin / nafcillin-oxacillin] [MRSA: vancomycin AUC / daptomycin]\nclassify: uncomplicated needs ALL [clearance + defervescence<72h + no endocarditis/prosthesis + no mets] → ≥14 d IV from 1st negative cx\n complicated if ANY [persistent cx / endocarditis / hardware / metastatic focus] → 4–6 wk (or longer)\nmetastatic survey: back pain→MRI spine; joint pain; murmur→echo; abscess imaging; septic emboli\ndo NOT: call it a contaminant; leave MSSA on vancomycin; short course without uncomplicated criteria",
+   "takehome": [
+    "S. aureus in the blood is never a contaminant — apply all five core interventions every time.",
+    "ID consultation, echocardiography, repeat cultures, source control, and the right drug/duration each independently improve care.",
+    "Start empiric vancomycin, but de-escalate MSSA to cefazolin or an antistaphylococcal penicillin — vancomycin is inferior for MSSA.",
+    "Call it uncomplicated only if clearance, defervescence, no endocarditis/hardware, and no metastatic foci are all met — then 14 days from the first negative culture; otherwise 4–6 weeks.",
+    "Hunt for metastatic foci (spine, joints, valves) and use TEE when risk is higher or bacteremia persists."
+   ],
+   "extras": [],
+   "refs": "<ul>\n<li>IDSA. Staphylococcus aureus (MSSA) Bacteremia Measure Set (updated 2025).</li>\n<li>Holland TL, et al. Clinical management of Staphylococcus aureus bacteremia: a review. <i>JAMA</i> 2014;312:1330&ndash;1341.</li>\n<li>Minejima E, et al. / Liu C, et al. Contemporary management of S. aureus bacteremia — controversies. <i>Clin Infect Dis</i> 2023;77:e57.</li>\n<li>Kimmig A, et al. Staphylococcus aureus bacteremia: contemporary management. <i>PMC</i> 2020.</li>\n<li>Cefazolin vs antistaphylococcal penicillins for MSSA bacteremia — observational comparative literature.</li>\n</ul>",
+   "changelog": "<p class=\"small\">New lesson authored June 2026 in the house style of this library. Clinical content cross-checked against the IDSA S. aureus bacteremia quality-measure set and contemporary management reviews. Educational use only.</p>",
+   "files": {
+    "presenter": "Staph_aureus_Bacteremia_Optimized.pptx",
+    "learner_board": null,
+    "handout": null,
+    "onepager_pdf": "Staph_aureus_Bacteremia_OnePager.pdf",
+    "anki": "Staph_aureus_Bacteremia_Anki_Cards.txt",
+    "package": "Staph_aureus_Bacteremia_Lesson_Package.html",
+    "other": [
+     "Staph_aureus_Bacteremia-worksheet.docx",
+     "Staph_aureus_Bacteremia_OnePager.html"
+    ],
+    "slides": {
+     "Staph_aureus_Bacteremia_Optimized": "Staph_aureus_Bacteremia_Optimized_slides.pdf"
+    },
+    "presenter_mb": 0.0
+   }
+  },
+  {
    "slug": "supraventricular-tachycardia-svt",
    "folder": "SVT",
    "package": "SVT_Lesson_Package.html",
@@ -14568,6 +16318,256 @@
      "SVT_Optimized": "SVT_Optimized_slides.pdf"
     },
     "presenter_mb": 0.3
+   }
+  },
+  {
+   "slug": "sepsis-septic-shock",
+   "folder": "Sepsis and Septic Shock",
+   "package": "Sepsis_Lesson_Package.html",
+   "title": "Sepsis & Septic Shock",
+   "tag": "Critical Care",
+   "duration": "25 min (talk) / 35 min (with cases)",
+   "subtitle": "Optimized lesson package · Facilitator-led interactive chalk talk for IM residents · 25 min (talk) / 35 min (with cases)",
+   "credit": "Original hospitalist-workflow lesson built June 2026 for IM residents. Grounded in the Surviving Sepsis Campaign 2026 guideline and the Sepsis-3 definitions. Educational use only; not medical advice.",
+   "objectives": [
+    "Define sepsis and septic shock with the Sepsis-3 framework and recognize organ dysfunction early.",
+    "Execute the first-hour priorities: cultures, early broad-spectrum antibiotics, and balanced-crystalloid resuscitation with reassessment.",
+    "Start norepinephrine first-line for fluid-refractory hypoperfusion and add vasopressin / steroids appropriately.",
+    "Build in source control and antibiotic de-escalation, and avoid the bundle pitfalls flagged by the 2026 SSC."
+   ],
+   "prework": [
+    {
+     "q": "Q1. What separates septic shock from sepsis in the Sepsis-3 definitions?",
+     "a": "Septic shock = sepsis requiring vasopressors to maintain MAP &ge; 65 mmHg AND a lactate &gt; 2 mmol/L despite adequate volume resuscitation — a subset with circulatory and cellular/metabolic dysfunction and higher mortality."
+    },
+    {
+     "q": "Q2. Which crystalloid does current guidance favor for sepsis resuscitation, and why?",
+     "a": "Balanced crystalloids (lactated Ringer's, Plasma-Lyte) over 0.9% saline — they cause less hyperchloremic metabolic acidosis and are associated with faster recovery and a possible mortality benefit in large trials."
+    },
+    {
+     "q": "Q3. Your patient remains hypotensive after a weight-based fluid bolus. Do you give more fluid or start a pressor?",
+     "a": "Assess fluid responsiveness dynamically (passive leg raise, pulse-pressure/stroke-volume variation). If not fluid-responsive or MAP stays &lt;65, start norepinephrine first-line rather than giving more fluid — over-resuscitation worsens outcomes."
+    }
+   ],
+   "segments": [
+    {
+     "label": "Hook (2 min)",
+     "min": 2,
+     "html": "<p>\"A 68-year-old comes in with a UTI and a heart rate of 112, and the intern writes 'urosepsis, admit.' Two hours later the lactate is 4.2, the pressure is 84/50, and she's confused. The difference between a clean save and an ICU transfer is what happens in the first hour — and which steps you do <i>not</i> put on autopilot.\" Set up recognize &rarr; resuscitate &rarr; reassess.</p>"
+    },
+    {
+     "label": "Step 1 — Recognize organ dysfunction",
+     "min": 6,
+     "html": "<div class=\"ask\"><b>ASK:</b> \"Infection plus a fever isn't sepsis. What turns an infection into sepsis?\"</div>\n<p>Sepsis (Sepsis-3) = infection + life-threatening <b>organ dysfunction</b> from a dysregulated host response. Clinically: suspected infection plus new dysfunction — hypotension, rising lactate, oliguria/rising creatinine, altered mentation, hyperbilirubinemia, thrombocytopenia, new oxygen need. Septic shock adds vasopressor-dependence (MAP &ge;65) plus lactate &gt;2 despite fluids. Note the 2026 framing: <b>qSOFA is no longer a screening tool</b> — its sensitivity is too low to rule sepsis out; use a broader early-warning approach.</p>\n<div class=\"pearl\"><b>Pearl:</b> Don't let a normal qSOFA reassure you out of a sepsis work-up — it misses too many.</div>"
+    },
+    {
+     "label": "Step 2 — The first hour",
+     "min": 8,
+     "html": "<div class=\"ask\"><b>ASK:</b> \"Name the first-hour moves — and the one thing you must not let delay antibiotics.\"</div>\n<p>Blood cultures &times;2 <b>before</b> antibiotics — but never delay antibiotics to obtain them. Give broad-spectrum antibiotics quickly: within 1 hour for shock or high probability; the 2026 SSC permits a brief diagnostic window (up to ~3 h) only when sepsis is <i>possible but not probable</i> and there's no shock. Resuscitate with <b>balanced crystalloid</b> (~30 mL/kg for hypoperfusion), then <b>reassess</b> — fluid is a drug with a dose, not a reflex. Draw and trend lactate.</p>\n<div class=\"pearl\"><b>Pearl:</b> Source control trumps everything — an undrained abscess or an infected line will defeat any antibiotic. Look for it on day one.</div>"
+    },
+    {
+     "label": "Step 3 — Pressors for the non-responder",
+     "min": 7,
+     "html": "<div class=\"ask\"><b>ASK:</b> \"Pressure's still 82/48 after fluids. More fluid, or a pressor — and which one?\"</div>\n<p>Start <b>norepinephrine first-line</b> when MAP stays &lt;65 despite (or alongside) fluids; it can be run through a good peripheral IV while central access is obtained. Add <b>vasopressin</b> to spare catecholamines, consider <b>epinephrine</b> as a second add-on, and add <b>hydrocortisone</b> when shock persists on escalating pressors. Judge fluid need dynamically (passive leg raise, pulse-pressure variation) — not by CVP.</p>\n<div class=\"pearl\"><b>Pearl:</b> Pouring in a fourth and fifth liter when the patient isn't fluid-responsive causes edema and harm — reach for norepinephrine instead.</div>"
+    },
+    {
+     "label": "Step 4 — Reassess & de-escalate",
+     "min": 2,
+     "html": "<p>Reassess perfusion repeatedly (MAP, lactate clearance, urine output, mentation, capillary refill). Plan source control and antibiotic de-escalation from the start; narrow on culture data, use procalcitonin trends to support stopping, and favor shorter courses once the source is controlled. The 2026 SSC recommends <b>against</b> routine antipyretics, beta-blockers, and probiotics as sepsis treatments.</p>"
+    }
+   ],
+   "casesLabel": "Cases",
+   "casesIntro": "",
+   "cases": [
+    {
+     "title": "Case 1 — recognition",
+     "stem": "<p>68F with dysuria, T 38.6, HR 112, BP 96/58, confused, lactate 4.2, Cr up from 0.9 to 1.8.</p>",
+     "items": [
+      {
+       "q": "Sepsis or just a UTI?",
+       "a": "Sepsis — infection plus organ dysfunction (hypotension, lactate 4.2, AKI, altered mentation). Not 'just a UTI.'"
+      },
+      {
+       "q": "First-hour orders?",
+       "a": "Blood cultures &times;2, urine culture; broad-spectrum antibiotics promptly; balanced crystalloid ~30 mL/kg with reassessment; trend lactate; look for obstruction (renal US/CT) as a source-control issue."
+      }
+     ]
+    },
+    {
+     "title": "Case 2 — fluids vs pressor",
+     "stem": "<p>Same patient after 30 mL/kg LR: BP 84/50, MAP 61, passive-leg-raise gives no stroke-volume rise, JVP now full, lactate still 4.</p>",
+     "items": [
+      {
+       "q": "More fluid?",
+       "a": "No — she is not fluid-responsive and is showing congestion. Start norepinephrine to a MAP &ge;65 rather than more crystalloid."
+      },
+      {
+       "q": "If still hypotensive on rising norepinephrine?",
+       "a": "Add vasopressin (catecholamine-sparing); consider hydrocortisone for refractory shock; reassess source control."
+      }
+     ]
+    },
+    {
+     "title": "Case 3 — source control",
+     "stem": "<p>55M with cholangitis: febrile, hypotensive, bilirubin 8, on appropriate antibiotics for 24 h but still in shock; CT shows a dilated, obstructed biliary tree.</p>",
+     "items": [
+      {
+       "q": "Why isn't he improving?",
+       "a": "The source isn't controlled — an obstructed, infected biliary system needs decompression (ERCP/biliary drainage). Antibiotics alone cannot fix an undrained focus."
+      }
+     ]
+    }
+   ],
+   "mcqs": [
+    {
+     "stem": "A 70-year-old with pneumonia has BP 82/48 after 30 mL/kg of balanced crystalloid; a passive leg raise produces no change in stroke volume, and lactate remains 3.8. What is the best next step?",
+     "opts": [
+      "Give another 2 L of normal saline",
+      "Start norepinephrine titrated to MAP ≥ 65",
+      "Start dopamine",
+      "Transfuse packed red cells",
+      "Begin broad fluid boluses guided by central venous pressure"
+     ],
+     "ans": "B",
+     "exp": "<b>B.</b> The patient is fluid-unresponsive and hypotensive — norepinephrine is the first-line vasopressor to restore MAP. A: more fluid in a non-responder causes harm. C: dopamine is more arrhythmogenic and not preferred. D: no transfusion indication given. E: CVP poorly predicts fluid responsiveness — use dynamic measures."
+    },
+    {
+     "stem": "Which statement about qSOFA reflects current (2026) guidance?",
+     "opts": [
+      "qSOFA should be the primary screening tool to rule out sepsis",
+      "qSOFA has low sensitivity and should not be used to exclude sepsis",
+      "A qSOFA of 0 confirms the absence of organ dysfunction",
+      "qSOFA replaces lactate measurement",
+      "qSOFA defines septic shock"
+     ],
+     "ans": "B",
+     "exp": "<b>B.</b> qSOFA's sensitivity is too low for screening; the SSC no longer endorses it to rule sepsis out — use broader early-warning systems. A/C: a low score does not exclude sepsis. D: lactate remains a key perfusion marker. E: septic shock is defined by vasopressor need + lactate >2, not qSOFA."
+    },
+    {
+     "stem": "Which fluid is preferred for initial resuscitation in sepsis according to recent evidence?",
+     "opts": [
+      "0.9% normal saline",
+      "Balanced crystalloid (lactated Ringer's or Plasma-Lyte)",
+      "Hydroxyethyl starch",
+      "5% albumin as first-line",
+      "Hypertonic saline"
+     ],
+     "ans": "B",
+     "exp": "<b>B.</b> Balanced crystalloids are favored — less hyperchloremic metabolic acidosis, faster recovery, and a possible mortality signal. A: saline causes hyperchloremic acidosis. C: starches increase AKI/mortality and are contraindicated. D: albumin is an adjunct, not first-line. E: no role for hypertonic saline here."
+    },
+    {
+     "stem": "A patient with septic shock from cholangitis remains hypotensive after 24 hours of appropriate antibiotics and vasopressors. CT shows persistent biliary obstruction. What is most important now?",
+     "opts": [
+      "Broaden antibiotics further",
+      "Source control with biliary decompression (ERCP/drainage)",
+      "Add a third vasopressor and continue current management",
+      "Start an antipyretic",
+      "Give a probiotic"
+     ],
+     "ans": "B",
+     "exp": "<b>B.</b> An undrained, obstructed focus defeats antibiotics — source control (biliary decompression) is the priority. A: broadening won't fix the mechanical source. C: escalating pressors without source control treats the symptom. D/E: 2026 SSC recommends against routine antipyretics and probiotics as sepsis therapy."
+    },
+    {
+     "stem": "Regarding blood cultures and antibiotics in suspected septic shock, which is correct?",
+     "opts": [
+      "Always wait for cultures to result before any antibiotic",
+      "Obtain blood cultures before antibiotics, but never delay antibiotics to get them",
+      "Antibiotics are unnecessary if cultures are pending",
+      "Cultures should be drawn only after 24 hours",
+      "Antibiotics should be withheld until imaging is complete"
+     ],
+     "ans": "B",
+     "exp": "<b>B.</b> Draw two sets of blood cultures before antibiotics for diagnostic yield, but do not let culture collection delay timely broad-spectrum therapy in shock. A/D/E: dangerous delays. C: empiric antibiotics are essential while cultures are pending."
+    }
+   ],
+   "anki": [
+    [
+     "Sepsis-3 definition of sepsis?",
+     "Life-threatening organ dysfunction from a dysregulated host response to infection."
+    ],
+    [
+     "Definition of septic shock?",
+     "Sepsis needing vasopressors to keep MAP &ge;65 AND lactate >2 mmol/L despite adequate fluids."
+    ],
+    [
+     "Status of qSOFA in 2026 guidance?",
+     "Not a screening tool — low sensitivity; don't use it to rule out sepsis."
+    ],
+    [
+     "First-hour priorities in sepsis?",
+     "Blood cultures ×2, early broad-spectrum antibiotics, balanced-crystalloid resuscitation, lactate — then reassess."
+    ],
+    [
+     "Antibiotic timing per 2026 SSC?",
+     "Within 1 h for shock/high probability; up to ~3 h diagnostic window if sepsis possible-but-not-probable and no shock."
+    ],
+    [
+     "Preferred resuscitation fluid?",
+     "Balanced crystalloid (LR, Plasma-Lyte) over normal saline — less hyperchloremic acidosis."
+    ],
+    [
+     "Initial fluid dose for hypoperfusion?",
+     "~30 mL/kg, then reassess fluid responsiveness — fluid is a dosed drug, not a reflex."
+    ],
+    [
+     "First-line vasopressor in septic shock?",
+     "Norepinephrine, titrated to MAP &ge;65; can run peripherally short-term."
+    ],
+    [
+     "Add-on vasopressors / adjuncts?",
+     "Vasopressin (catecholamine-sparing), epinephrine (2nd add-on), hydrocortisone for refractory shock."
+    ],
+    [
+     "How to assess fluid responsiveness?",
+     "Dynamic measures — passive leg raise, pulse-pressure/stroke-volume variation — not CVP."
+    ],
+    [
+     "Why can a patient stay in shock despite good antibiotics?",
+     "Uncontrolled source — undrained abscess, infected line, obstruction; source control is essential."
+    ],
+    [
+     "Markers to trend during resuscitation?",
+     "Lactate clearance, MAP, urine output, mentation, capillary refill."
+    ],
+    [
+     "Antibiotic stewardship in sepsis?",
+     "De-escalate on cultures, use procalcitonin trends to support stopping, shorten courses once source controlled."
+    ],
+    [
+     "Three therapies the 2026 SSC recommends AGAINST routinely?",
+     "Antipyretics for outcomes, beta-blockers, and probiotics."
+    ],
+    [
+     "Why avoid starch colloids in sepsis?",
+     "Increased AKI and mortality — contraindicated."
+    ]
+   ],
+   "dot": "#Sepsis: suspected source *__ ; organ dysfunction [hypotension/↑lactate/AKI/AMS/↑bili/↓plt/new O2 need]\nseptic shock? [vasopressors to MAP≥65 + lactate >2 despite fluids = yes/no]\nhour-1: blood cx ×2 [before abx, don't delay], lactate *__ ; empiric abx *__ [≤1 h if shock]\nfluids: balanced crystalloid *__ mL/kg → reassess responsiveness [PLR / PPV], NOT CVP\nperfusion target: MAP ≥65; recheck lactate *__ ; UOP *__ mL/h\npressors: norepinephrine first-line *__ ; +vasopressin *__ ; +hydrocortisone if refractory\nsource control: [imaging __ ; drain/remove line/relieve obstruction — plan *]\nstewardship: de-escalate on cx; procalcitonin trend; planned duration *__ d\navoid: qSOFA to rule out; fixed boluses if fluid-unresponsive; routine antipyretic/BB/probiotic",
+   "takehome": [
+    "Sepsis is infection plus organ dysfunction; septic shock adds vasopressor-dependence with lactate >2 — and qSOFA is no longer a rule-out screen.",
+    "First hour: cultures before antibiotics (without delaying them), early broad-spectrum antibiotics, and balanced-crystalloid resuscitation with reassessment.",
+    "Favor balanced crystalloids over normal saline and dose fluid to dynamic responsiveness, not CVP.",
+    "Start norepinephrine first-line for fluid-refractory hypotension; add vasopressin and steroids for refractory shock.",
+    "Source control and early de-escalation are as important as the first dose — and skip routine antipyretics, beta-blockers, and probiotics."
+   ],
+   "extras": [],
+   "refs": "<ul>\n<li>Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock 2026. <i>Intensive Care Med</i> 2026.</li>\n<li>Singer M, et al. The Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3). <i>JAMA</i> 2016;315:801&ndash;810.</li>\n<li>Semler MW, et al. Balanced crystalloids versus saline in critically ill adults (SMART). <i>N Engl J Med</i> 2018;378:829&ndash;839.</li>\n<li>Zampieri FG, et al. Balanced solutions in the ICU (BaSICS). <i>JAMA</i> 2021.</li>\n<li>Evans L, et al. Surviving Sepsis Campaign 2021 Guidelines. <i>Crit Care Med</i> 2021.</li>\n</ul>",
+   "changelog": "<p class=\"small\">New lesson authored June 2026 in the house style of this library. Clinical content cross-checked against the Surviving Sepsis Campaign 2026 guideline, the Sepsis-3 definitions, and balanced-fluid trial evidence (SMART, BaSICS). Educational use only.</p>",
+   "files": {
+    "presenter": "Sepsis_Optimized.pptx",
+    "learner_board": null,
+    "handout": null,
+    "onepager_pdf": "Sepsis_OnePager.pdf",
+    "anki": "Sepsis_Anki_Cards.txt",
+    "package": "Sepsis_Lesson_Package.html",
+    "other": [
+     "Sepsis-worksheet.docx",
+     "Sepsis_OnePager.html"
+    ],
+    "slides": {
+     "Sepsis_Optimized": "Sepsis_Optimized_slides.pdf"
+    },
+    "presenter_mb": 0.0
    }
   },
   {

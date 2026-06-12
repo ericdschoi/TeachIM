@@ -100,6 +100,22 @@ Expected HCO3 change in respiratory acidosis (per 10 mmHg PCO2 rise)?	Acute: HCO
 Expected HCO3 change in respiratory alkalosis (per 10 mmHg PCO2 fall)?	Acute: HCO3 ↓ ~2; chronic: HCO3 ↓ ~5.	Electrolytes::acid-base-disorders
 What does a "base excess" on the ABG represent?	The number of H+ ions required to restore normal pH if PCO2 were normal: positive (> +2) → metabolic alkalosis; negative (< −2) → metabolic acidosis.	Electrolytes::acid-base-disorders
 What does measured PCO2 ≠ expected PCO2 (by Winter's) mean?	A second primary respiratory process: measured > expected → concurrent respiratory acidosis; measured < expected → concurrent respiratory alkalosis.	Electrolytes::acid-base-disorders
+The two axes for profiling acute HF?	Congestion (wet vs dry) and perfusion (warm vs cold) — the Stevenson 2&times;2; drives first orders more than EF.	Cardiology::acute-decompensated-heart-failure
+Most common ward HF profile?	Warm-and-wet — perfused but congested; treat with IV loop diuretics.	Cardiology::acute-decompensated-heart-failure
+Signs of the 'cold' profile?	Narrow pulse pressure, cool/mottled extremities, rising lactate &amp; creatinine, somnolence — hypoperfusion, not just low BP.	Cardiology::acute-decompensated-heart-failure
+DOSE trial diuretic teaching?	IV beats PO; bolus = infusion; high-intensity (~2.5&times; home oral dose IV) relieved symptoms faster with a transient, reversible Cr rise.	Cardiology::acute-decompensated-heart-failure
+Why IV not PO loop diuretics in ADHF?	Gut/splanchnic edema reduces oral bioavailability; IV gives reliable brisk natriuresis.	Cardiology::acute-decompensated-heart-failure
+How to confirm adequate diuretic dose at 2 h?	Spot urine Na &gt; 50&ndash;70 mmol/L or UOP &gt; 100&ndash;150 mL/h; if inadequate, double the dose.	Cardiology::acute-decompensated-heart-failure
+Next step for inadequate response to high-dose loop?	Sequential nephron blockade — add thiazide (metolazone/IV chlorothiazide); consider acetazolamide (ADVOR) and early SGLT2i.	Cardiology::acute-decompensated-heart-failure
+Creatinine rises during effective diuresis in a still-wet patient making urine — stop?	No — usually hemoconcentration/WRF; residual congestion is worse. Continue toward euvolemia, watch electrolytes.	Cardiology::acute-decompensated-heart-failure
+The four pillars of HFrEF GDMT?	ARNI (or ACEi/ARB), evidence-based beta-blocker, MRA, SGLT2 inhibitor.	Cardiology::acute-decompensated-heart-failure
+STRONG-HF lesson?	Rapid in-hospital initiation/up-titration of GDMT with close follow-up improves outcomes.	Cardiology::acute-decompensated-heart-failure
+EMPULSE lesson?	In-hospital SGLT2i (empagliflozin) is safe and adds clinical benefit regardless of EF/diabetes.	Cardiology::acute-decompensated-heart-failure
+Which pillar do you NOT start in a wet or cold patient?	Beta-blocker — negatively inotropic; start only when euvolemic and off inotropes; continue a chronic BB if warm.	Cardiology::acute-decompensated-heart-failure
+FAILURE precipitant mnemonic?	Forgot meds/Fluid, Arrhythmia, Ischemia/Infection, Lifestyle, Upregulation (thyroid/anemia/pregnancy), Renal/Rx (NSAIDs), Embolus (PE).	Cardiology::acute-decompensated-heart-failure
+Drugs to avoid in HFrEF?	NSAIDs, thiazolidinediones, most non-dihydropyridine CCBs (negative inotropes).	Cardiology::acute-decompensated-heart-failure
+Key discharge-bundle elements?	Euvolemic 24 h on PO diuretic, documented EF/dry weight/diuretic dose/GDMT, daily-weight teaching, 7-day follow-up.	Cardiology::acute-decompensated-heart-failure
+Does low-dose dopamine help diuresis in ADHF?	No — ROSE-AHF showed no benefit on renal function or decongestion.	Cardiology::acute-decompensated-heart-failure
 What does TiTrATE stand for?	Timing, Triggers, And a Targeted Examination — the evidence-based approach to acute dizziness.	Neurology::acute-dizziness
 Why avoid sorting dizziness by symptom quality (vertigo vs lightheaded)?	Patient descriptions are vague, inconsistent, and don't map to cause; timing + triggers are reproducible and point to the right test.	Neurology::acute-dizziness
 Four categories in the modified TiTrATE framework?	(1) Episodic positionally triggered, (2) spontaneous episodic, (3) continuous from trauma/toxin, (4) continuous spontaneous (acute vestibular syndrome).	Neurology::acute-dizziness
@@ -224,6 +240,21 @@ Advance care planning — who and when?	Consider for adults of ALL ages (more em
 2026 ACC/AHA dyslipidemia guideline — main change to CV risk estimation?	Use the PREVENT calculator (ages 30–79) instead of the Pooled Cohort Equations (which overestimated risk ~40–50%). Risk tiers: low <3%, borderline 3–<5%, intermediate 5–<10%, high ≥10%. Theme: "earlier and lower, for longer."	Primary_Care::adult-disease-prevention-part-2
 2026 ACC/AHA LDL-C targets and earlier-statin triggers?	Targets: very-high-risk <55, high-risk <70, intermediate on statin <100 mg/dL. Start statins earlier in familial hypercholesterolemia, those ≤30 with LDL ≥160, strong family ASCVD history, or high 30-year PREVENT risk.	Primary_Care::adult-disease-prevention-part-2
 Pneumococcal vaccination update (2024 ACIP)?	PCV21 is now an option for all adults ≥50 (and 19–49 with chronic disease), with the age lowered from 65; PCV20 remains valid. If PCV15 is used, follow with PPSV23.	Primary_Care::adult-disease-prevention-part-2
+Tool to predict complicated withdrawal on admission?	PAWSS (Prediction of Alcohol Withdrawal Severity Scale); &ge;4 flags risk.	Psychiatry::alcohol-withdrawal
+Withdrawal timeline?	Minor sx 6–24 h; seizures 12–48 h; hallucinosis 12–48 h; delirium tremens 48–96 h.	Psychiatry::alcohol-withdrawal
+Hallucinosis vs DTs?	Hallucinosis = hallucinations with CLEAR sensorium + near-normal vitals; DTs = altered sensorium + autonomic instability.	Psychiatry::alcohol-withdrawal
+First-line pharmacotherapy?	Benzodiazepines — reduce seizures and DTs (ASAM).	Psychiatry::alcohol-withdrawal
+Benefit of symptom-triggered (CIWA-Ar) dosing?	Less total benzodiazepine and shorter treatment vs fixed schedules in assessable patients.	Psychiatry::alcohol-withdrawal
+When is CIWA-Ar invalid?	In patients who can't communicate or whose confusion has another cause — don't titrate off it.	Psychiatry::alcohol-withdrawal
+Benzo choice in significant liver disease?	Lorazepam (no active metabolites); long-acting agents (diazepam/chlordiazepoxide) self-taper otherwise.	Psychiatry::alcohol-withdrawal
+Treatment for severe / benzo-resistant withdrawal?	Phenobarbital — long half-life, self-tapering, acts on GABA and glutamate.	Psychiatry::alcohol-withdrawal
+Do clonidine/dexmedetomidine/antipsychotics prevent seizures?	No — they treat autonomic/agitation symptoms only; keep a GABAergic agent on board.	Psychiatry::alcohol-withdrawal
+Thiamine vs glucose order?	Thiamine before/with glucose — dextrose first can precipitate Wernicke encephalopathy.	Psychiatry::alcohol-withdrawal
+Key electrolytes to replete?	Magnesium, potassium, phosphate; magnesium supports the seizure threshold.	Psychiatry::alcohol-withdrawal
+Front-loading strategy — when?	High-risk/severe presentations — large early doses of a long-acting benzodiazepine.	Psychiatry::alcohol-withdrawal
+ICU transfer triggers?	Delirium tremens, airway risk, escalating sedation requirements.	Psychiatry::alcohol-withdrawal
+Discharge step for the underlying disorder?	Offer naltrexone/acamprosate and link to addiction treatment.	Psychiatry::alcohol-withdrawal
+Mortality of untreated DTs?	Meaningful — DTs are a medical emergency; undertreatment is dangerous.	Psychiatry::alcohol-withdrawal
 The spectrum of ALD, in order?	Hepatic steatosis → steatohepatitis (ASH) → fibrosis → cirrhosis.	Hepatology::alcohol-related-liver-disease
 Which ALD stages are reversible with abstinence?	Steatosis and inflammation regress; established fibrosis/cirrhosis is largely irreversible.	Hepatology::alcohol-related-liver-disease
 Prevalence of hepatic steatosis in heavy drinkers?	~90%.	Hepatology::alcohol-related-liver-disease
@@ -294,6 +325,21 @@ Durable prevention of recurrent CDI (2022–23)?	Rebyota (rectal, live-jslm) or 
 Bezlotoxumab status?	Discontinued by Merck effective Jan 31, 2025 — no longer available.	Infectious_Disease::c-diff-infection
 Do you test for cure in CDI?	No — shedding persists (~56%); post-infectious IBS up to 25%.	Infectious_Disease::c-diff-infection
 Probiotics or stopping PPIs for CDI prevention?	Not recommended.	Infectious_Disease::c-diff-infection
+Oxygen target in a COPD exacerbation?	SpO2 88&ndash;92% — hyperoxia worsens hypercapnia (V/Q mismatch, Haldane, ↓drive).	Pulmonary::copd-exacerbation-inpatient
+Steroid regimen per REDUCE trial?	Prednisone 40 mg PO daily &times; 5 days, no taper; oral = IV for most.	Pulmonary::copd-exacerbation-inpatient
+Anthonisen criteria for antibiotics?	&ge;2 of: ↑dyspnea, ↑sputum volume, ↑sputum purulence (or if mechanically ventilated); purulence is the strongest.	Pulmonary::copd-exacerbation-inpatient
+Highest-mortality-benefit intervention in severe exacerbation?	NIV (BiPAP) for acute hypercapnic respiratory failure — reduces intubation and death.	Pulmonary::copd-exacerbation-inpatient
+When to start NIV?	pH &le; 7.35 with hypercapnia, severe dyspnea/accessory muscle use, or persistent hypoxemia despite O2.	Pulmonary::copd-exacerbation-inpatient
+When to intubate instead of NIV?	NIV failure / falling pH, can't protect airway, decreased consciousness, instability, apnea.	Pulmonary::copd-exacerbation-inpatient
+Most common triggers of exacerbation?	Viral and bacterial respiratory infections; also pollution and nonadherence.	Pulmonary::copd-exacerbation-inpatient
+Key mimics to exclude?	Pneumonia, heart failure, pulmonary embolism, pneumothorax, arrhythmia.	Pulmonary::copd-exacerbation-inpatient
+Typical antibiotic targets in exacerbation?	H. influenzae, S. pneumoniae, M. catarrhalis; add Pseudomonas coverage with risk factors.	Pulmonary::copd-exacerbation-inpatient
+GOLD 2026 ICS-at-discharge rule?	Consider adding ICS to dual bronchodilator if blood eosinophils elevated and &ge;1 moderate/severe exacerbation.	Pulmonary::copd-exacerbation-inpatient
+Maintenance step-up after an exacerbation?	LAMA + LABA; add ICS per eosinophils; optimize inhaler technique.	Pulmonary::copd-exacerbation-inpatient
+Discharge intervention with a mortality benefit?	Pulmonary rehabilitation referral (ideally within 4 weeks); plus smoking cessation and vaccines.	Pulmonary::copd-exacerbation-inpatient
+Are methylxanthines (theophylline) recommended acutely?	No — limited benefit, significant toxicity.	Pulmonary::copd-exacerbation-inpatient
+When should home oxygen need be assessed?	After recovery and stabilization, not at the time of acute discharge.	Pulmonary::copd-exacerbation-inpatient
+GOLD 2026 view on high-flow nasal cannula?	A supportive option, but NIV remains first-line for acute hypercapnic acidosis.	Pulmonary::copd-exacerbation-inpatient
 What is mandatory to diagnose COPD?	Post-bronchodilator spirometry showing FEV1/FVC <0.70 in a patient with symptoms/risk factors. You cannot diagnose COPD without PFTs.	Pulmonary::copd-outpatient-management
 Classic spirometry/PFT findings in COPD?	Scooped (concave) expiratory flow-volume loop, FEV1/FVC <0.7; supportive: ↑TLC and ↑RV (air trapping), ↓DLCO (emphysema). Post-bronchodilator FEV1 grades severity.	Pulmonary::copd-outpatient-management
 What are pre-COPD and PRISm?	Pre-COPD = respiratory symptoms or structural lesions (e.g., emphysema) WITHOUT airflow obstruction (FEV1/FVC ≥0.7). PRISm = Preserved Ratio Impaired Spirometry. Both carry risk of progressing to COPD.	Pulmonary::copd-outpatient-management
@@ -449,6 +495,21 @@ Combined hormonal method after major surgery with immobilization?	US MEC categor
 Does testosterone prevent pregnancy (CDC 2024)?	No — a substantial fraction of users ovulate; offer contraception to testosterone users with a uterus who don't want pregnancy.	Women's_Health::contraception
 First OTC daily oral contraceptive?	Opill (norgestrel 0.075 mg, progestin-only) — FDA-approved July 2023, on shelves 2024.	Women's_Health::contraception
 US SPR 2024 tip to reduce IUD-placement pain?	Lidocaine — paracervical block or topical.	Women's_Health::contraception
+DKA vs HHS — glucose and ketones?	DKA: ketoacidosis, glucose ≥200 (can be lower). HHS: glucose >600, minimal ketosis, effective osm >320, pH >7.3.	Endocrine::dka-hhs
+2024 ADA consensus DKA bicarbonate cutoff?	Lowered to 15 mmol/L (to allow for insulinopenic acidosis).	Endocrine::dka-hhs
+What is euglycemic DKA?	Gap acidosis + ketones with near-normal glucose — SGLT2 inhibitors, pregnancy, starvation.	Endocrine::dka-hhs
+Preferred initial resuscitation fluid (2024)?	Balanced crystalloid (LR/Plasma-Lyte) over saline.	Endocrine::dka-hhs
+The potassium gate?	K <3.3: hold insulin, replace K first. K 3.3–5.2: insulin + add K. K >5.2: insulin, recheck, hold K.	Endocrine::dka-hhs
+Why is total-body K depleted despite normal serum K?	Acidosis shifts K out of cells; insulin then drives it back in — anticipate the fall.	Endocrine::dka-hhs
+When add dextrose in DKA?	When glucose ~200–250, to keep insulin running and clear ketones.	Endocrine::dka-hhs
+What do you treat to in DKA — glucose or the gap?	The anion gap / ketones, not glucose alone.	Endocrine::dka-hhs
+DKA resolution criteria?	Glucose <200 AND two of: bicarb ≥15–18, venous pH >7.3, anion gap normalized.	Endocrine::dka-hhs
+When is bicarbonate indicated?	Only if pH <7.0 — not routine.	Endocrine::dka-hhs
+When is phosphate replaced?	Only if <1.0 mmol/L with muscle weakness or cardiac/respiratory compromise.	Endocrine::dka-hhs
+Insulin route by severity?	IV infusion for moderate/severe DKA and HHS; SC rapid-acting protocols for mild uncomplicated DKA.	Endocrine::dka-hhs
+How to transition off the insulin drip safely?	Give SC long-acting insulin 1–2 h BEFORE stopping the drip to prevent rebound ketoacidosis.	Endocrine::dka-hhs
+Common DKA/HHS precipitants (the I's)?	Infection, Infarction (MI), Insulin omission, Ischemia, Iatrogenic (steroids/SGLT2i); also new-onset DM, pregnancy.	Endocrine::dka-hhs
+Why not stop the drip when only glucose is normal?	The gap may still be open — stopping insulin restarts ketoacidosis.	Endocrine::dka-hhs
 The "cirrhosis one-liner" — 4 elements?	Cause; compensated vs decompensated; baseline MELD; history of complications.	Hepatology::management-of-decompensated-cirrhosis
 Define decompensation in cirrhosis?	A rise in MELD or a new complication (ascites, variceal bleed, HE, SBP, HRS).	Hepatology::management-of-decompensated-cirrhosis
 Median survival: compensated vs decompensated cirrhosis?	Compensated >12 y; decompensated much shorter (~2 y by current data).	Hepatology::management-of-decompensated-cirrhosis
@@ -466,6 +527,21 @@ Hepatic encephalopathy treatment?	Lactulose + rifaximin; PEG is an alternative f
 Acute variceal bleed bundle?	Restrictive transfusion (Hgb ~7), octreotide, PPI, ceftriaxone prophylaxis, urgent EGD.	Hepatology::management-of-decompensated-cirrhosis
 Baveno VII prevention pearl?	Carvedilol in compensated cirrhosis with CSPH reduces first decompensation and mortality.	Hepatology::management-of-decompensated-cirrhosis
 NASH/NAFLD current names?	MASH / MASLD (2023 nomenclature).	Hepatology::management-of-decompensated-cirrhosis
+Definition of delirium?	Acute, fluctuating disturbance of attention and awareness with a medical cause.	Neurology::delirium-altered-mental-status
+CAM diagnostic rule?	Features 1 (acute/fluctuating) AND 2 (inattention), plus 3 (disorganized thinking) OR 4 (altered consciousness).	Neurology::delirium-altered-mental-status
+Most common and most missed subtype?	Hypoactive delirium (quiet, withdrawn) — worse outcomes than hyperactive.	Neurology::delirium-altered-mental-status
+Delirium vs dementia?	Delirium is acute, fluctuating, with inattention; dementia is chronic with relatively preserved attention (early).	Neurology::delirium-altered-mental-status
+Two highest-yield reversible causes on the wards?	Medications (anticholinergics, benzodiazepines, opioids) and infection.	Neurology::delirium-altered-mental-status
+DELIRIUM(S) mnemonic?	Drugs, Electrolytes/Endocrine, Lack of drugs/pain, Infection, Reduced sensory input, Intracranial, Urinary/fecal retention, Metabolic, Sleep/Subdural.	Neurology::delirium-altered-mental-status
+When is neuroimaging/LP/EEG indicated in delirium?	Only with focal neurologic signs, trauma, or no cause found — not routinely.	Neurology::delirium-altered-mental-status
+Evidence-based core treatment?	Multicomponent non-pharmacologic care (HELP): reorient, mobilize, sleep, sensory aids, de-prescribe.	Neurology::delirium-altered-mental-status
+Do antipsychotics prevent or shorten delirium (2025 APA)?	No — reserve low-dose for severe agitation threatening safety after non-drug measures fail.	Neurology::delirium-altered-mental-status
+When are benzodiazepines appropriate in delirium?	Only for alcohol/sedative withdrawal — otherwise they cause delirium.	Neurology::delirium-altered-mental-status
+Antipsychotic to avoid in which conditions?	Parkinson's disease and Lewy body dementia.	Neurology::delirium-altered-mental-status
+How to test attention at the bedside?	Months of the year backward or days of the week backward.	Neurology::delirium-altered-mental-status
+Two 'tethers' that worsen delirium?	Physical restraints and indwelling urinary catheters (plus lines).	Neurology::delirium-altered-mental-status
+Highest-impact strategy overall?	Prevention in at-risk patients using the same multicomponent levers.	Neurology::delirium-altered-mental-status
+Risk factors for delirium?	Older age, baseline cognitive impairment, sensory deficits, severe illness, polypharmacy.	Neurology::delirium-altered-mental-status
 Why screen for depression in primary care?	~50% of clinical depression is missed without screening; untreated depression worsens quality of life, mortality, and economic burden. USPSTF 2023: screen all adults (Grade B).	Psychiatry::depression-and-anxiety
 PHQ-2 / PHQ-4 vs PHQ-9 / GAD-7 — when to use which?	PHQ-2 and PHQ-4 are brief SCREENS for general populations. PHQ-9 (depression) and GAD-7 (anxiety) DIAGNOSE and MONITOR response — use them when pretest probability is high.	Psychiatry::depression-and-anxiety
 PHQ-9 score interpretation?	5–9 mild, 10–14 moderate, 15–19 moderately severe, ≥20 severe; ≥10 = likely major depression. It measures severity/trends response but does not by itself diagnose.	Psychiatry::depression-and-anxiety
@@ -484,6 +560,21 @@ How should antidepressants be stopped, and what does ANTLER (NEJM 2021) show?	Ta
 How should you ask about suicide, and does asking increase risk?	Use clear, direct language ("Are you having thoughts of killing yourself right now?"). Asking does NOT increase suicide risk or rates. Assess at each visit; know your site's safety plan and resources.	Psychiatry::depression-and-anxiety
 USPSTF 2023 screening recommendations for depression and anxiety in adults?	Screen ALL adults for depression (Grade B) and adults <65 for anxiety disorders (Grade B), including pregnant/postpartum. Insufficient evidence for anxiety screening at ≥65 (I).	Psychiatry::depression-and-anxiety
 Newer oral antidepressant agents (2022–2023) and their niche?	Dextromethorphan–bupropion (Auvelity, FDA 2022) — rapid-acting oral NMDA antagonist for MDD. Zuranolone (Zurzuvae, FDA 2023) — first oral agent for postpartum depression (14-day course), not general MDD.	Psychiatry::depression-and-anxiety
+Restrictive transfusion threshold in GI bleeding?	Hb 7 g/dL (target 7&ndash;9); improves survival vs liberal (Villanueva).	Gastroenterology::acute-gi-bleeding
+Transfusion-threshold exception?	~8 g/dL with acute coronary syndrome or significant cardiovascular disease.	Gastroenterology::acute-gi-bleeding
+Why is over-transfusion dangerous in variceal bleeding?	It raises portal pressure and worsens/rebleeds varices — keep restrictive, avoid excess plasma/platelets.	Gastroenterology::acute-gi-bleeding
+Glasgow-Blatchford 0–1 means?	Very low risk — consider discharge with outpatient endoscopy.	Gastroenterology::acute-gi-bleeding
+BUN:Cr > 30 without renal disease suggests?	Upper GI source (absorbed nitrogen from digested blood).	Gastroenterology::acute-gi-bleeding
+Unstable hematochezia — assume what?	Brisk upper GI bleed until proven otherwise (upper endoscopy).	Gastroenterology::acute-gi-bleeding
+Pre-endoscopy meds for suspected ulcer bleed?	IV PPI; IV erythromycin 250 mg ~20–90 min before to clear the stomach.	Gastroenterology::acute-gi-bleeding
+Endoscopy timing for most UGIB?	Within 24 h after resuscitation; <12 h doesn't help and may harm.	Gastroenterology::acute-gi-bleeding
+Variceal-bleed bundle?	Octreotide + prophylactic antibiotics (ceftriaxone) + endoscopic band ligation; TIPS/tamponade as rescue.	Gastroenterology::acute-gi-bleeding
+Which variceal drug reduces mortality?	Prophylactic antibiotics (ceftriaxone) reduce mortality.	Gastroenterology::acute-gi-bleeding
+Does the initial Hb reflect blood loss?	No — it lags; equilibration takes hours. Resuscitate to hemodynamics.	Gastroenterology::acute-gi-bleeding
+Common causes of lower GI bleed?	Diverticulosis, angioectasia, post-polypectomy, ischemic/IBD colitis, hemorrhoids.	Gastroenterology::acute-gi-bleeding
+Work-up for ongoing brisk LGIB?	CT angiography ± embolization; colonoscopy after prep when stable; rule out upper source if unstable.	Gastroenterology::acute-gi-bleeding
+Should you delay endoscopy to normalize INR/platelets?	No — don't withhold endoscopy chasing a perfect coagulation profile; correct judiciously.	Gastroenterology::acute-gi-bleeding
+First steps in any GI bleed?	Two large-bore IVs, type & cross, fluids, resuscitate to vitals, then localize and risk-stratify.	Gastroenterology::acute-gi-bleeding
 Four independent axes to distinguish in gender care?	Gender identity, gender expression, sex assigned at birth (AMAB/AFAB), and sexual orientation.	Primary_Care::gender-affirming-care
 The four patient-centered intake questions in gender care?	What name do you go by? / What pronouns do you use? / How would you describe your current gender identity? / What sex was assigned to you at birth?	Primary_Care::gender-affirming-care
 What to do after misnaming or misgendering a patient?	Recognize, apologize, commit to change, move on (briefly; don't over-apologize).	Primary_Care::gender-affirming-care
@@ -910,6 +1001,21 @@ Definition of empyema	Frank pus or positive pleural Gram stain/culture; antibiot
 Does intrapleural tPA/DNase reduce mortality?	No — it improves drainage and reduces surgical referral (MIST-2, Rahman NEJM 2011) but no mortality benefit.	Pulmonary::pleural-effusions
 BTS 2023 first-line chest tube for pleural infection	Small-bore (≤14F) — equal efficacy, less pain; larger bore for heavy loculation/pus.	Pulmonary::pleural-effusions
 How does serial thoracentesis affect malignant effusion yield?	Cytology sensitivity rises ~65% (1st) → ~92% (2nd) → ~97% (3rd); large-volume taps increase yield.	Pulmonary::pleural-effusions
+Is S. aureus in a blood culture ever a contaminant?	No — always significant; treat as true bacteremia.	Infectious_Disease::s-aureus-bacteremia
+The five core interventions for SAB?	ID consult, echocardiography, repeat blood cultures (clearance), source control, appropriate drug & duration.	Infectious_Disease::s-aureus-bacteremia
+Empiric therapy for suspected SAB?	Vancomycin (covers MRSA) while awaiting susceptibilities.	Infectious_Disease::s-aureus-bacteremia
+Preferred therapy for MSSA bacteremia?	Cefazolin or an antistaphylococcal penicillin (nafcillin/oxacillin) — both beat vancomycin.	Infectious_Disease::s-aureus-bacteremia
+Why not keep MSSA on vancomycin?	Vancomycin is inferior for MSSA — higher failure and mortality; de-escalate.	Infectious_Disease::s-aureus-bacteremia
+Therapy for MRSA bacteremia?	Vancomycin (AUC-guided) or daptomycin.	Infectious_Disease::s-aureus-bacteremia
+Criteria for UNCOMPLICATED SAB (all required)?	Negative follow-up cultures, defervescence within 72 h, no endocarditis/prosthetic material, no metastatic foci.	Infectious_Disease::s-aureus-bacteremia
+Duration for uncomplicated SAB?	≥14 days IV from the first negative blood culture.	Infectious_Disease::s-aureus-bacteremia
+Duration for complicated SAB?	4–6 weeks or longer (endocarditis, osteomyelitis, hardware).	Infectious_Disease::s-aureus-bacteremia
+When does the treatment clock start?	From the first negative (clearance) blood culture, not the first positive.	Infectious_Disease::s-aureus-bacteremia
+Common metastatic foci of S. aureus?	Endocarditis, vertebral osteomyelitis/discitis, epidural abscess, septic arthritis, psoas/splenic abscess, septic emboli.	Infectious_Disease::s-aureus-bacteremia
+TTE vs TEE in SAB?	TEE is more sensitive for endocarditis; pursue with prosthetic valve/device, persistent bacteremia, community-onset, or unclear source.	Infectious_Disease::s-aureus-bacteremia
+Why repeat blood cultures in SAB?	To document clearance — persistent positives indicate complicated infection and reset duration.	Infectious_Disease::s-aureus-bacteremia
+Does ID consultation affect outcomes in SAB?	Yes — independently improves survival; recommended for every case.	Infectious_Disease::s-aureus-bacteremia
+New back pain + persistent bacteremia in SAB suggests?	Vertebral osteomyelitis/discitis ± epidural abscess — image with MRI; complicated SAB.	Infectious_Disease::s-aureus-bacteremia
 Two mechanisms of any tachycardia, and which is faster?	Increased automaticity (nodal/ectopic pacemaker) or a re-entry circuit. Re-entry circuits are generally faster.	Cardiology::supraventricular-tachycardia-svt
 Two ECG features that sort the seven SVTs?	Rhythm regularity (regular vs. irregular) and P-wave presence/morphology.	Cardiology::supraventricular-tachycardia-svt
 Three management strategies for stable SVT?	(1) Address the underlying process; (2) interrupt the re-entry circuit (vagal maneuvers/adenosine); (3) rate-control with AV-nodal blockers.	Cardiology::supraventricular-tachycardia-svt
@@ -927,6 +1033,21 @@ Which agents are contraindicated in pre-excited (WPW) atrial fibrillation?	AV-no
 Quick ECG clue that favors VT over SVT in a wide-complex tachycardia?	Extreme right-axis deviation (positive QRS in aVR).	Cardiology::supraventricular-tachycardia-svt
 First action once you identify an unstable tachycardia of any kind?	Synchronized cardioversion.	Cardiology::supraventricular-tachycardia-svt
 Why can slowing AV conduction be diagnostic in a fast narrow tachycardia?	It exposes the underlying atrial activity (saw-tooth flutter, retro-P, or organized atrial tach) that the rate was hiding.	Cardiology::supraventricular-tachycardia-svt
+Sepsis-3 definition of sepsis?	Life-threatening organ dysfunction from a dysregulated host response to infection.	Critical_Care::sepsis-septic-shock
+Definition of septic shock?	Sepsis needing vasopressors to keep MAP &ge;65 AND lactate >2 mmol/L despite adequate fluids.	Critical_Care::sepsis-septic-shock
+Status of qSOFA in 2026 guidance?	Not a screening tool — low sensitivity; don't use it to rule out sepsis.	Critical_Care::sepsis-septic-shock
+First-hour priorities in sepsis?	Blood cultures ×2, early broad-spectrum antibiotics, balanced-crystalloid resuscitation, lactate — then reassess.	Critical_Care::sepsis-septic-shock
+Antibiotic timing per 2026 SSC?	Within 1 h for shock/high probability; up to ~3 h diagnostic window if sepsis possible-but-not-probable and no shock.	Critical_Care::sepsis-septic-shock
+Preferred resuscitation fluid?	Balanced crystalloid (LR, Plasma-Lyte) over normal saline — less hyperchloremic acidosis.	Critical_Care::sepsis-septic-shock
+Initial fluid dose for hypoperfusion?	~30 mL/kg, then reassess fluid responsiveness — fluid is a dosed drug, not a reflex.	Critical_Care::sepsis-septic-shock
+First-line vasopressor in septic shock?	Norepinephrine, titrated to MAP &ge;65; can run peripherally short-term.	Critical_Care::sepsis-septic-shock
+Add-on vasopressors / adjuncts?	Vasopressin (catecholamine-sparing), epinephrine (2nd add-on), hydrocortisone for refractory shock.	Critical_Care::sepsis-septic-shock
+How to assess fluid responsiveness?	Dynamic measures — passive leg raise, pulse-pressure/stroke-volume variation — not CVP.	Critical_Care::sepsis-septic-shock
+Why can a patient stay in shock despite good antibiotics?	Uncontrolled source — undrained abscess, infected line, obstruction; source control is essential.	Critical_Care::sepsis-septic-shock
+Markers to trend during resuscitation?	Lactate clearance, MAP, urine output, mentation, capillary refill.	Critical_Care::sepsis-septic-shock
+Antibiotic stewardship in sepsis?	De-escalate on cultures, use procalcitonin trends to support stopping, shorten courses once source controlled.	Critical_Care::sepsis-septic-shock
+Three therapies the 2026 SSC recommends AGAINST routinely?	Antipyretics for outcomes, beta-blockers, and probiotics.	Critical_Care::sepsis-septic-shock
+Why avoid starch colloids in sepsis?	Increased AKI and mortality — contraindicated.	Critical_Care::sepsis-septic-shock
 Four broad categories of shock?	Hypovolemic, cardiogenic, obstructive, distributive.	Critical_Care::shock-and-pressors
 Hemodynamic profile of hypovolemic shock (CVP / CO / SVR)?	CVP down-down, CO down, SVR up. Treat with volume (blood for hemorrhage).	Critical_Care::shock-and-pressors
 Hemodynamic profile of cardiogenic shock (CVP / CO / SVR)?	CVP up, CO down-down, SVR up. Treat with an inotrope +/- diuresis; do NOT give IVF.	Critical_Care::shock-and-pressors

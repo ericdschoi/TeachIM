@@ -14,6 +14,21 @@ Replacement in primary AI?	Hydrocortisone 20-25 mg/24h split (AM-weighted) + flu
 Replacement in central AI?	Hydrocortisone 15-20 mg/24h split; no fludrocortisone needed (RAAS intact).	Endocrine::adrenal-insufficiency
 Adrenal crisis presentation and treatment?	Hypotension/shock ± fever, abdominal pain, nausea, fatigue. Treat empirically: hydrocortisone 100 mg IV then 200 mg/24h (or 50 mg q6h) + IV fluids — before confirmatory testing.	Endocrine::adrenal-insufficiency
 Which steroid preserves a pending cortisol stim test?	Dexamethasone — it does not cross-react in the cortisol assay (but never delay treatment for testing).	Endocrine::adrenal-insufficiency
+DKA vs HHS — glucose and ketones?	DKA: ketoacidosis, glucose ≥200 (can be lower). HHS: glucose >600, minimal ketosis, effective osm >320, pH >7.3.	Endocrine::dka-hhs
+2024 ADA consensus DKA bicarbonate cutoff?	Lowered to 15 mmol/L (to allow for insulinopenic acidosis).	Endocrine::dka-hhs
+What is euglycemic DKA?	Gap acidosis + ketones with near-normal glucose — SGLT2 inhibitors, pregnancy, starvation.	Endocrine::dka-hhs
+Preferred initial resuscitation fluid (2024)?	Balanced crystalloid (LR/Plasma-Lyte) over saline.	Endocrine::dka-hhs
+The potassium gate?	K <3.3: hold insulin, replace K first. K 3.3–5.2: insulin + add K. K >5.2: insulin, recheck, hold K.	Endocrine::dka-hhs
+Why is total-body K depleted despite normal serum K?	Acidosis shifts K out of cells; insulin then drives it back in — anticipate the fall.	Endocrine::dka-hhs
+When add dextrose in DKA?	When glucose ~200–250, to keep insulin running and clear ketones.	Endocrine::dka-hhs
+What do you treat to in DKA — glucose or the gap?	The anion gap / ketones, not glucose alone.	Endocrine::dka-hhs
+DKA resolution criteria?	Glucose <200 AND two of: bicarb ≥15–18, venous pH >7.3, anion gap normalized.	Endocrine::dka-hhs
+When is bicarbonate indicated?	Only if pH <7.0 — not routine.	Endocrine::dka-hhs
+When is phosphate replaced?	Only if <1.0 mmol/L with muscle weakness or cardiac/respiratory compromise.	Endocrine::dka-hhs
+Insulin route by severity?	IV infusion for moderate/severe DKA and HHS; SC rapid-acting protocols for mild uncomplicated DKA.	Endocrine::dka-hhs
+How to transition off the insulin drip safely?	Give SC long-acting insulin 1–2 h BEFORE stopping the drip to prevent rebound ketoacidosis.	Endocrine::dka-hhs
+Common DKA/HHS precipitants (the I's)?	Infection, Infarction (MI), Insulin omission, Ischemia, Iatrogenic (steroids/SGLT2i); also new-onset DM, pregnancy.	Endocrine::dka-hhs
+Why not stop the drip when only glucose is normal?	The gap may still be open — stopping insulin restarts ketoacidosis.	Endocrine::dka-hhs
 Definition of osteoporosis at the bone level?	Low bone mass + microarchitectural deterioration → skeletal fragility and increased fracture risk.	Endocrine::osteoporosis
 Three diagnostic criteria for osteoporosis?	T-score ≤ −2.5 on DXA; a fragility fracture (any T-score); or high FRAX (≥20% 10-yr major OR ≥3% hip).	Endocrine::osteoporosis
 DXA T-score classification?	Normal > −1.0; osteopenia −1.0 to −2.5; osteoporosis < −2.5.	Endocrine::osteoporosis

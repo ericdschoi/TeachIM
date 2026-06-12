@@ -1,6 +1,6 @@
 # Chalk Talks — teaching app
 
-`index.html` is now a **single-file app** containing all lessons (currently 64),
+`index.html` is now a **single-file app** containing all lessons (currently 72),
 re-rendered from one shared template. Everything works offline on an iPad.
 
 ## What's inside
@@ -18,7 +18,7 @@ re-rendered from one shared template. Everything works offline on an iPad.
   auto-start it on each slide), and a pacing line under the slide counter
   ("8 min in · plan 10 min" — turns red if you're >2 min behind plan).
   Students should never see this screen.
-- **Question bank** (top bar) — every MCQ (currently 320) in one self-graded
+- **Question bank** (top bar) — every MCQ (currently 360) in one self-graded
   practice view, filterable by specialty, with shuffle and a running score.
   Wrong answers are remembered on-device; the **Missed (n)** chip re-drills
   only those until you answer them correctly.
@@ -34,7 +34,7 @@ re-rendered from one shared template. Everything works offline on an iPad.
   `<deck>_slides.pdf`; needs internet once for the pdf.js renderer) — or
   **Download pptx**. Animations don't play in either web mode — for full
   animations open the pptx in the PowerPoint/Keynote app.
-- **Anki ⬇** (top bar) — downloads all cards (currently 1115) as one tagged,
+- **Anki ⬇** (top bar) — downloads all cards (currently 1236) as one tagged,
   importable file. Pre-built files also live in `exports/` (combined + per-specialty).
 - **◐** — dark mode toggle.
 

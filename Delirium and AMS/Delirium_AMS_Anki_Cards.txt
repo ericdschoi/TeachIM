@@ -1,0 +1,15 @@
+Definition of delirium?	Acute, fluctuating disturbance of attention and awareness with a medical cause.
+CAM diagnostic rule?	Features 1 (acute/fluctuating) AND 2 (inattention), plus 3 (disorganized thinking) OR 4 (altered consciousness).
+Most common and most missed subtype?	Hypoactive delirium (quiet, withdrawn) — worse outcomes than hyperactive.
+Delirium vs dementia?	Delirium is acute, fluctuating, with inattention; dementia is chronic with relatively preserved attention (early).
+Two highest-yield reversible causes on the wards?	Medications (anticholinergics, benzodiazepines, opioids) and infection.
+DELIRIUM(S) mnemonic?	Drugs, Electrolytes/Endocrine, Lack of drugs/pain, Infection, Reduced sensory input, Intracranial, Urinary/fecal retention, Metabolic, Sleep/Subdural.
+When is neuroimaging/LP/EEG indicated in delirium?	Only with focal neurologic signs, trauma, or no cause found — not routinely.
+Evidence-based core treatment?	Multicomponent non-pharmacologic care (HELP): reorient, mobilize, sleep, sensory aids, de-prescribe.
+Do antipsychotics prevent or shorten delirium (2025 APA)?	No — reserve low-dose for severe agitation threatening safety after non-drug measures fail.
+When are benzodiazepines appropriate in delirium?	Only for alcohol/sedative withdrawal — otherwise they cause delirium.
+Antipsychotic to avoid in which conditions?	Parkinson's disease and Lewy body dementia.
+How to test attention at the bedside?	Months of the year backward or days of the week backward.
+Two 'tethers' that worsen delirium?	Physical restraints and indwelling urinary catheters (plus lines).
+Highest-impact strategy overall?	Prevention in at-risk patients using the same multicomponent levers.
+Risk factors for delirium?	Older age, baseline cognitive impairment, sensory deficits, severe illness, polypharmacy.

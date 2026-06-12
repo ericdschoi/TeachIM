@@ -1,0 +1,15 @@
+Restrictive transfusion threshold in GI bleeding?	Hb 7 g/dL (target 7&ndash;9); improves survival vs liberal (Villanueva).
+Transfusion-threshold exception?	~8 g/dL with acute coronary syndrome or significant cardiovascular disease.
+Why is over-transfusion dangerous in variceal bleeding?	It raises portal pressure and worsens/rebleeds varices — keep restrictive, avoid excess plasma/platelets.
+Glasgow-Blatchford 0–1 means?	Very low risk — consider discharge with outpatient endoscopy.
+BUN:Cr > 30 without renal disease suggests?	Upper GI source (absorbed nitrogen from digested blood).
+Unstable hematochezia — assume what?	Brisk upper GI bleed until proven otherwise (upper endoscopy).
+Pre-endoscopy meds for suspected ulcer bleed?	IV PPI; IV erythromycin 250 mg ~20–90 min before to clear the stomach.
+Endoscopy timing for most UGIB?	Within 24 h after resuscitation; <12 h doesn't help and may harm.
+Variceal-bleed bundle?	Octreotide + prophylactic antibiotics (ceftriaxone) + endoscopic band ligation; TIPS/tamponade as rescue.
+Which variceal drug reduces mortality?	Prophylactic antibiotics (ceftriaxone) reduce mortality.
+Does the initial Hb reflect blood loss?	No — it lags; equilibration takes hours. Resuscitate to hemodynamics.
+Common causes of lower GI bleed?	Diverticulosis, angioectasia, post-polypectomy, ischemic/IBD colitis, hemorrhoids.
+Work-up for ongoing brisk LGIB?	CT angiography ± embolization; colonoscopy after prep when stable; rule out upper source if unstable.
+Should you delay endoscopy to normalize INR/platelets?	No — don't withhold endoscopy chasing a perfect coagulation profile; correct judiciously.
+First steps in any GI bleed?	Two large-bore IVs, type & cross, fluids, resuscitate to vitals, then localize and risk-stratify.

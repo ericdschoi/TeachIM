@@ -1,0 +1,16 @@
+The two axes for profiling acute HF?	Congestion (wet vs dry) and perfusion (warm vs cold) — the Stevenson 2&times;2; drives first orders more than EF.
+Most common ward HF profile?	Warm-and-wet — perfused but congested; treat with IV loop diuretics.
+Signs of the 'cold' profile?	Narrow pulse pressure, cool/mottled extremities, rising lactate &amp; creatinine, somnolence — hypoperfusion, not just low BP.
+DOSE trial diuretic teaching?	IV beats PO; bolus = infusion; high-intensity (~2.5&times; home oral dose IV) relieved symptoms faster with a transient, reversible Cr rise.
+Why IV not PO loop diuretics in ADHF?	Gut/splanchnic edema reduces oral bioavailability; IV gives reliable brisk natriuresis.
+How to confirm adequate diuretic dose at 2 h?	Spot urine Na &gt; 50&ndash;70 mmol/L or UOP &gt; 100&ndash;150 mL/h; if inadequate, double the dose.
+Next step for inadequate response to high-dose loop?	Sequential nephron blockade — add thiazide (metolazone/IV chlorothiazide); consider acetazolamide (ADVOR) and early SGLT2i.
+Creatinine rises during effective diuresis in a still-wet patient making urine — stop?	No — usually hemoconcentration/WRF; residual congestion is worse. Continue toward euvolemia, watch electrolytes.
+The four pillars of HFrEF GDMT?	ARNI (or ACEi/ARB), evidence-based beta-blocker, MRA, SGLT2 inhibitor.
+STRONG-HF lesson?	Rapid in-hospital initiation/up-titration of GDMT with close follow-up improves outcomes.
+EMPULSE lesson?	In-hospital SGLT2i (empagliflozin) is safe and adds clinical benefit regardless of EF/diabetes.
+Which pillar do you NOT start in a wet or cold patient?	Beta-blocker — negatively inotropic; start only when euvolemic and off inotropes; continue a chronic BB if warm.
+FAILURE precipitant mnemonic?	Forgot meds/Fluid, Arrhythmia, Ischemia/Infection, Lifestyle, Upregulation (thyroid/anemia/pregnancy), Renal/Rx (NSAIDs), Embolus (PE).
+Drugs to avoid in HFrEF?	NSAIDs, thiazolidinediones, most non-dihydropyridine CCBs (negative inotropes).
+Key discharge-bundle elements?	Euvolemic 24 h on PO diuretic, documented EF/dry weight/diuretic dose/GDMT, daily-weight teaching, 7-day follow-up.
+Does low-dose dopamine help diuresis in ADHF?	No — ROSE-AHF showed no benefit on renal function or decongestion.

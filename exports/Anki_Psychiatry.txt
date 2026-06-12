@@ -1,3 +1,18 @@
+Tool to predict complicated withdrawal on admission?	PAWSS (Prediction of Alcohol Withdrawal Severity Scale); &ge;4 flags risk.	Psychiatry::alcohol-withdrawal
+Withdrawal timeline?	Minor sx 6–24 h; seizures 12–48 h; hallucinosis 12–48 h; delirium tremens 48–96 h.	Psychiatry::alcohol-withdrawal
+Hallucinosis vs DTs?	Hallucinosis = hallucinations with CLEAR sensorium + near-normal vitals; DTs = altered sensorium + autonomic instability.	Psychiatry::alcohol-withdrawal
+First-line pharmacotherapy?	Benzodiazepines — reduce seizures and DTs (ASAM).	Psychiatry::alcohol-withdrawal
+Benefit of symptom-triggered (CIWA-Ar) dosing?	Less total benzodiazepine and shorter treatment vs fixed schedules in assessable patients.	Psychiatry::alcohol-withdrawal
+When is CIWA-Ar invalid?	In patients who can't communicate or whose confusion has another cause — don't titrate off it.	Psychiatry::alcohol-withdrawal
+Benzo choice in significant liver disease?	Lorazepam (no active metabolites); long-acting agents (diazepam/chlordiazepoxide) self-taper otherwise.	Psychiatry::alcohol-withdrawal
+Treatment for severe / benzo-resistant withdrawal?	Phenobarbital — long half-life, self-tapering, acts on GABA and glutamate.	Psychiatry::alcohol-withdrawal
+Do clonidine/dexmedetomidine/antipsychotics prevent seizures?	No — they treat autonomic/agitation symptoms only; keep a GABAergic agent on board.	Psychiatry::alcohol-withdrawal
+Thiamine vs glucose order?	Thiamine before/with glucose — dextrose first can precipitate Wernicke encephalopathy.	Psychiatry::alcohol-withdrawal
+Key electrolytes to replete?	Magnesium, potassium, phosphate; magnesium supports the seizure threshold.	Psychiatry::alcohol-withdrawal
+Front-loading strategy — when?	High-risk/severe presentations — large early doses of a long-acting benzodiazepine.	Psychiatry::alcohol-withdrawal
+ICU transfer triggers?	Delirium tremens, airway risk, escalating sedation requirements.	Psychiatry::alcohol-withdrawal
+Discharge step for the underlying disorder?	Offer naltrexone/acamprosate and link to addiction treatment.	Psychiatry::alcohol-withdrawal
+Mortality of untreated DTs?	Meaningful — DTs are a medical emergency; undertreatment is dangerous.	Psychiatry::alcohol-withdrawal
 Why screen for depression in primary care?	~50% of clinical depression is missed without screening; untreated depression worsens quality of life, mortality, and economic burden. USPSTF 2023: screen all adults (Grade B).	Psychiatry::depression-and-anxiety
 PHQ-2 / PHQ-4 vs PHQ-9 / GAD-7 — when to use which?	PHQ-2 and PHQ-4 are brief SCREENS for general populations. PHQ-9 (depression) and GAD-7 (anxiety) DIAGNOSE and MONITOR response — use them when pretest probability is high.	Psychiatry::depression-and-anxiety
 PHQ-9 score interpretation?	5–9 mild, 10–14 moderate, 15–19 moderately severe, ≥20 severe; ≥10 = likely major depression. It measures severity/trends response but does not by itself diagnose.	Psychiatry::depression-and-anxiety

@@ -1,0 +1,15 @@
+Oxygen target in a COPD exacerbation?	SpO2 88&ndash;92% — hyperoxia worsens hypercapnia (V/Q mismatch, Haldane, ↓drive).
+Steroid regimen per REDUCE trial?	Prednisone 40 mg PO daily &times; 5 days, no taper; oral = IV for most.
+Anthonisen criteria for antibiotics?	&ge;2 of: ↑dyspnea, ↑sputum volume, ↑sputum purulence (or if mechanically ventilated); purulence is the strongest.
+Highest-mortality-benefit intervention in severe exacerbation?	NIV (BiPAP) for acute hypercapnic respiratory failure — reduces intubation and death.
+When to start NIV?	pH &le; 7.35 with hypercapnia, severe dyspnea/accessory muscle use, or persistent hypoxemia despite O2.
+When to intubate instead of NIV?	NIV failure / falling pH, can't protect airway, decreased consciousness, instability, apnea.
+Most common triggers of exacerbation?	Viral and bacterial respiratory infections; also pollution and nonadherence.
+Key mimics to exclude?	Pneumonia, heart failure, pulmonary embolism, pneumothorax, arrhythmia.
+Typical antibiotic targets in exacerbation?	H. influenzae, S. pneumoniae, M. catarrhalis; add Pseudomonas coverage with risk factors.
+GOLD 2026 ICS-at-discharge rule?	Consider adding ICS to dual bronchodilator if blood eosinophils elevated and &ge;1 moderate/severe exacerbation.
+Maintenance step-up after an exacerbation?	LAMA + LABA; add ICS per eosinophils; optimize inhaler technique.
+Discharge intervention with a mortality benefit?	Pulmonary rehabilitation referral (ideally within 4 weeks); plus smoking cessation and vaccines.
+Are methylxanthines (theophylline) recommended acutely?	No — limited benefit, significant toxicity.
+When should home oxygen need be assessed?	After recovery and stabilization, not at the time of acute discharge.
+GOLD 2026 view on high-flow nasal cannula?	A supportive option, but NIV remains first-line for acute hypercapnic acidosis.

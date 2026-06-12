@@ -50,3 +50,18 @@ Durable prevention of recurrent CDI (2022–23)?	Rebyota (rectal, live-jslm) or 
 Bezlotoxumab status?	Discontinued by Merck effective Jan 31, 2025 — no longer available.	Infectious_Disease::c-diff-infection
 Do you test for cure in CDI?	No — shedding persists (~56%); post-infectious IBS up to 25%.	Infectious_Disease::c-diff-infection
 Probiotics or stopping PPIs for CDI prevention?	Not recommended.	Infectious_Disease::c-diff-infection
+Is S. aureus in a blood culture ever a contaminant?	No — always significant; treat as true bacteremia.	Infectious_Disease::s-aureus-bacteremia
+The five core interventions for SAB?	ID consult, echocardiography, repeat blood cultures (clearance), source control, appropriate drug & duration.	Infectious_Disease::s-aureus-bacteremia
+Empiric therapy for suspected SAB?	Vancomycin (covers MRSA) while awaiting susceptibilities.	Infectious_Disease::s-aureus-bacteremia
+Preferred therapy for MSSA bacteremia?	Cefazolin or an antistaphylococcal penicillin (nafcillin/oxacillin) — both beat vancomycin.	Infectious_Disease::s-aureus-bacteremia
+Why not keep MSSA on vancomycin?	Vancomycin is inferior for MSSA — higher failure and mortality; de-escalate.	Infectious_Disease::s-aureus-bacteremia
+Therapy for MRSA bacteremia?	Vancomycin (AUC-guided) or daptomycin.	Infectious_Disease::s-aureus-bacteremia
+Criteria for UNCOMPLICATED SAB (all required)?	Negative follow-up cultures, defervescence within 72 h, no endocarditis/prosthetic material, no metastatic foci.	Infectious_Disease::s-aureus-bacteremia
+Duration for uncomplicated SAB?	≥14 days IV from the first negative blood culture.	Infectious_Disease::s-aureus-bacteremia
+Duration for complicated SAB?	4–6 weeks or longer (endocarditis, osteomyelitis, hardware).	Infectious_Disease::s-aureus-bacteremia
+When does the treatment clock start?	From the first negative (clearance) blood culture, not the first positive.	Infectious_Disease::s-aureus-bacteremia
+Common metastatic foci of S. aureus?	Endocarditis, vertebral osteomyelitis/discitis, epidural abscess, septic arthritis, psoas/splenic abscess, septic emboli.	Infectious_Disease::s-aureus-bacteremia
+TTE vs TEE in SAB?	TEE is more sensitive for endocarditis; pursue with prosthetic valve/device, persistent bacteremia, community-onset, or unclear source.	Infectious_Disease::s-aureus-bacteremia
+Why repeat blood cultures in SAB?	To document clearance — persistent positives indicate complicated infection and reset duration.	Infectious_Disease::s-aureus-bacteremia
+Does ID consultation affect outcomes in SAB?	Yes — independently improves survival; recommended for every case.	Infectious_Disease::s-aureus-bacteremia
+New back pain + persistent bacteremia in SAB suggests?	Vertebral osteomyelitis/discitis ± epidural abscess — image with MRI; complicated SAB.	Infectious_Disease::s-aureus-bacteremia

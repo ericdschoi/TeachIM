@@ -1,0 +1,15 @@
+Is S. aureus in a blood culture ever a contaminant?	No — always significant; treat as true bacteremia.
+The five core interventions for SAB?	ID consult, echocardiography, repeat blood cultures (clearance), source control, appropriate drug & duration.
+Empiric therapy for suspected SAB?	Vancomycin (covers MRSA) while awaiting susceptibilities.
+Preferred therapy for MSSA bacteremia?	Cefazolin or an antistaphylococcal penicillin (nafcillin/oxacillin) — both beat vancomycin.
+Why not keep MSSA on vancomycin?	Vancomycin is inferior for MSSA — higher failure and mortality; de-escalate.
+Therapy for MRSA bacteremia?	Vancomycin (AUC-guided) or daptomycin.
+Criteria for UNCOMPLICATED SAB (all required)?	Negative follow-up cultures, defervescence within 72 h, no endocarditis/prosthetic material, no metastatic foci.
+Duration for uncomplicated SAB?	≥14 days IV from the first negative blood culture.
+Duration for complicated SAB?	4–6 weeks or longer (endocarditis, osteomyelitis, hardware).
+When does the treatment clock start?	From the first negative (clearance) blood culture, not the first positive.
+Common metastatic foci of S. aureus?	Endocarditis, vertebral osteomyelitis/discitis, epidural abscess, septic arthritis, psoas/splenic abscess, septic emboli.
+TTE vs TEE in SAB?	TEE is more sensitive for endocarditis; pursue with prosthetic valve/device, persistent bacteremia, community-onset, or unclear source.
+Why repeat blood cultures in SAB?	To document clearance — persistent positives indicate complicated infection and reset duration.
+Does ID consultation affect outcomes in SAB?	Yes — independently improves survival; recommended for every case.
+New back pain + persistent bacteremia in SAB suggests?	Vertebral osteomyelitis/discitis ± epidural abscess — image with MRI; complicated SAB.

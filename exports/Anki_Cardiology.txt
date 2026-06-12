@@ -30,6 +30,22 @@ Best rate-control agent in septic shock / hypotension?	Amiodarone (most hemodyna
 Long-term toxicities of amiodarone?	Lung, liver, and thyroid toxicity — especially with continued long-term use.	Cardiology::af-with-rvr
 Anticoagulation rule around cardioversion (AF >=48 h or unknown)?	>=3 weeks therapeutic anticoagulation before OR a TEE to exclude thrombus; then >=4 weeks after regardless of CHA2DS2-VASc.	Cardiology::af-with-rvr
 What guides long-term stroke prophylaxis in AF?	CHA2DS2-VASc (2023 ACC/AHA); the 2024 ESC uses CHA2DS2-VA (drops the sex category).	Cardiology::af-with-rvr
+The two axes for profiling acute HF?	Congestion (wet vs dry) and perfusion (warm vs cold) — the Stevenson 2&times;2; drives first orders more than EF.	Cardiology::acute-decompensated-heart-failure
+Most common ward HF profile?	Warm-and-wet — perfused but congested; treat with IV loop diuretics.	Cardiology::acute-decompensated-heart-failure
+Signs of the 'cold' profile?	Narrow pulse pressure, cool/mottled extremities, rising lactate &amp; creatinine, somnolence — hypoperfusion, not just low BP.	Cardiology::acute-decompensated-heart-failure
+DOSE trial diuretic teaching?	IV beats PO; bolus = infusion; high-intensity (~2.5&times; home oral dose IV) relieved symptoms faster with a transient, reversible Cr rise.	Cardiology::acute-decompensated-heart-failure
+Why IV not PO loop diuretics in ADHF?	Gut/splanchnic edema reduces oral bioavailability; IV gives reliable brisk natriuresis.	Cardiology::acute-decompensated-heart-failure
+How to confirm adequate diuretic dose at 2 h?	Spot urine Na &gt; 50&ndash;70 mmol/L or UOP &gt; 100&ndash;150 mL/h; if inadequate, double the dose.	Cardiology::acute-decompensated-heart-failure
+Next step for inadequate response to high-dose loop?	Sequential nephron blockade — add thiazide (metolazone/IV chlorothiazide); consider acetazolamide (ADVOR) and early SGLT2i.	Cardiology::acute-decompensated-heart-failure
+Creatinine rises during effective diuresis in a still-wet patient making urine — stop?	No — usually hemoconcentration/WRF; residual congestion is worse. Continue toward euvolemia, watch electrolytes.	Cardiology::acute-decompensated-heart-failure
+The four pillars of HFrEF GDMT?	ARNI (or ACEi/ARB), evidence-based beta-blocker, MRA, SGLT2 inhibitor.	Cardiology::acute-decompensated-heart-failure
+STRONG-HF lesson?	Rapid in-hospital initiation/up-titration of GDMT with close follow-up improves outcomes.	Cardiology::acute-decompensated-heart-failure
+EMPULSE lesson?	In-hospital SGLT2i (empagliflozin) is safe and adds clinical benefit regardless of EF/diabetes.	Cardiology::acute-decompensated-heart-failure
+Which pillar do you NOT start in a wet or cold patient?	Beta-blocker — negatively inotropic; start only when euvolemic and off inotropes; continue a chronic BB if warm.	Cardiology::acute-decompensated-heart-failure
+FAILURE precipitant mnemonic?	Forgot meds/Fluid, Arrhythmia, Ischemia/Infection, Lifestyle, Upregulation (thyroid/anemia/pregnancy), Renal/Rx (NSAIDs), Embolus (PE).	Cardiology::acute-decompensated-heart-failure
+Drugs to avoid in HFrEF?	NSAIDs, thiazolidinediones, most non-dihydropyridine CCBs (negative inotropes).	Cardiology::acute-decompensated-heart-failure
+Key discharge-bundle elements?	Euvolemic 24 h on PO diuretic, documented EF/dry weight/diuretic dose/GDMT, daily-weight teaching, 7-day follow-up.	Cardiology::acute-decompensated-heart-failure
+Does low-dose dopamine help diuresis in ADHF?	No — ROSE-AHF showed no benefit on renal function or decongestion.	Cardiology::acute-decompensated-heart-failure
 What score estimates stroke risk in AF, and what are its components?	CHA₂DS₂-VASc: CHF (1), Hypertension (1), Age 65–74 (1)/≥75 (2), Diabetes (1), Stroke/TIA/embolism (2), Vascular disease (1), Sex category–female (1).	Cardiology::chronic-atrial-fibrillation-management
 2023 ACC/AHA threshold to start anticoagulation in AF?	Annual stroke risk ≥2%/yr → OAC (Class 1) ≈ CHA₂DS₂-VASc ≥2 in men / ≥3 in women. Score 1 (men)/2 (women): reasonable (Class 2a). Use the score to estimate risk, not as a rigid cutoff.	Cardiology::chronic-atrial-fibrillation-management
 First-line anticoagulant for most AF, and why?	A DOAC — more effective and lower bleeding risk than warfarin (Class 1). Guidelines do not prefer one DOAC over another.	Cardiology::chronic-atrial-fibrillation-management

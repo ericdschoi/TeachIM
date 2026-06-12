@@ -1,0 +1,15 @@
+Sepsis-3 definition of sepsis?	Life-threatening organ dysfunction from a dysregulated host response to infection.
+Definition of septic shock?	Sepsis needing vasopressors to keep MAP &ge;65 AND lactate >2 mmol/L despite adequate fluids.
+Status of qSOFA in 2026 guidance?	Not a screening tool — low sensitivity; don't use it to rule out sepsis.
+First-hour priorities in sepsis?	Blood cultures ×2, early broad-spectrum antibiotics, balanced-crystalloid resuscitation, lactate — then reassess.
+Antibiotic timing per 2026 SSC?	Within 1 h for shock/high probability; up to ~3 h diagnostic window if sepsis possible-but-not-probable and no shock.
+Preferred resuscitation fluid?	Balanced crystalloid (LR, Plasma-Lyte) over normal saline — less hyperchloremic acidosis.
+Initial fluid dose for hypoperfusion?	~30 mL/kg, then reassess fluid responsiveness — fluid is a dosed drug, not a reflex.
+First-line vasopressor in septic shock?	Norepinephrine, titrated to MAP &ge;65; can run peripherally short-term.
+Add-on vasopressors / adjuncts?	Vasopressin (catecholamine-sparing), epinephrine (2nd add-on), hydrocortisone for refractory shock.
+How to assess fluid responsiveness?	Dynamic measures — passive leg raise, pulse-pressure/stroke-volume variation — not CVP.
+Why can a patient stay in shock despite good antibiotics?	Uncontrolled source — undrained abscess, infected line, obstruction; source control is essential.
+Markers to trend during resuscitation?	Lactate clearance, MAP, urine output, mentation, capillary refill.
+Antibiotic stewardship in sepsis?	De-escalate on cultures, use procalcitonin trends to support stopping, shorten courses once source controlled.
+Three therapies the 2026 SSC recommends AGAINST routinely?	Antipyretics for outcomes, beta-blockers, and probiotics.
+Why avoid starch colloids in sepsis?	Increased AKI and mortality — contraindicated.

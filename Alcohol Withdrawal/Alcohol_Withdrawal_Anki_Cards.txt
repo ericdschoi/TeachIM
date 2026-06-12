@@ -1,0 +1,15 @@
+Tool to predict complicated withdrawal on admission?	PAWSS (Prediction of Alcohol Withdrawal Severity Scale); &ge;4 flags risk.
+Withdrawal timeline?	Minor sx 6–24 h; seizures 12–48 h; hallucinosis 12–48 h; delirium tremens 48–96 h.
+Hallucinosis vs DTs?	Hallucinosis = hallucinations with CLEAR sensorium + near-normal vitals; DTs = altered sensorium + autonomic instability.
+First-line pharmacotherapy?	Benzodiazepines — reduce seizures and DTs (ASAM).
+Benefit of symptom-triggered (CIWA-Ar) dosing?	Less total benzodiazepine and shorter treatment vs fixed schedules in assessable patients.
+When is CIWA-Ar invalid?	In patients who can't communicate or whose confusion has another cause — don't titrate off it.
+Benzo choice in significant liver disease?	Lorazepam (no active metabolites); long-acting agents (diazepam/chlordiazepoxide) self-taper otherwise.
+Treatment for severe / benzo-resistant withdrawal?	Phenobarbital — long half-life, self-tapering, acts on GABA and glutamate.
+Do clonidine/dexmedetomidine/antipsychotics prevent seizures?	No — they treat autonomic/agitation symptoms only; keep a GABAergic agent on board.
+Thiamine vs glucose order?	Thiamine before/with glucose — dextrose first can precipitate Wernicke encephalopathy.
+Key electrolytes to replete?	Magnesium, potassium, phosphate; magnesium supports the seizure threshold.
+Front-loading strategy — when?	High-risk/severe presentations — large early doses of a long-acting benzodiazepine.
+ICU transfer triggers?	Delirium tremens, airway risk, escalating sedation requirements.
+Discharge step for the underlying disorder?	Offer naltrexone/acamprosate and link to addiction treatment.
+Mortality of untreated DTs?	Meaningful — DTs are a medical emergency; undertreatment is dangerous.

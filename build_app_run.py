@@ -26,16 +26,16 @@ APP_TITLE = "Chalk Talks"
 TAG_RULES = [
     (r"pocus|arthrocentesis|paracentesis|thoracentesis|lumbar puncture|central venous|catheter insertion|\binjection\b|ultrasound-guided", "Procedures"),
     (r"uterine|\baub\b|menstr|menopaus|contracept|vaginitis|cervical|abortion|\bovary\b|ovarian|\bpcos\b|gynec|pregnan|obstetric", "Women's Health"),
-    (r"depression|anxiety|\bmood\b|psychiat|bipolar|\bptsd\b|alcohol withdrawal|\bwithdrawal\b|substance use|\bsud\b", "Psychiatry"),
+    (r"depression|anxiety|\bmood\b|psychiat|bipolar|\bptsd\b", "Psychiatry"),
     (r"stroke|\bcva\b|dizziness|vertigo|seizure|\bneuro|delirium|encephal|migraine|headache", "Neurology"),
     (r"electrolyte|hyperkal|hypokal|hyponatrem|hypernatrem|acid.?base|\bsodium|\bpotassium|calcium|magnesium", "Electrolytes"),
     (r"\brenal|kidney|\baki\b|nephr|glomerul|dialysis", "Renal"),
     (r"\bliver\b|hepat|\balf\b|cirrho|biliary|paracent", "Hepatology"),
-    (r"diabet|t2dm|\bdm2\b|thyroid|endocr|adrenal|pituitary|osteopor|\bdka\b|\bhhs\b|hyperglycem|ketoacidosis", "Endocrine"),
+    (r"diabet|t2dm|\bdm2\b|thyroid|endocr|adrenal|pituitary|osteopor", "Endocrine"),
     (r"\bshock|pressor|ventilat", "Critical Care"),
     (r"heart|cardi|coronary|arrhythm|\bchf\b|myocard|\baf\b|fibrillat|\brvr\b|\bsvt\b|tachycard|syncope|hypertens|\bacs\b|stress.?test|\bcad\b|pericard", "Cardiology"),
     (r"lung|pulm|respir|copd|asthma|pneumon|ards|hypox|pleural|oxygen", "Pulmonary"),
-    (r"sepsis|infect|antibiotic|endocard|menin|c\.? ?diff|bacteremia|bacteraemia|staph|aureus|osteomyel", "Infectious Disease"),
+    (r"sepsis|infect|antibiotic|endocard|menin|c\.? ?diff", "Infectious Disease"),
     (r"anemia|leukem|lymphoma|myelo|coag|platelet|hematol|thromb|\bvte\b|dyscrasia|plasma cell|myeloma|paraprotein|amyloid", "Hematology"),
     (r"oncolog|checkpoint|malignan|tumor|chemother|\bcancer", "Oncology"),
     (r"gi |gastro|bowel|pancrea|ulcer|ibd|colitis|cholecyst", "Gastroenterology"),
@@ -1038,17 +1038,4 @@ def build():
         if not l["objectives"]: flags.append("NO-OBJ")
         if not l["segments"]: flags.append("NO-SCRIPT")
         if not l["mcqs"]: flags.append("NO-MCQ")
-        if not l["anki"]: flags.append("NO-ANKI")
-        if not l["cases"]: flags.append("NO-CASES")
-        if not l["files"].get("slides"): flags.append("NO-SLIDEPDF")
-        mcq_noans = sum(1 for m in l["mcqs"] if not m["ans"])
-        if mcq_noans: flags.append("%d-MCQ-NO-ANS" % mcq_noans)
-        print("  - %s [%s] obj=%d seg=%d cases=%d mcq=%d anki=%d %s"
-              % (l["title"], l["tag"], len(l["objectives"]), len(l["segments"]),
-                 len(l["cases"]), len(l["mcqs"]), len(l["anki"]),
-                 " ".join("!!" + f for f in flags)))
-    print("Wrote: index.html, lessons_full.json, exports/")
-
-
-if __name__ == "__main__":
-    build()
+        if not l["anki"]: flags.appen

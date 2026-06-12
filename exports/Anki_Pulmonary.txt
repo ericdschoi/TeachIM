@@ -1,3 +1,18 @@
+Oxygen target in a COPD exacerbation?	SpO2 88&ndash;92% — hyperoxia worsens hypercapnia (V/Q mismatch, Haldane, ↓drive).	Pulmonary::copd-exacerbation-inpatient
+Steroid regimen per REDUCE trial?	Prednisone 40 mg PO daily &times; 5 days, no taper; oral = IV for most.	Pulmonary::copd-exacerbation-inpatient
+Anthonisen criteria for antibiotics?	&ge;2 of: ↑dyspnea, ↑sputum volume, ↑sputum purulence (or if mechanically ventilated); purulence is the strongest.	Pulmonary::copd-exacerbation-inpatient
+Highest-mortality-benefit intervention in severe exacerbation?	NIV (BiPAP) for acute hypercapnic respiratory failure — reduces intubation and death.	Pulmonary::copd-exacerbation-inpatient
+When to start NIV?	pH &le; 7.35 with hypercapnia, severe dyspnea/accessory muscle use, or persistent hypoxemia despite O2.	Pulmonary::copd-exacerbation-inpatient
+When to intubate instead of NIV?	NIV failure / falling pH, can't protect airway, decreased consciousness, instability, apnea.	Pulmonary::copd-exacerbation-inpatient
+Most common triggers of exacerbation?	Viral and bacterial respiratory infections; also pollution and nonadherence.	Pulmonary::copd-exacerbation-inpatient
+Key mimics to exclude?	Pneumonia, heart failure, pulmonary embolism, pneumothorax, arrhythmia.	Pulmonary::copd-exacerbation-inpatient
+Typical antibiotic targets in exacerbation?	H. influenzae, S. pneumoniae, M. catarrhalis; add Pseudomonas coverage with risk factors.	Pulmonary::copd-exacerbation-inpatient
+GOLD 2026 ICS-at-discharge rule?	Consider adding ICS to dual bronchodilator if blood eosinophils elevated and &ge;1 moderate/severe exacerbation.	Pulmonary::copd-exacerbation-inpatient
+Maintenance step-up after an exacerbation?	LAMA + LABA; add ICS per eosinophils; optimize inhaler technique.	Pulmonary::copd-exacerbation-inpatient
+Discharge intervention with a mortality benefit?	Pulmonary rehabilitation referral (ideally within 4 weeks); plus smoking cessation and vaccines.	Pulmonary::copd-exacerbation-inpatient
+Are methylxanthines (theophylline) recommended acutely?	No — limited benefit, significant toxicity.	Pulmonary::copd-exacerbation-inpatient
+When should home oxygen need be assessed?	After recovery and stabilization, not at the time of acute discharge.	Pulmonary::copd-exacerbation-inpatient
+GOLD 2026 view on high-flow nasal cannula?	A supportive option, but NIV remains first-line for acute hypercapnic acidosis.	Pulmonary::copd-exacerbation-inpatient
 What is mandatory to diagnose COPD?	Post-bronchodilator spirometry showing FEV1/FVC <0.70 in a patient with symptoms/risk factors. You cannot diagnose COPD without PFTs.	Pulmonary::copd-outpatient-management
 Classic spirometry/PFT findings in COPD?	Scooped (concave) expiratory flow-volume loop, FEV1/FVC <0.7; supportive: ↑TLC and ↑RV (air trapping), ↓DLCO (emphysema). Post-bronchodilator FEV1 grades severity.	Pulmonary::copd-outpatient-management
 What are pre-COPD and PRISm?	Pre-COPD = respiratory symptoms or structural lesions (e.g., emphysema) WITHOUT airflow obstruction (FEV1/FVC ≥0.7). PRISm = Preserved Ratio Impaired Spirometry. Both carry risk of progressing to COPD.	Pulmonary::copd-outpatient-management

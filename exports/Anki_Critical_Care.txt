@@ -1,3 +1,18 @@
+Sepsis-3 definition of sepsis?	Life-threatening organ dysfunction from a dysregulated host response to infection.	Critical_Care::sepsis-septic-shock
+Definition of septic shock?	Sepsis needing vasopressors to keep MAP &ge;65 AND lactate >2 mmol/L despite adequate fluids.	Critical_Care::sepsis-septic-shock
+Status of qSOFA in 2026 guidance?	Not a screening tool — low sensitivity; don't use it to rule out sepsis.	Critical_Care::sepsis-septic-shock
+First-hour priorities in sepsis?	Blood cultures ×2, early broad-spectrum antibiotics, balanced-crystalloid resuscitation, lactate — then reassess.	Critical_Care::sepsis-septic-shock
+Antibiotic timing per 2026 SSC?	Within 1 h for shock/high probability; up to ~3 h diagnostic window if sepsis possible-but-not-probable and no shock.	Critical_Care::sepsis-septic-shock
+Preferred resuscitation fluid?	Balanced crystalloid (LR, Plasma-Lyte) over normal saline — less hyperchloremic acidosis.	Critical_Care::sepsis-septic-shock
+Initial fluid dose for hypoperfusion?	~30 mL/kg, then reassess fluid responsiveness — fluid is a dosed drug, not a reflex.	Critical_Care::sepsis-septic-shock
+First-line vasopressor in septic shock?	Norepinephrine, titrated to MAP &ge;65; can run peripherally short-term.	Critical_Care::sepsis-septic-shock
+Add-on vasopressors / adjuncts?	Vasopressin (catecholamine-sparing), epinephrine (2nd add-on), hydrocortisone for refractory shock.	Critical_Care::sepsis-septic-shock
+How to assess fluid responsiveness?	Dynamic measures — passive leg raise, pulse-pressure/stroke-volume variation — not CVP.	Critical_Care::sepsis-septic-shock
+Why can a patient stay in shock despite good antibiotics?	Uncontrolled source — undrained abscess, infected line, obstruction; source control is essential.	Critical_Care::sepsis-septic-shock
+Markers to trend during resuscitation?	Lactate clearance, MAP, urine output, mentation, capillary refill.	Critical_Care::sepsis-septic-shock
+Antibiotic stewardship in sepsis?	De-escalate on cultures, use procalcitonin trends to support stopping, shorten courses once source controlled.	Critical_Care::sepsis-septic-shock
+Three therapies the 2026 SSC recommends AGAINST routinely?	Antipyretics for outcomes, beta-blockers, and probiotics.	Critical_Care::sepsis-septic-shock
+Why avoid starch colloids in sepsis?	Increased AKI and mortality — contraindicated.	Critical_Care::sepsis-septic-shock
 Four broad categories of shock?	Hypovolemic, cardiogenic, obstructive, distributive.	Critical_Care::shock-and-pressors
 Hemodynamic profile of hypovolemic shock (CVP / CO / SVR)?	CVP down-down, CO down, SVR up. Treat with volume (blood for hemorrhage).	Critical_Care::shock-and-pressors
 Hemodynamic profile of cardiogenic shock (CVP / CO / SVR)?	CVP up, CO down-down, SVR up. Treat with an inotrope +/- diuresis; do NOT give IVF.	Critical_Care::shock-and-pressors

@@ -1,0 +1,15 @@
+DKA vs HHS — glucose and ketones?	DKA: ketoacidosis, glucose ≥200 (can be lower). HHS: glucose >600, minimal ketosis, effective osm >320, pH >7.3.
+2024 ADA consensus DKA bicarbonate cutoff?	Lowered to 15 mmol/L (to allow for insulinopenic acidosis).
+What is euglycemic DKA?	Gap acidosis + ketones with near-normal glucose — SGLT2 inhibitors, pregnancy, starvation.
+Preferred initial resuscitation fluid (2024)?	Balanced crystalloid (LR/Plasma-Lyte) over saline.
+The potassium gate?	K <3.3: hold insulin, replace K first. K 3.3–5.2: insulin + add K. K >5.2: insulin, recheck, hold K.
+Why is total-body K depleted despite normal serum K?	Acidosis shifts K out of cells; insulin then drives it back in — anticipate the fall.
+When add dextrose in DKA?	When glucose ~200–250, to keep insulin running and clear ketones.
+What do you treat to in DKA — glucose or the gap?	The anion gap / ketones, not glucose alone.
+DKA resolution criteria?	Glucose <200 AND two of: bicarb ≥15–18, venous pH >7.3, anion gap normalized.
+When is bicarbonate indicated?	Only if pH <7.0 — not routine.
+When is phosphate replaced?	Only if <1.0 mmol/L with muscle weakness or cardiac/respiratory compromise.
+Insulin route by severity?	IV infusion for moderate/severe DKA and HHS; SC rapid-acting protocols for mild uncomplicated DKA.
+How to transition off the insulin drip safely?	Give SC long-acting insulin 1–2 h BEFORE stopping the drip to prevent rebound ketoacidosis.
+Common DKA/HHS precipitants (the I's)?	Infection, Infarction (MI), Insulin omission, Ischemia, Iatrogenic (steroids/SGLT2i); also new-onset DM, pregnancy.
+Why not stop the drip when only glucose is normal?	The gap may still be open — stopping insulin restarts ketoacidosis.

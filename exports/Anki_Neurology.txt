@@ -15,6 +15,21 @@ Test of skew — reassuring vs concerning?	Reassuring: no vertical realignment o
 HINTS interpretation rule?	ANY concerning finding → central (stroke). ALL reassuring → peripheral (vestibular neuritis).	Neurology::acute-dizziness
 Why not rely on early MRI or noncontrast CT to exclude posterior stroke?	MRI-DWI misses ~15–20% of posterior-fossa strokes in the first 24–48 h; noncontrast CT is insensitive for early posterior ischemia (GRACE-3 strong rec against CT for this).	Neurology::acute-dizziness
 Steroids in vestibular neuritis (2023 GRACE-3)?	Offer via shared decision-making within 3 days of onset; weak/very-low-certainty evidence. Acute idiopathic SNHL is a clearer steroid indication.	Neurology::acute-dizziness
+Definition of delirium?	Acute, fluctuating disturbance of attention and awareness with a medical cause.	Neurology::delirium-altered-mental-status
+CAM diagnostic rule?	Features 1 (acute/fluctuating) AND 2 (inattention), plus 3 (disorganized thinking) OR 4 (altered consciousness).	Neurology::delirium-altered-mental-status
+Most common and most missed subtype?	Hypoactive delirium (quiet, withdrawn) — worse outcomes than hyperactive.	Neurology::delirium-altered-mental-status
+Delirium vs dementia?	Delirium is acute, fluctuating, with inattention; dementia is chronic with relatively preserved attention (early).	Neurology::delirium-altered-mental-status
+Two highest-yield reversible causes on the wards?	Medications (anticholinergics, benzodiazepines, opioids) and infection.	Neurology::delirium-altered-mental-status
+DELIRIUM(S) mnemonic?	Drugs, Electrolytes/Endocrine, Lack of drugs/pain, Infection, Reduced sensory input, Intracranial, Urinary/fecal retention, Metabolic, Sleep/Subdural.	Neurology::delirium-altered-mental-status
+When is neuroimaging/LP/EEG indicated in delirium?	Only with focal neurologic signs, trauma, or no cause found — not routinely.	Neurology::delirium-altered-mental-status
+Evidence-based core treatment?	Multicomponent non-pharmacologic care (HELP): reorient, mobilize, sleep, sensory aids, de-prescribe.	Neurology::delirium-altered-mental-status
+Do antipsychotics prevent or shorten delirium (2025 APA)?	No — reserve low-dose for severe agitation threatening safety after non-drug measures fail.	Neurology::delirium-altered-mental-status
+When are benzodiazepines appropriate in delirium?	Only for alcohol/sedative withdrawal — otherwise they cause delirium.	Neurology::delirium-altered-mental-status
+Antipsychotic to avoid in which conditions?	Parkinson's disease and Lewy body dementia.	Neurology::delirium-altered-mental-status
+How to test attention at the bedside?	Months of the year backward or days of the week backward.	Neurology::delirium-altered-mental-status
+Two 'tethers' that worsen delirium?	Physical restraints and indwelling urinary catheters (plus lines).	Neurology::delirium-altered-mental-status
+Highest-impact strategy overall?	Prevention in at-risk patients using the same multicomponent levers.	Neurology::delirium-altered-mental-status
+Risk factors for delirium?	Older age, baseline cognitive impairment, sensory deficits, severe illness, polypharmacy.	Neurology::delirium-altered-mental-status
 The 5 steps of the ischemic-CVA framework?	(1) Exclude hemorrhage, (2) acute reperfusion without causing ICH, (3) determine etiology, (4) secondary prophylaxis, (5) risk-factor modification.	Neurology::ischemic-cva
 First test in any acute stroke?	Noncontrast head CT to exclude hemorrhage (~85% ischemic, ~15% hemorrhagic).	Neurology::ischemic-cva
 IV thrombolysis time window and agents?	Within 4.5 h of last-known-well; alteplase 0.9 mg/kg or tenecteplase 0.25 mg/kg (TNK now a 2024 Class 1 alternative).	Neurology::ischemic-cva

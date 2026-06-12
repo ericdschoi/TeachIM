@@ -1,0 +1,16 @@
+The four VTE-management questions?	IF (treat?), WHERE (inpatient vs outpatient), WHICH (agent), HOW LONG (duration).
+Which clots are "definitely treat"?	Proximal LE DVT (popliteal and above) and main/segmental PE.
+Isolated distal (below-knee) DVT -- approach?	If low-risk/asymptomatic, surveil with repeat duplex in 1-2 weeks; treat if it extends or is severely symptomatic/high-risk.
+Isolated subsegmental PE without proximal DVT -- approach?	LE duplex; if low recurrence risk, surveillance is an option over anticoagulation (CHEST 2021).
+What decides inpatient vs outpatient PE?	PESI/sPESI: PESI <85 (class I-II) -> outpatient if no high bleed risk, instability, or social barriers.
+Overrides to admit a low-PESI PE?	High bleeding risk, unreliable disposition, poor compliance, hemodynamic instability/RV strain.
+First-line agent for stable VTE?	A DOAC (apixaban, rivaroxaban, dabigatran, edoxaban).
+Which DOACs need a heparin lead-in?	Dabigatran and edoxaban need ~5 days of parenteral heparin first; apixaban and rivaroxaban do not.
+Cancer-associated VTE -- preferred agent?	A DOAC (apixaban/edoxaban/rivaroxaban) is now first-line over LMWH (CARAVAGGIO; ASH/CHEST 2021).
+Cancer VTE caveat for luminal GI malignancy?	Prefer apixaban or LMWH (rivaroxaban/edoxaban raise GI bleeding).
+Antiphospholipid syndrome -- agent?	Warfarin, NOT a DOAC (TRAPS: excess arterial events with rivaroxaban in triple-positive APS).
+When is warfarin preferred over a DOAC?	Antiphospholipid syndrome, mechanical valves, CrCl <25-30, cost/access; needs heparin bridge until INR therapeutic.
+Provoked VTE (reversible cause) -- duration?	~3 months, then stop.
+Unprovoked VTE without high bleed risk -- duration?	Indefinite anticoagulation.
+Provoked by an irreversible cause (active cancer, APS) -- duration?	Indefinite, as long as the cause persists.
+Extended-phase DOAC dosing to reduce bleeding?	Apixaban 2.5 mg BID (AMPLIFY-EXT) or rivaroxaban 10 mg daily (EINSTEIN-CHOICE).

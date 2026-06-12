@@ -1,0 +1,18 @@
+What two features rapidly narrow the differential for inflammatory arthritis?	Time (acute vs chronic) and space (number of joints: mono = 1, oligo = 2–4, poly = 5+).
+What is the default diagnosis for an acute hot, swollen, painful monoarthritis until proven otherwise?	Septic arthritis — a true emergency requiring synovial fluid analysis, empiric antibiotics, and usually urgent surgical washout.
+Typical synovial fluid WBC count in septic arthritis?	Usually >50,000/µL with PMN predominance (use lower cutoffs in prosthetic joints or after partial antibiotic treatment).
+Empiric antibiotics for septic arthritis by Gram stain?	Gram-positive cocci → vancomycin; gram-negative organisms → ceftriaxone.
+Synovial fluid finding diagnostic of acute gout?	Monosodium urate crystals (needle-shaped, negatively birefringent) under polarized microscopy.
+Most common joint in acute gout?	First MTP (podagra, ~90%); lower-extremity predominant including the mid-foot, but any joint is possible.
+When should urate-lowering therapy be started in gout (ACR 2020)?	≥2 flares/year, tophi, or radiographic gouty erosions; consider after a single flare if CKD stage ≥3, serum urate >9 mg/dL, or urolithiasis. Allopurinol is first-line; goal urate <6 mg/dL.
+Why continue colchicine when starting allopurinol?	Anti-inflammatory prophylaxis prevents mobilization flares while urate-lowering therapy is titrated (ACR 2020 — continue ~3–6 months).
+Synovial fluid and imaging findings in CPPD?	Calcium pyrophosphate crystals (rhomboid, weakly positively birefringent); radiographs may show chondrocalcinosis of knees, wrists, and fingers.
+Two metabolic diseases to screen for in CPPD?	Hyperparathyroidism and hemochromatosis.
+What is Löfgren's syndrome?	Acute sarcoidosis triad: erythema nodosum + bilateral hilar adenopathy + acute arthritis (classically ankles).
+Classic triad of disseminated gonococcal infection?	Migratory polyarthralgia, tenosynovitis, and pustular dermatitis; treat with ceftriaxone (add doxycycline if chlamydia not excluded — CDC 2021).
+Key features of reactive arthritis?	Asymmetric lower-extremity oligoarthritis 1–6 weeks after a GI or GU infection, HLA-B27 association, negative synovial cultures; look for uveitis, urethritis, keratoderma blennorrhagicum.
+Most common viral arthritis and its serology?	Parvovirus B19 — RA-like symmetric small-joint polyarthritis with positive IgM (IgG = prior exposure); HBV and HCV are next most common.
+Presentation and treatment of Lyme arthritis?	Mono/oligoarthritis of a large joint (knee) months after tick exposure; synovial fluid >2K WBC, send Borrelia PCR; treat with a 4-week course of doxycycline (IDSA 2020).
+Joint pattern that distinguishes RA from psoriatic arthritis?	RA: symmetric wrists/MCPs/PIPs/ankles/MTPs, SPARES DIPs and the spine. PsA: asymmetric, can involve DIPs and the axial skeleton, with enthesitis, dactylitis, and nail pitting/onycholysis.
+Hallmark axial imaging findings of ankylosing spondylitis?	Sacroiliitis (SI involvement > rest of spine) with marginal erosions, syndesmophytes, and ankylosis; HLA-B27 associated.
+X-ray hallmark of tophaceous gout?	Radiolucent tophi with punched-out erosions and overhanging edges, especially hands and feet; urate goal <6 mg/dL (may need <5 to shrink tophi).

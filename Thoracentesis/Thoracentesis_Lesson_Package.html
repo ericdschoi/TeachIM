@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Thoracentesis — Optimized Procedure Package</title>
+<style>
+  :root{--ink:#1a2433;--accent:#0e6e8c;--accent2:#b4530a;--bg:#fafbfc;--card:#fff;--line:#dde4ea;--soft:#eef4f7;}
+  *{box-sizing:border-box}
+  body{font-family:Georgia,'Times New Roman',serif;color:var(--ink);background:var(--bg);margin:0;line-height:1.55}
+  header{background:var(--accent);color:#fff;padding:28px 24px}
+  header h1{margin:0 0 6px;font-size:1.7em}
+  header p{margin:2px 0;font-size:.95em;opacity:.92}
+  nav{background:#0b5870;padding:8px 24px;position:sticky;top:0;z-index:5}
+  nav a{color:#fff;text-decoration:none;font-family:Helvetica,Arial,sans-serif;font-size:.82em;margin-right:14px;white-space:nowrap}
+  nav a:hover{text-decoration:underline}
+  main{max-width:880px;margin:0 auto;padding:24px}
+  section{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:22px 26px;margin-bottom:22px}
+  h2{font-family:Helvetica,Arial,sans-serif;color:var(--accent);font-size:1.25em;margin-top:0;border-bottom:2px solid var(--soft);padding-bottom:8px}
+  h3{font-family:Helvetica,Arial,sans-serif;font-size:1.02em;color:var(--accent2);margin-bottom:6px}
+  table{border-collapse:collapse;width:100%;font-size:.92em;margin:12px 0}
+  th{background:var(--soft);text-align:left;font-family:Helvetica,Arial,sans-serif}
+  th,td{border:1px solid var(--line);padding:7px 10px;vertical-align:top}
+  .tag{display:inline-block;font-family:Helvetica,Arial,sans-serif;font-size:.72em;background:var(--soft);color:var(--accent);border-radius:10px;padding:2px 10px;margin-left:8px;vertical-align:middle}
+  .time{font-family:Helvetica,Arial,sans-serif;font-size:.78em;color:#fff;background:var(--accent2);border-radius:10px;padding:2px 10px;margin-left:8px}
+  .ask{background:#fdf6ec;border-left:4px solid var(--accent2);padding:10px 14px;margin:12px 0;border-radius:0 6px 6px 0}
+  .ask b{font-family:Helvetica,Arial,sans-serif;font-size:.85em;letter-spacing:.04em;color:var(--accent2)}
+  .pearl{background:#eef7f0;border-left:4px solid #2e7d4f;padding:10px 14px;margin:12px 0;border-radius:0 6px 6px 0}
+  .warn{background:#fdeeea;border-left:4px solid #b00;padding:10px 14px;margin:12px 0;border-radius:0 6px 6px 0}
+  details{border:1px solid var(--line);border-radius:6px;padding:10px 14px;margin:10px 0;background:#fff}
+  details summary{cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:.9em;color:var(--accent);font-weight:bold}
+  details[open]{background:var(--soft)}
+  .mcq{border:1px solid var(--line);border-radius:8px;padding:16px 18px;margin:14px 0}
+  .mcq ol{list-style-type:upper-alpha;margin:8px 0 8px 22px;padding:0}
+  .mcq ol li{margin:4px 0}
+  .changelog td:first-child{font-family:Helvetica,Arial,sans-serif;font-size:.85em;white-space:nowrap}
+  footer{font-size:.82em;color:#5a6877;padding:18px 24px;max-width:880px;margin:0 auto}
+  .small{font-size:.85em;color:#5a6877}
+  code{background:var(--soft);padding:1px 5px;border-radius:4px;font-size:.9em}
+  @media print{nav{display:none}section{border:none;page-break-inside:avoid}}
+</style>
+</head>
+<body>
+<header>
+  <h1>Thoracentesis</h1>
+  <p>Optimized procedure package &middot; Facilitator-led simulation-based mastery learning for IM residents &middot; Pre-work ~20 min + simulation 60–90 min</p>
+  <p class="small">Adapted from <a href="https://teachim.org/teaching_material/thoracentesis/" style="color:#cde9f2">TeachIM.org — Thoracentesis</a> (Fainstad, Kramer, Cool, Ortiz-Lopez, Northcut, Cunningham, Zheng, Neumeier, Ma; sec. ed. Cool; Aug 2022, guide rev. 2025), CC BY-NC 4.0. Optimized June 2026: guideline currency verified, teaching design upgraded, assessments and clinical tools added. <b>Procedure-type lesson</b> — TeachIM publishes no slide deck for procedures; the package is built around the original instructional guide, clinical assessment tool, and quiz (all included below).</p>
+</header>
+<nav>
+  <a href="#files">Files</a>
+  <a href="#objectives">Objectives</a>
+  <a href="#prework">Pre-work</a>
+  <a href="#script">Simulation script</a>
+  <a href="#cases">Cases</a>
+  <a href="#mcq">Board MCQs</a>
+  <a href="#anki">Anki cards</a>
+  <a href="#dotphrase">Procedure note</a>
+  <a href="#takehome">Take-home</a>
+  <a href="#changelog">What changed</a>
+  <a href="#refs">References</a>
+</nav>
+<main>
+
+<section id="files">
+  <h2>Lesson Files <span class="tag">click to open — keep files in the same folder as this page</span></h2>
+  <div style="display:flex;flex-wrap:wrap;gap:12px">
+    <a href="Thoracentesis-Instructional-guide.pdf" style="flex:1;min-width:200px;display:block;text-decoration:none;border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:6px;padding:12px 16px;background:var(--soft)">
+      <span style="font-family:Helvetica,Arial,sans-serif;font-weight:bold;color:var(--accent)">▶ Instructional guide / clinical checklist</span><br>
+      <span class="small">Thoracentesis-Instructional-guide.pdf — step-by-step procedure reference + supply list (the "board" for this lesson)</span></a>
+    <a href="Thoracentesis-Clinical-Assessment.pdf" style="flex:1;min-width:200px;display:block;text-decoration:none;border:1px solid var(--line);border-left:4px solid #2e7d4f;border-radius:6px;padding:12px 16px;background:#eef7f0">
+      <span style="font-family:Helvetica,Arial,sans-serif;font-weight:bold;color:#2e7d4f">⎙ Clinical assessment tool (CAT)</span><br>
+      <span class="small">Thoracentesis-Clinical-Assessment.pdf — error-counting checklist + Global Skills + Entrustment rubric (Angoff-validated cutoffs)</span></a>
+    <a href="Quiz-thoracentesis-2.pdf" style="flex:1;min-width:200px;display:block;text-decoration:none;border:1px solid var(--line);border-left:4px solid var(--accent2);border-radius:6px;padding:12px 16px;background:#fdf6ec">
+      <span style="font-family:Helvetica,Arial,sans-serif;font-weight:bold;color:var(--accent2)">✎ Pre-quiz (questions + answer key)</span><br>
+      <span class="small">Quiz-thoracentesis-2.pdf — 10-item quiz; answers on page 3. Send the questions the day before</span></a>
+    <a href="Thoracentesis_Anki_Cards.txt" style="flex:1;min-width:200px;display:block;text-decoration:none;border:1px solid var(--line);border-left:4px solid var(--accent2);border-radius:6px;padding:12px 16px;background:#fdf6ec">
+      <span style="font-family:Helvetica,Arial,sans-serif;font-weight:bold;color:var(--accent2)">⬇ Anki cards</span><br>
+      <span class="small">Thoracentesis_Anki_Cards.txt — import into Anki (File → Import, tab-separated)</span></a>
+    <a href="Thoracentesis_OnePager.pdf" style="flex:1;min-width:200px;display:block;text-decoration:none;border:1px solid var(--line);border-left:4px solid #6d2e46;border-radius:6px;padding:12px 16px;background:#f7eef2">
+      <span style="font-family:Helvetica,Arial,sans-serif;font-weight:bold;color:#6d2e46">⎙ One-page summary</span><br>
+      <span class="small">Thoracentesis_OnePager.pdf — dense single-page procedure reference; prints on one page</span></a>
+  </div>
+  <p class="small" style="margin-bottom:0">Links are relative — they work when the named files are in the same folder as this HTML page. If a click does nothing, the file is missing from the folder.</p>
+</section>
+
+<section id="objectives">
+  <h2>Learning Objectives</h2>
+  <ol>
+    <li>Describe the appropriate indications and contraindications to performing a thoracentesis.</li>
+    <li>Achieve a minimum passing score (MPS) on the validated clinical assessment checklist in a simulation setting.</li>
+    <li>Perform a thoracentesis under full or partial supervision in the clinical setting until demonstrating the Unsupervised Practice Standard (UPS).</li>
+  </ol>
+  <p class="small">Framework: <i>Learn → See → Practice → Prove → Do → Maintain</i> (Sawyer et&nbsp;al., <i>Acad Med</i> 2015). The error-counting checklist cutoffs were set by an Angoff process among 25 procedural experts.</p>
+</section>
+
+<section id="prework">
+  <h2>Pre-work <span class="tag">NEW — send the day before with the procedure video + quiz</span></h2>
+  <p>Watch the procedural <a href="https://teachim.org/teaching_material/thoracentesis/">video</a>, skim the instructional guide and clinical checklist, and answer these without looking anything up. (The full 10-item quiz with answer key is included as a file above.)</p>
+  <details><summary>Q1. What is the minimum safe fluid depth on ultrasound, and where should you insert relative to the rib, spine, and diaphragm?</summary>
+  ≥2 cm of fluid (parietal-to-visceral pleura) in all dimensions. Insert over the <b>upper margin of the rib</b> (the neurovascular bundle runs under the rib's lower margin), as <b>laterally as possible (&gt;9–10 cm from the spine</b>, where intercostal vessels are least tortuous), and at least one interspace <b>above the diaphragm</b>. Use the low-frequency transducer to map the pocket and the high-frequency linear probe with color Doppler to screen for an aberrant subcostal vessel.</details>
+  <details><summary>Q2. Which is an absolute contraindication, and which findings are "consider increased risk" cautions?</summary>
+  Absolute: overlying skin infection (and &lt;2 cm fluid depth, or a multiloculated effusion needing a chest tube — diagnostic tap may still be indicated). Cautions (not absolute): full anticoagulation / INR &gt;2 / platelets &lt;50K (bleeding); mechanical ventilation (pneumothorax); signs of lung entrapment (re-expansion pulmonary edema). Notably, abnormal INR or platelet count alone has <i>not</i> been associated with more bleeding after ultrasound-guided thoracentesis (Patel, <i>AJR</i> 2011).</details>
+  <details><summary>Q3. When do you stop draining fluid?</summary>
+  Stop for chest pain, dyspnea, or severe coughing; for excessive resistance / pleural pressure more negative than about −20 cm H₂O (manually or by manometry); or when flow stops. Drain to <b>symptoms and pleural pressure, not to a fixed volume</b> (see the 2026 context pearl).</details>
+</section>
+
+<section id="script">
+  <h2>Simulation Teaching Script <span class="tag">Restructured into Learn–See–Practice–Prove with timing &amp; engagement cues</span></h2>
+  <p class="small">Run the simulation as a true clinical encounter with full sterile technique. Keep the <code>Clinical Assessment Tool</code> visible during teaching, then remove it for the graded run. The cursor icons below mark built-in ASK prompts — pose the question before you demonstrate. Target a 60–90 min session depending on experience.</p>
+
+  <h3>Hook &amp; framing (2 min)</h3>
+  <p>"A 65-year-old with a large left effusion and worsening dyspnea needs a tap tonight. Your intern asks: how much fluid is safe to take off — a liter? a liter and a half? until it's dry?" Hold the answer; you'll return to it. Establish that the highest-yield safety levers are <b>ultrasound site selection</b> and <b>knowing when to stop</b>, not needle dexterity.</p>
+
+  <h3>LEARN — Indications &amp; contraindications <span class="time">8 min</span></h3>
+  <div class="ask"><b>ASK:</b> "Diagnostic vs therapeutic — sort these: undiagnosed effusion, large effusion with hypoxemia, an effusion at risk of becoming a complicated parapneumonic, an asymptomatic reaccumulated malignant effusion."</div>
+  <table>
+    <tr><th>Diagnostic</th><th>Therapeutic</th></tr>
+    <tr><td>Pleural effusion of unknown etiology</td><td>Large effusion with dyspnea/hypoxemia; effusion at risk of complications if not drained (e.g., parapneumonic)</td></tr>
+  </table>
+  <div class="ask"><b>ASK:</b> "Which contraindication is absolute, and which are 'increased-risk' cautions you weigh against urgency?"</div>
+  <table>
+    <tr><th>Absolute / hard stops</th><th>Increased-risk cautions (weigh &amp; mitigate)</th></tr>
+    <tr><td>Overlying skin infection · &lt;2 cm fluid in any dimension · multiloculated effusion needing a chest tube (diagnostic tap may still be reasonable)</td><td>Full anticoagulation, INR &gt;2, platelets &lt;50K (bleeding) · mechanical ventilation (pneumothorax) · suspected lung entrapment (re-expansion edema)</td></tr>
+  </table>
+  <div class="pearl"><b>Pearl — coags rarely block the tap:</b> Ultrasound-guided thoracentesis is low-risk for bleeding, and abnormal INR/platelets alone have not been linked to more bleeding complications (Patel, <i>AJR</i> 2011; Ault, <i>Thorax</i> 2015). Correct only when clearly excessive, and never delay a needed diagnostic tap in sepsis to chase a mildly abnormal INR.</div>
+
+  <h3>LEARN — Positioning &amp; ultrasound site selection <span class="time">12 min</span></h3>
+  <p><b>Position</b> for the largest accessible pocket: usually upright leaning forward over a table with a pillow; lateral decubitus or semi-recumbent if the patient can't sit up.</p>
+  <div class="ask"><b>ASK:</b> "Walk me through the scan. Which probe, what depth, and what are the four landmarks you must identify before you mark?"</div>
+  <ul>
+    <li><b>Low-frequency curvilinear/phased-array probe</b>, indicator cranial, depth &gt;8 cm: scan mid-scapular to mid-axillary. Identify chest wall, parietal pleura, lung, diaphragm, and liver/spleen.</li>
+    <li>Choose the largest hypoechoic pocket <b>≥2 cm</b> deep, <b>&gt;9–10 cm lateral to the spine</b> (intercostal vessels are most tortuous medially), and <b>≥1 interspace above the diaphragm</b>.</li>
+    <li><b>High-frequency linear probe + color/power Doppler:</b> confirm a supracostal approach (insert over the <i>upper</i> margin of the rib) and screen for an aberrant subcostal vessel; measure skin-to-parietal-pleura depth.</li>
+    <li>Mark the site over the <b>upper margin of the rib</b> with a pen or skin indentation.</li>
+  </ul>
+  <div class="warn"><b>Safety anchor:</b> The neurovascular bundle runs along the <i>lower</i> margin of each rib — always go <b>over the top of the rib below the fluid</b>. Don't mark and walk away — mark and proceed; patient position shifts move the pocket.</div>
+
+  <h3>SEE — Sterile prep, anesthesia &amp; catheter insertion <span class="time">14 min — instructor demonstrates each step</span></h3>
+  <ol>
+    <li><b>Time-out</b> with the nurse (name, DOB, procedure, site, allergies) before opening sterile supplies; include the patient.</li>
+    <li><b>Sterile prep:</b> chlorhexidine scrub with friction ×30 s over an area larger than the drape aperture (chlorhexidine is <i>scrubbed</i>, unlike iodine which is applied and left to dry); apply the fenestrated drape.</li>
+    <li><b>Anesthetize:</b> dermal wheal with a 25 g needle, then advance a longer 21–22 g needle under continuous negative pressure, anesthetizing the tract until pleural fluid is aspirated; withdraw slightly and deposit ~2 cc just superficial to the pleura.</li>
+    <li><b>Nick</b> the skin with an #11 scalpel to ~½ the blade width.</li>
+    <li><b>Insert catheter-over-needle:</b> advance firmly through the nick <b>just above the rib</b> (if you hit rib, <i>lift</i> over it — don't pivot), applying negative pressure with the syringe hand and guiding with the other. When fluid returns, advance another 0.5–1 cm so the <b>catheter</b> (not just the needle) is in the pleural space, then anchor the needle hand and advance the catheter to the hub; remove the needle.</li>
+  </ol>
+  <div class="pearl"><b>Pearl — catheter, not needle, in the space:</b> Pneumothorax most often happens when the operator drains through a needle still in the chest. Once fluid returns, advance the soft catheter and pull the needle — and select the largest pocket you can, since a bigger fluid window reduces pneumothorax risk.</div>
+
+  <h3>SEE — Drainage, sampling &amp; closure <span class="time">8 min</span></h3>
+  <ul>
+    <li><b>Drainage:</b> connect IV tubing with two one-way valves; 60 cc syringe to the short arm, collection bag to the long arm. Pull to fill, push to empty; if no one-way valves, toggle the stopcock between pull (open to port) and push (closed). Stop for excess resistance / pressure &lt; −20 cm H₂O, or for chest pain, dyspnea, or severe coughing.</li>
+    <li><b>Sampling</b> (per clinical concern): all → cell count + differential, LDH, protein (≥10 cc); microbiology → Gram stain + reflex culture (≥20 cc); cytology → ≥30–60 cc; chylothorax → cholesterol + triglycerides; infection → consider pH (on ice, in a blood-gas syringe). Apply Light's criteria with paired serum LDH/protein.</li>
+    <li><b>Catheter extraction:</b> turn the stopcock toward the patient, briskly remove the catheter, hold gauze pressure &gt;1 min, then dress. If any concern for pneumothorax, rule it out with bedside lung ultrasound (anterior chest, supine) or CXR.</li>
+  </ul>
+  <div class="ask"><b>ASK:</b> "pH 7.15, glucose 10, and Gram-positive cocci in the fluid of a parapneumonic effusion — antibiotics alone or something more?"</div>
+  <p>That's a <b>complicated parapneumonic effusion / early empyema</b> (pH &lt;7.2, low glucose, positive Gram stain) — it needs <b>drainage with a chest tube</b>, not antibiotics alone. This is the single most important "fluid result changes management" teaching point.</p>
+
+  <h3>PRACTICE → PROVE — Mastery learning <span class="time">remaining time</span></h3>
+  <p>The learner rehearses each step, then signals readiness for a graded run. Quiz the non-technical steps with the checklist out of view, then run the full simulation with it visible, marking each mistake or required prompt. Repeat until the learner reaches the minimum passing standard.</p>
+  <table>
+    <tr><th>Component</th><th>MPS (graduate simulation)</th><th>UPS (unsupervised clinical practice)</th></tr>
+    <tr><td>Error-counting checklist (Angoff-set)</td><td>&lt;24 mistakes</td><td>&lt;7 mistakes</td></tr>
+    <tr><td>Global Skills Assessment (1–5)</td><td>&gt;2 (beyond verbal-guided)</td><td>≥ "proficient"</td></tr>
+    <tr><td>Entrustment score</td><td>&gt;2</td><td>"indirect supervision" or better</td></tr>
+  </table>
+
+  <h3>Close (2 min)</h3>
+  <p>Hide the guide. Ask the learner to rebuild: the minimum safe fluid depth, the three rules of site selection (above the rib, lateral to the spine, above the diaphragm), three reasons to stop draining, and which pleural-fluid pattern mandates a chest tube.</p>
+</section>
+
+<section id="cases">
+  <h2>Case Vignettes <span class="tag">From the quiz — answers click-to-reveal</span></h2>
+
+  <div class="mcq"><h3>Case 1 — Effusion after lung-cancer surgery</h3>
+  <p>60-year-old with stage I NSCLC s/p local excision + mediastinal node dissection 1 month ago presents with dyspnea and cough. POCUS shows a moderate right effusion. Afebrile, HR 90, RR 22, SpO₂ 90% RA. A diagnostic/therapeutic thoracentesis is planned.</p>
+  <details><summary>Which fluid studies are most appropriate?</summary>Cell count + differential, Gram stain + culture, LDH, total protein — <b>plus triglycerides and cytology</b>. The cancer history raises concern for malignant effusion (cytology), and mediastinal node dissection can injure the thoracic duct → chylothorax (triglycerides/cholesterol). Don't drain "to relieve symptoms" without sending diagnostics — the result changes management.</details></div>
+
+  <div class="mcq"><h3>Case 2 — Persistent fever despite antibiotics</h3>
+  <p>50-year-old admitted with sepsis from suspected CAP. After 2 days of broad-spectrum IV antibiotics the fever persists; repeat CXR shows a moderate effusion. Ultrasound-guided thoracentesis yields clear yellow fluid: total protein 6, LDH 1100, pH 7.15, glucose 10, Gram stain GPCs in pairs/chains.</p>
+  <details><summary>Next best step?</summary><b>Continue antibiotics and place a chest tube for drainage.</b> pH &lt;7.2, low glucose, and a positive Gram stain define a complicated parapneumonic effusion / empyema, which will not resolve on antibiotics alone — it requires source control with tube drainage (BTS 2023). Monitoring, repeat imaging, or chasing other fever sources all delay definitive therapy.</details></div>
+</section>
+
+<section id="mcq">
+  <h2>Board-Style MCQs <span class="tag">NEW — 5 items, ABIM single-best-answer</span></h2>
+
+  <div class="mcq"><p><b>1.</b> While selecting a thoracentesis site you want to avoid the intercostal neurovascular bundle and minimize bleeding. Which approach is best?</p>
+  <ol><li>Insert just below the rib at a medial (paraspinal) site</li><li>Insert over the upper margin of the rib, as lateral as safely possible, after Doppler screening</li><li>Choose the smallest accessible fluid pocket to limit lung injury</li><li>Transfuse platelets to &gt;100K before any tap</li></ol>
+  <details><summary>Answer &amp; explanation</summary><b>B.</b> The neurovascular bundle runs along the <i>lower</i> rib margin, so insert <i>over the top</i> of the rib; intercostal vessels are most tortuous medially, so go lateral (&gt;9–10 cm from spine); Doppler screens for an aberrant subcostal vessel (A is exactly backwards). A small pocket (C) raises pneumothorax risk. Routine platelet transfusion (D) isn't required — abnormal coags alone don't increase bleeding after US-guided taps (Patel 2011).</details></div>
+
+  <div class="mcq"><p><b>2.</b> What is the minimum safe fluid depth (parietal-to-visceral pleura) for a thoracentesis?</p>
+  <ol><li>1 cm</li><li>2 cm</li><li>3 cm</li><li>5 cm</li></ol>
+  <details><summary>Answer &amp; explanation</summary><b>B.</b> A pocket ≥2 cm in all dimensions is the standard minimum safe depth; less than that markedly raises the risk of hitting lung. Larger pockets are safer but 2 cm is the accepted threshold.</details></div>
+
+  <div class="mcq"><p><b>3.</b> A patient becomes dyspneic and coughs forcefully after ~1.2 L is removed during a therapeutic tap; you also feel increasing resistance on aspiration. What is the most appropriate action?</p>
+  <ol><li>Switch to wall suction to finish quickly</li><li>Stop draining now</li><li>Continue to a target of exactly 1.5 L</li><li>Push the fluid back to relieve symptoms</li></ol>
+  <details><summary>Answer &amp; explanation</summary><b>B.</b> Stop for chest pain, dyspnea, severe coughing, or excessive resistance / pleural pressure &lt; −20 cm H₂O — these signal lung non-expansion and risk of re-expansion edema. Drain to symptoms and pressure, <b>not</b> to a fixed volume; the traditional 1.5 L "limit" (C) is arbitrary and not evidence-based. Wall suction (A) does not make continued drainage safe here.</details></div>
+
+  <div class="mcq"><p><b>4.</b> Which pleural-fluid pattern from a parapneumonic effusion most clearly mandates chest-tube drainage rather than antibiotics alone?</p>
+  <ol><li>pH 7.40, glucose 90, LDH 150, negative Gram stain</li><li>pH 7.15, glucose 10, positive Gram stain</li><li>Lymphocyte-predominant exudate, ADA low</li><li>Transudate by Light's criteria</li></ol>
+  <details><summary>Answer &amp; explanation</summary><b>B.</b> pH &lt;7.2, low glucose, and/or a positive Gram stain or frank pus define a complicated parapneumonic effusion/empyema needing drainage (BTS 2023). Option A is an uncomplicated parapneumonic effusion (antibiotics, observe). A lymphocytic exudate with low ADA (C) points elsewhere (e.g., malignancy), and a transudate (D) is managed by treating the underlying cause.</details></div>
+
+  <div class="mcq"><p><b>5.</b> A 72-year-old on apixaban with an undiagnosed unilateral exudative effusion needs a diagnostic thoracentesis to evaluate for malignancy. INR 1.3, platelets 120K. What is the most appropriate approach?</p>
+  <ol><li>Proceed with ultrasound guidance; current evidence does not show increased bleeding from these parameters</li><li>Refuse until apixaban is reversed with andexanet alfa</li><li>Transfuse platelets to &gt;150K first</li><li>Cancel — anticoagulation is an absolute contraindication</li></ol>
+  <details><summary>Answer &amp; explanation</summary><b>A.</b> US-guided thoracentesis is low-risk; INR 1.3 and platelets 120K are well within safe ranges, and abnormal coags alone haven't increased bleeding in large series (Patel 2011; Ault 2015). For a non-urgent elective tap, holding a DOAC dose per local protocol is reasonable, but reversal (B), unnecessary transfusion (C), and cancellation (D) are not — anticoagulation is a relative caution, not an absolute contraindication.</details></div>
+</section>
+
+<section id="anki">
+  <h2>Spaced-Repetition Cards <span class="tag">NEW — 17 cards, importable file: Thoracentesis_Anki_Cards.txt</span></h2>
+  <table>
+    <tr><th style="width:50%">Front</th><th>Back</th></tr>
+    <tr><td>Indications for therapeutic thoracentesis?</td><td>Large effusion with dyspnea/hypoxemia; effusion at risk of complications if not drained (e.g., parapneumonic). Diagnostic: effusion of unknown etiology.</td></tr>
+    <tr><td>Absolute / hard-stop contraindications to thoracentesis?</td><td>Overlying skin infection; &lt;2 cm fluid depth; multiloculated effusion needing a chest tube (a diagnostic tap may still be reasonable).</td></tr>
+    <tr><td>"Increased-risk" cautions (not absolute) for thoracentesis?</td><td>Full anticoagulation / INR &gt;2 / platelets &lt;50K (bleeding); mechanical ventilation (pneumothorax); suspected lung entrapment (re-expansion edema).</td></tr>
+    <tr><td>Do abnormal INR/platelets increase bleeding after US-guided thoracentesis?</td><td>No — abnormal INR or platelet count alone has not been associated with increased bleeding (Patel AJR 2011; Ault Thorax 2015). Don't delay a needed tap for mild coagulopathy.</td></tr>
+    <tr><td>Minimum safe fluid depth for thoracentesis?</td><td>≥2 cm (parietal-to-visceral pleura) in all dimensions.</td></tr>
+    <tr><td>Three rules of thoracentesis site selection?</td><td>Over the UPPER margin of the rib (NV bundle runs under the rib); as lateral as possible (&gt;9–10 cm from spine, vessels most tortuous medially); ≥1 interspace above the diaphragm.</td></tr>
+    <tr><td>Which ultrasound transducers are used and for what?</td><td>Low-frequency curvilinear/phased-array (depth &gt;8 cm) to map the pocket and landmarks; high-frequency linear with color Doppler to screen for an aberrant subcostal vessel and measure skin-to-pleura depth.</td></tr>
+    <tr><td>Why advance the catheter (not just the needle) into the pleural space?</td><td>Draining through a rigid needle risks lacerating lung → pneumothorax. After fluid returns, advance 0.5–1 cm more, then thread the soft catheter to the hub and remove the needle.</td></tr>
+    <tr><td>Chlorhexidine vs iodine prep technique?</td><td>Chlorhexidine: scrub with friction ×30 s. Iodine: apply and let dry. (Thoracentesis uses chlorhexidine.)</td></tr>
+    <tr><td>When do you stop draining pleural fluid?</td><td>Chest pain, dyspnea, or severe coughing; excessive resistance or pleural pressure &lt; −20 cm H₂O; or when flow stops. Drain to symptoms/pressure, not a fixed volume.</td></tr>
+    <tr><td>Is the 1.5 L drainage limit evidence-based?</td><td>No — the traditional &lt;1.5 L cap is arbitrary. Large volumes can be removed safely if guided by symptoms/pleural pressure; RPE risk is &lt;1% (manometry doesn't clearly reduce RPE — Lentz 2019).</td></tr>
+    <tr><td>Fluid volumes for studies?</td><td>Chemistries (cell count, LDH, protein) ≥10 cc; microbiology (Gram stain + culture) ≥20 cc; cytology +30–60 cc. pH on ice in a blood-gas syringe.</td></tr>
+    <tr><td>Pleural-fluid pattern that mandates a chest tube in a parapneumonic effusion?</td><td>pH &lt;7.2, low glucose, positive Gram stain/culture, or frank pus = complicated parapneumonic effusion/empyema → tube drainage, not antibiotics alone (BTS 2023).</td></tr>
+    <tr><td>Workup for suspected chylothorax?</td><td>Pleural triglycerides and cholesterol (e.g., after mediastinal/thoracic-duct surgery).</td></tr>
+    <tr><td>How is pneumothorax risk reduced during thoracentesis?</td><td>Select the largest fluid pocket; keep the catheter (not needle) in the space; real-time/pre-procedure ultrasound. Rule out PTX afterward with lung US (anterior chest, supine) or CXR if concern.</td></tr>
+    <tr><td>Light's criteria — exudate if any one is met?</td><td>Pleural/serum protein &gt;0.5; pleural/serum LDH &gt;0.6; pleural LDH &gt;⅔ the upper limit of normal serum LDH. Otherwise transudate.</td></tr>
+    <tr><td>MPS vs UPS thresholds on the thoracentesis CAT?</td><td>MPS (graduate sim): &lt;24 mistakes, Global &gt;2, Entrustment &gt;2 (Angoff-set). UPS (unsupervised practice): &lt;7 mistakes, "proficient," "indirect supervision."</td></tr>
+  </table>
+</section>
+
+<section id="dotphrase">
+  <h2>Procedure Note / Time-out Dotphrase <span class="tag">NEW — EMR-ready thoracentesis note template</span></h2>
+  <p class="small">Indication/contraindication checklist → consent/time-out → key steps with the safety stop → post-procedure → documentation. <code>*</code> = wildcard to edit at the bedside; brackets = pick-lists. <button onclick="navigator.clipboard.writeText(document.getElementById('dp').innerText).then(()=>{this.textContent='Copied ✓';setTimeout(()=>this.textContent='Copy to clipboard',2000)})" style="font-family:Helvetica,Arial,sans-serif;font-size:.9em;cursor:pointer;padding:3px 12px;border:1px solid var(--accent);background:var(--soft);color:var(--accent);border-radius:5px">Copy to clipboard</button></p>
+  <pre id="dp" style="white-space:pre-wrap;background:#f4f7f9;border:1px solid var(--line);border-radius:6px;padding:14px;font-size:.82em;line-height:1.5;font-family:Consolas,Menlo,monospace">PROCEDURE: Thoracentesis (*diagnostic / *therapeutic), *R/L
+Indication: pleural effusion * [unknown etiology / dyspnea-hypoxemia / parapneumonic-at-risk]
+Pre-proc checklist:
+ - contraindic reviewed: NO overlying skin infection; fluid depth *≥2 cm; not isolated multiloculated requiring chest tube. Cautions weighed: anticoag/INR *<2/plt *>50K, not on mech vent, no entrapment signs.
+ - consent obtained from *[pt/surrogate]; risks (pneumothorax, bleeding, infection, re-expansion edema, failure) & alternatives discussed
+ - TIME-OUT w/ RN: name/DOB/procedure/SIDE/site/allergies confirmed
+US (low-freq curvilinear, depth >8 cm): largest pocket *≥2 cm, *>9-10 cm lateral to spine, *≥1 interspace above diaphragm; landmarks (chest wall, parietal pleura, lung, diaphragm, *liver/spleen) identified; skin-to-pleura *__ cm; high-freq linear + color Doppler — *no aberrant subcostal vessel. Site marked over UPPER margin of rib.
+Technique: position *[upright leaning fwd / lateral decub / semi-recumbent]. Chlorhexidine scrub x30 s, fenestrated drape. 1% lidocaine *5-10 mL (dermal wheal → tract → ~2 cc superficial to pleura). #11 scalpel skin nick. Catheter-over-needle advanced OVER the rib w/ negative pressure; on fluid return advanced 0.5-1 cm more, catheter threaded to hub, needle removed. SAFETY: go over top of rib; keep CATHETER (not needle) in space.
+Drainage: IV tubing w/ two one-way valves; * mL *[clear/yellow/serosanguinous/bloody/purulent] removed. STOPPED for *[symptom resolution / cough/CP/SOB / resistance / pressure < -20 cmH2O] — drained to symptoms/pressure, not fixed volume.
+Studies sent: *[cell count+diff, LDH, protein (≥10 cc); Gram stain+cx (≥20 cc); cytology (≥30-60 cc); triglycerides/cholesterol; pH on ice]; Light's criteria applied w/ paired serum.
+Closure: stopcock to patient, catheter removed briskly, pressure >1 min, dressing applied.
+Post: pt tolerated well, *EBL minimal, no immediate complication. Pneumothorax *[ruled out by lung US / CXR / not clinically indicated].
+Performing provider: *  | Supervising: *</pre>
+</section>
+
+<section id="takehome">
+  <h2>Take-Home Points</h2>
+  <ol>
+    <li>Ultrasound site selection is the core safety skill: ≥2 cm pocket, <b>over the upper rib margin</b>, &gt;9–10 cm lateral to the spine, above the diaphragm; Doppler to dodge an aberrant subcostal vessel.</li>
+    <li>The only true hard stops are overlying skin infection, &lt;2 cm fluid, and an isolated multiloculated effusion; anticoagulation/INR/platelets are <b>cautions, not absolutes</b> — abnormal coags alone don't increase bleeding.</li>
+    <li>Get the <b>catheter</b>, not just the needle, into the pleural space to avoid pneumothorax.</li>
+    <li>Drain to <b>symptoms and pleural pressure</b> (stop at CP/SOB/cough, resistance, or &lt; −20 cm H₂O) — not to an arbitrary 1.5 L limit.</li>
+    <li>Send fluid for the studies your differential demands; a <b>pH &lt;7.2 / low glucose / positive Gram stain</b> parapneumonic effusion needs a chest tube, not antibiotics alone.</li>
+    <li>Prove competence by mastery learning: reach the <b>MPS</b> (&lt;24 mistakes) in simulation, then the <b>UPS</b> (&lt;7) under graded observation before unsupervised practice.</li>
+  </ol>
+</section>
+
+<section id="changelog">
+  <h2>Optimization Changelog</h2>
+  <table class="changelog">
+    <tr><th>Area</th><th>What changed</th></tr>
+    <tr><td>Currency check</td><td>Verified against current standards (June 2026): SHM ultrasound-guidance position statement (Dancel, <i>J Hosp Med</i> 2018) and the Schildhouse safe-thoracentesis review (<i>J Hosp Med</i> 2017) remain current; abnormal-coag safety (Patel <i>AJR</i> 2011; Ault <i>Thorax</i> 2015) unchanged. No standing-content change required.</td></tr>
+    <tr><td>Content added</td><td>Added explicit "drain to symptoms/pleural pressure, not a fixed volume" framing — the traditional &lt;1.5 L limit is arbitrary and not evidence-based; RPE risk &lt;1%; routine manometry does not clearly reduce RPE (Lentz, <i>Lancet Respir Med</i> 2019). Added BTS 2023 pleural-disease thresholds for the complicated parapneumonic effusion / chest-tube decision (pH ≤7.2). Added Light's criteria recap.</td></tr>
+    <tr><td>Corrections</td><td>No errors found in the instructional guide, clinical assessment tool, or quiz.</td></tr>
+    <tr><td>Pedagogy</td><td>Restructured into the Learn–See–Practice–Prove arc with a 2-min hook, ≥4 ASK pause-points, pearls/safety-anchor callouts, HTML tables for indications/contraindications/MPS-UPS, and a retrieval close.</td></tr>
+    <tr><td>Assessment</td><td>Added 3 pre-work retrieval questions, 5 ABIM-style board MCQs with full distractor explanations, 2 case vignettes (from the quiz), and 17 spaced-repetition cards.</td></tr>
+    <tr><td>Clinical tool</td><td>Added an EMR-ready thoracentesis procedure-note / time-out dotphrase (procedure-type structure).</td></tr>
+    <tr><td>One-pager</td><td>Built a dense single-page procedure reference (separate print-CSS HTML → PDF, one page).</td></tr>
+    <tr><td>Format</td><td>Self-contained HTML launcher linking all original companion files (instructional guide, clinical assessment tool, quiz w/ answer key) + generated files; matches the Syncope/Chronic AF design system. <b>No <code>_Optimized.pptx</code></b> — TeachIM publishes no slide deck for procedures; per the no-rebuild rule none was created.</td></tr>
+    <tr><td><b>Human review needed</b></td><td>None. (Quiz answer key is embedded on page 3 of the source PDF; answers used here match the keyed answers and current guidelines.)</td></tr>
+  </table>
+</section>
+
+<section id="refs">
+  <h2>References</h2>
+  <ol>
+    <li>Sawyer T, White M, Zaveri P, et al. Learn, see, practice, prove, do, maintain: an evidence-based pedagogical framework for procedural skill training in medicine. <i>Acad Med</i>. 2015;90(8):1025-1033.</li>
+    <li>Schildhouse R, Lai A, Barsuk JH, Mourad M, Chopra V. Safe and Effective Bedside Thoracentesis: A Review of the Evidence for Practicing Clinicians. <i>J Hosp Med</i>. 2017;12(4):266-276.</li>
+    <li>Dancel R, Schnobrich D, Puri N, et al. Recommendations on the use of ultrasound guidance for adult thoracentesis: a position statement of the Society of Hospital Medicine. <i>J Hosp Med</i>. 2018;13(2):126-135.</li>
+    <li>Daniels CE, Ryu JH. Improving the safety of thoracentesis. <i>Curr Opin Pulm Med</i>. 2011;17(4):232-236.</li>
+    <li>Ault MJ, Rosen BT, Scher J, Feinglass J, Barsuk JH. Thoracentesis outcomes: a 12-year experience. <i>Thorax</i>. 2015;70(2):127-132.</li>
+    <li>Patel MD, Joshi SD. Abnormal preprocedural INR and platelet counts are not associated with increased bleeding complications after ultrasound-guided thoracentesis. <i>AJR Am J Roentgenol</i>. 2011;197(1):W164-168.</li>
+    <li>Lentz RJ, Lerner AD, Pannu JK, et al. Routine monitoring with pleural manometry during therapeutic large-volume thoracentesis: a multicentre, single-blind randomised controlled trial. <i>Lancet Respir Med</i>. 2019;7(5):447-455.</li>
+    <li>Roberts ME, Rahman NM, Maskell NA, et al. British Thoracic Society Guideline for pleural disease. <i>Thorax</i>. 2023;78(Suppl 3):s1-s42.</li>
+    <li>Berg D, Berg K, Riesenberg LA, et al. The development of a validated checklist for thoracentesis: preliminary results. <i>Am J Med Qual</i>. 2013;28(3):220-226.</li>
+  </ol>
+</section>
+
+</main>
+<footer>
+  Adapted from the TeachIM.org Thoracentesis procedure materials (Brandon Fainstad MD, Josephine Cool MD and colleagues; published August 2022, guide revised 2025), licensed under <a href="http://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>. This optimized package is released under the same license for non-commercial educational use. Optimized June 2026. Medical content should be reviewed by a qualified clinician before teaching or clinical use. Not medical advice.
+</footer>
+</body>
+</html>

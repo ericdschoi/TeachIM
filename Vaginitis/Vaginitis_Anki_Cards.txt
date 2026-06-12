@@ -1,0 +1,18 @@
+Normal vaginal flora and pH?	70-90% Lactobacillus produces lactic acid -> pH 3.8-4.5; estrogen promotes lactobacilli
+Most common cause of vaginitis?	Bacterial vaginosis (15-50% of cases)
+BV pathophysiology and pH?	Increased anaerobes (Gardnerella, Mycoplasma hominis), decreased lactobacilli -> pH >4.5
+Candidal vulvovaginitis pH?	NORMAL (4.0-4.5) - Candida and lactobacilli coexist
+Most common Candida species in VVC?	C. albicans (80-92%); also krusei, glabrata
+Trichomonas organism and pH?	Motile protozoan Trichomonas vaginalis (STI); decreased lactobacilli -> pH >4.5 (often >5)
+GSM/atrophic vaginitis pH?	Elevated (>5.0-5.5) from decreased estrogen -> decreased lactobacilli
+Amsel criteria for BV (3 of 4)?	Thin homogeneous grayish-white discharge; pH >4.5; positive whiff; clue cells (>=20% epithelial cells)
+Wet prep finding in BV?	Clue cells (epithelial cells with adherent coccobacilli, "shaggy" borders)
+Wet prep / KOH finding in yeast?	Hyphae and budding yeast on KOH (specific, not highly sensitive)
+Most sensitive/specific test for trichomonas?	NAAT/PCR (wet prep only 50-60% sensitive)
+First-line treatment for BV?	Metronidazole (PO 500 mg BID x7 d or 0.75% gel x5 d) or clindamycin
+First-line treatment for candidal vulvovaginitis?	Fluconazole 150 mg PO x1, or topical azole (miconazole/clotrimazole)
+First-line treatment for trichomonas (women)?	Metronidazole 500 mg PO BID x7 d (or tinidazole 2 g x1); treat partner(s); topical agents do not work
+Vaginitis treatment preferred in pregnancy?	Yeast -> topical azole x7 d; BV -> topical or oral metronidazole; trich -> metronidazole 500 mg BID x7 d
+Key mimic of vaginitis to exclude?	STI cervicitis (gonorrhea +/- chlamydia)
+Single-dose oral agent covering both BV and trichomonas?	Secnidazole (Solosec) 2 g granules x1 (FDA: BV 2017, T. vaginalis 2021)
+Newer agents for recurrent VVC?	Ibrexafungerp (Brexafemme) and oteseconazole (Vivjoa, first RVVC-specific drug, FDA 2022)

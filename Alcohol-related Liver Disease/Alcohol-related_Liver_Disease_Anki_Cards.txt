@@ -1,0 +1,18 @@
+The spectrum of ALD, in order?	Hepatic steatosis → steatohepatitis (ASH) → fibrosis → cirrhosis.
+Which ALD stages are reversible with abstinence?	Steatosis and inflammation regress; established fibrosis/cirrhosis is largely irreversible.
+Prevalence of hepatic steatosis in heavy drinkers?	~90%.
+Single most important factor improving survival in ALD?	Complete alcohol abstinence.
+First-line FDA-approved agents for relapse prevention in ALD?	Naltrexone and acamprosate.
+Which AUD medication is avoided in ALD?	Disulfiram (hepatotoxicity).
+Acamprosate caution?	Avoid in severe renal dysfunction (renally cleared).
+Who to screen for ALD?	All adults >18 with current or prior unhealthy alcohol use (CAGE, AUDIT-C).
+Initial ALD work-up?	RUQ ultrasound + CMP, CBC, INR.
+What clinches alcohol vs MASLD steatosis?	Clinical history — they are indistinguishable on US/biopsy.
+Non-invasive fibrosis tests in ALD?	FIB-4, APRI, FibroSure/FibroTest, ELF; elastography; MRI.
+Lab signature of alcohol-related hepatitis (AH)?	AST:ALT >2, both usually <400 IU/L; total bilirubin >3 mg/dL; recent heavy use; jaundice ≤8 wks.
+Transaminases >400–500 in a drinker — implication?	Look for another cause (ischemic, acetaminophen, viral) — not pure AH.
+Severity threshold for severe AH?	MDF ≥32 (or MELD >20).
+Pharmacotherapy for severe AH without contraindications?	Prednisolone 40 mg/day (short-term survival benefit); IV NAC may add short-term benefit.
+Contraindications to steroids in AH?	Active infection, AKI Cr >2.5, uncontrolled GI bleed, multiorgan failure/shock, alternative cause.
+Lille score: when and cutoff?	Day 4–7; <0.45 = responder (continue 28-day course, ~85% 6-mo survival); ≥0.45 = stop steroids.
+Nutrition in ALD?	High-protein diet + thiamine, folate, B-complex; low-sodium if portal HTN; consider zinc in AH.

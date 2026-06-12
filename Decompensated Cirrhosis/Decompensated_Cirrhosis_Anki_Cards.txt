@@ -1,0 +1,17 @@
+The "cirrhosis one-liner" — 4 elements?	Cause; compensated vs decompensated; baseline MELD; history of complications.
+Define decompensation in cirrhosis?	A rise in MELD or a new complication (ascites, variceal bleed, HE, SBP, HRS).
+Median survival: compensated vs decompensated cirrhosis?	Compensated >12 y; decompensated much shorter (~2 y by current data).
+Current US liver-transplant allocation score?	MELD 3.0 (adds albumin + sex; replaced MELD-Na in 2023).
+MELD 3-month mortality at 20 / 30 / 40?	~3–4% / 27–32% / 65–66%.
+Three overlapping precipitants of decompensation?	Infection/SBP, GI bleeding, portal vein thrombosis.
+Reflex work-up of acute decompensation?	Diagnostic paracentesis, evaluate for bleeding, RUQ US with Doppler.
+Who gets a diagnostic paracentesis?	Essentially everyone admitted with cirrhosis + ascites.
+SBP diagnostic threshold?	Ascitic fluid ANC ≥250 cells/µL.
+SBP treatment?	Cefotaxime or ceftriaxone PLUS IV albumin (1.5 g/kg day 1, 1 g/kg day 3).
+Uncomplicated ascites management?	Sodium restriction + diuretics (spironolactone ± furosemide); LVP + albumin if tense.
+HRS-AKI first-line treatment?	Albumin + terlipressin (first-line) or octreotide/midodrine + albumin; stop diuretics/nephrotoxins.
+HRS nomenclature update?	Type 1 HRS → HRS-AKI (ICA 2015 / AASLD 2021); terlipressin FDA-approved 2022.
+Hepatic encephalopathy treatment?	Lactulose + rifaximin; PEG is an alternative for overt HE; find/treat the precipitant.
+Acute variceal bleed bundle?	Restrictive transfusion (Hgb ~7), octreotide, PPI, ceftriaxone prophylaxis, urgent EGD.
+Baveno VII prevention pearl?	Carvedilol in compensated cirrhosis with CSPH reduces first decompensation and mortality.
+NASH/NAFLD current names?	MASH / MASLD (2023 nomenclature).

@@ -1,0 +1,18 @@
+First branch point in any anemia work-up?	Reticulocyte index: <2 = underproduction (marrow); >=3 = overproduction (blood loss, hemolysis, sequestration).
+What drops Hgb without deranging the retic index?	Hemodilution -- aggressive IVF (inpatient) or hypervolemia/HF (outpatient).
+Caveat to the retic index?	May be falsely low/normal if an underproduction process coexists with bleeding/hemolysis.
+Macrocytic underproduction causes?	Megaloblastic (B12/folate, drugs: HU/allopurinol/HIV meds), liver/ETOH, severe hypothyroidism, primary marrow (MDS, esp. MCV >120).
+Microcytic underproduction causes?	Iron deficiency, thalassemia, sideroblastic (lead, Zn, INH/linezolid), anemia of chronic inflammation.
+When do you shift toward primary marrow pathology?	When other cell lines are also affected (MDS, aplastic anemia, leukemia, myeloma).
+Iron studies in iron deficiency?	Low Fe, high TIBC, low %sat (<20% suggestive, <10% very), low ferritin (<30 ng/mL diagnostic).
+Iron studies in anemia of chronic disease?	Low Fe, low-normal TIBC, low-normal %sat, normal-high ferritin (acute-phase reactant).
+Does a low ferritin confirm iron deficiency in inflammation?	Yes -- inflammation only raises ferritin; ferritin <30 is diagnostic even with active inflammation.
+ACD + concurrent iron deficiency -- how common and how to tell?	20-85% of ACD. Clue: very low TSAT; confirm with sTfR, hepcidin, or response to an iron trial.
+Labs that confirm hemolysis?	High LDH, low haptoglobin, high indirect bilirubin, + peripheral smear.
+What does the DAT (direct Coombs) distinguish?	Immune (DAT-positive, antibodies on RBCs -> AIHA) vs non-immune (DAT-negative) hemolysis.
+Warm vs cold AIHA?	Warm = IgG (cancer/lymphoma, SLE, drugs); Cold = IgM (lymphoma, mycoplasma, mono; also PNH, syphilis). Smear: spherocytes.
+Smear clue for MAHA, and what it means with low platelets?	Schistocytes; with thrombocytopenia -> thrombotic microangiopathy (TTP/HUS) -- an emergency.
+Primary vs secondary TMA?	Primary: TTP/HUS, drug-induced. Secondary/TMA-like: DIC (low fibrinogen), HELLP. Other: malignant HTN, prosthetic valve/LVAD/TIPS, scleroderma renal crisis.
+Suspected TTP -- what to do?	PLASMIC score, send ADAMTS13 BEFORE plasma exchange, start PEX if TTP likely; treat confirmed TTP with PEX + steroids + caplacizumab.
+Intrinsic non-immune (non-MAHA) hemolysis categories?	Membrane (HS, elliptocytosis, stomatocytosis, PNH), Hb (sickle, thalassemia), metabolism (G6PD, pyruvate kinase deficiency).
+New iron deficiency in an older adult -- next step?	GI evaluation for occult blood loss (colon cancer until proven otherwise).

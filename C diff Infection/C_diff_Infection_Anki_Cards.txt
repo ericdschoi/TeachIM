@@ -1,0 +1,17 @@
+Colonization vs infection — who do you test?	Only symptomatic patients (≥3 unformed stools/24 h or ileus). Colonization is common.
+C. diff colonization rates?	4–15% healthy adults; ~21% hospitalized; 15–30% LTC residents.
+Risk factors for CDI?	Age >65, healthcare exposure, antibiotics; also IBD, cardiac disease, CKD (community-acquired).
+Two-step diagnostic algorithm for CDI?	GDH antigen + toxin A/B; if discordant/indeterminate, confirm with C. diff NAAT.
+What does GDH antigen detect?	An enzyme from ALL C. diff strains (high sensitivity); can't distinguish toxigenic strains.
+What does the toxin assay add?	High specificity for toxigenic strains; false negatives with poor specimen handling.
+Severe CDI criteria?	WBC >15,000 OR Cr ≥1.5 mg/dL.
+Fulminant CDI?	Severe PLUS hypotension/shock OR ileus/megacolon.
+Recurrent CDI definition?	Recurrent diarrhea + positive test within 8 weeks of the initial episode (~20%).
+Preferred first-line for non-severe/severe CDI?	Fidaxomicin 200 mg BID ×10 d; PO vancomycin 125 mg q6h ×10 d acceptable alternative.
+Role of metronidazole in CDI?	PO metronidazole only for low-risk non-severe CDI when fidaxomicin/vancomycin unavailable.
+Fulminant CDI treatment?	PO vancomycin 500 mg q6h (PR if ileus) + IV metronidazole 500 mg q8h; surgery consult.
+First-recurrence CDI treatment?	Fidaxomicin (preferred) or tapered/pulsed PO vancomycin.
+Durable prevention of recurrent CDI (2022–23)?	Rebyota (rectal, live-jslm) or Vowst (oral spores, live-brpk); FMT by referral.
+Bezlotoxumab status?	Discontinued by Merck effective Jan 31, 2025 — no longer available.
+Do you test for cure in CDI?	No — shedding persists (~56%); post-infectious IBS up to 25%.
+Probiotics or stopping PPIs for CDI prevention?	Not recommended.

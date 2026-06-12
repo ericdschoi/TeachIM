@@ -1,0 +1,16 @@
+Definition of hypertensive emergency?	Severe HTN (SBP >180 or DBP >120) PLUS acute end-organ damage. The damage, not the number, defines it.
+What distinguishes hypertensive emergency from "severe HTN without acute target-organ damage" (old "hypertensive urgency")?	The presence of acute end-organ damage. Without it, manage with oral meds as an outpatient.
+What matters more — the absolute BP or the rate of rise?	Rate of rise. Chronic hypertensives tolerate very high BP; a previously normotensive patient can have damage below 180/120.
+2025 AHA/ACC terminology change for "hypertensive urgency"?	Renamed "severe hypertension without acute target-organ damage"; management (oral, outpatient) is unchanged.
+Three organ systems to screen for end-organ damage?	Neurologic (encephalopathy, ICH/SAH, ischemic stroke), cardiovascular (acute LV failure, ACS, aortic dissection), renal (rapidly rising Cr, low UOP, hematuria).
+What is hypertensive encephalopathy and its classic imaging finding?	Diagnosis of exclusion; insidious headache/confusion/seizures from cerebral edema; MRI shows parieto-occipital vasogenic edema (PRES).
+General BP-lowering target/pace in hypertensive emergency?	Lower SBP <=25% in hour 1 -> ~160/100 by 2-6 h -> normal over 24-48 h. Goal is to prevent further damage, not normalize BP.
+Why not normalize BP quickly in a hypertensive emergency?	Vascular autoregulation has reset upward; a rapid drop causes hypoperfusion/ischemia (especially cerebral).
+BP management of aortic dissection?	HR to ~60 FIRST with a beta-blocker (esmolol/labetalol), THEN nitroprusside for SBP <120 ASAP. Rate before pressure to limit shear stress.
+BP management of acute ischemic stroke?	Permissive HTN if <=220/120; if higher, lower ~15% over 24 h. tPA candidate: must be <185/110 before lytics, <180/105 for 24 h after.
+Preferred agent in acute ischemic stroke?	Nicardipine (also helps prevent vasospasm; safe in pregnancy).
+Best agents for ACS / acute LV failure with pulmonary edema?	Nitroglycerin (venodilator, decreases preload) +/- nitroprusside; avoid beta-blockers until EF known.
+Agent for catecholamine excess (pheo crisis, sympathomimetics, clonidine withdrawal)?	Phentolamine (alpha-1 antagonist). Avoid beta-blockers as initial therapy (unopposed alpha).
+Cautions with nitroprusside?	Cyanide toxicity in AKI; may raise ICP / affect platelets in stroke; tachyphylaxis with prolonged use.
+Which agent is particularly useful in hypertensive emergency with acute renal failure?	Fenoldopam — a dopamine-1 agonist causing renal vasodilation (can raise ICP and intra-ocular pressure).
+Two antihypertensives safe in pregnancy/eclampsia?	Labetalol and nicardipine (and hydralazine). Add magnesium for eclampsia seizure prophylaxis.

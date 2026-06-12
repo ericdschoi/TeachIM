@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8">
+<style>
+@page { size: Letter; margin: 0.3in; }
+:root { --fs: 13px; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: "Helvetica Neue", Arial, sans-serif; font-size: var(--fs); line-height: 1.32; color: #111; }
+.hdr { display: flex; justify-content: space-between; align-items: baseline; border-bottom: 3px solid #0e6e8c; padding-bottom: 4px; margin-bottom: 6px; }
+.hdr h1 { font-size: calc(var(--fs) * 1.65); color: #0e6e8c; letter-spacing: 0.3px; }
+.hdr .sub { font-size: calc(var(--fs) * 0.82); color: #555; max-width: 46%; text-align: right; }
+.cols { column-count: 2; column-gap: 14px; }
+h2 { font-size: calc(var(--fs) * 1.05); color: #fff; background: #0e6e8c; padding: 2.5px 6px; margin: 0 0 3.5px; border-radius: 2.5px; break-after: avoid; }
+h2.alt { background: #b4530a; }
+h2.grn { background: #2e7d4f; }
+.blk { break-inside: avoid; margin-bottom: 6px; }
+table { width: 100%; border-collapse: collapse; margin: 2.5px 0 3.5px; }
+td, th { border: 0.6px solid #bcc7d0; padding: 1.8px 3.5px; vertical-align: top; text-align: left; }
+th { background: #eef4f7; font-weight: 700; }
+td.k { background: #f5f8fa; font-weight: 700; width: 30%; }
+ul { margin: 0 0 0 12px; padding: 0; }
+li { margin-bottom: 1.2px; }
+.red { color: #b00; font-weight: 700; }
+.pearl { background: #eef7f0; border-left: 3px solid #2e7d4f; padding: 2.5px 6px; margin: 2.5px 0; }
+.warn { background: #fdeeea; border-left: 3px solid #b00; padding: 2.5px 6px; margin: 2.5px 0; }
+.foot { border-top: 0.6px solid #bcc7d0; margin-top: 4px; padding-top: 2.5px; font-size: calc(var(--fs) * 0.78); color: #777; column-span: all; }
+b { font-weight: 700; }
+</style></head>
+<body>
+<div class="hdr">
+  <h1>LARGE VOLUME PARACENTESIS &mdash; Procedure One-Pager</h1>
+  <div class="sub">US-guided bedside ascites drainage &middot; TeachIM simulation curriculum &middot; IM resident reference</div>
+</div>
+
+<div class="cols">
+
+  <div class="blk">
+    <h2>1 &middot; INDICATIONS</h2>
+    <table>
+      <tr><td class="k">Therapeutic (LVP)</td><td>Symptomatic ascites: distention/pain, <b>early satiety</b>, dyspnea. (Asymptomatic large ascites alone is NOT an indication.)</td></tr>
+      <tr><td class="k">Diagnostic</td><td>New-onset ascites; <b>EVERY cirrhotic admitted</b> with ascites (r/o SBP), even if asymptomatic</td></tr>
+    </table>
+  </div>
+
+  <div class="blk">
+    <h2 class="alt">2 &middot; CONTRAINDICATIONS</h2>
+    <table>
+      <tr><td class="k">Defer LVP</td><td><b>Hemodynamic instability / sepsis</b> (large-volume removal worsens circulatory dysfn); surgical abdomen; DIC / clinical fibrinolysis</td></tr>
+      <tr><td class="k">NOT contraindic.</td><td><b>INR &gt;2, plt &lt;50K</b> (no routine FFP/plt); <b>intra-abd HTN</b> (relieved BY tap). Pregnancy/prior surgery = use US, avoid scars</td></tr>
+    </table>
+    <div class="pearl"><b>Coags don't block the tap:</b> paracentesis is safe across a wide INR/plt range; AASLD recommends against routine correction. It's the hemodynamics that defer a <i>large-volume</i> tap.</div>
+  </div>
+
+  <div class="blk">
+    <h2>3 &middot; US SITE SELECTION</h2>
+    <ul>
+      <li><b>Low-freq curvilinear/phased-array:</b> safe pocket <b>&gt;2&ndash;3 cm</b> (peritoneum&rarr;viscera, all 3 dim); <b>&gt;5 cm</b> to justify a therapeutic tap. Note probe angle = needle angle.</li>
+      <li><b>Site:</b> LLQ/RLQ <b>~2 cm sup + ~2 cm medial to ASIS</b>, lateral to rectus.</li>
+      <li><b>High-freq linear + Doppler:</b> screen superficial abd-wall veins (light pressure) + identify <b>inferior epigastric vessels</b> (lateral to rectus).</li>
+    </ul>
+    <div class="warn"><b>SAFETY:</b> stay LATERAL to the rectus &mdash; the <b>inferior epigastric arteries</b> run just lateral to the rectus sheath; a too-medial stick &rarr; rectus-sheath hematoma.</div>
+  </div>
+
+  <div class="blk">
+    <h2>4 &middot; TECHNIQUE</h2>
+    <ul>
+      <li><b>Time-out</b> w/ RN before opening sterile supplies.</li>
+      <li><b>Gear:</b> mask, eye protn, sterile gloves (cap/gown optional). Chlorhexidine <b>scrub &times;2, 30 s</b> (iodine = apply &amp; dry).</li>
+      <li><b>Anesthesia:</b> 1% lido wheal &rarr; 21 g under negative pressure to fluid &rarr; ~2 cc at peritoneum.</li>
+      <li>#11 nick &rarr; catheter-over-needle (<b>Z-track</b>) under negative pressure to fluid &rarr; advance 0.5 cm, thread catheter to hub, remove needle.</li>
+      <li><b>Drain:</b> simple IV tubing (<b>NO valves</b>) to vacuum bottle; exchange until flow stops + symptoms improve.</li>
+    </ul>
+  </div>
+
+  <div class="blk">
+    <h2 class="grn">5 &middot; ALBUMIN</h2>
+    <div class="pearl"><b>6&ndash;8 g of 25% albumin per liter</b> removed for taps <b>&gt;5 L</b> (~75 g for 10 L). Prevents post-paracentesis circulatory dysfunction; improves survival (AASLD 2021). Not needed for &lt;4&ndash;5 L.</div>
+  </div>
+
+  <div class="blk">
+    <h2 class="grn">6 &middot; FLUID STUDIES</h2>
+    <table>
+      <tr><th>Suspect</th><th>Send</th></tr>
+      <tr><td class="k">Every tap</td><td>Cell count + diff; on 1st tap albumin + total protein (SAAG)</td></tr>
+      <tr><td class="k">Infection (SBP)</td><td>Gram stain + culture (bedside into blood-cx bottles). <span class="red">PMN &ge;250 = SBP</span> &rarr; ceftriaxone</td></tr>
+      <tr><td class="k">Malignancy</td><td>Cytology</td></tr>
+    </table>
+    <div class="warn"><b>High SAAG (&ge;1.1) + HIGH protein (&gt;2.5)</b> &rarr; cardiac/post-hepatic cause &rarr; <b>echocardiogram</b> (cirrhotic ascites is high-SAAG, LOW-protein).</div>
+  </div>
+
+  <div class="blk">
+    <h2>FLOW STOPPED? &mdash; TROUBLESHOOT</h2>
+    <ul>
+      <li>Turn off suction &rarr; <b>reposition</b> (raise HOB / roll to side)</li>
+      <li><b>Flush</b> catheter 5&ndash;10 cc saline (bowel plugging it)</li>
+      <li><b>Rotate</b> catheter</li>
+      <li><b>Withdraw</b> to ~2 cm + skin-to-peritoneum depth (~4 cm)</li>
+      <li>Too little fluid (&lt;2 cm) &rarr; dynamic US or IR</li>
+    </ul>
+  </div>
+
+  <div class="blk">
+    <h2 class="alt">MASTERY-LEARNING THRESHOLDS</h2>
+    <table>
+      <tr><th>Component</th><th>MPS (sim)</th><th>UPS (clinical)</th></tr>
+      <tr><td class="k">Mistakes /41 (Angoff)</td><td>&lt;30</td><td>&lt;8</td></tr>
+      <tr><td class="k">Global skills</td><td>&gt;2</td><td>&ge;proficient</td></tr>
+      <tr><td class="k">Entrustment</td><td>&gt;2</td><td>w/o direct supervision</td></tr>
+    </table>
+  </div>
+
+</div>
+<div class="foot">Adapted from TeachIM.org Large Volume Paracentesis (Fainstad &amp; Cool, July 2022; materials rev. 2025), CC BY-NC 4.0 &mdash; non-commercial educational use. Optimized June 2026; currency verified (AASLD 2021 ascites/SBP/HRS guidance, SHM 2019 US guidance, AGA 2025 update all current). Clinician-review before teaching. Not medical advice.</div>
+</body>
+</html>

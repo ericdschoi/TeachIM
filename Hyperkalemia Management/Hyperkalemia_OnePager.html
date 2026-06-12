@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Hyperkalemia — One-Page Reference</title>
+<style>
+  @page { size: Letter; margin: 0.3in; }
+  :root{ --fs: 13.0px; }
+  body{font-family:Helvetica,Arial,sans-serif;font-size:var(--fs);line-height:1.32;color:#1a2433;margin:0;
+       column-count:2;column-gap:calc(var(--fs)*1.3);column-fill:balance}
+  .head{column-span:all;background:#0e6e8c;color:#fff;padding:calc(var(--fs)*0.6) calc(var(--fs)*0.9);border-radius:4px;margin-bottom:calc(var(--fs)*0.7)}
+  .head h1{margin:0;font-size:calc(var(--fs)*1.5)}
+  .head p{margin:2px 0 0;font-size:calc(var(--fs)*0.85);opacity:.93}
+  .blk{break-inside:avoid;margin-bottom:calc(var(--fs)*0.8)}
+  h2{font-size:calc(var(--fs)*1.05);color:#fff;background:#0e6e8c;margin:0 0 calc(var(--fs)*0.4);padding:calc(var(--fs)*0.25) calc(var(--fs)*0.6);border-radius:3px}
+  h2.o{background:#b4530a} h2.g{background:#2e7d4f}
+  table{border-collapse:collapse;width:100%;font-size:calc(var(--fs)*0.92);margin:0 0 calc(var(--fs)*0.3)}
+  th{background:#eef4f7;text-align:left}
+  th,td{border:1px solid #c8d2da;padding:calc(var(--fs)*0.22) calc(var(--fs)*0.42);vertical-align:top}
+  ul{margin:0;padding-left:calc(var(--fs)*1.3)}
+  li{margin-bottom:calc(var(--fs)*0.18)}
+  b.k{color:#0e6e8c} .warn{color:#a13030;font-weight:bold}
+  .pearl{background:#eef7f0;border-left:3px solid #2e7d4f;padding:calc(var(--fs)*0.3) calc(var(--fs)*0.5);margin:calc(var(--fs)*0.3) 0}
+  .foot{column-span:all;font-size:calc(var(--fs)*0.72);color:#5a6877;border-top:1px solid #c8d2da;padding-top:calc(var(--fs)*0.3);margin-top:calc(var(--fs)*0.2)}
+</style>
+</head>
+<body>
+<div class="head">
+  <h1>Inpatient Hyperkalemia — 5-Step Framework</h1>
+  <p>Confirm &rarr; ECG &rarr; Stabilize &rarr; Shift &rarr; Eliminate &middot; Any K &gt;5.5 gets a STAT ECG; treat K &gt;6.5 as emergent regardless of ECG &middot; complications: severe weakness, fatal arrhythmias</p>
+</div>
+
+<div class="blk"><h2>1 &middot; Confirm — without delaying treatment</h2>
+<ul><li>Expected? (AKI/CKD/ESRD, RASi, K-sparing diuretics, TMP-SMX, rhabdo, TLS, acidosis)</li>
+<li>Hemolysis, fist clenching, poor collection &rarr; spurious K</li>
+<li>Symptoms: myalgias, weakness, palpitations</li></ul></div>
+
+<div class="blk"><h2>2 &middot; STAT ECG — progressive changes</h2>
+<table><tr><th>Early</th><td>Peaked T waves, QT shortening</td></tr>
+<tr><th>Worse</th><td>PR prolongs &rarr; P flattens/lost; QRS widens</td></tr>
+<tr><th>Pre-arrest</th><td>Sine wave, VT/VF, asystole; pseudo-RBBB / pseudo-STE V1–V2</td></tr></table>
+<ul><li>Repeat ECG q30–60 min until normal; telemetry</li>
+<li>ECG changes predict outcome better than the K level, but correlate poorly with it; <b>rapid rise &gt;&gt; chronic elevation</b> for arrhythmia risk</li></ul></div>
+
+<div class="blk"><h2>3 &middot; Stabilize myocardium — ECG changes or K &gt;6.5</h2>
+<table><tr><th></th><th>Ca gluconate</th><th>Ca chloride</th></tr>
+<tr><td>Dose</td><td><b>1–2 g IV, peripheral OK (preferred)</b></td><td>0.5–1 g IV, central line (caustic)</td></tr>
+<tr><td>Kinetics</td><td colspan="2">Onset 3–5 min &middot; lasts 30–60 min</td></tr>
+<tr><td>Effect</td><td colspan="2"><b>No change in serum K</b> — should normalize ECG; re-dose q5–10 min if changes persist</td></tr></table></div>
+
+<div class="blk"><h2 class="o">4 &middot; Shift K into cells — temporizing only</h2>
+<table><tr><th>Agent</th><th>Dose</th><th>Onset/lasts</th><th>&Delta;K (mEq/L)</th></tr>
+<tr><td>Regular insulin + D50</td><td>10U IV + amp D50; <b>5U if renal impairment</b>; no D50 if BG&gt;250</td><td>15–60 min / 4–6 h</td><td>&darr;0.5–1.0</td></tr>
+<tr><td>Albuterol neb</td><td><b>10–20 mg</b> in 4 mL NS (&gt;&gt; 2.5 mg asthma dose)</td><td>15–30 min / 2–4 h</td><td>&darr;0.5–1.5</td></tr>
+<tr><td>NaHCO<sub>3</sub></td><td>50–100 mEq IV — <b>only metabolic acidosis, not ESRD</b></td><td>15–30 min / 1–2 h</td><td>least effective</td></tr></table>
+<ul><li>Monitor glucose ~6 h post insulin (hypoglycemia = most common complication)</li>
+<li>Albuterol: caution active CAD; best <i>with</i> insulin</li>
+<li>Pick cocktail by comorbidity; <b>shifting never removes K</b></li></ul></div>
+
+<div class="blk"><h2 class="g">5 &middot; Eliminate K — kidney ~90% / gut ~10%</h2>
+<table><tr><th>Therapy</th><th>Use</th></tr>
+<tr><td>Furosemide 40–160 mg IV</td><td>1st-line if hypervolemic; + isotonic IVF if euvolemic; <span class="warn">useless in anuria</span>; alone can volume-deplete &rarr; worse AKI</td></tr>
+<tr><td>HD / CRRT</td><td>Severe renal dysfunction or refractory — most likely to normalize K within 4 h</td></tr>
+<tr><td>SZC (Lokelma) 10 g TID &times;48 h</td><td>Onset ~1 h, preferred binder; Na load/edema, cost. UKKA 2023: option alongside shifting in life-threatening hyperK (K&ge;6.5)</td></tr>
+<tr><td>Patiromer</td><td>Colon only, onset ~7 h — chronic niche</td></tr>
+<tr><td>Kayexalate (SPS) 15–60 g q6h PO / 30–50 g PR</td><td><span class="warn">Avoid:</span> post-op, ileus/SBO, IBD, infectious colitis (bowel necrosis); separate other meds 3 h; skip if HD planned. UKKA 2023: not for emergency tx</td></tr></table></div>
+
+<div class="blk"><h2 class="o">Do / AVOID</h2>
+<ul>
+<li><b class="k">DO</b> recheck K in 1–4 h; repeat shift + eliminate until K normal or HD</li>
+<li><b class="k">DO</b> (KDIGO 2024) lower K with diet review/diuretic/binder <b>rather than stopping ACEi/ARB</b> — RASi d/c linked to &uarr;mortality/CV events in CKD</li>
+<li><span class="warn">AVOID</span> NaHCO<sub>3</sub> in ESRD (HD pts were the non-responders) or without acidosis</li>
+<li><span class="warn">AVOID</span> Kayexalate with any bowel risk or imminent HD</li>
+<li><span class="warn">AVOID</span> judging calcium by the K level — its endpoint is the ECG</li>
+</ul>
+<div class="pearl"><b>Responders to bicarbonate</b> in studies: K&gt;6, HCO<sub>3</sub>&lt;17, pH&lt;7.35, not on HD (Abuelo, KI Rep 2018).</div></div>
+
+<div class="foot">From TeachIM.org "Inpatient Management of Hyperkalemia" (Gardner, Dietsche, Zhang; Dec 2021), CC BY-NC 4.0 — optimized June 2026 (UKKA 2023 + KDIGO 2024 verified). Educational use only; not medical advice. Doses: Mayo Clin Proc 2021;96:744-62 &middot; UKKA 2023 &middot; Abuelo KI Rep 2018.</div>
+</body>
+</html>

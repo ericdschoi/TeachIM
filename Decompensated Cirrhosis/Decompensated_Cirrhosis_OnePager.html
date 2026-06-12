@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+  @page { size: Letter; margin: 0.3in; }
+  :root{ --fs: 13px; --primary:#0e6e8c; --orange:#b4530a; --green:#2e7d4f; --line:#bcc7d0; }
+  *{box-sizing:border-box}
+  body{font-family:'Helvetica Neue',Arial,sans-serif;font-size:var(--fs);line-height:1.27;color:#1a2433;margin:0;
+       column-count:2;column-gap:14px;column-fill:balance;}
+  .title{column-span:all;text-align:center;margin:0 0 5px;}
+  .title h1{font-size:calc(var(--fs)*1.5);margin:0;color:var(--primary);}
+  .title .sub{font-size:calc(var(--fs)*0.92);color:#44525e;margin-top:1px;}
+  .block{break-inside:avoid;margin-bottom:6px;border:1px solid var(--line);border-radius:4px;overflow:hidden;}
+  h2{font-size:calc(var(--fs)*1.02);color:#fff;margin:0;padding:2.5px 6px;background:var(--primary);}
+  h2.o{background:var(--orange)} h2.g{background:var(--green)}
+  .body{padding:4px 7px;}
+  table{border-collapse:collapse;width:100%;font-size:calc(var(--fs)*0.95);}
+  td,th{border:1px solid var(--line);padding:2px 4px;vertical-align:top;text-align:left;}
+  th{background:#eef4f7;}
+  ul{margin:2px 0;padding-left:14px;} li{margin:1px 0;}
+  p{margin:2px 0;}
+  .k{color:var(--primary);font-weight:bold;}
+  .ko{color:var(--orange);font-weight:bold;}
+  .avoid{color:#a11;font-weight:bold;}
+  .def{column-span:all;text-align:center;font-size:calc(var(--fs)*0.95);background:#eef4f7;border:1px solid var(--line);border-radius:4px;padding:3px 6px;margin-bottom:6px;}
+</style>
+</head>
+<body>
+  <div class="title">
+    <h1>Management of Decompensated Cirrhosis — Clinical One-Pager</h1>
+    <div class="sub">Facilitator quick reference · TeachIM (Zhang/Fainstad, Jan 2020), optimized Jun 2026 · CC BY-NC 4.0 · clinician-review before use</div>
+  </div>
+
+  <div class="def"><span class="k">Cirrhosis one-liner:</span> cause | compensated vs DECOMPENSATED | MELD 3.0 | prior complications. <b>Decompensation = &uarr;MELD or new complication.</b> Precipitants overlap: infection/SBP, GI bleed, PVT.</div>
+
+  <div class="block">
+    <h2>Staging &amp; MELD 3.0</h2>
+    <div class="body">
+      <p><span class="k">Cause:</span> EtOH 60–70%, MASH 10%, HCV/HBV 10%, hemochromatosis, AIH/PSC/PBC.</p>
+      <p>Compensated median survival &gt;12 y; decompensated much shorter. <b>MELD 3.0</b> (Cr/Tbili/INR/Na/albumin/sex) = US allocation (replaced MELD-Na, 2023).</p>
+      <table>
+        <tr><th>MELD</th><th>3-mo mortality</th></tr>
+        <tr><td>20</td><td>3–4%</td></tr>
+        <tr><td>30</td><td>27–32%</td></tr>
+        <tr><td>40</td><td>65–66%</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="block">
+    <h2 class="o">Work-up of Acute Decompensation</h2>
+    <div class="body">
+      <ul>
+        <li><b>Diagnostic paracentesis</b> (SAAG, cell count, culture) — everyone admitted with ascites.</li>
+        <li>Evaluate for GI bleeding.</li>
+        <li>RUQ US with Doppler (PVT, HCC).</li>
+        <li>Recheck MELD components (Cr, Tbili, INR, Na).</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="block">
+    <h2 class="g">Complications &amp; Management</h2>
+    <div class="body">
+      <table>
+        <tr><th>Problem</th><th>Management</th></tr>
+        <tr><td>Ascites / hydrothorax</td><td>Na restrict + diuretics (spirono ± furosemide); LVP + albumin if tense</td></tr>
+        <tr><td>SBP (ANC &ge;250)</td><td>Cefotaxime/ceftriaxone + <b>albumin</b> 1.5 g/kg d1, 1 g/kg d3</td></tr>
+        <tr><td>HRS-AKI</td><td>Hold diuretics/nephrotox; albumin; <b>terlipressin</b> (1st-line) or octreotide/midodrine + albumin</td></tr>
+        <tr><td>Hepatic enceph.</td><td>Lactulose + rifaximin; treat precipitant; PEG alt</td></tr>
+        <tr><td>Variceal bleed</td><td>Restrictive transfusion (Hgb ~7), octreotide, PPI, <b>ceftriaxone</b>, urgent EGD</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="block">
+    <h2>2021–2023 Updates</h2>
+    <div class="body">
+      <ul>
+        <li><b>MELD 3.0</b> (2023) replaced MELD-Na (adds albumin + sex).</li>
+        <li><b>Terlipressin</b> FDA-approved 2022, first-line for HRS-AKI (type 1 HRS = HRS-AKI).</li>
+        <li><b>Baveno VII:</b> carvedilol in compensated cirrhosis + CSPH prevents 1st decompensation.</li>
+        <li>NASH &rarr; MASH; NAFLD &rarr; MASLD (2023).</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="block">
+    <h2 class="o">Pearls</h2>
+    <div class="body">
+      <ul>
+        <li>Missed SBP is a preventable death — tap the belly.</li>
+        <li>Albumin in SBP reduces HRS &amp; mortality (esp. Cr &gt;1 or Tbili &gt;4).</li>
+        <li>In variceal bleed, ceftriaxone is a survival drug — not optional.</li>
+        <li>Restrictive transfusion (Hgb ~7) beats liberal in UGIB.</li>
+        <li>Decompensation = put transplant evaluation on the problem list.</li>
+      </ul>
+    </div>
+  </div>
+
+</body>
+</html>

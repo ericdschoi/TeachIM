@@ -1,0 +1,16 @@
+The 4 questions for reading any ventilator?	(1) What mode? (2) What level of O2 support? (3) Is ventilation appropriate? (4) How are the respiratory mechanics?
+Dials vs measured values on the screen?	Right-side dials = clinician-set; left-side numbers = ventilator-measured. They differ when the patient breathes over the set rate.
+Square wave in PRESSURE means…?	A pressure-targeted mode: PC, PRVC, or PS.
+Square wave in FLOW means…?	Classic volume control (modern vents can change the flow shape, so its absence does not exclude VC).
+Control vs support mode — the tell?	Control mode = a set/mandatory RR. Support mode (PS) = no mandatory RR; patient triggers all breaths.
+Pressure Control — target and monitor?	Target Pcontrol/deltaP; monitor tidal volume and minute ventilation.
+Volume Control — target and monitor?	Target tidal volume; monitor peak and plateau pressure. Used for ARDS lung-protective VT.
+PRVC — what is it?	Hybrid: set a target VT; the vent algorithm sets the pressure to achieve it. Square pressure wave; monitor peak/plateau + achieved VT.
+Pressure Support — use and risk?	Spontaneous mode for SBTs/minimal support; no mandatory RR, so apnea triggers a backup control mode.
+Which 2 settings set oxygenation in every mode?	FiO2 and PEEP (read against the ARDSNet PEEP/FiO2 ladder).
+Minute ventilation equation and normal range?	VE = VT x RR. Normal 4-6 L/min (often higher in disease).
+Target pH range when judging ventilation?	Generally keep pH 7.2-7.5.
+Patient-driven tachypnea — causes to look for?	CNS injury/suppression, pain, salicylates, metabolic acidosis.
+Volume mode, deltaP > 10 — next step?	Perform an inspiratory hold to obtain the plateau pressure.
+Peak minus Plateau > 3-5 indicates…?	A RESISTANCE problem: mucus plug, kinked tube, bronchospasm.
+Elevated Plateau minus PEEP (>10) indicates…?	A COMPLIANCE problem: pneumothorax, alveolar filling/edema, fibrosis, mainstem intubation, distended abdomen.

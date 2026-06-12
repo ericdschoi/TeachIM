@@ -1,0 +1,18 @@
+What does CRABI stand for in plasma cell dyscrasias?	hyperCalcemia, Renal dysfunction, Anemia, Boney lytic lesions, Immunodeficiency — the end-organ damage that defines MM.
+Three screening tests for a plasma cell dyscrasia?	SPEP + serum immunofixation + serum free light chains (FLC).
+Sensitivity: SPEP+IFX alone vs +UPEP vs +FLC?	~80% → ~95% (add UPEP) → ~99% (add serum FLC).
+Why can a urine dipstick miss myeloma?	Dipstick detects albumin only; it misses monoclonal free light chains (Bence Jones protein).
+What % of myeloma is light-chain-only (missed by SPEP)?	Up to ~16% — caught by serum FLC.
+Normal serum κ/λ free light chain ratio?	0.26–1.65. >1.65 = κ clone; <0.26 = λ clone.
+Why is the FLC ratio unreliable in renal failure, and the workaround?	Reduced light-chain clearance raises the ratio (up to ~3); use stricter cutoffs (>4 or <0.25) to flag a true clone.
+MGUS diagnostic criteria?	M-protein <3 g/dL, <10% clonal marrow plasma cells, NO CRABI/end-organ damage.
+Smoldering myeloma criteria?	M-protein ≥3 g/dL (or ≥500 mg/24h) OR 10–60% clonal marrow plasma cells, but NO CRABI.
+What turns SMM into MM?	CRABI end-organ damage OR a myeloma-defining biomarker (≥60% marrow, FLC ratio ≥100, >1 focal MRI lesion).
+Progression risk: MGUS vs SMM?	MGUS ~1%/yr; SMM ~10%/yr for the first 5 years (then ~5%/yr).
+Most sensitive imaging for myeloma bone disease?	PET/CT (gold standard); whole-body low-dose CT or MRI > plain whole-body X-ray, which misses small lytic lesions.
+Labs to order at MM diagnosis for R-ISS staging?	β2-microglobulin (mg/L), albumin, LDH, and FISH cytogenetics.
+R-ISS stage III definition & median OS?	β2M ≥5.5 mg/L AND (elevated LDH OR high-risk FISH); median OS ~43 months.
+What does R2-ISS add to R-ISS (2022)?	Gain/amplification of 1q21 — a 4-tier additive score (D'Agostino, JCO 2022).
+Current standard front-line induction for transplant-eligible MM?	Quadruplet: anti-CD38 mAb (daratumumab) + VRd (D-VRd) — PERSEUS, NEJM 2024.
+autoSCT eligibility cutoffs in MM?	~age <75, ECOG <3, no cirrhosis/severe HF. Renal disease is NOT a contraindication.
+Prophylaxis: bortezomib vs lenalidomide?	Bortezomib (proteasome inhibitor) → VZV/acyclovir prophylaxis; lenalidomide (IMiD) → VTE prophylaxis (ASA or anticoagulation).

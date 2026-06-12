@@ -1,0 +1,16 @@
+Definition of syncope?	Abrupt transient LOC from global cerebral hypoperfusion, with rapid spontaneous full recovery. 6–8 s of interrupted cerebral flow suffices.
+Three great mimics of syncope and the distinguishing feature of each?	Seizure (prolonged convulsions, post-ictal confusion, tongue biting/incontinence); vertebrobasilar TIA/CVA (LOC only WITH focal signs like vertigo/dysarthria); hypoglycemia (impaired rather than lost consciousness; no recovery without treatment).
+Can syncope cause convulsions?	Yes — brief myoclonic jerks ("convulsive syncope"). Distinguish from seizure by the absence of a post-ictal state.
+The perfusion cascade used to classify all syncope?	CPP = MAP − ICP; MAP = CO × SVR; CO = HR × SV; SV ← preload, afterload, contractility.
+Diagnostic criteria for orthostatic hypotension?	Postural drop in SBP ≥20 or DBP ≥10; ESC also accepts SBP <90 with symptoms (not in ACC/AHA).
+Most common cause of orthostatic hypotension?	Drug-induced (vasodilators, antidepressants, diuretics, AV-nodal blockers).
+OH vs reflex syncope — the autonomic response in one word each?	OH: insufficient. Reflex: inappropriate (to a physiologic trigger).
+Two hemodynamic subtypes of reflex syncope?	Cardioinhibitory (vagal surge → bradycardia) and vasodepressive (sympathetic withdrawal → ↓SVR); mixed is common.
+Four mechanisms of cardiac syncope with one example each?	↑Afterload (aortic stenosis, HOCM); ↓contractility (MI, VT); ↓HR (AV block, sinus node dysfunction); ↓preload (PE, tamponade, pulmonary HTN, dissection).
+How common is PE among patients with syncope?	<1% of all-comers, <3% of those hospitalized (2018 multinational study) — the 17% figure (Prandoni 2016) applied to a selected hospitalized cohort. Uncommon cause overall.
+The four things every syncope patient gets?	History, physical exam, orthostatic vital signs, 12-lead ECG.
+Three tests NOT routinely useful in syncope?	Head CT/MRI (without trauma/focal findings), EEG (without seizure-suggestive history), carotid imaging.
+Historical profile of cardiac syncope?	Structural heart disease/CAD or family history of sudden death; occurs supine/at rest (arrhythmia) or with exertion (structural); no prodrome or sudden palpitations.
+High-risk exam and ECG features mandating admission (name 5)?	SBP <90; awake HR <40; undiagnosed systolic murmur; GI bleed signs; ECG — acute ischemia, Mobitz II/3rd-degree block, pauses >3 s, VT, pre-excitation, QTc <340 or >460 ms, Brugada, BBB/Q waves.
+Cardiac monitor choice by syncope frequency?	Daily–weekly: Holter 24–72 h. Weekly–monthly with prodrome: event/loop monitor 2–6 wk or 2-wk patch. Infrequent/unexplained: implantable loop recorder (years).
+First-line treatment of vasovagal syncope, and who gets a pacemaker?	Reassurance, trigger avoidance, counter-pressure maneuvers (± midodrine/fludrocortisone/salt). Pacing: selected patients >40 with documented cardioinhibitory (asystolic) syncope, frequent and unpredictable — strengthened by BIOSync/ESC 2021.

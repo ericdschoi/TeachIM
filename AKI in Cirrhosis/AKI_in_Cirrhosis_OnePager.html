@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8">
+<style>
+@page { size: Letter; margin: 0.3in; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 12.555px; line-height: 1.32; color: #111; }
+.hdr { display: flex; justify-content: space-between; align-items: baseline; border-bottom: 3.375px solid #0e6e8c; padding-bottom: 4.050px; margin-bottom: 6.750px; }
+.hdr h1 { font-size: 22.950px; color: #0e6e8c; letter-spacing: 0.270px; }
+.hdr .sub { font-size: 10.800px; color: #555; max-width: 52%; text-align: right; }
+.cols { column-count: 2; column-gap: 14.850px; }
+h2 { font-size: 13.500px; color: #fff; background: #0e6e8c; padding: 2.700px 6.750px; margin: 0 0 4.050px; border-radius: 2.700px; break-after: avoid; }
+h2.alt { background: #b4530a; }
+h2.grn { background: #2e7d4f; }
+.blk { break-inside: avoid; margin-bottom: 6.750px; }
+table { width: 100%; border-collapse: collapse; margin: 2.700px 0 4.050px; }
+td, th { border: 0.675px solid #bcc7d0; padding: 2.025px 4.050px; vertical-align: top; text-align: left; }
+th { background: #eef4f7; font-weight: 700; }
+td.k { background: #f5f8fa; font-weight: 700; width: 20%; }
+ul { margin: 0 0 0 13.500px; padding: 0; }
+li { margin-bottom: 1.350px; }
+.tag { font-weight: 700; color: #0e6e8c; }
+.red { color: #b00; font-weight: 700; }
+.dp { font-family: "Consolas", monospace; font-size: 10.125px; line-height: 1.3; background: #f4f7f9; border: 0.675px solid #bcc7d0; border-radius: 2.700px; padding: 5.400px 6.750px; white-space: pre-wrap; break-inside: avoid; }
+.pearl { background: #eef7f0; border-left: 3.375px solid #2e7d4f; padding: 2.700px 6.750px; margin: 2.700px 0; }
+.warn { background: #fdeeea; border-left: 3.375px solid #b00; padding: 2.700px 6.750px; margin: 2.700px 0; }
+.foot { border-top: 0.675px solid #bcc7d0; margin-top: 4.050px; padding-top: 2.700px; font-size: 9.450px; color: #777; column-span: all; }
+b { font-weight: 700; }
+</style></head>
+<body>
+<div class="hdr">
+  <h1>AKI IN CIRRHOSIS &mdash; Clinical One-Pager</h1>
+  <div class="sub">Differentiate HRS from other AKI &middot; ICA 2015 / AASLD 2021 &middot; terlipressin FDA 2022 &middot; IM resident reference</div>
+</div>
+
+<div class="cols">
+
+  <div class="blk">
+    <h2>1 &middot; DIFFERENTIAL &mdash; MOSTLY PRE-RENAL</h2>
+    <table>
+      <tr><th>Category</th><th>%</th><th>Causes</th></tr>
+      <tr><td class="k">Pre-renal</td><td>60&ndash;70</td><td>Vol-responsive: GIB, over-diuresis, GI losses. Not vol-responsive: <b>HRS</b>, cardiorenal. Also sepsis (SBP, PNA, UTI), meds</td></tr>
+      <tr><td class="k">Intrarenal</td><td>30&ndash;40</td><td>ATN, AIN, GN</td></tr>
+      <tr><td class="k">Post-renal</td><td>&lt;1</td><td>Obstruction, neurogenic bladder</td></tr>
+    </table>
+    <div class="warn"><b>Always, early:</b> diagnostic <b>paracentesis</b> (SBP can be painless) + rule out <b>GIB</b>. AKI raises mortality 2&ndash;6&times; in cirrhosis.</div>
+  </div>
+
+  <div class="blk">
+    <h2>2 &middot; PATHOPHYS &mdash; A VASODILATORY STATE</h2>
+    &darr;Liver metabolism of vasodilators &rarr; <b>splanchnic vasodilation</b> &rarr; splanchnic pooling &rarr; <b>&darr;effective arterial volume (EAV)</b>.
+    <table>
+      <tr><td class="k">Compensated</td><td>Heart &uarr;CO to defend perfusion</td></tr>
+      <tr><td class="k">Decompensated</td><td>CO can't compensate &rarr; &darr;BP &rarr; RAAS / ADH / sympathetic &rarr; renal vasoconstriction + Na/H&#8322;O retention &rarr; <b>hyponatremia + pre-renal AKI</b></td></tr>
+    </table>
+    HRS = the kidney squeezed by systemic vasodilation, not intrinsic renal disease.
+  </div>
+
+  <div class="blk">
+    <h2 class="grn">3 &middot; HRS-AKI &mdash; DIAGNOSIS (ICA)</h2>
+    <ul>
+      <li>Cirrhosis with ascites + AKI (ICA-AKI: &uarr;Cr &ge;0.3 mg/dL in 48h or &ge;50% in 7d)</li>
+      <li>NO improvement after diuretic withdrawal + <b>albumin 1 g/kg/d (max 100 g) &times;48h</b></li>
+      <li>No shock; no nephrotoxins; no structural dz (bland UA, no proteinuria/hematuria, normal renal US)</li>
+    </ul>
+    <div class="warn"><b>Terminology update:</b> old <b>Type 1 &rarr; HRS-AKI</b> (fixed Cr&gt;2.5 threshold dropped); <b>Type 2 &rarr; HRS-NAKI</b> (often refractory ascites). ICA 2015 / AASLD 2021.</div>
+  </div>
+
+  <div class="blk">
+    <h2 class="alt">3b &middot; HRS-AKI &mdash; TREATMENT</h2>
+    <table>
+      <tr><td class="k">Albumin</td><td>Expand EAV (up to ~50 g/day)</td></tr>
+      <tr><td class="k">Vasoconstrictor</td><td><b>Terlipressin</b> (FDA 2022) or <b>norepinephrine</b> (ICU); midodrine 5&ndash;7.5 mg TID + octreotide 100 µg SQ TID + albumin = older ward regimen. Goal &uarr;MAP &gt;15</td></tr>
+      <tr><td class="k">TIPS</td><td>Delayed renal benefit; most too ill to qualify</td></tr>
+      <tr><td class="k">HD</td><td>Bridge to transplant</td></tr>
+      <tr><td class="k">Transplant</td><td><b>Only definitive Rx</b> (±combined liver-kidney)</td></tr>
+    </table>
+    <div class="warn"><b>Terlipressin &mdash; avoid:</b> ACLF grade 3, pre-existing hypoxia, or SCr &gt;5 mg/dL (respiratory-failure signal; benefit unlikely).</div>
+  </div>
+
+  <div class="blk">
+    <h2 class="grn">4 &middot; SBP &mdash; DON'T MISS IT</h2>
+    Ascitic <b>&ge;250 PMN/µL = SBP</b> &rarr; cefotaxime/ceftriaxone &times;5d (FQ if PCN-allergic).
+    <div class="pearl"><b>Albumin in SBP:</b> 1.5 g/kg day 1 + 1 g/kg day 3 &mdash; reduces HRS &amp; mortality; greatest benefit if <b>Tbili &gt;4, Cr &gt;1, or BUN &gt;30</b> (Sort, NEJM 1999).</div>
+  </div>
+
+  <div class="blk">
+    <h2 class="alt">URINE INDICES &amp; PITFALLS</h2>
+    <ul>
+      <li>On diuretics &rarr; use <b>FeUrea</b> (&lt;35% = pre-renal); FeNa is falsely high</li>
+      <li>Low urine Na / FeNa can occur even in ATN (RAAS reclaims Na); granular casts also seen w/ severe hyperbilirubinemia &mdash; both unreliable for ATN in cirrhosis</li>
+      <li><b>AIN clue:</b> WBC casts + NSAID use &rarr; stop the drug</li>
+    </ul>
+  </div>
+
+  <div class="blk">
+    <h2 class="alt">ATTENDING DOTPHRASE</h2>
+<div class="dp">#AKI in cirrhosis: Cr * (baseline *), AKI stage * [ICA-AKI: &uarr;Cr &ge;0.3 in 48h or &ge;50% in 7d]. 2/2 * [pre-renal (hypovol/GIB/over-diuresis/sepsis-SBP/HRS-AKI/cardiorenal), intrarenal (ATN/AIN/GN), post-renal (rare)]. decomp cirrhosis w/ * [ascites/HE/varices/jaundice].
+- w/u: meds (diuretics/NSAIDs/contrast), UA+micro, urine lytes [FeUrea &lt;35% pre-renal on diuretics], renal US, DIAGNOSTIC PARACENTESIS (&ge;250 PMN=SBP), r/o GIB
+- HRS-AKI dx: cirrhosis+ascites+AKI + NO response to diuretic hold + albumin 1 g/kg/d x48h + no shock/nephrotox/structural dz
+- tx: albumin + vasoconstrictor * [terlipressin (FDA 2022; avoid ACLF-3/hypoxia/SCr&gt;5) / norepi ICU / midodrine+octreotide older] &rarr; MAP&gt;15; TIPS select; HD bridge; DEFINITIVE = liver transplant (±liver-kidney)
+- SBP &rarr; cefotaxime/ceftriaxone x5d + albumin 1.5 g/kg d1 + 1 g/kg d3 (esp Tbili&gt;4/Cr&gt;1/BUN&gt;30)
+- AIN (WBC casts+NSAID) &rarr; stop drug; cautious volume challenge
+- monitoring: strict I/O + daily wt, hold nephrotoxins/NSAIDs/diuretics, renally dose, daily BMP, HE care
+- labs: BMP, CBC, LFTs/INR, UA+micro, urine Na/Cr/urea, ascitic cell count+cx, lactate, ±RUQ US Doppler (PVT)</div>
+  </div>
+
+</div>
+
+<div class="foot">
+Adapted from TeachIM.org &ldquo;AKI in Cirrhosis&rdquo; (Yilin Zhang, MD) under CC BY-NC 4.0. Educational use only &mdash; not medical advice. Optimized June 2026; verify doses &amp; current guidance before clinical use. Key sources: ICA 2015 (J Hepatol); AASLD 2021 (Hepatology); CONFIRM trial / FDA terlipressin approval 2022; Sort NEJM 1999.
+</div>
+</body></html>

@@ -1,0 +1,17 @@
+Three required criteria for ALF?	Acute liver injury (<26 wks, no chronic liver disease) + coagulopathy (INR >1.5) + hepatic encephalopathy.
+What separates ALF from acute liver injury?	Hepatic encephalopathy.
+Exceptions allowing ALF despite preexisting liver disease?	HBV, autoimmune hepatitis, Wilson's disease.
+Most common ALF cause in the US?	Acetaminophen (drugs/toxins ~50%).
+Two categories causing >50% of ALF?	Drugs/toxins and viral hepatitis.
+Does alcohol cause ALF?	No — but it can worsen another insult (e.g., acetaminophen).
+West Haven HE grades I–IV?	I altered sleep-wake/attention; II lethargy + asterixis; III stupor/gross disorientation; IV coma.
+Empiric drug for all ALF?	N-acetylcysteine (NAC) — improves transplant-free survival even in non-APAP ALF.
+When is NAC benefit greatest in non-APAP ALF?	Early-stage disease with low-grade (I–II) hepatic encephalopathy.
+Why avoid correcting INR in ALF?	INR is a key prognostic marker; reverse only for active bleeding (vitamin K is ok).
+Why minimize IV fluids in ALF?	Can precipitate/worsen cerebral edema (even with rising creatinine).
+Ammonia threshold predicting intracranial hypertension?	Arterial ammonia >150–200 µmol/L.
+HE grade prompting intubation?	Grade III–IV (airway protection).
+King's College Criteria for acetaminophen ALF?	pH <7.3, OR all of: INR >6.5, Cr >3.3 mg/dL, grade III–IV HE.
+King's College Criteria for non-APAP ALF?	INR >6.5, OR ≥3 of: age <10/>40; HAV/HBV/drug; jaundice >7 d before HE; INR >3.5; Tbili >18.
+Wilson's clue in acute ALF?	ALP:total-bilirubin ratio <4, young age, Coombs-negative hemolysis; ceruloplasmin may be normal acutely.
+Most important ALF disposition step?	Early transfer to a liver-transplant center before progression precludes safe transfer.

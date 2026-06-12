@@ -1,0 +1,18 @@
+Light's criteria — exudate if ANY one of…	Pleural/serum protein >0.5; pleural/serum LDH >0.6; pleural LDH >2/3 serum ULN.
+Sensitivity/specificity of Light's criteria	~98% sensitive, ~83% specific.
+When do Light's criteria misclassify, and the workaround?	Diuretic use (~25% of transudates called exudates) and high pleural RBCs (falsely raise LDH); use serum–pleural albumin gradient >1.2 g/dL to identify a transudate.
+First step in evaluating a pleural effusion >1 cm	Ultrasound-guided diagnostic thoracentesis.
+Causes of transudative effusion	Heart failure, renal failure/nephrotic syndrome, cirrhosis (hepatic hydrothorax), hypoalbuminemia, peritoneal dialysis, atelectasis, trapped lung.
+Causes of exudative effusion	Infection/parapneumonic, malignancy, PE, autoimmune (RA, SLE, GPA, Sjögren's, sarcoid), chylothorax, hemothorax, GI (esophageal perforation, pancreatitis).
+PMN-predominant exudate suggests…	Bacterial parapneumonic effusion or empyema.
+Lymphocyte-predominant exudate suggests…	Malignancy, TB, autoimmune, chylothorax, post-CABG, lung-transplant rejection; any chronic effusion.
+Pleural fluid finding diagnostic of chylothorax	Triglycerides >110 mg/dL.
+Pleural fluid finding diagnostic of hemothorax	Pleural:blood hematocrit ratio >0.5.
+Pleural fluid finding for esophageal rupture/pancreatitis	Elevated amylase.
+Best pleural test for TB pleurisy	Adenosine deaminase (ADA) >40 — sens/spec >90%, better than AFB/culture/biopsy.
+Definition of an uncomplicated parapneumonic effusion + treatment	No loculations/septations, pH >7.2, normal glucose; treat with antibiotics alone.
+Definition of a complicated parapneumonic effusion + treatment	Loculations/septations, pH <7.2, or low glucose; antibiotics PLUS drainage.
+Definition of empyema	Frank pus or positive pleural Gram stain/culture; antibiotics plus drainage (often surgical: VATS/decortication).
+Does intrapleural tPA/DNase reduce mortality?	No — it improves drainage and reduces surgical referral (MIST-2, Rahman NEJM 2011) but no mortality benefit.
+BTS 2023 first-line chest tube for pleural infection	Small-bore (≤14F) — equal efficacy, less pain; larger bore for heavy loculation/pus.
+How does serial thoracentesis affect malignant effusion yield?	Cytology sensitivity rises ~65% (1st) → ~92% (2nd) → ~97% (3rd); large-volume taps increase yield.

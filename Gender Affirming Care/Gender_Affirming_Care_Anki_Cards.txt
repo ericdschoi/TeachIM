@@ -1,0 +1,17 @@
+Four independent axes to distinguish in gender care?	Gender identity, gender expression, sex assigned at birth (AMAB/AFAB), and sexual orientation.
+The four patient-centered intake questions in gender care?	What name do you go by? / What pronouns do you use? / How would you describe your current gender identity? / What sex was assigned to you at birth?
+What to do after misnaming or misgendering a patient?	Recognize, apologize, commit to change, move on (briefly; don't over-apologize).
+Who can diagnose gender dysphoria and start GAHT?	A generalist, using DSM-5 criteria and an informed-consent model. Gender incongruence is NOT a mental illness.
+Informed-consent checklist before starting GAHT?	Capacity; screen contraindications; discuss expectations/changes/side effects; offer fertility counseling.
+Two pillars of feminizing hormone therapy?	Estrogen (17-beta-estradiol) PLUS an anti-androgen (spironolactone, 5-alpha-reductase inhibitor, or GnRH agonist).
+Feminizing hormone targets?	Estradiol 100-200 pg/mL; suppress total testosterone <50 ng/dL.
+Masculinizing therapy and its target?	Testosterone (single agent); goal trough total testosterone 400-700 ng/dL.
+GAHT monitoring schedule?	Levels plus exam at 3 and 6 months, then annually.
+Feminizing labs to monitor?	Estradiol, total testosterone, LFTs, lipids; add potassium/creatinine if on spironolactone.
+Masculinizing labs to monitor?	Total testosterone (plus or minus estradiol) and hematocrit/CBC (erythrocytosis).
+Irreversible feminizing change? Irreversible masculinizing changes?	Feminizing: breast growth. Masculinizing: voice deepening and clitoral enlargement.
+Key adverse effect of each: estrogen, spironolactone, testosterone?	Estrogen -> VTE; spironolactone -> hyperkalemia (and orthostasis); testosterone -> erythrocytosis.
+Lowest-VTE-risk estrogen formulation? Highest?	Lowest: transdermal (patch) estradiol. Highest: oral, especially ethinyl estradiol.
+DVT on estradiol - how to manage?	Patient-centered shared decision; if continuing, switch to transdermal plus therapeutic anticoagulation; stop only for symptomatic PE or instability.
+Hold GAHT when admitted or perioperatively?	No - do not hold, EXCEPT estradiol in a patient with VTE risk factors.
+What drives cancer screening in transgender patients?	The organs that are present, not gender identity (e.g., retained cervix -> cervical screening).

@@ -1,0 +1,17 @@
+Three organisms that hospital exposure keeps adding across infection sites?	MRSA, Pseudomonas, and Enterococcus.
+Empiric bugs and drugs for inpatient CAP?	S. pneumoniae, GNRs (H. flu, Moraxella), atypicals -> ceftriaxone + azithromycin/doxycycline, or a respiratory fluoroquinolone (regardless of severity).
+Two features that justify adding MRSA/Pseudomonas coverage to CAP?	(1) Prior MRSA or Pseudomonas isolation; (2) hospitalization + IV antibiotics within 90 days. HCAP was retired in 2019.
+HAP vs VAP definitions?	HAP: pneumonia >48 h after admission, not ventilator-associated. VAP: pneumonia >48 h after intubation.
+When do you add anaerobic coverage for aspiration pneumonia?	Only for lung abscess or empyema. Routine aspiration events rarely involve anaerobes.
+Value of a negative MRSA nares PCR in pneumonia?	High negative predictive value -- use it to stop empiric vancomycin (most reassuring in low-prevalence settings).
+Most common cause of uncomplicated cystitis, and its share?	E. coli, 75-95% of cases. Others: Proteus, Klebsiella, S. saprophyticus.
+First-line options for simple cystitis?	Nitrofurantoin 100 mg BID x5 d; TMP-SMX x3 d (if local resistance <20%); fosfomycin 3 g x1.
+Two drugs that must NEVER be used for pyelonephritis?	Nitrofurantoin and fosfomycin -- they don't reach renal/tissue concentrations (bladder-only).
+Definition of CAUTI?	Symptoms/signs of UTI + bacteriuria (>=10^5 CFU) in a patient with an indwelling, suprapubic, or intermittent catheter, or one removed within 48 h. Don't treat asymptomatic bacteriuria.
+UTI MDR risk factors (within 3 months)?	Prior MDR/ESBL organism; inpatient/care-facility stay; recent fluoroquinolone, Bactrim, or broad-spectrum beta-lactam; travel to a high-MDR area.
+Nonpurulent cellulitis -- bug and treatment?	Streptococci >> S. aureus -> cephalexin (PO) or cefazolin/ceftriaxone (IV). No role for superficial wound cultures.
+Purulent SSTI -- bug and primary treatment?	S. aureus, MRSA > MSSA -> incision & drainage first; add MRSA coverage (vanc/dapto IV, or Bactrim/doxycycline PO). Culture the pus.
+NSTI -- exam red flags and management?	Pain/tenderness beyond the erythema, rapid progression, systemic toxicity, crepitus, bullae, "woody" edema, necrosis -> urgent surgery + vanc + Zosyn/meropenem + clindamycin (antitoxin).
+Why add clindamycin in NSTI / streptococcal toxic shock?	It inhibits ribosomal protein synthesis, shutting off exotoxin production (antitoxin / "Eagle" effect) independent of bactericidal activity.
+Community-acquired intra-abdominal infection -- bugs and first-line drugs?	Enteric GNRs, streptococci, anaerobes (B. fragilis) -> 3rd-gen cephalosporin + metronidazole (or FQ + metronidazole). Enterococcus/Pseudomonas not routine.
+What does hospital-acquired IAI add, and what's the non-negotiable adjunct?	Adds Pseudomonas and Enterococcus (+/- MRSA): Zosyn or cefepime+metronidazole or meropenem +/- vancomycin. Source control is essential in every IAI.

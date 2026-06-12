@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Hyponatremia — One-Page Reference</title>
+<style>
+  @page { size: Letter; margin: 0.3in; }
+  :root{ --fs: 13.0px; }
+  body{font-family:Helvetica,Arial,sans-serif;font-size:var(--fs);line-height:1.32;color:#1a2433;margin:0;
+       column-count:2;column-gap:calc(var(--fs)*1.3);column-fill:balance}
+  .head{column-span:all;background:#0e6e8c;color:#fff;padding:calc(var(--fs)*0.6) calc(var(--fs)*0.9);border-radius:4px;margin-bottom:calc(var(--fs)*0.7)}
+  .head h1{margin:0;font-size:calc(var(--fs)*1.5)}
+  .head p{margin:2px 0 0;font-size:calc(var(--fs)*0.85);opacity:.93}
+  .blk{break-inside:avoid;margin-bottom:calc(var(--fs)*0.8)}
+  h2{font-size:calc(var(--fs)*1.05);color:#fff;background:#0e6e8c;margin:0 0 calc(var(--fs)*0.4);padding:calc(var(--fs)*0.25) calc(var(--fs)*0.6);border-radius:3px}
+  h2.o{background:#b4530a} h2.g{background:#2e7d4f}
+  table{border-collapse:collapse;width:100%;font-size:calc(var(--fs)*0.92);margin:0 0 calc(var(--fs)*0.3)}
+  th{background:#eef4f7;text-align:left}
+  th,td{border:1px solid #c8d2da;padding:calc(var(--fs)*0.22) calc(var(--fs)*0.42);vertical-align:top}
+  ul{margin:0;padding-left:calc(var(--fs)*1.3)}
+  li{margin-bottom:calc(var(--fs)*0.18)}
+  b.k{color:#0e6e8c} .warn{color:#a13030;font-weight:bold}
+  .pearl{background:#eef7f0;border-left:3px solid #2e7d4f;padding:calc(var(--fs)*0.3) calc(var(--fs)*0.5);margin:calc(var(--fs)*0.3) 0}
+  .foot{column-span:all;font-size:calc(var(--fs)*0.72);color:#5a6877;border-top:1px solid #c8d2da;padding-top:calc(var(--fs)*0.3);margin-top:calc(var(--fs)*0.2)}
+</style>
+</head>
+<body>
+<div class="head">
+  <h1>Hyponatremia — the 3-Lab Diagnostic Approach</h1>
+  <p>Serum osm "is it real?" &rarr; urine osm "is ADH on?" &rarr; urine Na "are the kidneys seeing enough fluid?" &middot; skip the unreliable bedside volume guess &middot; diagnosis only — treatment is a separate pathway</p>
+</div>
+
+<div class="blk"><h2>1 &middot; Serum osm — is it real?</h2>
+<table><tr><th>SOsm</th><th>Read</th><th>Causes / action</th></tr>
+<tr><td>&lt;290</td><td><b>True hypo-osmolar hypoNa</b></td><td>&rarr; Step 2</td></tr>
+<tr><td>Normal</td><td>Pseudohyponatremia</td><td>&uarr;TG, &uarr;protein (myeloma) dilute whole plasma &rarr; send whole-blood (direct ISE) Na</td></tr>
+<tr><td>&gt;290</td><td>Hyperosmolar</td><td><b>Active</b> osmoles (glucose, mannitol, sorbitol) pull water from cells; <b>inactive</b> (BUN, EtOH) raise osm but do NOT cause hypoNa</td></tr></table>
+<div class="pearl"><b>Corrected Na</b> = measured + 1.6 &times; (glucose &minus; 100)/100 — glc 500 hides ~6.5 mEq/L</div></div>
+
+<div class="blk"><h2 class="o">2 &middot; Urine osm — is ADH on or off?</h2>
+<table><tr><th>UOsm</th><th>Read</th><th>Differential</th></tr>
+<tr><td>&lt;100</td><td><b>ADH OFF</b> (kidney maximally diluting — intake is the problem)</td><td>Primary polydipsia &middot; beer potomania &middot; tea-and-toast (low solute)</td></tr>
+<tr><td>&gt;100</td><td><b>ADH ON</b></td><td>Everything else &rarr; Step 3: is the ADH appropriate?</td></tr></table>
+<ul><li>ADH (pituitary) fires on low volume/ECV (baroreceptors) or high SOsm &rarr; collecting duct reclaims water &rarr; concentrated urine</li></ul></div>
+
+<div class="blk"><h2 class="g">3 &middot; Urine Na — do the kidneys see enough fluid?</h2>
+<table><tr><th>UNa</th><th>Physiology</th><th>Differential</th></tr>
+<tr><td>&lt;25</td><td>RAAS on &rarr; Na reclaimed; ADH <i>appropriate</i></td><td>True hypovolemia (GI loss, bleeding) &middot; low ECV w/ high total volume: <b>HF, cirrhosis</b></td></tr>
+<tr><td>&gt;40</td><td>Kidneys perfused &rarr; ADH <i>inappropriate</i></td><td><b>SIADH</b> &middot; hypothyroidism &middot; adrenal insufficiency &middot; <span class="warn">diuretics (exception: salt wasting falsely &uarr;UNa)</span></td></tr></table>
+<ul><li><b>SIADH triggers:</b> antidepressants/antiepileptics/antipsychotics, surgery, pain, CNS injury, lung disease, malignancy — patient euvolemic</li>
+<li><b>Cerebral salt wasting</b> (esp. SAH): SIADH-pattern labs but HYPOVOLEMIC</li>
+<li>Always check <b>TSH + cortisol</b> before calling SIADH — replacement corrects both impostors</li></ul></div>
+
+<div class="blk"><h2>Worked cases (Na 125 in all three)</h2>
+<table><tr><th>Labs</th><th>Diagnosis</th></tr>
+<tr><td>SOsm 270 / UOsm 60 / UNa 65 — drinker</td><td>Beer potomania (ADH off, low solute)</td></tr>
+<tr><td>SOsm 310 / UOsm 800 / UNa 20 — glc 500, DKA</td><td>Hyperosmolar hypoNa (corrected ~131) + hypovolemia</td></tr>
+<tr><td>SOsm 265 / UOsm 400 / UNa &lt;10 — vomiting + diarrhea</td><td>True hypovolemic hypoNa (appropriate ADH)</td></tr></table></div>
+
+<div class="blk"><h2 class="o">Do / AVOID</h2>
+<ul>
+<li><b class="k">DO</b> confirm hypo-osmolality before any further workup — artifact and glucose first</li>
+<li><b class="k">DO</b> read UOsm before UNa: a dilute urine ends the workup (intake problem)</li>
+<li><b class="k">DO</b> check TSH + AM cortisol before diagnosing SIADH</li>
+<li><span class="warn">AVOID</span> interpreting urine Na on diuretics — salt wasting voids the rule</li>
+<li><span class="warn">AVOID</span> leading with a bedside volume exam — labs first, exam to break SIADH-vs-CSW ties</li>
+<li><span class="warn">AVOID</span> rapid correction of chronic hypoNa (ODS risk) — treatment is its own pathway</li>
+</ul>
+<div class="pearl">Framework unchanged in current guidance — 2024 Austrian Society for Nephrology consensus uses the same SOsm/UOsm/UNa triad.</div></div>
+
+<div class="foot">From TeachIM.org "Evaluation of Hyponatremia — 3 Lab Approach" (Fainstad, Zhang; 2020/rev 2021), CC BY-NC 4.0 — optimized June 2026 (typo fixes only; framework verified current). Educational use only; not medical advice. Refs: Verbalis Am J Med 2013 &middot; Austrian Soc Nephrology consensus 2024.</div>
+</body>
+</html>

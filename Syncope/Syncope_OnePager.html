@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8">
+<style>
+@page { size: Letter; margin: 0.3in; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 10.230px; line-height: 1.32; color: #111; }
+.hdr { display: flex; justify-content: space-between; align-items: baseline; border-bottom: 2.750px solid #0e6e8c; padding-bottom: 3.300px; margin-bottom: 5.500px; }
+.hdr h1 { font-size: 18.700px; color: #0e6e8c; letter-spacing: 0.220px; }
+.hdr .sub { font-size: 8.800px; color: #555; max-width: 50%; text-align: right; }
+.cols { column-count: 2; column-gap: 12.100px; }
+h2 { font-size: 11.000px; color: #fff; background: #0e6e8c; padding: 2.200px 5.500px; margin: 0 0 3.300px; border-radius: 2.200px; break-after: avoid; }
+h2.alt { background: #b4530a; }
+h2.grn { background: #2e7d4f; }
+.blk { break-inside: avoid; margin-bottom: 5.500px; }
+table { width: 100%; border-collapse: collapse; margin: 2.200px 0 3.300px; }
+td, th { border: 0.550px solid #bcc7d0; padding: 1.650px 3.300px; vertical-align: top; text-align: left; }
+th { background: #eef4f7; font-weight: 700; }
+td.k { background: #f5f8fa; font-weight: 700; width: 19%; }
+ul { margin: 0 0 0 11.000px; padding: 0; }
+li { margin-bottom: 1.100px; }
+.tag { font-weight: 700; color: #0e6e8c; }
+.red { color: #b00; font-weight: 700; }
+.dp { font-family: "Consolas", monospace; font-size: 8.470px; line-height: 1.3; background: #f4f7f9; border: 0.550px solid #bcc7d0; border-radius: 2.200px; padding: 4.400px 5.500px; white-space: pre-wrap; break-inside: avoid; }
+.pearl { background: #eef7f0; border-left: 2.750px solid #2e7d4f; padding: 2.200px 5.500px; margin: 2.200px 0; }
+.warn { background: #fdeeea; border-left: 2.750px solid #b00; padding: 2.200px 5.500px; margin: 2.200px 0; }
+.foot { border-top: 0.550px solid #bcc7d0; margin-top: 3.300px; padding-top: 2.200px; font-size: 7.700px; color: #777; column-span: all; }
+b { font-weight: 700; }
+</style></head>
+<body>
+<div class="hdr">
+  <h1>SYNCOPE &mdash; Clinical One-Pager</h1>
+  <div class="sub">Transient LOC from global cerebral hypoperfusion, w/ rapid spontaneous recovery &middot; ACC/AHA 2017 &amp; ESC 2018 &middot; IM resident reference</div>
+</div>
+
+<div class="cols">
+
+  <div class="blk">
+    <h2>1 &middot; DEFINE &amp; EXCLUDE MIMICS</h2>
+    <b>Syncope</b> = abrupt transient LOC, global cerebral hypoperfusion, rapid full recovery (6&ndash;8 s of &darr;flow suffices). Subset of <b>TLOC</b> (short, abnl motor control, unresponsive, amnesia).
+    <table>
+      <tr><th>Mimic</th><th>Tell-tale</th></tr>
+      <tr><td class="k">Seizure</td><td>Prolonged convulsions, post-ictal confusion, lat. tongue bite, incontinence (convulsive syncope = brief jerks, <u>no</u> post-ictal state)</td></tr>
+      <tr><td class="k">TIA/CVA</td><td>Posterior circ. &mdash; LOC only <u>with</u> focal signs (vertigo, dysarthria); never isolated</td></tr>
+      <tr><td class="k">Hypoglycemia</td><td>Impaired (not lost) consciousness; longer; no recovery w/o Rx</td></tr>
+      <tr><td class="k">Other</td><td>Intoxication, psychogenic pseudosyncope, concussion</td></tr>
+    </table>
+  </div>
+
+  <div class="blk">
+    <h2>2 &middot; THREE CLASSIFICATIONS</h2>
+    Cascade: <b>CPP = MAP &minus; ICP</b>; MAP = CO &times; SVR; CO = HR &times; SV (SV &larr; preload, afterload, contractility). Every cause is a lesion in this loop.
+    <table>
+      <tr><th>Type</th><th>Defect / causes</th></tr>
+      <tr><td class="k">Orthostatic <span style="font-weight:400">(insufficient response)</span></td><td>&darr;SBP &ge;20 or &darr;DBP &ge;10 on standing. Sympathetic (neurogenic: Parkinson/MSA, DM, amyloid) &middot; SVR (<b>drugs = #1 cause</b>) &middot; HR (BB/CCB) &middot; preload (volume loss, diuretics, hemorrhage)</td></tr>
+      <tr><td class="k">Reflex <span style="font-weight:400">(inappropriate response)</span></td><td>Vasovagal (orthostatic/emotional) &middot; situational (micturition, defecation, cough, post-exercise) &middot; carotid sinus hypersens. Subtypes: cardioinhibitory (&darr;HR), vasodepressive (&darr;SVR), mixed</td></tr>
+      <tr><td class="k">Cardiac <span style="font-weight:400">(the one that kills)</span></td><td>&uarr;Afterload (AS, HOCM) &middot; &darr;contractility (MI, VT) &middot; &darr;HR (AVB, SND, PM malfx) &middot; &darr;preload (PE, tamponade, pulm HTN, dissection)</td></tr>
+    </table>
+    <div class="pearl"><b>PE myth:</b> 17% in selected hospitalized cohort (Prandoni 2016), but &lt;1% of all-comers &amp; &lt;3% hospitalized (2018, &gt;1.5M pts). Uncommon &mdash; don't CT every fainter.</div>
+  </div>
+
+  <div class="blk">
+    <h2>3 &middot; EVALUATION &mdash; HISTORY DOES THE WORK</h2>
+    ~60% of TLOC sorted by H&amp;P alone. <b>Who / Where-how / Prodrome:</b>
+    <table>
+      <tr><th></th><th>OH</th><th>Reflex</th><th>Cardiac</th></tr>
+      <tr><td class="k">Who</td><td>Older, comorbid, autonomic</td><td>Any age, healthy, recurrent &lt;40</td><td>Structural HD/CAD, FHx SCD</td></tr>
+      <tr><td class="k">Where</td><td>On/after standing, post-prandial</td><td>Standing, hot/crowded, trigger</td><td>Supine/rest (arrhythmia), exertion (structural)</td></tr>
+      <tr><td class="k">Prodrome</td><td>Lightheaded w/ posture</td><td>Pallor, diaphoresis, nausea</td><td>None, or sudden palpitations</td></tr>
+    </table>
+    <b class="tag">Everyone gets 4:</b> History &middot; exam (cardiac) &middot; orthostatic vitals (within 3 min) &middot; 12-lead ECG.
+  </div>
+
+  <div class="blk">
+    <h2 class="alt">3b &middot; TARGETED TESTING</h2>
+    <ul>
+      <li><b>OH:</b> BMP/CBC (volume, occult bleed); autonomic eval if neurogenic (Valsalva w/o HR/BP rise)</li>
+      <li><b>Reflex:</b> hx dx; tilt-table if unclear (cardioinhibitory predicts asystolic syncope); carotid massage in &gt;40 w/ suggestive hx (<span class="red">contra:</span> bruit, stenosis &gt;70%, TIA/CVA &lt;3 mo)</li>
+      <li><b>Cardiac:</b> tele, TTE (if structural susp.), &plusmn;trop/BNP, stress if exertional + CAD risk, CTPA only if PE susp.</li>
+    </ul>
+    <table>
+      <tr><th>Monitor</th><th>Dur.</th><th>For</th></tr>
+      <tr><td class="k">Holter</td><td>24&ndash;72h</td><td>Daily&ndash;weekly events</td></tr>
+      <tr><td class="k">Event/loop</td><td>2&ndash;6 wk</td><td>Mod. freq + prodrome</td></tr>
+      <tr><td class="k">Patch</td><td>~2 wk</td><td>Mod. freq, comfortable</td></tr>
+      <tr><td class="k">ILR</td><td>Years</td><td>Infrequent/unexplained (highest yield)</td></tr>
+    </table>
+    <div class="warn"><b>AVOID in simple syncope</b> (nl neuro, no trauma, no szr features): head CT/MRI, EEG, carotid US &mdash; yield ~0.2&ndash;1.5%; routine TTE/CTPA/broad labs.</div>
+  </div>
+
+  <div class="blk">
+    <h2 class="grn">4 &middot; DISPOSITION &mdash; HIGH-RISK = ADMIT</h2>
+    <table>
+      <tr><th></th><th>Low &rarr; home</th><th>High &rarr; admit</th></tr>
+      <tr><td class="k">PMH</td><td>Recurrent low-risk; no structural HD</td><td>Structural HD/CAD; FHx SCD</td></tr>
+      <tr><td class="k">Event</td><td>Typical reflex prodrome; clear trigger</td><td>Exertional/supine; pre-event palpitations; short/absent prodrome (&lt;10s) w/ structural dz</td></tr>
+      <tr><td class="k">Exam</td><td>Normal</td><td>SBP&lt;90; awake HR&lt;40; GIB signs; new murmur</td></tr>
+      <tr><td class="k">ECG</td><td>Normal</td><td>Ischemia; Mobitz II/3&deg; AVB; pauses&gt;3s; VT; pre-excit (WPW); QTc&lt;340 or &gt;460; Brugada; ARVC/epsilon; BBB/Q/LVH</td></tr>
+    </table>
+    Neither clearly high nor low &rarr; ED/obs.
+  </div>
+
+  <div class="blk">
+    <h2 class="grn">CSRS &mdash; 30-DAY SERIOUS ADVERSE EVENT</h2>
+    <table>
+      <tr><th>Category (score)</th><th>30d SAE</th><th>Dispo</th></tr>
+      <tr><td class="k">Very low (&minus;3 to &minus;2)</td><td>0.3&ndash;0.4%</td><td>D/C, RTC</td></tr>
+      <tr><td class="k">Low (&minus;1 to 0)</td><td>0.7%</td><td>D/C, RTC</td></tr>
+      <tr><td class="k">Medium (1 to 3)</td><td>~8%</td><td>Brief obs / shared decision</td></tr>
+      <tr><td class="k">High (4 to 5)</td><td>~20%</td><td>Tele / admit</td></tr>
+      <tr><td class="k">Very high (&ge;6)</td><td>~51%</td><td>Tele / admit</td></tr>
+    </table>
+    <span style="font-size:9.130px">Points: vasovagal predispo &minus;1 &middot; hx heart dz +1 &middot; ED SBP &lt;90 or &gt;180 +2 &middot; trop &gt;99%ile +2 &middot; abnl QRS axis (&lt;&minus;30 or &gt;100) +1 &middot; QRS &gt;130 ms +1 &middot; QTc &gt;480 ms +2 &middot; ED dx vasovagal &minus;2 &middot; ED dx cardiac +2</span>
+  </div>
+
+  <div class="blk">
+    <h2 class="grn">5 &middot; MANAGEMENT</h2>
+    <ul>
+      <li><b>OH:</b> fluids, stop/adjust culprit meds, slow position change, salt, compression, counter-pressure maneuvers; midodrine/fludrocortisone if autonomic</li>
+      <li><b>Reflex:</b> reassurance, trigger avoidance, counter-pressure if prodrome; &plusmn;midodrine/fludro/salt; pacemaker select (&gt;40 + documented cardioinhibitory + frequent/unpredictable)</li>
+      <li><b>Cardiac:</b> consult cardiology/EP &mdash; etiology-specific (EF &le;35% &rarr; ICD discussion)</li>
+    </ul>
+    <div class="pearl"><b>2026:</b> 2021 ESC pacing guideline + BIOSync RCT (77% RRR @2y) strengthened DDD-CLS pacing for &gt;40 w/ severe recurrent cardioinhibitory reflex syncope + documented asystole; cardioneuroablation emerging (device-free).</div>
+  </div>
+
+  <div class="blk">
+    <h2 class="alt">ATTENDING DOTPHRASE</h2>
+<div class="dp">#Syncope: transient LOC. witnessed/unwitnessed, w/wo prodrome, exertional/at-rest/postural, w/wo injury. likely 2/2 * [reflex/vasovagal, orthostatic, cardiac (arrhythmic/structural), neuro-mimic, med/vol]. r/o serious cause [arrhythmia, ACS, AS/HOCM, PE, GIB, AAA, SAH]; excl mimics [szr, hypoglycemia, intox, TIA, pseudosyncope]. CSRS = * [vlow &le;&minus;2 / low &minus;1&ndash;0 / med 1&ndash;3 / high 4&ndash;5 / vhigh &ge;6]. HDS/HDUS.
+- core w/u: H&amp;P [prodrome, trigger, EXERTIONAL, palpitations pre-event, FHx SCD/&lt;50yo, structural HD, QT/AVN/diuretic/antiHTN meds, lat tongue bite/post-ictal] + 12-lead ECG [ischemia, AVB, BBB, QTc, Brugada, WPW, epsilon/ARVC, LVH] + orthostatics [SBP &darr;&ge;20 / DBP &darr;&ge;10 w/in 3min]
+- CSRS pts: vasovagal predispo &minus;1 / hx heart dz (CAD/AF/CHF/valv) +1 / ED SBP &lt;90 or &gt;180 +2 / trop &gt;99%ile +2 / abnl QRS axis +1 / QRS &gt;130ms +1 / QTc &gt;480ms +2 / ED dx vasovagal &minus;2 / cardiac +2 &rarr; 30d SAE: vlow 0.4% / low 0.7% / med ~8% / high ~20% / vhigh ~51% (low &rarr; d/c w/ RTC; high/vhigh &rarr; tele/admit)
+- targeted only: hs-trop + ECG if cardiac susp;

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8">
+<style>
+  @page{size:Letter;margin:0.3in}
+  :root{--fs:12.5px;--p:#0e6e8c;--o:#b4530a;--g:#2e7d4f;--line:#9bb3bd;}
+  *{box-sizing:border-box}
+  body{font-family:'Helvetica Neue',Arial,sans-serif;font-size:var(--fs);line-height:1.38;color:#15202a;margin:0;
+       column-count:2;column-gap:14px;column-fill:balance}
+  h1{column-span:all;font-size:calc(var(--fs)*1.5);margin:0 0 4px;color:var(--p)}
+  .sub{column-span:all;font-size:calc(var(--fs)*0.9);color:#41525c;margin:0 0 8px;border-bottom:2px solid var(--p);padding-bottom:4px}
+  .blk{break-inside:avoid;margin-bottom:8px}
+  h2{font-size:calc(var(--fs)*1.05);margin:0 0 3px;padding:2px 6px;color:#fff;background:var(--p);border-radius:3px}
+  h2.o{background:var(--o)} h2.g{background:var(--g)}
+  table{border-collapse:collapse;width:100%;font-size:calc(var(--fs)*0.95);margin:2px 0}
+  th,td{border:1px solid var(--line);padding:2px 4px;vertical-align:top;text-align:left}
+  th{background:#e7eff3}
+  ul{margin:2px 0 2px 0;padding-left:15px} li{margin:1px 0}
+  .k{color:var(--p);font-weight:bold} .o-t{color:var(--o);font-weight:bold}
+  .eq{font-family:Georgia,serif;background:#eef4f7;padding:1px 4px;border-radius:3px}
+  p{margin:2px 0}
+</style></head><body>
+<h1>Pleural Effusions &mdash; Bedside Reference</h1>
+<p class="sub">Tap any effusion &gt;1 cm (US/lateral decubitus). Two questions: transudate vs exudate (Light's), and &mdash; if parapneumonic &mdash; does it need drainage? Adapted from TeachIM.org (Deshpande/Murphy; Zhang, Apr 2022), CC BY-NC 4.0.</p>
+
+<div class="blk">
+<h2>Light's criteria &mdash; exudate if ANY one</h2>
+<table>
+<tr><th>Criterion</th><th>Exudate if</th></tr>
+<tr><td>Protein ratio</td><td>pleural/serum protein &gt;0.5</td></tr>
+<tr><td>LDH ratio</td><td>pleural/serum LDH &gt;0.6</td></tr>
+<tr><td>LDH absolute</td><td>pleural LDH &gt;2/3 serum ULN</td></tr>
+</table>
+<p>Sens ~98%, spec ~83%. Diuretics misclassify ~25% of transudates &rarr; if it looks like a transudate, check <span class="k">serum&minus;pleural albumin gradient &gt;1.2</span> = transudate. High pleural RBCs falsely raise LDH.</p>
+</div>
+
+<div class="blk">
+<h2>Differential</h2>
+<table>
+<tr><th>Transudate</th><th>Exudate</th></tr>
+<tr><td>HF, renal/nephrotic, cirrhosis (hepatic hydrothorax), hypoalbuminemia, PD, atelectasis, trapped lung</td><td>Parapneumonic/infection, malignancy, PE, autoimmune (RA/SLE/GPA/Sjögren/sarcoid), chylothorax, hemothorax, GI (esoph perf, pancreatitis)</td></tr>
+</table>
+</div>
+
+<div class="blk">
+<h2 class="g">Targeted fluid studies</h2>
+<table>
+<tr><th>Finding</th><th>Points to</th></tr>
+<tr><td>PMN predominant</td><td>Bacterial parapneumonic / empyema</td></tr>
+<tr><td>Lymphocyte predom.</td><td>Malignancy, TB, autoimmune, chylo, post-CABG, chronic</td></tr>
+<tr><td>ADA &gt;40</td><td>TB pleurisy (&gt;90% sens/spec)</td></tr>
+<tr><td>TG &gt;110</td><td>Chylothorax</td></tr>
+<tr><td>Pleural:blood Hct &gt;0.5</td><td>Hemothorax</td></tr>
+<tr><td>Amylase &uarr;</td><td>Esoph rupture, pancreatitis</td></tr>
+<tr><td>Cytology / flow</td><td>Malignancy (flow if leuk/lymphoma)</td></tr>
+</table>
+</div>
+
+<div class="blk">
+<h2 class="o">Parapneumonic management</h2>
+<table>
+<tr><th>Category</th><th>Features</th><th>Mgmt</th></tr>
+<tr><td>Uncomplicated</td><td>no loc, pH&gt;7.2, nl glucose</td><td>Antibiotics alone</td></tr>
+<tr><td>Complicated</td><td>loculations OR pH&lt;7.2 OR low glucose</td><td>Abx + DRAIN</td></tr>
+<tr><td>Empyema</td><td>pus OR +Gram/culture</td><td>Abx + drain; VATS/decort if needed</td></tr>
+</table>
+<p><span class="o-t">Drain:</span> small-bore &le;14F first-line (BTS 2023); 24&ndash;32F for heavy loculation/pus. <span class="k">tPA + DNase</span> (MIST-2) improves drainage, reduces surgical referral &mdash; <b>no mortality benefit</b>.</p>
+</div>
+
+<div class="blk">
+<h2 class="g">Malignant effusion</h2>
+<ul>
+<li>Cytology sens ~65% (1st tap) &rarr; ~92% (2nd) &rarr; ~97% (3rd); serial large-volume taps raise yield</li>
+<li>Send cytology on initial work-up of any uncertain effusion (BTS)</li>
+<li>Recurrent symptomatic MPE: indwelling pleural catheter OR talc pleurodesis (both 1st-line, ATS/STS/STR 2018); IPC+talc &uarr; pleurodesis</li>
+</ul>
+</div>
+
+<div class="blk">
+<h2>Pearls</h2>
+<ul>
+<li>Light's third criterion uses the serum LDH <b>ULN</b>, not the patient's serum LDH</li>
+<li>Pleural pH must be drawn anaerobically in a blood-gas syringe (air/lidocaine skew it)</li>
+<li>Low pleural glucose (&lt;60): infection, malignancy, RA/SLE, esophageal rupture, TB</li>
+<li>Bloody effusion w/o trauma: malignancy, PE, or asbestos</li>
+</ul>
+</div>
+
+</body></html>

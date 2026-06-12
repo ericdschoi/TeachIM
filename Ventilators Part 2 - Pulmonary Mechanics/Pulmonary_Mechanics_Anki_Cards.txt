@@ -1,0 +1,17 @@
+In a volume-targeted mode, which outputs do you monitor?	Pressures — peak and plateau (and driving pressure).
+In a pressure-targeted mode, which outputs do you monitor?	Volumes — tidal volume (VT) and minute ventilation (VE).
+Formula for minute ventilation	VE = VT × RR (L/min).
+How is plateau pressure measured?	Inspiratory hold (no airflow at end-inspiration).
+Resistance is proportional to…	Ppeak − Pplateau; normal <10 cm H2O.
+Driving pressure formula	Pdriving = Pplateau − PEEP; compliance = VT/Pdriving.
+Upper limit for plateau pressure	<30 cm H2O (barotrauma risk above).
+Driving-pressure target in ARDS	≤14–15 cm H2O (Amato NEJM 2015).
+Why does plateau pressure exclude resistance?	It is measured with no airflow, so airway resistance contributes nothing.
+Step 1 of the high peak-pressure algorithm	Establish urgency at bedside (vitals, SpO2, VT/VE); call for help + FiO2 100% if unstable.
+Peak − plateau > 10 indicates…	A resistance problem.
+Plateau > 30 or driving > 10 indicates…	A compliance problem.
+Causes of high resistance	Kinked tube, bitten ETT, mucus plug / large-airway obstruction, bronchospasm.
+Compliance differential — two buckets	Alveolar filling (edema, ARDS, pneumonia, DAH) and alveolar collapse (atelectasis, lobar collapse), ± extrapulmonary (PTX, effusion, ascites/abdominal distention).
+Actions for a resistance problem	Inspect/uncompress tubing, deep suction, bite block + sedation/analgesia, bronchodilators, exchange tube if refractory.
+Acute hypotension + high peak in a ventilated asthmatic — first move	Suspect auto-PEEP/tension physiology; disconnect from vent to allow full exhalation, rule out PTX, slow the rate.
+2023–24 ARDS framing for who you will troubleshoot	ESICM 2023 / Global ARDS definition 2024: SpO2/FiO2 ≤315 may define ARDS, lung US accepted, HFNO a recognized support category.

@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Transplant Medicine — Optimized Lesson Package</title>
+<style>
+:root{ --p:#0e6e8c; --p2:#0a5468; --o:#b4530a; --g:#2e7d4f; --bg:#f6f9fa; --card:#fff; --ink:#1f2a2e; --muted:#5a6b70; }
+*{ box-sizing:border-box; }
+body{ margin:0; font-family:"Helvetica Neue",Arial,sans-serif; color:var(--ink); background:var(--bg); line-height:1.55; }
+header{ background:linear-gradient(135deg,var(--p),var(--p2)); color:#fff; padding:26px 22px; }
+header h1{ margin:0 0 6px; font-size:26px; }
+header .meta{ font-size:13.5px; opacity:.95; }
+header .attr{ font-size:12px; opacity:.85; margin-top:8px; }
+nav{ position:sticky; top:0; background:#fff; border-bottom:1px solid #d8e2e5; padding:8px 12px; z-index:50; box-shadow:0 1px 4px rgba(0,0,0,.05); }
+nav a{ color:var(--p); text-decoration:none; font-size:13px; margin:0 9px 0 0; white-space:nowrap; }
+nav a:hover{ text-decoration:underline; }
+main{ max-width:920px; margin:0 auto; padding:18px 20px 60px; }
+section{ background:var(--card); border:1px solid #e1e9eb; border-radius:9px; padding:18px 22px; margin:16px 0; }
+h2{ color:var(--p); border-bottom:2px solid #e1e9eb; padding-bottom:6px; margin-top:4px; }
+h3{ color:var(--p2); margin-bottom:5px; }
+.files{ display:grid; grid-template-columns:repeat(auto-fill,minmax(250px,1fr)); gap:11px; }
+.fc{ display:block; border:1px solid #d8e2e5; border-radius:8px; padding:12px 14px; text-decoration:none; color:var(--ink); background:#fbfdfd; transition:.15s; }
+.fc:hover{ border-color:var(--p); box-shadow:0 2px 8px rgba(14,110,140,.12); }
+.fc b{ color:var(--p); display:block; margin-bottom:2px; }
+.fc span{ font-size:12px; color:var(--muted); }
+.note{ font-size:12.5px; color:var(--muted); margin-top:10px; font-style:italic; }
+.ask{ background:#eef6f9; border-left:4px solid var(--p); padding:10px 14px; margin:12px 0; border-radius:0 6px 6px 0; }
+.ask b{ color:var(--p); }
+.pearl{ background:#fbf3e8; border-left:4px solid var(--o); padding:10px 14px; margin:12px 0; border-radius:0 6px 6px 0; }
+.pearl b{ color:var(--o); }
+.seg{ background:#f0f6f2; border-left:4px solid var(--g); padding:8px 14px; margin:14px 0 6px; border-radius:0 6px 6px 0; font-weight:600; color:var(--g); }
+table{ border-collapse:collapse; width:100%; margin:10px 0; font-size:14px; }
+th,td{ border:1px solid #cdd9dc; padding:6px 9px; text-align:left; vertical-align:top; }
+th{ background:#eef4f6; color:var(--p2); }
+details{ background:#f8fbfb; border:1px solid #dde7e9; border-radius:6px; padding:8px 12px; margin:8px 0; }
+summary{ cursor:pointer; font-weight:600; color:var(--p); }
+details[open]{ background:#fff; }
+.mcq{ margin:14px 0; padding:12px 14px; border:1px solid #e1e9eb; border-radius:8px; }
+.mcq .stem{ font-weight:600; }
+ol.opts{ margin:7px 0; } ol.opts li{ margin-bottom:2px; }
+pre{ background:#10262d; color:#e8f3f5; padding:14px; border-radius:8px; overflow-x:auto; font-size:12.5px; line-height:1.45; white-space:pre-wrap; }
+.copybtn{ background:var(--p); color:#fff; border:none; padding:7px 14px; border-radius:6px; cursor:pointer; font-size:13px; margin-bottom:8px; }
+.copybtn:hover{ background:var(--p2); }
+footer{ text-align:center; font-size:12px; color:var(--muted); padding:24px; }
+.tag{ display:inline-block; background:var(--o); color:#fff; font-size:11px; padding:2px 8px; border-radius:10px; vertical-align:middle; }
+</style></head>
+<body>
+<header>
+<h1>Transplant Medicine</h1>
+<div class="meta">Facilitator-led interactive chalk talk &middot; ~45 min &middot; IM residents</div>
+<div class="attr">Adapted from <a href="https://teachim.org/teaching_material/transplant-medicine-2/" style="color:#cfeaf2">TeachIM.org — Transplant Medicine</a> (Yilin Zhang MD, Brandon Fainstad MD; published Dec 2020; expert review pending). Licensed CC BY-NC 4.0 — attribution required, non-commercial use only. Optimized 2026-06-11.</div>
+</header>
+
+<nav>
+<a href="#files">Lesson Files</a>
+<a href="#obj">Objectives</a>
+<a href="#prework">Pre-Work</a>
+<a href="#script">Teaching Script</a>
+<a href="#cases">Cases</a>
+<a href="#mcq">Board MCQs</a>
+<a href="#cards">Spaced Repetition</a>
+<a href="#dot">Dotphrase</a>
+<a href="#takehome">Take-Home</a>
+<a href="#changelog">Changelog</a>
+<a href="#ref">References</a>
+</nav>
+
+<main>
+
+<section id="files">
+<h2>Lesson Files</h2>
+<div class="files">
+<a class="fc" href="Transplant_Medicine_Optimized.pptx"><b>Presenter Board (optimized) ▸ PPTX</b><span>3 original interactive slides + 3 appended (newer context, take-home, attribution). Animations preserved.</span></a>
+<a class="fc" href="Transplant-Medicine-Learner-Board-1.pptx"><b>Learner Board ▸ PPTX</b><span>Self-study / prep board, 6 slides. Spelling corrections applied (mycophenolate, bortezomib).</span></a>
+<a class="fc" href="Transplant-Medicine-Handout.docx"><b>Learner Handout ▸ DOCX</b><span>Note-taking handout (original, reviewed — no changes needed).</span></a>
+<a class="fc" href="Transplant_Medicine_OnePager.pdf"><b>One-Pager Clinical Reference ▸ PDF</b><span>Single-page high-yield summary for the team room.</span></a>
+<a class="fc" href="Transplant_Medicine_Anki_Cards.txt"><b>Anki Cards ▸ TSV</b><span>18 tab-separated Q/A cards, import-ready.</span></a>
+<a class="fc" href="Transplant_Medicine_OnePager.html"><b>One-Pager Source ▸ HTML</b><span>Editable source for the PDF reference.</span></a>
+</div>
+<div class="note">Links work only when these files sit in the same folder as this HTML.</div>
+</section>
+
+<section id="obj">
+<h2>Learning Objectives</h2>
+<ol>
+<li>Describe the constant balance of weighing the value of immunosuppression against the risks of rejection, infection, malignancy, and drug toxicity.</li>
+<li>Identify the common induction and maintenance immunosuppression regimens and how they change over time after solid organ transplant.</li>
+<li>Build a framework for the common post-transplant complications organized by time from transplant.</li>
+</ol>
+</section>
+
+<section id="prework">
+<h2>Pre-Work <span class="tag">send the day before</span></h2>
+<p>Three retrieval questions to prime the session.</p>
+<details><summary>1. Which solid organ transplant is most likely to reject, and which is least?</summary>
+Lung is most likely (~50% experience rejection within 5 years); liver is least likely. Rejection risk (allogenicity) drives how much maintenance immunosuppression a patient needs long-term: lung &gt; heart/kidney &gt; liver.</details>
+<details><summary>2. What are the three core classes of maintenance immunosuppression?</summary>
+Calcineurin inhibitors (tacrolimus, cyclosporine), antimetabolites (mycophenolate, azathioprine), and steroids (prednisone). mTOR inhibitors (sirolimus, everolimus) are an additional class; belatacept is a costimulation-blocker alternative.</details>
+<details><summary>3. A transplant patient develops a reactivation infection such as CMV. How many months out from transplant is this most likely?</summary>
+1–6 months. Nosocomial/donor-derived infections dominate &lt;1 month; reactivation and opportunistic infections (CMV, BK, PJP) cluster at 1–6 months; community-acquired infections dominate &gt;6 months.</details>
+</section>
+
+<section id="script">
+<h2>Teaching Script</h2>
+<p>Open the presenter board and reveal each animated element only after the group commits to an answer. The board has three slides: (1) the balance + allogenicity, (2) induction vs. maintenance medications, (3) the complications-by-time map.</p>
+
+<div class="seg">Hook (2 min)</div>
+<p>"Your patient is 4 months out from a kidney transplant and now has a fever and rising creatinine. Before you order a single test — what are the two competing diagnoses you're most worried about, and why does the timing matter?" (Answer surfaces by the end: infection vs. rejection, and 1–6 months is the reactivation/opportunistic window when both are plausible.)</p>
+
+<div class="seg">Objective 1 — The Balance &amp; Allogenicity (10 min)</div>
+<div class="ask"><b>ASK:</b> "What is the price we pay for suppressing rejection?" Reveal the <b>oversuppression</b> (infection, cancer) and <b>undersuppression</b> (rejection) buttons.</div>
+<p>Frame all of transplant immunology as a single dial: turn it up and rejection falls but infection, malignancy, and drug toxicity rise; turn it down and the reverse happens.</p>
+<div class="ask"><b>ASK:</b> "Which transplant is most likely to reject? Least likely?" Then reveal the allogenicity order.</div>
+<p><b>Allogenicity (rejection risk): lung &gt; heart/kidney &gt; liver.</b> Lung transplants reject ~50% within 5 years and stay on all three drug classes for life; liver may be maintained on a calcineurin inhibitor alone.</p>
+<div class="pearl"><b>Pearl:</b> Allogenicity is highest immediately after transplant and falls over time. This single fact explains both the drug timeline (Objective 2) and the complication timeline (Objective 3).</div>
+
+<div class="seg">Objective 2 — Induction vs. Maintenance (12 min)</div>
+<div class="ask"><b>ASK:</b> "Why would a regimen on day 1 look completely different from the regimen at year 1?" Reveal the <b>induction</b> and <b>maintenance</b> buttons.</div>
+<table>
+<tr><th>Phase</th><th>Timing</th><th>Agents</th><th>Rationale</th></tr>
+<tr><td><b>Induction</b></td><td>At transplant</td><td>Anti-lymphocyte antibody (rabbit ATG, alemtuzumab) <i>or</i> anti–IL-2 receptor antibody (basiliximab) + high-dose steroids</td><td>Allogenicity is at its peak; profound, brief suppression to get the graft through the highest-risk window</td></tr>
+<tr><td><b>Maintenance</b></td><td>Long-term</td><td>CNI + antimetabolite ± prednisone</td><td>Lower-intensity therapy, de-escalated as rejection risk falls</td></tr>
+</table>
+<p><b>Maintenance classes (know an example of each):</b> CNI = tacrolimus, cyclosporine; antimetabolite = mycophenolate, azathioprine; steroid = prednisone. Additional: mTOR inhibitors (sirolimus, everolimus).</p>
+<div class="pearl"><b>Pearl (newer context):</b> <b>Belatacept</b> (CD28 costimulation blocker, FDA 2011) is a CNI-sparing maintenance option with better long-term GFR and fewer donor-specific antibodies — but is <b>contraindicated in EBV-seronegative recipients</b> (PTLD/PML risk). <b>OKT3/muromonab was discontinued in 2010;</b> the current depleting induction agents are rabbit ATG and alemtuzumab.</div>
+
+<div class="seg">Objective 3 — Complications by Time from Transplant (15 min)</div>
+<div class="ask"><b>ASK:</b> "Name the five buckets of post-transplant complications." Reveal each on the board.</div>
+<p>Categories: <b>rejection, medication effects, infection, malignancy, surgical.</b> The most teachable axis is <b>time</b>.</p>
+<table>
+<tr><th>Time</th><th>Infection</th><th>Rejection / Malignancy / Surgical</th></tr>
+<tr><td><b>&lt;1 month</b></td><td>Nosocomial (surgical site, line, catheter, <i>C. diff</i>); donor- or recipient-derived</td><td>Surgical complications (leaks, kinks, fistulas, stenoses); hyperacute/early acute rejection</td></tr>
+<tr><td><b>1–6 months</b></td><td>Reactivation &amp; opportunistic: CMV, BK, HSV/VZV, TB, HBV; PJP, <i>Cryptococcus</i>, <i>Toxoplasma</i> (reduced by prophylaxis)</td><td>Peak acute rejection window; PTLD (EBV) may begin</td></tr>
+<tr><td><b>&gt;6 months</b></td><td>Community-acquired &raquo; opportunistic; late viral (HSV, HBV, HCV, CMV)</td><td>Chronic rejection; late solid-organ malignancies</td></tr>
+</table>
+<div class="ask"><b>ASK:</b> "If a well-adherent patient has a first episode of acute rejection at 14 months, what should that prompt?" (Reconsider the diagnosis or check adherence/drug levels — a <i>first</i> acute rejection beyond 6 months is highly unlikely.)</div>
+<p><b>Rejection types:</b> acute cellular (T-cell; biopsy lymphocytic infiltrate; treat with pulse methylprednisolone 1 g ×3 d ± anti-lymphocyte antibody) and acute humoral (antibody-mediated; biopsy C4d or donor-specific antibodies; treat with increased immunosuppression, IVIg, plasmapheresis, rituximab, bortezomib, eculizumab). Chronic rejection: lung = bronchiolitis obliterans; kidney = chronic allograft dysfunction.</p>
+<div class="pearl"><b>Pearl:</b> Malignancy risk is ~2× the general population, skewed toward virally driven cancers. <b>PTLD (EBV) is the exception that occurs early</b> (often first year); most others appear late.</div>
+
+<div class="seg">Retrieval Close (3 min)</div>
+<p>Close the boards and have learners rebuild the three take-home points from memory, then the complication timeline (&lt;1 / 1–6 / &gt;6 months).</p>
+</section>
+
+<section id="cases">
+<h2>Cases (apply the framework)</h2>
+<p>The original board is framework-based; these short application cases reinforce it. Reveal answers only after discussion.</p>
+<details><summary>Case 1 — Kidney transplant, 3 months out: fever, malaise, leukopenia, rising creatinine.</summary>
+Timing (1–6 months) puts <b>CMV reactivation</b> at the top of the infectious differential — but <b>acute rejection</b> must be excluded in parallel (it shares graft dysfunction and malaise). Check CMV PCR and a calcineurin-inhibitor trough; transplant nephrology will often biopsy. This is exactly the early-fever pitfall: infection AND rejection, not one or the other.</details>
+<details><summary>Case 2 — Lung transplant, 3 years out: progressive dyspnea, dry cough, obstructive PFTs with falling FEV<sub>1</sub>, normal CXR.</summary>
+<b>Chronic rejection = bronchiolitis obliterans syndrome.</b> Bronchoscopy to rule out stenosis/infection; biopsy shows small-airway fibrous scarring. Optimize immunosuppression; azithromycin 3×/week ± montelukast/sirolimus/photopheresis. Lung's high allogenicity is why these patients stay maximally immunosuppressed.</details>
+<details><summary>Case 3 — Heart transplant, 8 months out: a new, rapidly enlarging lymph node; EBV viremia.</summary>
+<b>PTLD</b> — EBV-driven, occurs early (typically first year), risk tied to EBV status and immunosuppression intensity. First step in management is reduction of immunosuppression; tissue diagnosis guides further therapy (rituximab-based).</details>
+</section>
+
+<section id="mcq">
+<h2>Board-Style MCQs</h2>
+
+<div class="mcq"><div class="stem">1. A 52-year-old man is 2 weeks status post deceased-donor kidney transplant. He develops fever and a productive cough. Which infection category is MOST likely at this time point?</div>
+<ol class="opts" type="A"><li>CMV reactivation</li><li>Nosocomial/donor-derived infection</li><li>Community-acquired pneumonia</li><li>PTLD</li><li>Cryptococcal meningitis</li></ol>
+<details><summary>Answer &amp; explanation</summary><b>B.</b> In the first month, nosocomial (surgical-site, line, catheter, hospital-acquired pneumonia, <i>C. diff</i>) and donor/recipient-derived infections dominate. <b>A &amp; E</b> (reactivation/opportunistic) cluster at 1–6 months. <b>C</b> dominates &gt;6 months. <b>D</b> (PTLD) is an early malignancy but presents as lymphoproliferation, not acute febrile pneumonia.</details></div>
+
+<div class="mcq"><div class="stem">2. A patient is being counseled before kidney transplant about a CNI-sparing maintenance regimen with belatacept. Which finding is an absolute contraindication?</div>
+<ol class="opts" type="A"><li>CMV-seropositive donor</li><li>EBV-seronegative recipient</li><li>Prior cyclosporine intolerance</li><li>Body mass index &gt; 30</li><li>History of well-controlled hypertension</li></ol>
+<details><summary>Answer &amp; explanation</summary><b>B.</b> Belatacept is contraindicated in EBV-seronegative recipients because of markedly increased risk of PTLD (including CNS) and PML. <b>A, C, D, E</b> are not contraindications; indeed a CNI-sparing strategy may be chosen <i>because</i> of CNI intolerance (C).</details></div>
+
+<div class="mcq"><div class="stem">3. A well-adherent liver transplant recipient with therapeutic tacrolimus levels presents with a first episode of biopsy-proven acute cellular rejection 18 months post-transplant. What does the timing most appropriately prompt?</div>
+<ol class="opts" type="A"><li>This is expected and requires no change</li><li>Re-examination of the diagnosis and adherence/drug levels, since a first acute rejection beyond 6 months is unusual</li><li>Immediate listing for re-transplant</li><li>Permanent discontinuation of all immunosuppression</li><li>Switch to induction-dose anti-thymocyte globulin as maintenance</li></ol>
+<details><summary>Answer &amp; explanation</summary><b>B.</b> Assuming adherence, a <i>first</i> acute rejection beyond 6 months is highly unlikely, so confirm the diagnosis and verify adherence/levels. Treatment of true acute cellular rejection is pulse steroids ± anti-lymphocyte antibody (not maintenance ATG, E). C and D are inappropriate.</details></div>
+
+<div class="mcq"><div class="stem">4. Which maintenance immunosuppressant class is most associated with nephrotoxicity, neurotoxicity, hyperkalemia, and hyperuricemia?</div>
+<ol class="opts" type="A"><li>Antimetabolites</li><li>Calcineurin inhibitors</li><li>Corticosteroids</li><li>Anti–IL-2 receptor antibodies</li><li>mTOR inhibitors</li></ol>
+<details><summary>Answer &amp; explanation</summary><b>B.</b> Calcineurin inhibitors (tacrolimus, cyclosporine) cause nephrotoxicity, neurotoxicity, hyperkalemia, hyperuricemia, and metabolic syndrome. Antimetabolites (A) → marrow suppression and GI/colitis; steroids (C) → metabolic syndrome; D is an induction agent; mTOR inhibitors (E) cause proteinuria, poor wound healing, and cytopenias rather than this cluster.</details></div>
+
+<div class="mcq"><div class="stem">5. A CMV-seronegative recipient receives a kidney from a CMV-seropositive donor (D+/R−). Which agent was FDA-approved in 2023 specifically for CMV prophylaxis in high-risk kidney transplant recipients, offering less myelosuppression than the standard?</div>
+<ol class="opts" type="A"><li>Valganciclovir</li><li>Letermovir</li><li>Acyclovir</li><li>Maribavir</li><li>Foscarnet</li></ol>
+<details><summary>Answer &amp; explanation</summary><b>B.</b> Letermovir (Prevymis) gained FDA approval in June 2023 for prophylaxis in high-risk (D+/R−) kidney transplant recipients, with less myelosuppression than valganciclovir (A, the long-standing standard). Maribavir (D, FDA 2021) is for <i>refractory/resistant</i> CMV, not first-line prophylaxis. Acyclovir (C) is inadequate for CMV; foscarnet (E) is reserved for resistant disease and is nephrotoxic.</details></div>
+</section>
+
+<section id="cards">
+<h2>Spaced-Repetition Cards</h2>
+<table>
+<tr><th>Question</th><th>Answer</th></tr>
+<tr><td>Central trade-off of immunosuppression?</td><td>↓rejection vs. ↑infection, malignancy, drug toxicity.</td></tr>
+<tr><td>Allogenicity order (most → least likely to reject)?</td><td>Lung &gt; heart/kidney &gt; liver.</td></tr>
+<tr><td>Induction vs. maintenance?</td><td>Induction = intense, brief, at transplant (anti-lymphocyte/anti–IL-2 Ab + steroids); maintenance = lower-intensity long-term (CNI + antimetabolite ± prednisone).</td></tr>
+<tr><td>Three core maintenance classes + examples?</td><td>CNI (tacrolimus), antimetabolite (mycophenolate), steroid (prednisone); + mTOR inhibitor (sirolimus).</td></tr>
+<tr><td>When is a FIRST acute rejection unlikely?</td><td>Beyond 6 months, if adherent.</td></tr>
+<tr><td>Two acute rejection types + diagnosis?</td><td>Cellular (T-cell; biopsy infiltrate); humoral (Ab-mediated; C4d / donor-specific Abs).</td></tr>
+<tr><td>Acute cellular rejection treatment?</td><td>Pulse methylprednisolone 1 g ×3 d ± anti-lymphocyte Ab.</td></tr>
+<tr><td>Infections &lt;1 month?</td><td>Nosocomial; donor/recipient-derived.</td></tr>
+<tr><td>Infections 1–6 months?</td><td>Reactivation/OIs: CMV, BK, HSV/VZV, TB, HBV; PJP, Crypto, Toxo.</td></tr>
+<tr><td>Infections &gt;6 months?</td><td>Community-acquired » OIs; late viral.</td></tr>
+<tr><td>Malignancy risk vs. general population?</td><td>~2×, especially virally driven (PTLD/EBV, skin/anogenital HPV, liver).</td></tr>
+<tr><td>PTLD — what &amp; when?</td><td>EBV-driven lymphoproliferation; early (often first year).</td></tr>
+<tr><td>Five complication categories?</td><td>Rejection, medication effects, infection, malignancy, surgical.</td></tr>
+<tr><td>CNI toxicities?</td><td>Nephro/neurotoxicity, ↑K, ↑uric acid, metabolic syndrome.</td></tr>
+<tr><td>Belatacept — mechanism &amp; contraindication?</td><td>CD28 costimulation blocker (CNI-sparing); contraindicated if EBV-seronegative.</td></tr>
+<tr><td>Letermovir — role?</td><td>CMV prophylaxis in high-risk D+/R− kidney Tx (FDA 2023); less myelosuppression than valganciclovir.</td></tr>
+<tr><td>Status of OKT3?</td><td>Discontinued 2010; current depleting agents = rATG, alemtuzumab; basiliximab = non-depleting.</td></tr>
+<tr><td>Chronic rejection by organ?</td><td>Lung = bronchiolitis obliterans; kidney = chronic allograft dysfunction.</td></tr>
+</table>
+</section>
+
+<section id="dot">
+<h2>Attending Dotphrase</h2>
+<p>Dense, EMR-paste-ready chronic-management template. <code>*</code> marks bedside-editable values; brackets are pick-lists.</p>
+<button class="copybtn" onclick="navigator.clipboard.writeText(document.getElementById('dp').innerText)">Copy dotphrase</button>
+<pre id="dp">#s/p *[kidney/liver/heart/lung] transplant *MM/YYYY (*__ mo out) — immunosuppression = balance rejection vs infxn/malignancy/tox
+allogenicity (reject risk): lung > heart/kidney > liver; intensity de-escalates over time
+IMMUNOSUPPRESSION:
+  induction (at txp): [rATG/alemtuzumab (depleting) | basiliximab (anti–IL-2R)] + pulse steroids
+  maintenance: CNI *[tacro/cyclo] (goal trough *__) + antimetabolite *[MMF/aza] ± pred *__mg
+    alt: belatacept (CNI-sparing) — ONLY if EBV+ ; mTOR-i [siro/evero]
+COMPLICATIONS by time:
+  <1 mo: nosocomial/donor-derived infxn; surgical (leak/kink/fistula/stenosis); early rejection
+  1–6 mo: reactivation/OI [CMV/BK/HSV-VZV/TB/HBV/PJP/Crypto/Toxo] — on ppx; PEAK acute rejection; PTLD may start
+  >6 mo: community-acq infxn; chronic rejection; late solid malignancy
+REJECTION:
+  acute cellular (T-cell, bx infiltrate) → methylpred 1g IV *x3d ± anti-lymphocyte Ab
+  acute humoral (C4d / DSA) → ↑IS, IVIg, PLEX, rituximab, bortezomib, eculizumab
+  *r/o w/ graft dysfxn: first acute rejection >6mo unlikely if adherent → recheck levels/adherence
+PROPHYLAXIS: TMP-SMX (PJP); CMV [valganciclovir | letermovir if D+/R− high-risk]; antifungal/antiviral per protocol
+MONITORING: CNI troughs, *Cr/GFR, *CMV PCR, *BK PCR, CBC, metabolic panel; med interactions (azoles/macrolides/diltiazem ↑CNI)
+AVOID: live vaccines; abrupt IS changes w/o txp team; nephrotoxins w/ CNI
+red flags → call txp: graft dysfxn, fever, new mass/LAD (PTLD), CMV/BK viremia</pre>
+<p class="note">Every value is a placeholder — confirm against the patient's transplant-center protocol and current troughs before use.</p>
+</section>
+
+<section id="takehome">
+<h2>Take-Home Points</h2>
+<ol>
+<li>Immunosuppression is a constant balance: lowering rejection risk costs you infection, malignancy, and drug toxicity.</li>
+<li>Allogenicity (rejection risk) is highest in the first month and falls over time; so does immunosuppression intensity. Lung &gt; heart/kidney &gt; liver.</li>
+<li>Assuming adherence, a <b>first</b> episode of acute rejection beyond 6 months is highly unlikely.</li>
+<li>Reactivation infections (CMV, BK, HSV/VZV, TB, HBV) cluster at 1–6 months; nosocomial/donor-derived &lt;1 month; community-acquired &gt;6 months.</li>
+<li>PTLD (EBV) occurs early; most other malignancies appear late. Overall cancer risk ~2× the general population.</li>
+</ol>
+</section>
+
+<section id="changelog">
+<h2>Optimization Changelog</h2>
+<table>
+<tr><th>Area</th><th>Change</th></tr>
+<tr><td>Currency check</td><td>Standing teaching (induction vs. maintenance, complication timeline) is non-guideline-dependent immunology — verified current June 2026. No framework change required.</td></tr>
+<tr><td>Content added</td><td>Newer-context slide + HTML: belatacept (FDA 2011, CNI-sparing, EBV-seronegative contraindication); OKT3/muromonab discontinued 2010 (current depleting agents rATG/alemtuzumab); letermovir (FDA Jun 2023) and maribavir (FDA 2021) for CMV — all source-cited.</td></tr>
+<tr><td>Corrections</td><td>Learner board: "mycophenylate" → "mycophenolate" (slide 2); "bortezumab" → "bortezomib" (slide 6). Presenter board: no text errors found.</td></tr>
+<tr><td>Pedagogy</td><td>Added 2-min hook, timed segments per objective, ≥4 ASK pause-points, callout pearls, retrieval close, HTML tables for the drug and complication frameworks.</td></tr>
+<tr><td>Assessment</td><td>Added 3 click-to-reveal application cases, 5 ABIM-style MCQs with full distractor explanations, 18 spaced-repetition cards / Anki TSV.</td></tr>
+<tr><td>Clinical tool</td><td>Added a chronic-management attending dotphrase (HTML only).</td></tr>
+<tr><td>One-pager</td><td>Single-page Letter clinical reference (13px), two-column, verified exactly 1 page.</td></tr>
+<tr><td>Format</td><td>Self-contained HTML launcher; deck animations/graphics preserved; 3 slides appended to presenter board.</td></tr>
+<tr><td>Human review needed</td><td>None. (Note: original page lists "expert review pending"; OKT3 and some agents on the original slides are retained to preserve animations — newer context is surfaced on the appended slide rather than by overwriting.)</td></tr>
+</table>
+</section>
+
+<section id="ref">
+<h2>References</h2>
+<p><b>Original (TeachIM):</b></p>
+<ol>
+<li>Enderby C, Keller CA. An Overview of Immunosuppression in Solid Organ Transplantation. <i>AJMC.</i> 2015;21(1):S12–S23.</li>
+<li>Fishman JA. Infection in solid-organ transplant recipients. <i>N Engl J Med.</i> 2007;357:2601.</li>
+<li>Freidberg JW, Aster JC. Epidemiology, clinical manifestations and diagnosis of post-transplant lymphoproliferative disorders. UpToDate.</li>
+<li>Brennan DC, et al. Development of malignancy following solid organ transplantation. UpToDate.</li>
+</ol>
+<p><b>Added (newer context):</b></p>
+<ol start="5">
+<li>Archdeacon P, et al. Summary of the US FDA Approval of Belatacept. <i>Am J Transplant.</i> 2012;12:554–562 (belatacept FDA approval 2011).</li>
+<li>FDA / Merck. PREVYMIS (letermovir) approved for CMV prophylaxis in high-risk kidney transplant recipients, June 2023.</li>
+<li>LiverTox / NCBI. Muromonab-CD3 (OKT3) — discontinued 2010.</li>
+</ol>
+</section>
+
+</main>
+<footer>
+Adapted from TeachIM.org "Transplant Medicine" (Zhang &amp; Fainstad, Dec 2020) under <a href="http://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>. Non-commercial, attribution required. Optimized 2026-06-11. Educational use only — medical content should be clinician-reviewed before teaching.
+</footer>
+</body></html>

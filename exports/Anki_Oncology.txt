@@ -1,0 +1,17 @@
+What is an immune checkpoint?	A normal "brake" (e.g., PD-L1->PD-1, ligands->CTLA-4) that prevents the immune system from attacking healthy tissue (autoimmunity).	Oncology::immune-checkpoint-inhibitors
+How do tumors evade T cells?	They express checkpoint ligands (PD-L1, CTLA-4 ligands) that engage T-cell receptors -> T-cell "exhaustion" -> no kill.	Oncology::immune-checkpoint-inhibitors
+How does a T cell recognize a cancer cell?	TCR reads mutated "non-self" peptides displayed on MHC; more mutations = more neoantigens = more immunogenic.	Oncology::immune-checkpoint-inhibitors
+Anti-PD-1 agents?	Nivolumab, pembrolizumab, cemiplimab, dostarlimab.	Oncology::immune-checkpoint-inhibitors
+Anti-PD-L1 agents?	Atezolizumab, durvalumab, avelumab.	Oncology::immune-checkpoint-inhibitors
+Anti-CTLA-4 agents?	Ipilimumab, tremelimumab.	Oncology::immune-checkpoint-inhibitors
+Newest checkpoint inhibitor class (2022)?	Anti-LAG-3: relatlimab (with nivolumab = Opdualag), FDA-approved Mar 2022 for unresectable/metastatic melanoma.	Oncology::immune-checkpoint-inhibitors
+Which cancers respond best to ICIs?	High mutational burden: melanoma (UV), lung & bladder (tobacco); also RCC, HCC, head/neck, Merkel cell, MSI-high/dMMR, classical Hodgkin lymphoma.	Oncology::immune-checkpoint-inhibitors
+What are irAEs?	Immune-related adverse events -- autoimmune toxicity in essentially any organ from releasing T-cell brakes.	Oncology::immune-checkpoint-inhibitors
+Most common irAEs?	Colitis/diarrhea, hepatitis, pneumonitis, dermatitis, thyroiditis, hypophysitis.	Oncology::immune-checkpoint-inhibitors
+Which irAEs are usually irreversible?	Myocarditis, type 1 diabetes, primary adrenal insufficiency (+/- hypophysitis/hypopituitarism).	Oncology::immune-checkpoint-inhibitors
+Most deadly irAE?	Myocarditis -- rare but ~40-50% fatal; presents with troponin rise + conduction disease.	Oncology::immune-checkpoint-inhibitors
+irAE frequency by agent?	Severe irAEs ~16% anti-PD-1, ~27% anti-CTLA-4, up to ~55% with combination therapy. Usually 8-12 wk in, but any time.	Oncology::immune-checkpoint-inhibitors
+Five-step framework for a suspected irAE?	1) Rule out other causes (infection/meds) 2) Stop the ICI 3) Grade severity (NCCN/ASCO) 4) Prednisone 1-2 mg/kg 5) Add 2nd agent if no improvement in a few days.	Oncology::immune-checkpoint-inhibitors
+ASCO/NCCN grade-based rule for irAEs?	G1: continue + monitor; G2: hold + steroids, resume when <=G1; G3: hold + high-dose steroid, taper >=4-6 wk; G4: permanently d/c (except controlled endocrinopathies).	Oncology::immune-checkpoint-inhibitors
+First step before treating ICI diarrhea as colitis?	Exclude infection -- stool studies including C. difficile.	Oncology::immune-checkpoint-inhibitors
+Steroid-refractory ICI colitis -- next agent?	Infliximab or vedolizumab if no improvement in 2-3 days of high-dose steroids.	Oncology::immune-checkpoint-inhibitors

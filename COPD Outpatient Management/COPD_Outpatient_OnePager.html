@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8">
+<style>
+  @page { size: Letter; margin: 0.3in; }
+  :root{ --fs: 13px; --accent:#0e6e8c; --accent2:#b4530a; --green:#2e7d4f; --line:#c4ced6; }
+  *{box-sizing:border-box}
+  body{font-family:'Helvetica Neue',Arial,sans-serif;font-size:var(--fs);line-height:1.32;color:#16202b;margin:0;column-count:2;column-gap:14px;column-fill:balance}
+  h1{font-size:calc(var(--fs)*1.5);margin:0 0 2px;color:var(--accent);column-span:all}
+  .sub{font-size:calc(var(--fs)*0.92);color:#46535f;margin:0 0 6px;column-span:all;border-bottom:2px solid var(--accent);padding-bottom:3px}
+  .blk{break-inside:avoid;margin-bottom:6px}
+  h2{font-size:calc(var(--fs)*1.02);color:#fff;background:var(--accent);margin:0 0 3px;padding:2px 6px;border-radius:3px}
+  h2.o{background:var(--accent2)} h2.g{background:var(--green)}
+  table{border-collapse:collapse;width:100%;font-size:calc(var(--fs)*0.95);margin:2px 0}
+  td,th{border:1px solid var(--line);padding:2px 4px;vertical-align:top;text-align:left}
+  th{background:#e9f1f4}
+  ul{margin:2px 0;padding-left:14px} li{margin:1px 0}
+  p{margin:2px 0}
+  .k{color:var(--accent);font-weight:bold}
+  .r{color:#b3261e;font-weight:bold}
+</style></head>
+<body>
+<h1>COPD &mdash; Outpatient Management Clinical Reference</h1>
+<p class="sub">Diagnose &rarr; classify (GOLD 2023 ABE) &rarr; inhaler step-up &rarr; non-pharm &rarr; exacerbation. Adapted from TeachIM.org (CC BY-NC 4.0); GOLD 2024/2025 verified. Educational use &mdash; clinician-reviewed.</p>
+
+<div class="blk">
+<h2>Diagnose</h2>
+<p><b class="k">Required:</b> post-bronchodilator <b>FEV1/FVC &lt;0.70</b> on spirometry + symptoms/risk factors. No PFTs &rarr; no COPD dx.</p>
+<p><b>Supportive PFTs:</b> scooped flow-volume loop; &uarr;TLC, &uarr;RV (air trapping); &darr;DLCO (emphysema). Post-BD FEV1 grades severity.</p>
+<p><b>Workup:</b> exposure hx; ABG if SpO2 &lt;92%; <b>A1AT once in ALL</b> (esp. &lt;45 or panlobular basal emphysema); CXR to exclude; CT if FEV1 &lt;45%, sx out of proportion, or LCS.</p>
+<p><b>pre-COPD</b> = sx/structural, ratio &ge;0.7. <b>PRISm</b> = preserved ratio, low volumes. Both can progress.</p>
+</div>
+
+<div class="blk">
+<h2>Classify &mdash; 2023 GOLD ABE</h2>
+<table>
+<tr><th>Group</th><th>Exac/yr</th><th>Symptoms</th></tr>
+<tr><td>A</td><td>0&ndash;1</td><td>mMRC 0&ndash;1 / CAT &lt;10</td></tr>
+<tr><td>B</td><td>0&ndash;1</td><td>mMRC &ge;2 / CAT &ge;10</td></tr>
+<tr><td>E</td><td>&ge;2 mod or &ge;1 hosp</td><td>(any)</td></tr>
+</table>
+<p>Key fork = exacerbation-prone or not (drives ICS).</p>
+</div>
+
+<div class="blk">
+<h2 class="g">Inhaler therapy</h2>
+<table>
+<tr><th>Group</th><th>First-line</th></tr>
+<tr><td>A</td><td>One LABD (LABA or LAMA)</td></tr>
+<tr><td>B</td><td>LABA + LAMA</td></tr>
+<tr><td>E</td><td>LABA + LAMA (+ICS if eos &ge;300)</td></tr>
+</table>
+<p><b>Add ICS</b> (&rarr;triple) for exacerbators + <b>eos &ge;100</b>. <b class="r">De-escalate ICS if recurrent PNA.</b> LABA-ICS has no clear GOLD role.</p>
+<p>LABA = sx. LAMA = sx + fewer exac (&gt;LABA). ICS = fewer exac if eos&uarr; (&uarr;PNA). Step-up: roflumilast (FEV1&lt;50%+CB), azithromycin (ex-smoker), LVRS/EBV/transplant. Technique + adherence every visit.</p>
+</div>
+
+<div class="blk">
+<h2 class="g">Non-pharm (efficacy)</h2>
+<table>
+<tr><th>Therapy</th><th>Benefit</th></tr>
+<tr><td class="k">Smoking cessation</td><td><b>Mortality</b> + all domains</td></tr>
+<tr><td>O2 (PaO2&le;55, or &le;59+RHF)</td><td>Mortality, slows progression</td></tr>
+<tr><td>Pulm rehab</td><td>Symptoms, exacerbations</td></tr>
+<tr><td>Lung-cancer screen</td><td>Cancer mortality</td></tr>
+<tr><td>Vaccines (flu/PCV/COVID)</td><td>Fewer exacerbations</td></tr>
+</table>
+</div>
+
+<div class="blk">
+<h2 class="o">Acute exacerbation</h2>
+<p><b>Cardinal sx:</b> &uarr;dyspnea, &uarr;sputum volume, &uarr;sputum purulence. R/o mimics (PE, PNA, HF, ACS): CXR, D-dimer, BNP, ECG/trop.</p>
+<table>
+<tr><th>Tx</th><th>Detail</th></tr>
+<tr><td>Bronchodilator</td><td>SABA &plusmn; SAMA; MDI = neb if used right</td></tr>
+<tr><td>Steroid</td><td>Prednisone <b>40 mg &times;5 d</b> (REDUCE)</td></tr>
+<tr><td>Antibiotic</td><td><b>&times;5 d</b> if &ge;2 cardinal incl. purulence (or vent); per local resistance</td></tr>
+<tr><td>NIPPV</td><td>pH &lt;7.35 &amp; PaCO2 &gt;45</td></tr>
+</table>
+<p><b class="r">Hospitalize:</b> resting dyspnea/&uarr;O2/confusion, severe comorbidity, poor home support.</p>
+</div>
+
+<div class="blk">
+<h2>2024&ndash;25 GOLD updates</h2>
+<ul>
+<li>Triple (LABA+LAMA+ICS) preferred <b>over LABA-ICS</b> when ICS indicated.</li>
+<li>Eos thresholds unchanged: &ge;100 escalate; &ge;300 initial ICS in Group E.</li>
+<li><b>Dupilumab</b> (first biologic, FDA 9/2024): add to triple if exac + eos &ge;300 + chronic bronchitis.</li>
+<li><b>Ensifentrine</b> (Ohtuvayre, FDA 6/2024): nebulized PDE3/4 inhibitor.</li>
+</ul>
+</div>
+
+</body></html>

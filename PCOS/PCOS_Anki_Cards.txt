@@ -1,0 +1,18 @@
+Prevalence of PCOS in reproductive-age people with ovaries?	8-13%
+Three Rotterdam criteria (need 2 of 3)?	(1) Hyperandrogenism (clinical or biochemical); (2) menstrual irregularity/ovulatory dysfunction; (3) polycystic ovaries on US
+Definition of polycystic ovaries on ultrasound?	>12 follicles and/or ovarian volume >10 cc
+Oligomenorrhea vs amenorrhea?	Oligomenorrhea: <8 cycles/yr or cycle >35 d; amenorrhea: no menses x3 months
+Single best test for hyperandrogenism?	Total testosterone (free testosterone assays are unreliable)
+Mimics of hyperandrogenism to exclude?	Non-classic CAH (21-OH deficiency), acromegaly, androgen-secreting tumor, Cushing's
+"All-patients" labs for menstrual irregularity?	TSH +/- free T4, beta-hCG, prolactin (rule out pregnancy, thyroid, hyperprolactinemia)
+Red flags suggesting androgen-secreting tumor over PCOS?	Very high testosterone, rapid virilization, voice deepening, clitoromegaly -> check DHEAS
+First-line treatment for hirsutism in PCOS?	Combined OCPs (less-androgenic progestin) +/- spironolactone (teratogenic - needs contraception)
+Why screen PCOS patients for diabetes, and how often?	7.5-10x higher undiagnosed T2DM; screen with A1c/fasting glucose/2-h OGTT every 1-2 years
+Endometrial cancer risk in PCOS and why?	3x higher - chronic anovulation -> unopposed estrogen
+The "90-day rule" for PCOS?	Ensure a withdrawal bleed at least every 90 days (OCP, progestin IUD, or cyclic progesterone) to prevent hyperplasia
+Most common cause of anovulatory infertility in the US?	PCOS (~5-10% conception/cycle vs 10-15% normal)
+First-line for ovulation induction in PCOS?	Letrozole or clomiphene (after 5-10% weight loss in overweight/obese patients)
+Mood comorbidity screening in PCOS?	PHQ-9 and GAD-7; ask about disordered/binge eating (risk independent of weight)
+Pregnancy complications associated with PCOS?	Early pregnancy loss, GDM (independent of BMI), pregnancy-induced HTN/pre-eclampsia, preterm labor
+2023 guideline: alternative to ultrasound for PCOM in adults?	Anti-Mullerian hormone (AMH) - adults only, not adolescents
+2023 guideline: adolescent diagnostic requirement?	Both hyperandrogenism AND ovulatory dysfunction; no US or AMH (<8 y post-menarche)

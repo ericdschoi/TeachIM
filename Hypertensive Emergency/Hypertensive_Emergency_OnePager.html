@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8">
+<style>
+:root{ --fs: 13px; }
+@page { size: Letter; margin: 0.3in; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: "Helvetica Neue", Arial, sans-serif; font-size: var(--fs); line-height: 1.34; color: #111; }
+.hdr { display: flex; justify-content: space-between; align-items: baseline; border-bottom: 0.25em solid #0e6e8c; padding-bottom: 0.3em; margin-bottom: 0.5em; }
+.hdr h1 { font-size: 1.78em; color: #0e6e8c; letter-spacing: 0.02em; }
+.hdr .sub { font-size: 0.82em; color: #555; max-width: 50%; text-align: right; }
+.cols { column-count: 2; column-gap: 1.1em; }
+h2 { font-size: 1.02em; color: #fff; background: #0e6e8c; padding: 0.2em 0.5em; margin: 0 0 0.3em; border-radius: 0.2em; break-after: avoid; }
+h2.alt { background: #b4530a; }
+h2.grn { background: #2e7d4f; }
+.blk { break-inside: avoid; margin-bottom: 0.55em; }
+table { width: 100%; border-collapse: collapse; margin: 0.2em 0 0.3em; }
+td, th { border: 0.05em solid #bcc7d0; padding: 0.15em 0.32em; vertical-align: top; text-align: left; }
+th { background: #eef4f7; font-weight: 700; }
+td.k { background: #f5f8fa; font-weight: 700; width: 20%; }
+ul { margin: 0 0 0 1em; padding: 0; }
+li { margin-bottom: 0.1em; }
+.tag { font-weight: 700; color: #0e6e8c; }
+.red { color: #b00; font-weight: 700; }
+.pearl { background: #eef7f0; border-left: 0.25em solid #2e7d4f; padding: 0.2em 0.5em; margin: 0.2em 0; }
+.warn { background: #fdeeea; border-left: 0.25em solid #b00; padding: 0.2em 0.5em; margin: 0.2em 0; }
+.foot { border-top: 0.05em solid #bcc7d0; margin-top: 0.3em; padding-top: 0.2em; font-size: 0.72em; color: #777; column-span: all; }
+b { font-weight: 700; }
+</style></head>
+<body>
+<div class="hdr">
+  <h1>HYPERTENSIVE EMERGENCY &mdash; Clinical One-Pager</h1>
+  <div class="sub">Severe HTN (&gt;180/120) <b>with</b> acute end-organ damage &middot; 2017 &amp; 2025 AHA/ACC; AHA/ASA stroke &middot; IM resident reference</div>
+</div>
+
+<div class="cols">
+
+  <div class="blk">
+    <h2>1 &middot; DEFINE</h2>
+    <b>HTN emergency</b> = SBP &gt;180 or DBP &gt;120 <b>+ acute end-organ damage.</b> The <u>damage</u> defines it, not the number. <b>Rate of rise &gt; absolute value</b> &mdash; chronic HTN tolerates very high BP; a previously normotensive pt (eclampsia, acute GN) damages below 180/120.
+    <div class="pearl"><b>2025 AHA/ACC:</b> "hypertensive urgency" retired &rarr; <b>severe HTN without acute target-organ damage</b>. Mgmt unchanged: reinstitute/uptitrate <u>oral</u> meds, outpatient, close f/u. <span class="red">No IV drip, no rapid drop.</span></div>
+  </div>
+
+  <div class="blk">
+    <h2>2 &middot; END-ORGAN SCREEN</h2>
+    <table>
+      <tr><th>System</th><th>Emergencies / clues</th></tr>
+      <tr><td class="k">Neuro</td><td>HTN encephalopathy (insidious HA/confusion/szr; PRES = parieto-occipital edema); ICH/SAH &amp; ischemic CVA (focal deficits); papilledema</td></tr>
+      <tr><td class="k">Cardiac</td><td>Acute LV failure + pulm edema; ACS; aortic dissection (tearing pain to back, inter-arm BP diff, &darr;pulses, widened mediastinum)</td></tr>
+      <tr><td class="k">Renal</td><td>Rapidly &uarr;Cr, &darr;UOP, microscopic hematuria</td></tr>
+      <tr><td class="k">Other</td><td>Eclampsia (&gt;20 wk + szr); pheo crisis (episodic HA/sweats/palpitations/tachy/hyperthermia); sympathomimetics (+ tox); VEGF inhibitors; TMA</td></tr>
+    </table>
+  </div>
+
+  <div class="blk">
+    <h2 class="grn">3 &middot; TREATMENT GOALS</h2>
+    Goal = <b>prevent further damage, NOT normalize BP.</b> ICU + IV titratable gtt; remove exacerbators (pain, volume, drugs). Autoregulation has reset &rarr; fast drop = hypoperfusion.
+    <table>
+      <tr><th>Scenario</th><th>Target / pace</th></tr>
+      <tr><td class="k">General</td><td>&darr;SBP &le;25% in 1st h &rarr; ~160/100 by 2&ndash;6 h &rarr; nl over 24&ndash;48 h</td></tr>
+      <tr><td class="k red">Dissection</td><td>HR ~60 w/ BB <u>first</u>, then SBP &lt;120 ASAP</td></tr>
+      <tr><td class="k">ICH / SAH</td><td>SBP &lt;140 promptly</td></tr>
+      <tr><td class="k">Eclampsia / pheo</td><td>SBP &lt;140 in 1st h (+ MgSO4 for eclampsia)</td></tr>
+      <tr><td class="k">Ischemic CVA</td><td>Permissive &le;220/120; if higher &darr;~15%/24h; tPA cand &lt;185/110 pre, &lt;180/105 &times;24h</td></tr>
+    </table>
+    <div class="pearl"><b>Dissection:</b> rate before pressure &mdash; vasodilator first triggers reflex tachycardia &rarr; &uarr;wall shear (dP/dt) &rarr; extends dissection.</div>
+  </div>
+
+  <div class="blk">
+    <h2 class="alt">4 &middot; DRUGS BY MECHANISM</h2>
+    <table>
+      <tr><th>Agent</th><th>Class</th><th>Use for / caution</th></tr>
+      <tr><td class="k">Nicardipine</td><td>Art. vasodil (CCB)</td><td><b>Stroke</b>, pregnancy; broad</td></tr>
+      <tr><td class="k">Hydralazine</td><td>Arterial</td><td>Pregnancy; <span class="red">reflex tachy (ACS), &uarr;ICP, unpredictable</span></td></tr>
+      <tr><td class="k">Nitroprusside</td><td>Art + venous</td><td>Almost any (not preg); <span class="red">CN tox in AKI, &uarr;ICP</span></td></tr>
+      <tr><td class="k">Fenoldopam</td><td>D1 agonist</td><td><b>Acute renal failure</b>; &uarr;ICP/IOP</td></tr>
+      <tr><td class="k">Nitroglycerin</td><td>Venous (&darr;preload)</td><td><b>ACS, pulm edema</b>; weak antiHTN</td></tr>
+      <tr><td class="k">Labetalol</td><td>&alpha;1/&beta;</td><td>Eclampsia, ACS, dissection; <span class="red">not RV infarct / unknown EF</span></td></tr>
+      <tr><td class="k">Esmolol</td><td>&beta;1</td><td>Dissection (+ vasodil)</td></tr>
+      <tr><td class="k">Phentolamine</td><td>&alpha;1</td><td><b>Catecholamine excess</b> (pheo, sympathomimetic, clonidine w/d)</td></tr>
+    </table>
+  </div>
+
+  <div class="blk">
+    <h2 class="grn">SCENARIO &rarr; AGENT (quick pick)</h2>
+    <ul>
+      <li><b>Ischemic stroke / pregnancy:</b> nicardipine</li>
+      <li><b>ACS / pulmonary edema:</b> nitroglycerin &plusmn; nitroprusside + diuresis</li>
+      <li><b>Aortic dissection:</b> esmolol/labetalol (HR 60) then nitroprusside</li>
+      <li><b>Pheo / sympathomimetic:</b> phentolamine (then maybe nicardipine/nitroprusside)</li>
+      <li><b>Acute renal failure:</b> fenoldopam or nicardipine</li>
+    </ul>
+  </div>
+
+  <div class="blk">
+    <h2 class="alt">DO / AVOID</h2>
+    <div class="warn"><b>AVOID:</b> &beta;-blocker before EF known in acute LV failure (&rarr; cardiogenic shock); &beta;-blocker as <u>initial</u> Rx in pheo/catecholamine excess (unopposed &alpha;); nitroprusside in AKI (cyanide); hydralazine in ACS (reflex tachy); rapid normalization in any emergency.</div>
+    <div class="pearl"><b>DO:</b> confirm organ damage before calling it an emergency; lower gradually to target; treat the driver (pain, missed meds, tox, eclampsia); ICU + a-line for any gtt.</div>
+  </div>
+
+  <div class="foot">
+    Adapted from TeachIM.org &ldquo;Hypertensive Emergency&rdquo; (Slaven, Sailer, Zhang; Sept 2021) under CC BY-NC 4.0. Optimized June 2026 &mdash; 2017 &amp; 2025 AHA/ACC, AHA/ASA stroke. Educational use only; not medical advice. Verify doses &amp; guideline currency; clinician review before teaching.
+  </div>
+
+</div>
+</body>
+</html>

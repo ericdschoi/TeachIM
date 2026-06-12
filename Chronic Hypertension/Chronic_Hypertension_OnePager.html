@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8">
+<style>
+:root{ --fs: 13px; }
+@page { size: Letter; margin: 0.3in; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: "Helvetica Neue", Arial, sans-serif; font-size: var(--fs); line-height: 1.34; color: #111; }
+.hdr { display: flex; justify-content: space-between; align-items: baseline; border-bottom: 0.25em solid #0e6e8c; padding-bottom: 0.3em; margin-bottom: 0.5em; }
+.hdr h1 { font-size: 1.7em; color: #0e6e8c; letter-spacing: 0.02em; }
+.hdr .sub { font-size: 0.8em; color: #555; max-width: 48%; text-align: right; }
+.cols { column-count: 2; column-gap: 1.1em; }
+h2 { font-size: 1.02em; color: #fff; background: #0e6e8c; padding: 0.2em 0.5em; margin: 0 0 0.3em; border-radius: 0.2em; break-after: avoid; }
+h2.alt { background: #b4530a; }
+h2.grn { background: #2e7d4f; }
+.blk { break-inside: avoid; margin-bottom: 0.55em; }
+table { width: 100%; border-collapse: collapse; margin: 0.2em 0 0.3em; }
+td, th { border: 0.05em solid #bcc7d0; padding: 0.15em 0.32em; vertical-align: top; text-align: left; }
+th { background: #eef4f7; font-weight: 700; }
+td.k { background: #f5f8fa; font-weight: 700; width: 22%; }
+ul { margin: 0 0 0 1em; padding: 0; }
+li { margin-bottom: 0.1em; }
+.tag { font-weight: 700; color: #0e6e8c; }
+.red { color: #b00; font-weight: 700; }
+.pearl { background: #eef7f0; border-left: 0.25em solid #2e7d4f; padding: 0.2em 0.5em; margin: 0.2em 0; }
+.warn { background: #fdeeea; border-left: 0.25em solid #b00; padding: 0.2em 0.5em; margin: 0.2em 0; }
+.foot { border-top: 0.05em solid #bcc7d0; margin-top: 0.3em; padding-top: 0.2em; font-size: 0.72em; color: #777; column-span: all; }
+b { font-weight: 700; }
+</style></head>
+<body>
+<div class="hdr">
+  <h1>CHRONIC HYPERTENSION &mdash; Clinical One-Pager</h1>
+  <div class="sub">Sustained BP &ge;130/80 (ACC/AHA) &middot; 2017 + 2025 AHA/ACC &middot; IM resident reference</div>
+</div>
+
+<div class="cols">
+
+  <div class="blk">
+    <h2>1 &middot; WHO TO TREAT &amp; TARGET</h2>
+    <b>Goal &lt;130/80 for most adults (2025 AHA/ACC).</b> Confirm dx with 2+ readings, in/out of office, proper technique. Benefit scales with baseline risk (NNT lower than statins/ASA/DM drugs).
+    <table>
+      <tr><th>Stage (BP)</th><th>Action</th></tr>
+      <tr><td class="k">Elevated 120-129/&lt;80</td><td>Lifestyle</td></tr>
+      <tr><td class="k">Stage 1 130-139/80-89</td><td>CVD/DM/CKD or 10-yr risk <b>&ge;7.5%</b> (PREVENT) &rarr; drug; else lifestyle 3-6 mo then drug if still &ge;130/80</td></tr>
+      <tr><td class="k">Stage 2 &ge;140/90</td><td>Start <b>2 agents</b> (single-pill preferred)</td></tr>
+    </table>
+    <div class="pearl"><b>2025 changes:</b> uniform &lt;130/80 target; <b>PREVENT</b> calc replaces Pooled Cohort Eqns; stage-2 two-drug start.</div>
+  </div>
+
+  <div class="blk">
+    <h2 class="alt">2 &middot; FOUR FIRST-LINE AGENTS</h2>
+    <table>
+      <tr><th>Agent</th><th>Best candidate / caution</th></tr>
+      <tr><td class="k">DHP-CCB<br>amlodipine 5-10</td><td>Most pts; good late CKD; <span class="red">pedal edema; avoid HFrEF</span></td></tr>
+      <tr><td class="k">ACEi<br>lisinopril 5-40</td><td>CVD, proteinuria/DM; <span class="red">BMP 1-2 wk (GFR&darr;&lt;30% ok), angioedema</span></td></tr>
+      <tr><td class="k">ARB<br>losartan 25-100</td><td>ACEi-intolerant (cough/angioedema)</td></tr>
+      <tr><td class="k">Thiazide-like<br>chlorthalidone 12.5-25</td><td>Preferred &gt; HCTZ; <span class="red">&darr;Na/K, gout, GFR&lt;30 less eff</span></td></tr>
+    </table>
+    <div class="warn"><b>Never ACEi + ARB.</b> Preferred combo: <b>ACEi + DHP-CCB</b> (ACCOMPLISH &gt; ACEi+thiazide).</div>
+  </div>
+
+  <div class="blk">
+    <h2 class="grn">3 &middot; RESISTANT HTN</h2>
+    Uncontrolled on ACEi/ARB + CCB + thiazide-like at adequate doses:
+    <ul>
+      <li>Add <b>MRA = spironolactone</b> if eGFR &ge;45 &amp; K ok</li>
+      <li>Then: amiloride, BB, alpha-blocker, central, <b>aprocitentan</b> (endothelin antagonist), or vasodilator</li>
+      <li>Obesity-driven: <b>GLP-1 RA</b> for weight + BP</li>
+    </ul>
+  </div>
+
+  <div class="blk">
+    <h2 class="grn">4 &middot; LIFESTYLE (foundational)</h2>
+    <table>
+      <tr><th>Change</th><th>BP effect</th></tr>
+      <tr><td class="k">Na &lt;2 g/d</td><td>&darr;~5 / 2.5</td></tr>
+      <tr><td class="k">High-K diet (no CKD)</td><td>&darr;~5 / 3</td></tr>
+      <tr><td class="k">Weight loss</td><td>&darr;~0.5-2 / kg</td></tr>
+      <tr><td class="k">Aerobic 90-150 min/wk</td><td>&darr;~4-6 / 3</td></tr>
+      <tr><td class="k">Limit alcohol</td><td>&ge;2/d (F), &ge;3/d (M) &uarr; HTN</td></tr>
+    </table>
+    DASH diet overall; resistance exercise also helps.
+  </div>
+
+  <div class="blk">
+    <h2>5 &middot; SECONDARY CAUSES</h2>
+    <b class="tag">Suspect if:</b> severe/resistant; acute or labile; age &lt;30 / pre-puberty w/o obesity-FHx; electrolyte abnormalities.
+    <table>
+      <tr><th>Cause</th><th>Clue / test</th></tr>
+      <tr><td class="k">Hyperaldo (most common, 20-30%)</td><td>Unexplained &darr;K; <b>aldo:renin &gt;20</b> off spironolactone</td></tr>
+      <tr><td class="k">Renovascular</td><td>&gt;50% GFR&darr; post-ACEi; renal US-Doppler, CTA, MRA</td></tr>
+      <tr><td class="k">OSA</td><td>Obese, snoring, +STOP-BANG/Epworth; polysomnography</td></tr>
+      <tr><td class="k">Other endocrine</td><td>Cushing / pheo / thyroid / OCP; cortisol-dex suppression, TSH, metanephrines</td></tr>
+    </table>
+  </div>
+
+  <div class="blk">
+    <h2 class="alt">PEARLS</h2>
+    <ul>
+      <li>ACEi lower BP somewhat less in Black patients &mdash; still use if compelling indication (e.g. diabetic nephropathy)</li>
+      <li>Chlorthalidone &gt; HCTZ (potency, half-life) &mdash; more &darr;K</li>
+      <li>SGLT2i lower SBP ~5 mmHg; not FDA-approved for BP alone</li>
+      <li>White-coat HTN = higher-risk pre-HTN state &mdash; don't treat empirically; manage other risk factors &amp; monitor</li>
+      <li>&gt;20/10 above goal &rarr; expect to need 2 agents</li>
+    </ul>
+  </div>
+
+  <div class="foot">
+    Adapted from TeachIM.org &ldquo;Management of Chronic Hypertension&rdquo; (Fainstad, Guinn, Melton, Trefilek; ed. Brett; 2021/2022) under CC BY-NC 4.0. Optimized June 2026 &mdash; 2017 + 2025 AHA/ACC, ACCOMPLISH. Educational use only; not medical advice. Verify doses; clinician review before teaching.
+  </div>
+
+</div>
+</body>
+</html>

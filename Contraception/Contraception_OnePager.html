@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+  @page { size: Letter; margin: 0.3in; }
+  :root{ --fs: 13px; --p:#0e6e8c; --o:#b4530a; --g:#2e7d4f; --line:#bcc8d0; }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{font-family:'Helvetica Neue',Arial,sans-serif;font-size:var(--fs);line-height:1.5;color:#16202b;
+       column-count:2;column-gap:calc(var(--fs)*1.2);column-fill:balance}
+  .hdr{column-span:all;border-bottom:3px solid var(--p);margin-bottom:calc(var(--fs)*0.8);padding-bottom:calc(var(--fs)*0.45)}
+  .hdr h1{font-size:calc(var(--fs)*1.55);margin:0;color:var(--p)}
+  .hdr .sub{font-size:calc(var(--fs)*0.92);color:#41525f;margin-top:3px}
+  .blk{break-inside:avoid;margin-bottom:calc(var(--fs)*0.95)}
+  h2{font-size:calc(var(--fs)*1.04);color:#fff;background:var(--p);margin:0 0 calc(var(--fs)*0.45);padding:3px 7px;border-radius:3px}
+  h2.o{background:var(--o)} h2.g{background:var(--g)}
+  table{border-collapse:collapse;width:100%;font-size:calc(var(--fs)*0.95)}
+  th,td{border:1px solid var(--line);padding:3px 5px;vertical-align:top;text-align:left}
+  th{background:#e7eef2}
+  ul{margin:2px 0 2px 0;padding-left:calc(var(--fs)*1.05)}
+  li{margin:2px 0}
+  .k{color:var(--p);font-weight:bold}
+  .o-t{color:var(--o);font-weight:bold}
+  p{margin:2px 0}
+  .tag{font-weight:bold}
+</style>
+</head>
+<body>
+  <div class="hdr">
+    <h1>Contraception &mdash; Counseling &amp; Method Selection</h1>
+    <div class="sub">Patient-centered choice over efficacy-first scripts &middot; US MEC/US SPR 2024 &middot; TeachIM (CC BY-NC 4.0), optimized 2026 &middot; clinician-review before use</div>
+  </div>
+
+  <div class="blk">
+    <h2>1 &middot; Open with PATH</h2>
+    <ul>
+      <li><span class="k">P</span>regnancy attitudes: "Want (more) children at some point?"</li>
+      <li><span class="k">A</span>/<span class="k">T</span>iming: "When might that be?"</li>
+      <li><span class="k">H</span>ow important: "How important to prevent pregnancy until then?"</li>
+      <li>Method preference: "What's most important your birth control does?" / "What have you tried &mdash; what worked?"</li>
+      <li>Open-ended, no assumptions; inclusive of all patients.</li>
+    </ul>
+  </div>
+
+  <div class="blk">
+    <h2>2 &middot; Match method to what matters</h2>
+    <table>
+      <tr><th>Method</th><th>Bleeding</th><th>Upkeep</th></tr>
+      <tr><td>Copper IUD</td><td>Heavier/crampier</td><td>10&ndash;12 yr</td></tr>
+      <tr><td>LNG IUD / implant</td><td>Lighter&rarr;none; early spotting</td><td>3&ndash;8 yr</td></tr>
+      <tr><td>DMPA (Depo)</td><td>Lighter&rarr;amenorrhea</td><td>q3 mo</td></tr>
+      <tr><td>Pill/patch/ring</td><td>Lighter or regular menses</td><td>day/wk/mo</td></tr>
+    </table>
+    <ul>
+      <li>Most effective reversible: <span class="k">implant</span> &gt; LNG/copper IUD.</li>
+      <li>Bleeding settles by 3&ndash;4 cycles; estrogen-free may spot 6&ndash;12 mo.</li>
+      <li>Prolonged spotting on progestin &rarr; oral estrogen if no contraindication.</li>
+    </ul>
+  </div>
+
+  <div class="blk">
+    <h2 class="o">3 &middot; Choosing an OCP</h2>
+    <ul>
+      <li><span class="o-t">Default:</span> ~20 mcg ethinyl estradiol + a progestin; keep 2&ndash;3 favorites.</li>
+      <li>&darr;estrogen &rarr; &uarr;breakthrough bleeding; &uarr;estrogen &rarr; &uarr;thrombosis.</li>
+      <li>Progestin gen 3rd/4th = anti-androgenic but &uarr;VTE &mdash; reserve for that need.</li>
+      <li>Skip menses: drop placebo pills, start next pack. No "Lo" in name &asymp; 35 mcg EE.</li>
+    </ul>
+  </div>
+
+  <div class="blk">
+    <h2 class="o">4 &middot; Safety &mdash; estrogen red-flags</h2>
+    <table>
+      <tr><th>Condition</th><th>Avoid</th></tr>
+      <tr><td>Smoking + age &gt;35 (&ge;15/day)</td><td>Combined (MEC 4)</td></tr>
+      <tr><td>Migraine with aura</td><td>Combined</td></tr>
+      <tr><td>VTE/CVD/CVA; postop immob.</td><td>Combined (4)</td></tr>
+      <tr><td>Breast cancer</td><td>ANY hormonal</td></tr>
+      <tr><td>Cervical/uterine CA, anatomic, active PID</td><td>IUD placement</td></tr>
+      <tr><td>Lamotrigine</td><td>Combined (MEC 3): EE &uarr;clearance, &darr;levels</td></tr>
+    </table>
+    <p><span class="tag">US MEC:</span> 1 unrestricted &middot; 2 benefit&gt;risk &middot; 3 usually not rec'd &middot; 4 do not use.</p>
+  </div>
+
+  <div class="blk">
+    <h2 class="g">5 &middot; Emergency contraception (most&rarr;least effective)</h2>
+    <ul>
+      <li><span class="k">Copper IUD</span> &mdash; &gt;99%, &le;5 days, BMI-independent (most effective).</li>
+      <li><span class="k">Ulipristal (Ella)</span> &mdash; best oral, esp. days 3&ndash;5 &amp; higher BMI.</li>
+      <li><span class="k">Levonorgestrel (Plan B)</span> &mdash; &darr;efficacy as BMI rises.</li>
+      <li><span class="k">Yuzpe</span> &mdash; 100 mcg EE + 0.5 mg LNG/dose (~4&ndash;5 pills) q12h&times;2; most available.</li>
+      <li>LNG IUD non-inferior to copper for EC (off-label).</li>
+    </ul>
+  </div>
+
+  <div class="blk">
+    <h2>7 &middot; Typical-use efficacy &amp; pearls</h2>
+    <table>
+      <tr><th>Method</th><th>Typical-use efficacy</th></tr>
+      <tr><td>Implant</td><td>&gt;99.9% (most effective)</td></tr>
+      <tr><td>LNG / copper IUD</td><td>&gt;99%</td></tr>
+      <tr><td>DMPA (Depo)</td><td>~94% (6% fail)</td></tr>
+      <tr><td>Pill / patch / ring</td><td>~93% (7% fail)</td></tr>
+      <tr><td>pH modulator (Phexxi)</td><td>~86%</td></tr>
+    </table>
+    <ul>
+      <li>Spotting is the #1 reason patients quit early &mdash; counsel up front.</li>
+      <li>Offer condoms for STI protection with any method (dual protection).</li>
+      <li>Negative UPT can't exclude pregnancy if unprotected sex

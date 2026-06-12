@@ -1,0 +1,17 @@
+Two mechanisms of any tachycardia, and which is faster?	Increased automaticity (nodal/ectopic pacemaker) or a re-entry circuit. Re-entry circuits are generally faster.
+Two ECG features that sort the seven SVTs?	Rhythm regularity (regular vs. irregular) and P-wave presence/morphology.
+Three management strategies for stable SVT?	(1) Address the underlying process; (2) interrupt the re-entry circuit (vagal maneuvers/adenosine); (3) rate-control with AV-nodal blockers.
+Sinus tachycardia - rhythm, P waves, management?	Regular; normal sinus P waves; identify and address the underlying process.
+Atrial tachycardia - rhythm, P waves, management?	Regular; non-sinus (often inverted) P waves; AV-nodal blocker plus treat the driver.
+AVNRT - mechanism, ECG, management?	Re-entry within the AV node; regular, no visible sinus P (buried/retro-P); vagal maneuvers / adenosine.
+Orthodromic AVRT - ECG and management?	Re-entry via accessory pathway; regular narrow complex with retro-P and short R-P; vagal / adenosine. Resting ECG may show a delta wave.
+Antidromic AVRT - ECG and caution?	Regular WIDE-complex tachycardia; resting ECG shows delta wave + short PR. Treat with procainamide/cardioversion; avoid AV-nodal blockers if pre-excited.
+Atrial flutter - ECG and management?	Saw-tooth flutter waves, atrial rate ~300, often 2:1 conduction; rate control (+/- anticoagulation). Adenosine unmasks but rarely converts it.
+Atrial fibrillation - ECG and management?	Irregularly irregular, no discrete P waves; rate control and anticoagulation per CHA2DS2-VASc.
+Multifocal atrial tachycardia (MAT) - ECG, association, management?	Irregular with at least 3 distinct P-wave morphologies; associated with COPD/hypoxia; treat the underlying process, avoid non-selective beta-blockers in bronchospasm.
+What does adenosine do to AVNRT/AVRT, flutter, and VT?	Terminates AVNRT/AVRT; transiently unmasks (rarely converts) flutter/atrial tach; no effect on VT. Therapeutic and diagnostic.
+First-line maneuver before adenosine in stable regular SVT?	Vagal maneuvers - the modified (REVERT) Valsalva (strain into a 10-mL syringe, then supine with passive leg raise), ~43% vs ~17% conversion.
+Which agents are contraindicated in pre-excited (WPW) atrial fibrillation?	AV-nodal blockers - adenosine, calcium-channel blockers, beta-blockers, digoxin. They can accelerate accessory-pathway conduction and cause VF. Use procainamide or cardioversion.
+Quick ECG clue that favors VT over SVT in a wide-complex tachycardia?	Extreme right-axis deviation (positive QRS in aVR).
+First action once you identify an unstable tachycardia of any kind?	Synchronized cardioversion.
+Why can slowing AV conduction be diagnostic in a fast narrow tachycardia?	It exposes the underlying atrial activity (saw-tooth flutter, retro-P, or organized atrial tach) that the rate was hiding.

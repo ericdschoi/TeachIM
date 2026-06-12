@@ -1,0 +1,10 @@
+# not part of the site
+Source Files/
+*.zip
+lessons.json
+build_hub.py
+
+# OS noise
+.DS_Store
+Thumbs.db
+desktop.ini

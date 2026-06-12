@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8">
+<style>
+  @page { size: Letter; margin: 0.3in; }
+  :root{ --fs: 13px; --accent:#0e6e8c; --accent2:#b4530a; --green:#2e7d4f; --line:#c4ced6; }
+  *{box-sizing:border-box}
+  body{font-family:'Helvetica Neue',Arial,sans-serif;font-size:var(--fs);line-height:1.32;color:#16202b;margin:0;column-count:2;column-gap:14px;column-fill:balance}
+  h1{font-size:calc(var(--fs)*1.5);margin:0 0 2px;color:var(--accent);column-span:all}
+  .sub{font-size:calc(var(--fs)*0.92);color:#46535f;margin:0 0 6px;column-span:all;border-bottom:2px solid var(--accent);padding-bottom:3px}
+  .blk{break-inside:avoid;margin-bottom:6px}
+  h2{font-size:calc(var(--fs)*1.02);color:#fff;background:var(--accent);margin:0 0 3px;padding:2px 6px;border-radius:3px}
+  h2.o{background:var(--accent2)} h2.g{background:var(--green)}
+  table{border-collapse:collapse;width:100%;font-size:calc(var(--fs)*0.95);margin:2px 0}
+  td,th{border:1px solid var(--line);padding:2px 4px;vertical-align:top;text-align:left}
+  th{background:#e9f1f4}
+  ul{margin:2px 0;padding-left:14px} li{margin:1px 0}
+  p{margin:2px 0}
+  .k{color:var(--accent);font-weight:bold}
+  .r{color:#b3261e;font-weight:bold}
+</style></head>
+<body>
+<h1>Depression &amp; Anxiety &mdash; Outpatient Clinical Reference</h1>
+<p class="sub">Unipolar major depression &amp; generalized anxiety disorder (GAD): screen &rarr; diagnose &rarr; treat &rarr; monitor. Adapted from TeachIM.org (CC BY-NC 4.0); USPSTF 2023 verified. Educational use &mdash; clinician-reviewed.</p>
+
+<div class="blk">
+<h2>Screening tools</h2>
+<table>
+<tr><th>Tool</th><th>Role</th></tr>
+<tr><td>PHQ-2 / PHQ-4</td><td>Brief <b>screen</b> (general population)</td></tr>
+<tr><td class="k">PHQ-9</td><td><b>Diagnose + monitor</b> depression</td></tr>
+<tr><td class="k">GAD-7</td><td><b>Diagnose + monitor</b> anxiety</td></tr>
+<tr><td>Edinburgh / GDS-5</td><td>Perinatal / geriatric</td></tr>
+</table>
+<p><b>Don't</b> use PHQ-2/PHQ-4 when pretest probability is high &rarr; go straight to PHQ-9/GAD-7. Screening ~doubles detection (Mitchell, Lancet 2009).</p>
+<p><b>PHQ-9 bands:</b> 5&ndash;9 mild &middot; 10&ndash;14 mod &middot; 15&ndash;19 mod-severe &middot; &ge;20 severe (&ge;10 likely MDD).</p>
+</div>
+
+<div class="blk">
+<h2>Diagnose (DSM-5)</h2>
+<p><b>MDD:</b> &ge;5/9 sx &ge;2 wk, nearly daily; MUST include depressed mood or anhedonia. SIG-E-CAPS: Sleep, Interest, Guilt, Energy, Concentration, Appetite, Psychomotor, Suicidality.</p>
+<p><b>GAD:</b> excessive, hard-to-control worry &gt;half the days &times;&ge;6 mo + &ge;3 of: restlessness, fatigue, poor concentration, irritability, muscle tension, sleep disturbance.</p>
+<p>Both: functional impairment; exclude substance/medical cause.</p>
+</div>
+
+<div class="blk">
+<h2 class="o">Before you treat</h2>
+<p><b class="r">Screen for bipolar</b> (antidepressant can unmask mania): age &lt;25 &middot; family hx bipolar &middot; &ge;3&ndash;5 MDD recurrences.</p>
+<p><b>Labs to consider</b> (none mandatory): CBC (anemia), TSH (thyroid), HCG (pregnancy + drug safety), BMP (renal dosing). Screen substance use (AUDIT/CAGE).</p>
+<p><b>Mimics:</b> adjustment d/o, ADHD, borderline PD, complicated grief, delirium, hypothyroidism, schizophrenia/schizoaffective, SUD; (anxiety) panic, OCD, PTSD, separation anxiety.</p>
+</div>
+
+<div class="blk">
+<h2 class="g">Treat &amp; monitor</h2>
+<p>SRI <b>and/or</b> psychotherapy &mdash; comparable response, additive. Set target (remission = absence of sad mood + anhedonia ~3 wk).</p>
+<table>
+<tr><th>Visit</th><th>Check &rarr; action</th></tr>
+<tr><td><b>1&ndash;2 wk</b></td><td>No worsening SI/mania, no intolerable SE &rarr; if intolerable, switch agent</td></tr>
+<tr><td><b>2&ndash;4 wk</b></td><td>Response? none&rarr;switch; partial&rarr;&uarr;dose, recheck 2wk; complete&rarr;maintain (d/c at 3&ndash;9 mo)</td></tr>
+</table>
+<p>Stop by <b>slow taper</b> &mdash; withdrawal can be prolonged. ANTLER (NEJM 2021): ~56% relapse off vs ~39% maintained.</p>
+</div>
+
+<div class="blk">
+<h2 class="g">Pick the agent by side effect</h2>
+<table>
+<tr><th>Want / feature</th><th>Reach for</th></tr>
+<tr><td>Wt gain + sedation (poor appetite, insomnia, elderly)</td><td>Mirtazapine</td></tr>
+<tr><td>Polypharmacy (few interactions)</td><td>Citalopram/escitalopram <span class="r">(QTc; max 40, 20 elderly)</span></td></tr>
+<tr><td>More activation</td><td>Sertraline, fluoxetine, bupropion</td></tr>
+<tr><td>Comorbid chronic pain</td><td>SNRI (duloxetine, venlafaxine)</td></tr>
+<tr><td>Avoid wt gain / withdrawal</td><td>Avoid paroxetine; fluoxetine = longest t&frac12;</td></tr>
+</table>
+<p>"Start low, go slow," esp. elderly. SRIs first-line for BOTH disorders.</p>
+</div>
+
+<div class="blk">
+<h2 class="o">Safety assessment (every visit)</h2>
+<p>Use <b>clear language</b>: "Are you having thoughts of killing yourself right now?" Asking does <b>NOT</b> increase risk. Tools: PHQ-9 item 9, Columbia (C-SSRS). Know your site's safety plan + immediate MH resources.</p>
+</div>
+
+<div class="blk">
+<h2>2022&ndash;25 updates</h2>
+<ul>
+<li><b>USPSTF 2023:</b> screen ALL adults for depression (B) &amp; adults &lt;65 for anxiety (B), incl. pregnant/postpartum; ≥65 anxiety = I.</li>
+<li><b>Auvelity</b> (dextromethorphan&ndash;bupropion, 2022): rapid-acting oral NMDA antagonist for MDD.</li>
+<li><b>Zuranolone</b> (Zurzuvae, 2023): first oral agent for postpartum depression (14-day course).</li>
+<li>Esketamine (Spravato): treatment-resistant MDD; monotherapy 2025.</li>
+</ul>
+</div>
+
+<div class="blk">
+<h2 class="o">Red flags &rarr; act</h2>
+<ul>
+<li>Active SI/plan/intent &rarr; safety plan, urgent MH eval.</li>
+<li>Post-start surge in energy + &darr;sleep need &rarr; reassess for (hypo)mania/bipolar.</li>
+<li>Emergent suicidality/mania in first weeks &rarr; stop/change, escalate.</li>
+</ul>
+</div>
+
+</body></html>

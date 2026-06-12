@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+  @page { size: Letter; margin: 0.3in; }
+  :root{ --fs: 13px; --primary:#0e6e8c; --orange:#b4530a; --green:#2e7d4f; --line:#bcc7d0; }
+  *{box-sizing:border-box}
+  body{font-family:'Helvetica Neue',Arial,sans-serif;font-size:var(--fs);line-height:1.28;color:#1a2433;margin:0;
+       column-count:2;column-gap:14px;column-fill:balance;}
+  .title{column-span:all;text-align:center;margin:0 0 5px;}
+  .title h1{font-size:calc(var(--fs)*1.55);margin:0;color:var(--primary);}
+  .title .sub{font-size:calc(var(--fs)*0.92);color:#44525e;margin-top:1px;}
+  .block{break-inside:avoid;margin-bottom:6px;border:1px solid var(--line);border-radius:4px;overflow:hidden;}
+  h2{font-size:calc(var(--fs)*1.02);color:#fff;margin:0;padding:2.5px 6px;background:var(--primary);}
+  h2.o{background:var(--orange)} h2.g{background:var(--green)}
+  .body{padding:4px 7px;}
+  table{border-collapse:collapse;width:100%;font-size:calc(var(--fs)*0.96);}
+  td,th{border:1px solid var(--line);padding:2px 4px;vertical-align:top;text-align:left;}
+  th{background:#eef4f7;}
+  ul{margin:2px 0;padding-left:14px;} li{margin:1px 0;}
+  p{margin:2px 0;}
+  .k{color:var(--primary);font-weight:bold;}
+  .ko{color:var(--orange);font-weight:bold;}
+  .avoid{color:#a11;font-weight:bold;}
+  .def{column-span:all;text-align:center;font-size:calc(var(--fs)*0.96);background:#eef4f7;border:1px solid var(--line);border-radius:4px;padding:3px 6px;margin-bottom:6px;}
+</style>
+</head>
+<body>
+  <div class="title">
+    <h1>Acute Liver Failure (ALF) — Clinical One-Pager</h1>
+    <div class="sub">Facilitator quick reference · TeachIM (Mowry/Kriss, Apr 2022), optimized Jun 2026 · CC BY-NC 4.0 · clinician-review before use</div>
+  </div>
+
+  <div class="def"><span class="k">ALF = ALL three:</span> acute liver injury (&lt;26 wk, no chronic liver dz*) + coagulopathy (INR &gt;1.5) + hepatic encephalopathy. <b>HE is what makes it "failure."</b> *exc: HBV, AIH, Wilson's.</div>
+
+  <div class="block">
+    <h2>Definition &amp; HE Grades</h2>
+    <div class="body">
+      <table>
+        <tr><th>Criterion</th><th>Detail</th></tr>
+        <tr><td>Injury</td><td>&uarr;AST/ALT, bili; &lt;26 wk; no chronic dz</td></tr>
+        <tr><td>Coagulopathy</td><td>INR &gt;1.5 (key prognostic marker)</td></tr>
+        <tr><td>Encephalopathy</td><td>West Haven I–IV; defines ALF</td></tr>
+      </table>
+      <p><span class="k">HE grades:</span> I sleep-wake/attention · II lethargy+asterixis · III stupor/gross disorient · IV coma. <b>Gr III–IV &rarr; intubate.</b></p>
+    </div>
+  </div>
+
+  <div class="block">
+    <h2 class="o">Etiologies &amp; Work-up</h2>
+    <div class="body">
+      <table>
+        <tr><th>Category</th><th>Causes / work-up</th></tr>
+        <tr><td>Drugs/toxins (~50%)</td><td>APAP (lead), supplements, Amanita; statins/AEDs/abx. <b>APAP+salicylate lvl, utox, LiverTox</b></td></tr>
+        <tr><td>Viral</td><td>Hep A/B/D/E; rare HSV/VZV. <b>Serologies+PCR, HIV</b></td></tr>
+        <tr><td>Ischemic/vascular</td><td>Budd-Chiari, shock liver. <b>Liver US doppler</b></td></tr>
+        <tr><td>Other</td><td>AIH, preg (HELLP/AFLP), Wilson's. <b>ANA/ASMA/IgG, preg test, ceruloplasmin+24h Cu, bx</b></td></tr>
+      </table>
+      <p class="def" style="margin:3px 0 0;padding:2px 4px"><b>Alcohol does NOT cause ALF</b> (can worsen another insult). Wilson's clue: ALP:Tbili &lt;4, young, Coombs-neg hemolysis.</p>
+    </div>
+  </div>
+
+  <div class="block">
+    <h2 class="g">ICU Management (4 steps)</h2>
+    <div class="body">
+      <p><span class="k">1. Complications:</span></p>
+      <table>
+        <tr><th>Problem</th><th>Action</th></tr>
+        <tr><td>Cerebral edema</td><td>q1-2h neuro checks; HOB&gt;30; hypertonic saline/mannitol; <span class="avoid">MINIMIZE IVF</span>; NH3 &gt;150-200 = high ICH risk</td></tr>
+        <tr><td>Hypoglycemia</td><td>q1-2h glucose; dextrose infusion</td></tr>
+        <tr><td>MOF</td><td>Vent/pressors/RRT; TTE r/o cardiogenic</td></tr>
+        <tr><td>Coagulopathy</td><td>Vit K ok; <span class="avoid">FFP/factors ONLY if bleeding</span></td></tr>
+        <tr><td>Infection</td><td>High risk; consider empiric abx/antivirals</td></tr>
+      </table>
+      <p><span class="k">2. NAC</span> empirically in ALL ALF (benefit even non-APAP, best early/low-grade HE). <span class="k">3. Prognosticate</span> KCC (&plusmn;MELD) w/ hepatology. <span class="k">4. TRANSFER</span> early to LT center.</p>
+    </div>
+  </div>
+
+  <div class="block">
+    <h2>King's College Criteria</h2>
+    <div class="body">
+      <table>
+        <tr><th>APAP ALF</th><th>Non-APAP ALF</th></tr>
+        <tr><td>pH &lt;7.3 <b>OR</b> all: INR &gt;6.5, Cr &gt;3.3, gr III–IV HE</td><td>INR &gt;6.5 <b>OR</b> &ge;3 of: age &lt;10/&gt;40; HAV/HBV/drug; jaundice &gt;7d before HE; INR &gt;3.5; Tbili &gt;18</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="block">
+    <h2 class="o">Pearls</h2>
+    <div class="body">
+      <ul>
+        <li><b>No HE = acute liver INJURY, not failure.</b></li>
+        <li>Don't reflexively correct INR — it's your prognostic compass.</li>
+        <li>Go easy on IVF even with rising Cr — volume worsens cerebral edema.</li>
+        <li>KCC is specific, not sensitive — a negative KCC should NOT defer transfer.</li>
+        <li>Transfer EARLY, before progression precludes safe transport.</li>
+      </ul>
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+Most common bacterial cause of CAP?	S. pneumoniae (still #1 despite the pneumococcal vaccine). Then GNRs (H. flu, Moraxella) and atypicals; viruses are also a major cause.
+Atypical CAP pathogens?	Legionella, Chlamydia (Chlamydophila), Mycoplasma.
+Two risk factors that justify empiric MRSA/Pseudomonas coverage?	(1) Prior MRSA/Pseudomonas isolation; (2) hospitalization + IV antibiotics within 90 days. HCAP was retired in 2019.
+What does CURB-65 stand for?	Confusion; Urea (BUN) >19-20 mg/dL; RR >=30; BP (SBP <90/DBP <=60); age >=65. One point each.
+CURB-65 cut-offs for disposition?	0-1 outpatient; 2 admit/observe; 3-5 inpatient (often ICU).
+PSI vs CURB-65 -- which is preferred?	PSI is better validated and preferred; CURB-65 is the easier-to-remember alternative.
+Which criteria decide ICU admission, and the threshold?	ATS criteria: >1 major (septic shock on pressors, mechanical ventilation) OR >=3 minor (RR >30, P:F <250, multilobar, confusion, BUN >20, WBC <4k, plt <100k, T <36 C, hypotension needing fluids).
+Standard inpatient CAP regimen?	IV beta-lactam (ampicillin-sulbactam or ceftriaxone) + azithromycin or doxycycline, OR a respiratory fluoroquinolone.
+Empiric MRSA and Pseudomonas agents in CAP?	MRSA: IV vancomycin (or linezolid). Pseudomonas: piperacillin-tazobactam, cefepime, ceftazidime, aztreonam, or meropenem. Continue atypical coverage.
+Who gets cultured in CAP?	Severe CAP and those with prior MRSA/Pseudomonas (or recent hospitalization + IV abx). Non-severe CAP without risk factors: do not culture.
+Outpatient CAP, no comorbidities/MDR risk?	Amoxicillin 1 g TID or doxycycline (some add azithromycin for atypicals). No macrolide monotherapy (US resistance).
+Outpatient CAP with comorbidities?	Amoxicillin-clavulanate or a cephalosporin + azithromycin/doxycycline, OR respiratory FQ monotherapy.
+Duration of CAP therapy?	5-7 days, at least 5 and until clinically stable. Longer for extrapulmonary infection, Pseudomonas/Mycobacteria/Burkholderia, or necrotizing pneumonia/abscess/empyema.
+Role of procalcitonin in CAP?	NOT used to decide whether to start antibiotics (sensitivity ~38-91%). May guide early discontinuation.
+2025 ATS update on corticosteroids in CAP?	Recommend systemic steroids (hydrocortisone <400 mg/day x5-7 d) for SEVERE CAP (CAPE COD, NEJM 2023). NOT for non-severe CAP; dexamethasone if COVID-19.
+Why isn't azithromycin used as CAP monotherapy in the US?	High rates of pneumococcal macrolide resistance. Azithromycin is dosed once daily (not TID).

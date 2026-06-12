@@ -1,0 +1,17 @@
+What score estimates stroke risk in AF, and what are its components?	CHA₂DS₂-VASc: CHF (1), Hypertension (1), Age 65–74 (1)/≥75 (2), Diabetes (1), Stroke/TIA/embolism (2), Vascular disease (1), Sex category–female (1).
+2023 ACC/AHA threshold to start anticoagulation in AF?	Annual stroke risk ≥2%/yr → OAC (Class 1) ≈ CHA₂DS₂-VASc ≥2 in men / ≥3 in women. Score 1 (men)/2 (women): reasonable (Class 2a). Use the score to estimate risk, not as a rigid cutoff.
+First-line anticoagulant for most AF, and why?	A DOAC — more effective and lower bleeding risk than warfarin (Class 1). Guidelines do not prefer one DOAC over another.
+What counts as "valvular" AF (requires warfarin, not a DOAC)?	Only moderate–severe mitral stenosis or a mechanical heart valve. Everything else (AS, MR, bioprosthetic) is non-valvular and can take a DOAC.
+Which DOAC for high BMI or ESRD/CrCl <15?	Apixaban (rivaroxaban also reasonable up to BMI ~50). Apixaban or warfarin for CrCl <15/ESRD.
+Should high bleeding risk or frequent falls stop anticoagulation in AF?	No. Outside active bleeding, don't withhold OAC for HAS-BLED alone; high-bleeding-risk patients often gain more absolute benefit. A typical elderly patient would need ~295 falls/year for harm to outweigh benefit.
+Bleeding risk tool in AF and its components?	HAS-BLED: Hypertension (uncontrolled, SBP >160), Abnormal renal/liver function, Stroke, Bleeding history/predisposition, Labile INR, Elderly (>65), Drugs/alcohol.
+Anticoagulation around cardioversion?	If AF >48 h or unknown duration: 3 weeks of OAC OR a TEE before cardioversion; then 4 weeks of OAC after, regardless of CHA₂DS₂-VASc (atrial stunning).
+Target heart rate for rate control in AF?	<110 bpm for most (lenient control; RACE II). Aim lower if symptomatic, declining LV function, or tachycardia-induced cardiomyopathy.
+Three drug classes for rate control in AF?	Beta-blockers, non-dihydropyridine calcium channel blockers (diltiazem), and digoxin (adjunct). All slow the AV node.
+Which rate-control drug is contraindicated in HFrEF?	Diltiazem (non-DHP CCB) — strong negative inotrope. Use a guideline beta-blocker (metoprolol succinate, carvedilol, bisoprolol); digoxin is a useful adjunct (positive inotrope).
+Factors favoring a rhythm- over rate-control strategy?	Younger age, fewer comorbidities, recent-onset AF, symptoms attributable to AF (strongest), inability to rate control, tachycardia-induced cardiomyopathy, and LV dysfunction of any cause.
+2023 guideline change for catheter ablation?	Upgraded to Class 1 first-line rhythm control in selected symptomatic paroxysmal AF (younger, few comorbidities) AND in AF with HFrEF.
+Key toxicities of common antiarrhythmics?	Amiodarone: lung/liver/thyroid (monitor PFTs, LFTs, TFTs). Sotalol & dofetilide: QT prolongation/Torsades (inpatient initiation), renally dosed. Flecainide: contraindicated in structural/coronary heart disease.
+New 2023 AF staging system?	Stage 1 (at risk) → 2 (pre-AF) → 3 (AF: 3A paroxysmal, 3B persistent, 3C long-standing persistent, 3D post-ablation) → 4 (permanent). Replaces duration-only labels and frames AF as a progressive disease.
+When is left atrial appendage occlusion (e.g., WATCHMAN) reasonable?	Class 2a (2023) for patients with a long-term contraindication to oral anticoagulation and elevated stroke risk; clots in AF usually form in the LAA.
+Lifestyle/risk-factor targets that improve AF control?	Weight loss to BMI <27 (>10% loss), reduce/eliminate alcohol, control BP and lipids, screen and treat OSA, smoking cessation, optimize activity.

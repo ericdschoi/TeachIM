@@ -1,0 +1,17 @@
+The one absolute contraindication to LP?	Overlying skin infection or suspected epidural abscess at the puncture site.
+Relative contraindications to LP?	Space-occupying lesion / Arnold-Chiari (CT ± neurosurgery first); platelets <50K; INR ≥1.5; therapeutic anticoagulation; prior lumbar surgery at the target level.
+Five findings that require a head CT before LP in suspected meningitis?	Altered mentation, focal neurologic signs, papilledema, seizure within the past week, impaired cellular immunity (Hasbun NEJM 2001).
+In suspected bacterial meningitis, what must never wait for CT or LP?	Empiric antibiotics (draw blood cultures, then treat immediately).
+Safe interspace levels for LP and why?	L2–L5 (mark L3–L4, L4–L5, or L2–L3) — below the conus medullaris.
+How to find the L4 level by palpation?	Palpate the iliac crest — it corresponds to roughly the L4 spinous process / L4–L5 interspace.
+Why use pre-procedure ultrasound for LP?	Improves first-pass success and reduces needle passes, especially in obesity/difficult anatomy (SHM 2019; Millington Chest 2018). Mark midline + interspaces, then proceed sterile.
+Which needle type is preferred for LP and why?	Atraumatic (pencil-point) needle — strong rec for all ages/indications; halves PDPH (~11% → ~4%) with equal success (BMJ/Lancet 2018). A 22 g balances PDPH, flow, OP accuracy.
+Interventions that reduce PDPH vs those that do NOT?	DO reduce: atraumatic needle, smaller gauge, replacing the stylet before withdrawal. Do NOT: post-procedure bed rest, extra IV fluids (Cochrane).
+Preferred skin antiseptic for LP and why?	Iodine-povidone ×3 (let dry), preferred over chlorhexidine due to theoretical meningeal-irritation/neurotoxicity risk.
+How is the spinal needle advanced?	Stylet in, midline, aimed at the umbilicus along the anesthetized tract; advance slowly, removing the stylet frequently to check for CSF; if bone, withdraw to subcutaneous tissue and redirect.
+Why must opening pressure be measured in lateral decubitus?	Upright positioning creates a hydrostatic column that falsely elevates the reading; only lateral decubitus gives a true OP.
+Normal CSF opening pressure, and how to lower a falsely high reading?	10–25 cm H₂O; straightening the patient's flexed legs can drop it ~5 cm H₂O.
+CSF volume for routine studies vs cytology/fungal cultures?	Routine chemistries/cell counts/viral/bacterial: ~8–12 mL over 4 tubes. Cytology + slow-growing (fungal, AFB): minimum ~30 mL.
+Classic LP finding in idiopathic intracranial hypertension?	Clearly elevated opening pressure (>25 cm H₂O) with otherwise normal CSF; obtain OP whenever IIH is suspected.
+Closure sequence at the end of an LP?	Replace the stylet, then withdraw the needle (stylet in); ensure hemostasis; dressing; reassess vitals; label/send tubes; document.
+MPS vs UPS thresholds on the LP clinical assessment tool?	MPS (graduate sim): <12 mistakes, Global >2, "full supervision." UPS (unsupervised practice): <3 mistakes, "proficient," "indirect supervision."

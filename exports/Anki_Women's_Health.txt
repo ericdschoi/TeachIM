@@ -1,0 +1,125 @@
+Four FIGO parameters defining a normal menstrual cycle	Frequency (24-38 d), Duration (<=8 d), Regularity (variation <=7-9 d), Volume (no interference)	Women's_Health::abnormal-uterine-bleeding
+FIGO normal menstrual frequency	Every 24-38 days (frequent <24, infrequent >38, absent = amenorrhea)	Women's_Health::abnormal-uterine-bleeding
+Normal menstrual duration cutoff	<=8 days; >8 days = prolonged	Women's_Health::abnormal-uterine-bleeding
+Expand PALM (structural causes of AUB)	Polyp, Adenomyosis, Leiomyoma (fibroid), Malignancy/hyperplasia	Women's_Health::abnormal-uterine-bleeding
+Expand COEIN (non-structural causes of AUB)	Coagulopathy, Ovulatory dysfunction, Endometrial, Iatrogenic, Not yet classified	Women's_Health::abnormal-uterine-bleeding
+What does the "I" in PALM-COEIN stand for?	Iatrogenic (NOT idiopathic) - hormonal contraception/IUD/implant, anticoagulants, SERMs, dopamine antagonists	Women's_Health::abnormal-uterine-bleeding
+First step in evaluating any reproductive-age patient with AUB	Rule out pregnancy	Women's_Health::abnormal-uterine-bleeding
+Exam + 3 labs every AUB patient needs	Pelvic exam + pregnancy test, CBC, iron studies	Women's_Health::abnormal-uterine-bleeding
+Ferritin threshold considered low in a pre-menopausal patient	<50 ng/mL (treat even without anemia)	Women's_Health::abnormal-uterine-bleeding
+Imaging test for the structural work-up of AUB	Transvaginal ultrasound	Women's_Health::abnormal-uterine-bleeding
+Indications for endometrial biopsy in AUB	Postmenopausal bleeding; age >45; chronic anovulation/obesity; unopposed estrogen (incl. tamoxifen); persistent AUB despite treatment	Women's_Health::abnormal-uterine-bleeding
+Most common symptom of endometrial cancer	Abnormal uterine bleeding	Women's_Health::abnormal-uterine-bleeding
+Approx. % of heavy menstrual bleeding due to a bleeding disorder	~20% (higher in adolescents); vWD most common	Women's_Health::abnormal-uterine-bleeding
+Clues suggesting a coagulopathy cause of AUB	HMB since menarche, postpartum hemorrhage, surgical/dental bleeding, strong family bleeding history	Women's_Health::abnormal-uterine-bleeding
+Targeted tests for suspected ovulatory dysfunction	TSH, prolactin, +/- FSH; total testosterone (+/- 17-OH-progesterone, DHEAS) if androgen excess	Women's_Health::abnormal-uterine-bleeding
+How hypothyroidism causes menstrual irregularity (HPO axis)	Increased TSH -> negative feedback -> decreased GnRH -> decreased FSH/LH -> anovulation	Women's_Health::abnormal-uterine-bleeding
+Why FSH is elevated in perimenopause	Falling ovarian estradiol removes negative feedback -> increased GnRH -> increased FSH/LH	Women's_Health::abnormal-uterine-bleeding
+What causes nearly all cervical cancer?	Persistent high-risk HPV infection, chiefly types 16 and 18	Women's_Health::cervical-cancer-screening
+Where do >90% of cervical cancers arise?	The transformation zone (squamocolumnar junction) - must be sampled during screening	Women's_Health::cervical-cancer-screening
+Two cervical cancer histologies and their origin?	Squamous cell carcinoma (~75%, ectocervix); adenocarcinoma (~25%, endocervix)	Women's_Health::cervical-cancer-screening
+What % of new HPV infections clear within 2 years?	~90% (about 70% within 12 months)	Women's_Health::cervical-cancer-screening
+Average-risk screening, ages 21-29?	Cytology alone every 3 years (no HPV-based testing <30)	Women's_Health::cervical-cancer-screening
+Average-risk screening, ages 30-65?	Cytology q3y OR HPV-based testing (primary hrHPV or co-test) q5y	Women's_Health::cervical-cancer-screening
+USPSTF 2025 preferred strategy for 30-65?	Primary hrHPV every 5 years (preferred); self-collection on FDA-approved platform now endorsed	Women's_Health::cervical-cancer-screening
+When can average-risk screening stop?	Age >65 if no CIN2+ in 25 y AND adequate prior screening (3 neg cytology/10 y or 2 neg HPV-based/10 y)	Women's_Health::cervical-cancer-screening
+Post-hysterectomy: when stop screening?	After total hysterectomy (cervix removed) for benign indication with no CIN2+ in 25 y	Women's_Health::cervical-cancer-screening
+Does HPV vaccination change the screening schedule?	No - follow age-specific recommendations regardless of vaccination status	Women's_Health::cervical-cancer-screening
+Who counts as high-risk for cervical cancer?	Immunocompromised/immunosuppressed: HIV, transplant, SLE, IBD/RA on immunosuppression, chronic steroids	Women's_Health::cervical-cancer-screening
+HIV screening: stop at 65?	No - screen with cytology or co-test, continue throughout life	Women's_Health::cervical-cancer-screening
+ASCCP 2019 management threshold?	Immediate CIN3+ risk: <4% -> surveillance; >=4% -> colposcopy/treatment ("equal management for equal risk")	Women's_Health::cervical-cancer-screening
+ASCCP surveillance intervals (immediate risk <4%)?	5-yr risk >0.55% -> 1 y; 0.15-0.55% -> 3 y; <0.15% -> 5 y	Women's_Health::cervical-cancer-screening
+ASCCP further management (immediate risk >=4%)?	4-24% colposcopy; 25-59% colposcopy or expedited tx; 60-100% expedited treatment	Women's_Health::cervical-cancer-screening
+Cytology result categories (increasing severity)?	NILM -> ASC-US -> LSIL -> ASC-H -> AGC -> HSIL	Women's_Health::cervical-cancer-screening
+Excision vs ablation - which is preferred and why?	Excision (LEEP/cone) preferred for histologic HSIL and AIS - yields tissue for pathology	Women's_Health::cervical-cancer-screening
+Surveillance after a history of CIN2+?	HPV-based test at 6 mo, then 3 annual HPV-based tests, then q3y for >=25 years (even >65)	Women's_Health::cervical-cancer-screening
+What do the PATH questions assess?	Pregnancy Attitudes, Timing, and How important is prevention — patient-centered openers that don't assume a "plan."	Women's_Health::contraception
+Default starting combined OCP?	~20 mcg ethinyl estradiol + a progestin; pick 2-3 favorites and titrate.	Women's_Health::contraception
+Estrogen dose tradeoff in OCPs?	Lower estrogen = more breakthrough bleeding; higher estrogen = more thrombosis.	Women's_Health::contraception
+Which progestin generations are more anti-androgenic, and the catch?	3rd/4th generation; but higher VTE risk when combined with estrogen.	Women's_Health::contraception
+Four history items that exclude combined (estrogen) methods?	Smoking at age >35, migraine with aura, VTE/CVD/CVA, breast cancer (breast CA excludes all hormonal methods).	Women's_Health::contraception
+US MEC categories 1-4?	1 = use without restriction; 2 = advantages > risks; 3 = risks usually outweigh advantages; 4 = do not use.	Women's_Health::contraception
+Combined method + smoking + age >=35 + >=15 cigarettes/day = which MEC category?	Category 4.	Women's_Health::contraception
+Lamotrigine + combined hormonal contraception interaction and category?	Category 3 — estrogen increases lamotrigine clearance, lowering levels (risk of breakthrough symptoms).	Women's_Health::contraception
+Most effective emergency contraception?	Copper IUD (>99%, up to 5 days, BMI-independent).	Women's_Health::contraception
+Ulipristal vs levonorgestrel for emergency contraception?	Ulipristal (Ella) is more effective, especially days 3-5 and higher BMI; both lose efficacy as BMI rises.	Women's_Health::contraception
+Yuzpe method for emergency contraception?	Combined OCPs: 100 mcg ethinyl estradiol + 0.5 mg levonorgestrel per dose (~4-5 pills), q12h x2 — least effective but most available.	Women's_Health::contraception
+Bleeding effect: copper IUD vs LNG IUD/implant?	Copper -> heavier/crampier; LNG IUD & implant -> lighter/amenorrhea (may have prolonged spotting early).	Women's_Health::contraception
+DMPA (Depo-Provera) bleeding pattern over time?	Lighter to amenorrhea, especially after >1 year; can have ongoing spotting.	Women's_Health::contraception
+How long until a method's bleeding pattern settles?	3-4 cycles; estrogen-free methods may spot 6-12 months, combined methods usually settle by ~3 months.	Women's_Health::contraception
+Most effective reversible method by typical use?	The etonogestrel implant (~0.05 pregnancies per 100 users/yr), then LNG and copper IUDs.	Women's_Health::contraception
+Combined hormonal method after major surgery with immobilization?	US MEC category 4 — switch to a progestin-only method.	Women's_Health::contraception
+Does testosterone prevent pregnancy (CDC 2024)?	No — a substantial fraction of users ovulate; offer contraception to testosterone users with a uterus who don't want pregnancy.	Women's_Health::contraception
+First OTC daily oral contraceptive?	Opill (norgestrel 0.075 mg, progestin-only) — FDA-approved July 2023, on shelves 2024.	Women's_Health::contraception
+US SPR 2024 tip to reduce IUD-placement pain?	Lidocaine — paracervical block or topical.	Women's_Health::contraception
+Up to what gestational age is medication abortion used?	11 weeks (77 days); beyond 10 weeks is off-label	Women's_Health::medical-abortion-in-the-first-trimester
+Standard combination regimen for medication abortion?	Mifepristone 200 mg PO x1, then misoprostol 800 mcg buccal or vaginal 24-48 h later	Women's_Health::medical-abortion-in-the-first-trimester
+Efficacy: mifepristone+misoprostol vs misoprostol alone?	Combination 95-98%; misoprostol alone ~76-88% (up to 93% in meta-analysis)	Women's_Health::medical-abortion-in-the-first-trimester
+Misoprostol-only regimen when mifepristone is unavailable?	Misoprostol 800 mcg q3h x 3 doses (vaginal route has fewer GI side effects)	Women's_Health::medical-abortion-in-the-first-trimester
+When is a second misoprostol dose required in the combination regimen?	EGA 9-11 weeks - second 800 mcg dose 3-6 h after the first	Women's_Health::medical-abortion-in-the-first-trimester
+Mechanism of mifepristone?	Progesterone-receptor modulator: placental separation, cervical dilation, sensitizes myometrium to prostaglandins	Women's_Health::medical-abortion-in-the-first-trimester
+Mechanism of misoprostol?	Prostaglandin E1 analogue: cervical softening + uterine contractions	Women's_Health::medical-abortion-in-the-first-trimester
+Absolute contraindications to any medication abortion?	Ectopic pregnancy, IUD in place, known coagulopathy, anticoagulant therapy	Women's_Health::medical-abortion-in-the-first-trimester
+Why is mifepristone contraindicated with chronic corticosteroids or adrenal failure?	It is an antiglucocorticoid - blocks cortisol receptors, can negate exogenous steroids and precipitate adrenal insufficiency	Women's_Health::medical-abortion-in-the-first-trimester
+Misoprostol-specific cautions?	Porphyria; avoid simultaneous magnesium-containing supplements (worse GI effects)	Women's_Health::medical-abortion-in-the-first-trimester
+If the patient vomits within 30 min of mifepristone?	Repeat the dose	Women's_Health::medical-abortion-in-the-first-trimester
+When is ultrasound needed before medication abortion?	Unknown LMP, conception on hormonal contraception, or ectopic risk (prior ectopic, tubal surgery/pathology, IUD, IVF)	Women's_Health::medical-abortion-in-the-first-trimester
+Definition of prolonged/heavy bleeding after medication abortion requiring ED care?	>2 pads/h for 2 consecutive hours (~1% incidence; <0.1% transfused)	Women's_Health::medical-abortion-in-the-first-trimester
+Earliest interpretable urine pregnancy test after medication abortion?	4 weeks post-abortion (residual hCG causes false positives earlier)	Women's_Health::medical-abortion-in-the-first-trimester
+Is Rh testing recommended before abortion <12 weeks?	No - not even for known Rh-negative patients (Society of Family Planning 2022)	Women's_Health::medical-abortion-in-the-first-trimester
+Ultrasound finding that confirms completed medication abortion?	Absent gestational sac (no endometrial-thickness cutoff; do not reflexively re-intervene for "RPOC" reads)	Women's_Health::medical-abortion-in-the-first-trimester
+How is the menopausal transition (perimenopause) defined?	By irregular menses (a change in intermenstrual interval) plus hormonal symptoms (hot flashes, mood changes). Begins on average ~4 years before the last menstrual period.	Women's_Health::menopause
+How is menopause defined?	Retrospectively, after 12 consecutive months of amenorrhea. Mean age ~51.	Women's_Health::menopause
+Is menopause a clinical or laboratory diagnosis, and when is testing indicated?	Clinical diagnosis. In women >45 with irregular menses and classic symptoms, no testing is needed. Test (hCG, TSH, prolactin ± FSH) in women <45, and a full amenorrhea work-up if <40 (primary ovarian insufficiency).	Women's_Health::menopause
+Why is a single FSH a poor test for menopause?	FSH varies widely during the transition; irregular menses predict menopause better than FSH (SWAN study). FSH + estradiol can confirm completed menopause but is rarely needed.	Women's_Health::menopause
+What is the most effective treatment for moderate-to-severe hot flashes?	Menopausal hormone therapy (MHT).	Women's_Health::menopause
+Who is a candidate for systemic MHT?	Women with moderate-to-severe vasomotor symptoms who are <60 years old OR within 10 years of menopause; absolute risks are low in this group.	Women's_Health::menopause
+What are the contraindications to systemic MHT?	History of breast cancer, prior VTE or stroke/CHD, active liver disease, unexplained vaginal bleeding, and high-risk endometrial cancer.	Women's_Health::menopause
+When must progesterone be added to estrogen MHT?	In all patients with an intact uterus, to prevent endometrial hyperplasia/cancer.	Women's_Health::menopause
+Why is transdermal estrogen preferred over oral for some patients?	It confers lower risk of VTE and stroke; preferred for moderate ASCVD risk (5–10%) and migraine. Main downside is cost.	Women's_Health::menopause
+What did the Women's Health Initiative (2002) show, and what was its key limitation?	Excess CHD, stroke, VTE, and breast cancer with MHT — but the mean age was 63, far older than typical symptomatic patients, so results overstated risk for younger women.	Women's_Health::menopause
+How does the risk-benefit profile differ between estrogen-only and estrogen+progesterone MHT (ages 50–59, 5 yr)?	Estrogen alone is more favorable (e.g., fewer CHD and breast cancer cases); E+P carries more additional cases of CHD and breast cancer. Average absolute risks are small (~3 extra cases/1000 over 5 yr).	Women's_Health::menopause
+What is the recommended duration of MHT?	Generally 5–10 years, re-evaluating risk/benefit yearly and ideally stopping by age 60; longer use can be considered for severe symptoms after weighing risks. Rebound hot flashes are common on stopping.	Women's_Health::menopause
+What nonhormonal medications are effective for hot flashes?	SSRIs/SNRIs (venlafaxine and escitalopram best studied; paroxetine is the only FDA-approved one but is anticholinergic), and gabapentin/pregabalin. Avoid fluoxetine and sertraline for this indication.	Women's_Health::menopause
+What is the preferred treatment for isolated genitourinary syndrome of menopause (vaginal dryness, dyspareunia, recurrent UTIs)?	Vaginal moisturizers/lubricants for mild symptoms; vaginal (topical) estrogen is most effective with limited systemic absorption.	Women's_Health::menopause
+What is fezolinetant and its key safety monitoring?	Veozah, an NK3-receptor antagonist (FDA May 2023) for moderate-to-severe vasomotor symptoms; monitor LFTs (rare serious liver injury warning).	Women's_Health::menopause
+What is elinzanetant?	Lynkuet, a dual NK1/NK3-receptor antagonist (FDA Oct 2025) for moderate-to-severe vasomotor symptoms; ~73% VMS reduction and improves sleep.	Women's_Health::menopause
+What did the 2022 Menopause Society (NAMS) hormone therapy position statement conclude?	Benefits of hormone therapy outweigh risks for most healthy symptomatic women <60 years or within 10 years of menopause; HT remains most effective for VMS and genitourinary syndrome and prevents bone loss/fracture.	Women's_Health::menopause
+What are the menopause-related preventive priorities besides symptom control?	Estrogen deficiency raises atherosclerosis and osteoporosis risk: lifestyle ± statin by ASCVD risk; calcium, vitamin D, exercise, smoking cessation, and reduced alcohol for bone health.	Women's_Health::menopause
+A perimenopausal patient has heavy menstrual bleeding — what work-up is required?	Rule out malignancy: pregnancy test, pelvic exam, pelvic/transvaginal ultrasound ± endometrial biopsy (based on ultrasound findings and endometrial-cancer risk factors); consider TSH/prolactin.	Women's_Health::menopause
+Prevalence of PCOS in reproductive-age people with ovaries?	8-13%	Women's_Health::polycystic-ovary-syndrome
+Three Rotterdam criteria (need 2 of 3)?	(1) Hyperandrogenism (clinical or biochemical); (2) menstrual irregularity/ovulatory dysfunction; (3) polycystic ovaries on US	Women's_Health::polycystic-ovary-syndrome
+Definition of polycystic ovaries on ultrasound?	>12 follicles and/or ovarian volume >10 cc	Women's_Health::polycystic-ovary-syndrome
+Oligomenorrhea vs amenorrhea?	Oligomenorrhea: <8 cycles/yr or cycle >35 d; amenorrhea: no menses x3 months	Women's_Health::polycystic-ovary-syndrome
+Single best test for hyperandrogenism?	Total testosterone (free testosterone assays are unreliable)	Women's_Health::polycystic-ovary-syndrome
+Mimics of hyperandrogenism to exclude?	Non-classic CAH (21-OH deficiency), acromegaly, androgen-secreting tumor, Cushing's	Women's_Health::polycystic-ovary-syndrome
+"All-patients" labs for menstrual irregularity?	TSH +/- free T4, beta-hCG, prolactin (rule out pregnancy, thyroid, hyperprolactinemia)	Women's_Health::polycystic-ovary-syndrome
+Red flags suggesting androgen-secreting tumor over PCOS?	Very high testosterone, rapid virilization, voice deepening, clitoromegaly -> check DHEAS	Women's_Health::polycystic-ovary-syndrome
+First-line treatment for hirsutism in PCOS?	Combined OCPs (less-androgenic progestin) +/- spironolactone (teratogenic - needs contraception)	Women's_Health::polycystic-ovary-syndrome
+Why screen PCOS patients for diabetes, and how often?	7.5-10x higher undiagnosed T2DM; screen with A1c/fasting glucose/2-h OGTT every 1-2 years	Women's_Health::polycystic-ovary-syndrome
+Endometrial cancer risk in PCOS and why?	3x higher - chronic anovulation -> unopposed estrogen	Women's_Health::polycystic-ovary-syndrome
+The "90-day rule" for PCOS?	Ensure a withdrawal bleed at least every 90 days (OCP, progestin IUD, or cyclic progesterone) to prevent hyperplasia	Women's_Health::polycystic-ovary-syndrome
+Most common cause of anovulatory infertility in the US?	PCOS (~5-10% conception/cycle vs 10-15% normal)	Women's_Health::polycystic-ovary-syndrome
+First-line for ovulation induction in PCOS?	Letrozole or clomiphene (after 5-10% weight loss in overweight/obese patients)	Women's_Health::polycystic-ovary-syndrome
+Mood comorbidity screening in PCOS?	PHQ-9 and GAD-7; ask about disordered/binge eating (risk independent of weight)	Women's_Health::polycystic-ovary-syndrome
+Pregnancy complications associated with PCOS?	Early pregnancy loss, GDM (independent of BMI), pregnancy-induced HTN/pre-eclampsia, preterm labor	Women's_Health::polycystic-ovary-syndrome
+2023 guideline: alternative to ultrasound for PCOM in adults?	Anti-Mullerian hormone (AMH) - adults only, not adolescents	Women's_Health::polycystic-ovary-syndrome
+2023 guideline: adolescent diagnostic requirement?	Both hyperandrogenism AND ovulatory dysfunction; no US or AMH (<8 y post-menarche)	Women's_Health::polycystic-ovary-syndrome
+Normal vaginal flora and pH?	70-90% Lactobacillus produces lactic acid -> pH 3.8-4.5; estrogen promotes lactobacilli	Women's_Health::vaginitis
+Most common cause of vaginitis?	Bacterial vaginosis (15-50% of cases)	Women's_Health::vaginitis
+BV pathophysiology and pH?	Increased anaerobes (Gardnerella, Mycoplasma hominis), decreased lactobacilli -> pH >4.5	Women's_Health::vaginitis
+Candidal vulvovaginitis pH?	NORMAL (4.0-4.5) - Candida and lactobacilli coexist	Women's_Health::vaginitis
+Most common Candida species in VVC?	C. albicans (80-92%); also krusei, glabrata	Women's_Health::vaginitis
+Trichomonas organism and pH?	Motile protozoan Trichomonas vaginalis (STI); decreased lactobacilli -> pH >4.5 (often >5)	Women's_Health::vaginitis
+GSM/atrophic vaginitis pH?	Elevated (>5.0-5.5) from decreased estrogen -> decreased lactobacilli	Women's_Health::vaginitis
+Amsel criteria for BV (3 of 4)?	Thin homogeneous grayish-white discharge; pH >4.5; positive whiff; clue cells (>=20% epithelial cells)	Women's_Health::vaginitis
+Wet prep finding in BV?	Clue cells (epithelial cells with adherent coccobacilli, "shaggy" borders)	Women's_Health::vaginitis
+Wet prep / KOH finding in yeast?	Hyphae and budding yeast on KOH (specific, not highly sensitive)	Women's_Health::vaginitis
+Most sensitive/specific test for trichomonas?	NAAT/PCR (wet prep only 50-60% sensitive)	Women's_Health::vaginitis
+First-line treatment for BV?	Metronidazole (PO 500 mg BID x7 d or 0.75% gel x5 d) or clindamycin	Women's_Health::vaginitis
+First-line treatment for candidal vulvovaginitis?	Fluconazole 150 mg PO x1, or topical azole (miconazole/clotrimazole)	Women's_Health::vaginitis
+First-line treatment for trichomonas (women)?	Metronidazole 500 mg PO BID x7 d (or tinidazole 2 g x1); treat partner(s); topical agents do not work	Women's_Health::vaginitis
+Vaginitis treatment preferred in pregnancy?	Yeast -> topical azole x7 d; BV -> topical or oral metronidazole; trich -> metronidazole 500 mg BID x7 d	Women's_Health::vaginitis
+Key mimic of vaginitis to exclude?	STI cervicitis (gonorrhea +/- chlamydia)	Women's_Health::vaginitis
+Single-dose oral agent covering both BV and trichomonas?	Secnidazole (Solosec) 2 g granules x1 (FDA: BV 2017, T. vaginalis 2021)	Women's_Health::vaginitis
+Newer agents for recurrent VVC?	Ibrexafungerp (Brexafemme) and oteseconazole (Vivjoa, first RVVC-specific drug, FDA 2022)	Women's_Health::vaginitis

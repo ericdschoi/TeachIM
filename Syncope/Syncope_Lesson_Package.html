@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Syncope — Optimized Lesson Package</title>
+<style>
+  :root{--ink:#1a2433;--accent:#0e6e8c;--accent2:#b4530a;--bg:#fafbfc;--card:#fff;--line:#dde4ea;--soft:#eef4f7;}
+  *{box-sizing:border-box}
+  body{font-family:Georgia,'Times New Roman',serif;color:var(--ink);background:var(--bg);margin:0;line-height:1.55}
+  header{background:var(--accent);color:#fff;padding:28px 24px}
+  header h1{margin:0 0 6px;font-size:1.7em}
+  header p{margin:2px 0;font-size:.95em;opacity:.92}
+  nav{background:#0b5870;padding:8px 24px;position:sticky;top:0;z-index:5}
+  nav a{color:#fff;text-decoration:none;font-family:Helvetica,Arial,sans-serif;font-size:.82em;margin-right:14px;white-space:nowrap}
+  nav a:hover{text-decoration:underline}
+  main{max-width:880px;margin:0 auto;padding:24px}
+  section{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:22px 26px;margin-bottom:22px}
+  h2{font-family:Helvetica,Arial,sans-serif;color:var(--accent);font-size:1.25em;margin-top:0;border-bottom:2px solid var(--soft);padding-bottom:8px}
+  h3{font-family:Helvetica,Arial,sans-serif;font-size:1.02em;color:var(--accent2);margin-bottom:6px}
+  table{border-collapse:collapse;width:100%;font-size:.92em;margin:12px 0}
+  th{background:var(--soft);text-align:left;font-family:Helvetica,Arial,sans-serif}
+  th,td{border:1px solid var(--line);padding:7px 10px;vertical-align:top}
+  .tag{display:inline-block;font-family:Helvetica,Arial,sans-serif;font-size:.72em;background:var(--soft);color:var(--accent);border-radius:10px;padding:2px 10px;margin-left:8px;vertical-align:middle}
+  .time{font-family:Helvetica,Arial,sans-serif;font-size:.78em;color:#fff;background:var(--accent2);border-radius:10px;padding:2px 10px;margin-left:8px}
+  .ask{background:#fdf6ec;border-left:4px solid var(--accent2);padding:10px 14px;margin:12px 0;border-radius:0 6px 6px 0}
+  .ask b{font-family:Helvetica,Arial,sans-serif;font-size:.85em;letter-spacing:.04em;color:var(--accent2)}
+  .pearl{background:#eef7f0;border-left:4px solid #2e7d4f;padding:10px 14px;margin:12px 0;border-radius:0 6px 6px 0}
+  details{border:1px solid var(--line);border-radius:6px;padding:10px 14px;margin:10px 0;background:#fff}
+  details summary{cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:.9em;color:var(--accent);font-weight:bold}
+  details[open]{background:var(--soft)}
+  .mcq{border:1px solid var(--line);border-radius:8px;padding:16px 18px;margin:14px 0}
+  .mcq ol{list-style-type:upper-alpha;margin:8px 0 8px 22px;padding:0}
+  .mcq ol li{margin:4px 0}
+  .changelog td:first-child{font-family:Helvetica,Arial,sans-serif;font-size:.85em;white-space:nowrap}
+  footer{font-size:.82em;color:#5a6877;padding:18px 24px;max-width:880px;margin:0 auto}
+  .small{font-size:.85em;color:#5a6877}
+  code{background:var(--soft);padding:1px 5px;border-radius:4px;font-size:.9em}
+  @media print{nav{display:none}section{border:none;page-break-inside:avoid}}
+</style>
+</head>
+<body>
+<header>
+  <h1>Syncope</h1>
+  <p>Optimized lesson package &middot; Facilitator-led interactive chalk talk for IM residents &middot; 30–40 min total</p>
+  <p class="small">Adapted from <a href="https://teachim.org/teaching_material/syncope/" style="color:#cde9f2">TeachIM.org — Syncope</a> (Hibshman, Dietsche; eds. Zhang, Fainstad; Oct 2023), CC BY-NC 4.0. Optimized June 2026: guideline currency verified, two errors corrected, pedagogy restructured, assessments added. Companion deck: <code>Syncope_Optimized.pptx</code> (original interactive board, surgically corrected).</p>
+</header>
+<nav>
+  <a href="#files">Files</a>
+  <a href="#objectives">Objectives</a>
+  <a href="#prework">Pre-work</a>
+  <a href="#script">Teaching script</a>
+  <a href="#cases">Cases</a>
+  <a href="#mcq">Board MCQs</a>
+  <a href="#anki">Anki cards</a>
+  <a href="#dotphrase">Dotphrase</a>
+  <a href="#takehome">Take-home</a>
+  <a href="#changelog">What changed</a>
+  <a href="#refs">References</a>
+</nav>
+<main>
+
+<section id="files">
+  <h2>Lesson Files <span class="tag">click to open — keep files in the same folder as this page</span></h2>
+  <div style="display:flex;flex-wrap:wrap;gap:12px">
+    <a href="Syncope_Optimized.pptx" style="flex:1;min-width:200px;display:block;text-decoration:none;border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:6px;padding:12px 16px;background:var(--soft)">
+      <span style="font-family:Helvetica,Arial,sans-serif;font-weight:bold;color:var(--accent)">▶ Presentation board</span><br>
+      <span class="small">Syncope_Optimized.pptx — corrected interactive deck (project this)</span></a>
+    <a href="Syncope_Anki_Cards.txt" style="flex:1;min-width:200px;display:block;text-decoration:none;border:1px solid var(--line);border-left:4px solid var(--accent2);border-radius:6px;padding:12px 16px;background:#fdf6ec">
+      <span style="font-family:Helvetica,Arial,sans-serif;font-weight:bold;color:var(--accent2)">⬇ Anki cards</span><br>
+      <span class="small">Syncope_Anki_Cards.txt — import into Anki (File → Import, tab-separated)</span></a>
+    <a href="Syncope-Handout.pdf" style="flex:1;min-width:200px;display:block;text-decoration:none;border:1px solid var(--line);border-left:4px solid #2e7d4f;border-radius:6px;padding:12px 16px;background:#eef7f0">
+      <span style="font-family:Helvetica,Arial,sans-serif;font-weight:bold;color:#2e7d4f">⎙ Learner handout</span><br>
+      <span class="small">Syncope-Handout.pdf — original board set-up sheet; print one per learner</span></a>
+    <a href="Syncope-Teaching-Instructions.docx" style="flex:1;min-width:200px;display:block;text-decoration:none;border:1px solid var(--line);border-left:4px solid #2e7d4f;border-radius:6px;padding:12px 16px;background:#eef7f0">
+      <span style="font-family:Helvetica,Arial,sans-serif;font-weight:bold;color:#2e7d4f">⎙ Teaching guide</span><br>
+      <span class="small">Syncope-Teaching-Instructions.docx — original printable facilitator guide</span></a>
+    <a href="Syncope_OnePager.pdf" style="flex:1;min-width:200px;display:block;text-decoration:none;border:1px solid var(--line);border-left:4px solid #6d2e46;border-radius:6px;padding:12px 16px;background:#f7eef2">
+      <span style="font-family:Helvetica,Arial,sans-serif;font-weight:bold;color:#6d2e46">⎙ One-page summary</span><br>
+      <span class="small">Syncope_OnePager.pdf — dense single-page clinical reference; prints on one page</span></a>
+  </div>
+  <p class="small" style="margin-bottom:0">Links are relative — they work when the named files are in the same folder as this HTML page. If a click does nothing, the file is missing from the folder.</p>
+</section>
+
+<section id="objectives">
+  <h2>Learning Objectives</h2>
+  <ol>
+    <li>Define syncope and distinguish it from other causes of transient loss of consciousness (TLOC).</li>
+    <li>Describe the pathophysiology differentiating the 3 classifications of syncope: orthostatic hypotension, reflex, and cardiac.</li>
+    <li>Select appropriate diagnostic tests based on history and exam — and know which tests are NOT routinely useful.</li>
+    <li>Identify high-risk features that warrant inpatient evaluation.</li>
+    <li><i>Bonus:</i> Initiate first- and second-line management and know when to consult.</li>
+  </ol>
+</section>
+
+<section id="prework">
+  <h2>Pre-work <span class="tag">NEW — 5 min, send the day before</span></h2>
+  <p>Answer these before the session, without looking anything up.</p>
+  <details><summary>Q1. Define syncope. What separates it from the broader category of "transient loss of consciousness"?</summary>
+  Syncope is an abrupt, transient loss of consciousness due to global cerebral hypoperfusion, with rapid spontaneous full recovery. TLOC is the umbrella (short duration, abnormal motor control, loss of responsiveness, amnesia for the event); syncope is the subset caused by cerebral hypoperfusion. A 6–8 second drop in cerebral blood flow is enough.</details>
+  <details><summary>Q2. Name the three great mimics of syncope and one feature that distinguishes each.</summary>
+  Seizure — prolonged convulsions and marked post-ictal confusion (convulsive syncope has brief myoclonus and no post-ictal state); tongue biting and incontinence also point to seizure. Vertebrobasilar TIA/stroke — LOC accompanied by focal findings (vertigo, dysarthria); posterior events don't cause isolated LOC. Hypoglycemia — impaired rather than abruptly lost consciousness, longer duration, and no spontaneous recovery without intervention.</details>
+  <details><summary>Q3. What four things does EVERY syncope patient get, regardless of suspected cause?</summary>
+  History, physical exam (cardiac focus), orthostatic vital signs, and a 12-lead ECG. Everything else is individualized.</details>
+</section>
+
+<section id="script">
+  <h2>Teaching Script <span class="tag">Restructured with timing &amp; engagement cues</span></h2>
+  <p class="small">Format: project the corrected interactive board (<code>Syncope_Optimized.pptx</code>) and click through, or reproduce the schematic on a whiteboard. Every cursor icon on the board is a built-in ASK prompt — pose the question before clicking. Talk without cases: ~20 min. Cases: +10–15 min. Print the learner handout (board set-up) so learners take notes as you go.</p>
+
+  <h3>Hook (2 min)</h3>
+  <p>"65-year-old watching TV goes unresponsive for 20 seconds with whole-body jerking, then wakes up clear-headed." Ask: syncope or seizure — and what one historical detail decides it? (No post-ictal confusion. Convulsive syncope is a thing.) This is Case 3; you're planting it early.</p>
+
+  <h3>Objective 1 — Definition &amp; mimics <span class="time">4 min</span></h3>
+  <div class="ask"><b>ASK:</b> "Define syncope" — then click to reveal. The definition is mechanistic: TLOC due to global cerebral hypoperfusion with spontaneous full recovery. ~60% of TLOC cases can be sorted by history and exam alone.</div>
+  <p>Mimics (click each mini-case): seizure (LOC + shaking + post-ictal state), vertebrobasilar TIA/CVA (LOC + vertigo/dysarthria — never isolated LOC), hypoglycemia (preceded by diaphoresis/tremulousness; recovery requires treating the glucose).</p>
+
+  <h3>Pathophysiology review — optional <span class="time">5 min</span></h3>
+  <p>Build the cascade on the board; the rest of the talk reuses it: <b>CPP = MAP − ICP</b>; <b>MAP = CO × SVR</b>; <b>CO = HR × SV</b>; SV depends on preload, afterload, contractility. Then the baroreceptor reflex with standing: blood pools → ↓preload → ↓CO → ↓MAP → baroreceptors fire → ↑sympathetic tone → ↑CO and SVR → CPP preserved. Every syncope mechanism is a lesion somewhere in this loop.</p>
+
+  <h3>Objective 2 — Three classifications <span class="time">6 min</span></h3>
+  <div class="ask"><b>ASK:</b> "Standing up drops your preload every time you do it. Why don't you faint every time — and what are the ways the rescue system can fail?"</div>
+  <p><b>Orthostatic hypotension</b> — an <i>insufficient</i> autonomic response. Defined as a drop in SBP ≥20 or DBP ≥10 with postural change (ESC also accepts SBP &lt;90 with symptoms — not in the ACC/AHA definition). Four failure points:</p>
+  <table>
+    <tr><th>Failure point</th><th>Mechanism</th><th>Differential</th></tr>
+    <tr><td>Sympathetic tone</td><td>↓CO, HR, SVR → ↓MAP</td><td>"Neurogenic OH": primary autonomic failure, Parkinson's/MSA; secondary — diabetes, amyloid, paraneoplastic, cord injury</td></tr>
+    <tr><td>SVR response</td><td>↓SVR → ↓MAP</td><td>Drugs (vasodilators, antidepressants) — drug-induced OH is the MOST common cause; adrenal insufficiency</td></tr>
+    <tr><td>HR response</td><td>↓HR → ↓CO → ↓MAP</td><td>Beta-blockers, calcium channel blockers</td></tr>
+    <tr><td>Preload</td><td>↓SV → ↓CO → ↓MAP</td><td>Volume loss, hemorrhage, diuretics; worse with exercise, meals, prolonged bedrest</td></tr>
+  </table>
+  <p><b>Reflex (neurally mediated)</b> — an <i>inappropriate</i> autonomic response to a trigger. Causes: vasovagal (orthostatic or emotional), situational (micturition, defecation, cough, post-exercise), carotid sinus hypersensitivity. Two hemodynamic subtypes — cardioinhibitory (vagal surge → bradycardia) and vasodepressive (sympathetic withdrawal → ↓SVR) — and most real patients are mixed.</p>
+  <p><b>Cardiac</b> — low cardiac output, the classification that kills. Four mechanisms: ↑afterload (aortic stenosis, HOCM), ↓contractility (MI, ventricular arrhythmias), ↓HR (AV block, sinus node dysfunction, pacemaker malfunction), ↓preload (PE, pulmonary HTN, tamponade, dissection).</p>
+  <div class="pearl"><b>Pearl — the PE question:</b> Prandoni (NEJM 2016) found PE in 17% of patients <i>hospitalized</i> for first syncope, but a 2018 study of &gt;1.5 million patients across 4 countries found PE in &lt;1% of all-comers with syncope and &lt;3% of those hospitalized. PE is a real but uncommon cause — don't CT every fainter.</div>
+
+  <h3>Objective 3 — Evaluation <span class="time">5 min</span></h3>
+  <div class="ask"><b>ASK:</b> "Three patients, three stories. Build the table with me: who faints, where, and with what warning?" — work the Who / Where-How / Prodrome grid for OH vs reflex vs cardiac before revealing.</div>
+  <table>
+    <tr><th></th><th>OH</th><th>Reflex</th><th>Cardiac</th></tr>
+    <tr><td><b>Who</b></td><td>Older, comorbid; autonomic neuropathy or parkinsonism; new/changed BP meds or diuretics</td><td>All ages, generally healthy; recurrent syncope often starting &lt;40</td><td>Structural heart disease or CAD; family history of sudden death at young age</td></tr>
+    <tr><td><b>Where / how</b></td><td>While or just after standing; post-prandial</td><td>Prolonged standing, hot/crowded places; micturition/defecation/cough; emotional triggers; head turn, tight collar, shaving</td><td>Supine, sitting, or at rest (arrhythmia); during exertion (structural)</td></tr>
+    <tr><td><b>Prodrome</b></td><td>Lightheadedness with postural change</td><td>Pallor, diaphoresis, nausea</td><td>None ("unheralded"), or sudden palpitations; ± chest pain, dyspnea</td></tr>
+  </table>
+  <p><b>Everyone gets:</b> history, exam, orthostatic vitals, ECG.</p>
+  <div class="ask"><b>ASK:</b> "What testing is NOT routinely useful?" — head CT/MRI (unless head injury or new neuro findings), EEG (unless the story suggests seizure), carotid imaging (bilateral disease would be needed to cause syncope; essentially never occurs without other neuro symptoms).</div>
+  <p><b>Targeted tests</b> by suspected type: OH — BMP/CBC (volume, occult bleed), ± autonomic evaluation (Valsalva without HR/BP response suggests autonomic failure; refer). Reflex — usually a history diagnosis; tilt-table if uncertain (a cardioinhibitory response predicts asystolic spontaneous syncope — treatment implications); carotid sinus massage in &gt;40s with a suggestive story (contraindicated with bruit, known stenosis &gt;70%, or TIA/stroke within 3 months). Cardiac — telemetry, TTE, ± troponin/BNP, stress test if exertional, then ambulatory monitoring matched to event frequency:</p>
+  <table>
+    <tr><th>Monitor</th><th>Duration</th><th>Best for</th></tr>
+    <tr><td>Holter</td><td>24–72 h</td><td>Symptoms likely to recur within days</td></tr>
+    <tr><td>Event (loop) monitor</td><td>2–6 weeks</td><td>Moderate frequency + prodrome (patient-activated)</td></tr>
+    <tr><td>Patch monitor</td><td>~2 weeks</td><td>Moderate frequency; comfortable, single lead</td></tr>
+    <tr><td>Implantable loop recorder</td><td>Years</td><td>Infrequent, unexplained syncope</td></tr>
+  </table>
+
+  <h3>Objective 4 — Disposition <span class="time">4 min</span></h3>
+  <div class="ask"><b>ASK:</b> "Which fainter goes home and which gets a bed?" — collect candidate features, then reveal the high-risk list.</div>
+  <table>
+    <tr><th></th><th>Low risk → home</th><th>High risk → admit</th></tr>
+    <tr><td><b>PMH</b></td><td>Long history of recurrent low-risk syncope; no structural heart disease</td><td>Severe structural heart disease or CAD; family history of sudden cardiac death</td></tr>
+    <tr><td><b>Event</b></td><td>Typical reflex prodrome; clear trigger; after prolonged standing or hot/crowded places</td><td>New chest pain or dyspnea; exertional or supine onset; sudden palpitations; short/absent prodrome (&lt;10 s) with structural disease</td></tr>
+    <tr><td><b>Exam</b></td><td>Normal</td><td>SBP &lt;90; HR &lt;40 awake; signs of GI bleed; undiagnosed systolic murmur</td></tr>
+    <tr><td><b>ECG</b></td><td>Normal</td><td>Acute ischemia; Mobitz II or 3rd-degree AV block; HR &lt;40; pauses &gt;3 s awake; BBB, Q waves, hypertrophy; VT (sustained or not); pre-excitation; device malfunction; QTc &lt;340 or &gt;460 ms; Brugada pattern; ARVC</td></tr>
+  </table>
+  <p>Neither clearly high nor low risk → observe in the ED or hospital.</p>
+
+  <h3>Objective 5 (bonus) — Management <span class="time">3 min</span></h3>
+  <p><b>OH:</b> fluids, stop/adjust culprit meds, behavioral measures (slow position changes, salt, compression garments, counter-pressure maneuvers); midodrine or fludrocortisone for autonomic dysfunction. <b>Reflex:</b> reassurance and trigger avoidance; counter-pressure maneuvers if there's a usable prodrome; consider midodrine/fludrocortisone/salt; pacemaker in selected patients &gt;40 with documented cardioinhibitory syncope that is frequent and unpredictable. <b>Cardiac:</b> consult cardiology — treatment is etiology-specific.</p>
+  <div class="pearl"><b>2026 context:</b> Since this talk was written, the case for pacing in cardioinhibitory reflex syncope has strengthened — the 2021 ESC pacing guideline upgraded dual-chamber pacing (closed-loop stimulation) for patients &gt;40 with severe, recurrent, unpredictable syncope and documented asystolic pauses, on the strength of the BIOSync RCT (77% relative risk reduction at 2 years). Cardioneuroablation is an emerging device-free alternative still under study. The teaching point stands: these patients go to cardiology/EP, not to empiric therapy.</div>
+
+  <h3>Close (2 min)</h3>
+  <p>Hide the board. Ask the group to rebuild: the definition, the three classifications, the four universal tests, and three high-risk features — then show the take-home slide.</p>
+</section>
+
+<section id="cases">
+  <h2>Practice Cases <span class="tag">10–15 min — from the interactive board, answers click-to-reveal</span></h2>
+
+  <div class="mcq"><h3>Case 1 — The healthy fainter</h3>
+  <p>21-year-old presents after syncope. VS: 36.5°C, HR 82, BP 112/87. Exam: no murmurs, otherwise normal.</p>
+  <details><summary>What history is important?</summary>Who: history of depression on escitalopram. Where/how: standing in line at the grocery store. Prodrome: clamminess, tunnel vision.</details>
+  <details><summary>What initial tests?</summary>ECG: normal sinus rhythm, normal intervals, no hypertrophy or prior ischemia. Routine labs are not needed.</details>
+  <details><summary>Diagnosis?</summary>Vasovagal (reflex) syncope — young, healthy, classic trigger and prodrome.</details>
+  <details><summary>Disposition and treatment?</summary>Outpatient. Reassurance, trigger avoidance, counter-pressure maneuvers if prodrome recurs.</details></div>
+
+  <div class="mcq"><h3>Case 2 — The dry fainter</h3>
+  <p>56-year-old with HTN and chronic venous stasis presents with syncope. VS: HR 112, BP 112/87. Exam: no murmurs, dry mucous membranes, poor skin turgor.</p>
+  <details><summary>What history is important?</summary>Who: HTN on lisinopril; recent GI illness. Where/how: occurred on standing up. Prodrome: lightheadedness and dizziness.</details>
+  <details><summary>What initial tests?</summary>Orthostatics: HR 112, BP 112/70 → HR 130, BP 85/40 standing. ECG: sinus tachycardia. CBC normal; Na 132, K 3.2, bicarb 18, Cr 1.8, lactate 2.5.</details>
+  <details><summary>Diagnosis?</summary>Orthostatic hypotension from volume depletion (GI losses) on top of an ACE inhibitor.</details>
+  <details><summary>Disposition and treatment?</summary>Urgent care or ED; consider observation depending on response. IV fluid resuscitation, hold BP medications.</details></div>
+
+  <div class="mcq"><h3>Case 3 — The trap (convulsions ≠ seizure)</h3>
+  <p>65-year-old with CAD s/p PCI, HFrEF (ischemic), HTN, T2DM presents with LOC + convulsions while watching TV; unresponsive ~20 s with witnessed whole-body jerks, then immediately lucid — no confusion. VS: HR 72, BP 112/87. Exam: occasional irregular beats, no murmurs, euvolemic.</p>
+  <details><summary>What history is important?</summary>Who: significant cardiac history on furosemide, carvedilol, sacubitril-valsartan, spironolactone, empagliflozin, aspirin, metformin; 2 weeks of episodic palpitations and lightheadedness at rest. Where/how: at rest, supine/sitting. Prodrome: none. At-rest onset + no prodrome + cardiac history = high risk.</details>
+  <details><summary>What initial tests?</summary>CBC, BMP, troponin and BNP, ECG, orthostatic vitals. Results: orthostatics HR 72, BP 112/70 → HR 85, BP 115/65 (unremarkable); BMP near-normal; hs-troponin I 140 → 100 ng/L (downtrending); ECG: NSR with anterolateral Q waves, frequent PVCs, no new ischemia. <i>(Two corrections from the original board: "HR 850" → HR 85; troponin units ng/dL → ng/L.)</i></details>
+  <details><summary>Most likely cause, and where is this patient managed?</summary>Cardiac syncope — admit to the hospital for telemetry and TTE.</details>
+  <details><summary>Further workup returns: LVEF 30%, wall motion abnormalities, mild AS; telemetry shows frequent symptomatic NSVT. Next step?</summary>Consult cardiology/EP — etiology is most likely NSVT in ischemic cardiomyopathy. (This is also an ICD-evaluation conversation given EF ≤35%.)</details></div>
+</section>
+
+<section id="mcq">
+  <h2>Board-Style MCQs <span class="tag">NEW — post-session, ABIM format</span></h2>
+
+  <div class="mcq"><p><b>1.</b> A 24-year-old woman loses consciousness for 30 seconds while having blood drawn. Witnesses describe pallor, then a few seconds of limb jerking. She is immediately oriented on waking. Exam and ECG are normal. What is the most appropriate next step?</p>
+  <ol><li>EEG and neurology referral</li><li>Head CT</li><li>Reassurance and counseling on counter-pressure maneuvers</li><li>48-hour Holter monitor</li></ol>
+  <details><summary>Answer &amp; explanation</summary><b>C.</b> Classic emotional vasovagal syncope with a textbook trigger and prodrome. Brief myoclonic jerks occur in convulsive syncope and do not indicate seizure when there's no post-ictal confusion (A). Imaging (B) has no role without head injury or focal findings. Monitoring (D) is for suspected arrhythmic syncope — nothing here suggests it. Reflex syncope is a history diagnosis; treatment starts with reassurance and counter-pressure maneuvers.</details></div>
+
+  <div class="mcq"><p><b>2.</b> A 78-year-old man with Parkinson's disease faints two minutes after standing from dinner. Supine BP 142/84, HR 76; standing BP 108/70, HR 79. Which feature most specifically points to a neurogenic cause of his orthostatic hypotension?</p>
+  <ol><li>The 34-point drop in systolic pressure</li><li>The near-absent compensatory heart rate increase</li><li>His age</li><li>The post-prandial timing</li></ol>
+  <details><summary>Answer &amp; explanation</summary><b>B.</b> The BP drop (A) defines OH (SBP ≥20 or DBP ≥10) but not its cause. In volume depletion or drug-induced OH, an intact autonomic system mounts a compensatory tachycardia; a blunted HR response despite significant hypotension indicates the sympathetic limb itself is failing — neurogenic OH (here, Parkinson's-related autonomic failure). Age (C) and post-prandial venous pooling (D) are nonspecific contributors. Valsalva without HR/BP response supports the same conclusion.</details></div>
+
+  <div class="mcq"><p><b>3.</b> A 71-year-old man passes out while climbing stairs, without warning. He has a harsh late-peaking systolic murmur radiating to the carotids, not previously documented. ECG shows LVH. What is the most appropriate management?</p>
+  <ol><li>Discharge with an event monitor and outpatient TTE</li><li>Admit; obtain TTE before any exertion or vasodilators</li><li>Tilt-table testing</li><li>Carotid sinus massage to evaluate for carotid hypersensitivity</li></ol>
+  <details><summary>Answer &amp; explanation</summary><b>B.</b> Exertional syncope + undiagnosed systolic murmur + LVH = presumed severe aortic stenosis until proven otherwise — two independent high-risk features mandating admission. Outpatient workup (A) risks sudden death. Tilt-table (C) evaluates reflex syncope. Carotid sinus massage (D) is for suspected carotid hypersensitivity in the right story and would add nothing; vasodilators and volume shifts are dangerous in critical AS.</details></div>
+
+  <div class="mcq"><p><b>4.</b> A 58-year-old woman is admitted after syncope. Workup reveals a normal neuro exam and no head trauma. The admitting resident orders head CT, carotid Dopplers, and EEG "to be complete." Which statement is correct?</p>
+  <ol><li>All three are appropriate in unexplained syncope</li><li>Head CT is indicated; the others are not</li><li>None is routinely indicated without neurologic findings, head injury, or a seizure-suggestive history</li><li>Carotid Doppler is the highest-yield test for syncope</li></ol>
+  <details><summary>Answer &amp; explanation</summary><b>C.</b> Routine neuroimaging, EEG, and carotid imaging are explicitly low-utility in syncope (ACC/AHA 2017). Syncope requires global hypoperfusion — unilateral carotid disease doesn't produce it, and bilateral critical disease essentially never presents as isolated syncope (D). EEG needs a seizure-suggestive story; CT needs trauma or focal findings. These three tests are among the most common sources of low-value spending in syncope evaluation.</details></div>
+
+  <div class="mcq"><p><b>5.</b> A 66-year-old man has had three unexplained syncopal episodes over 18 months, each without prodrome. Holter ×48 h and a 2-week patch were unrevealing; TTE and ECG are normal. What is the most appropriate next step?</p>
+  <ol><li>Repeat 48-hour Holter</li><li>Implantable loop recorder</li><li>Empiric permanent pacemaker</li><li>Tilt-table testing to rule in reflex syncope</li></ol>
+  <details><summary>Answer &amp; explanation</summary><b>B.</b> Match the monitor to event frequency: episodes months apart will never be caught on short-duration devices (A) — an implantable loop recorder monitors for years and has the highest diagnostic yield in infrequent, unexplained syncope. Pacing (C) requires a documented bradyarrhythmic correlate. Tilt-table (D) may be considered, but unheralded syncope in an older man is suspicious for arrhythmia, and capturing the rhythm during a real event is the priority.</details></div>
+</section>
+
+<section id="anki">
+  <h2>Spaced-Repetition Cards <span class="tag">NEW — 16 cards, importable file: Syncope_Anki_Cards.txt</span></h2>
+  <table>
+    <tr><th style="width:50%">Front</th><th>Back</th></tr>
+    <tr><td>Definition of syncope?</td><td>Abrupt transient LOC from global cerebral hypoperfusion, with rapid spontaneous full recovery. 6–8 s of interrupted cerebral flow suffices.</td></tr>
+    <tr><td>Three great mimics of syncope and the distinguishing feature of each?</td><td>Seizure (prolonged convulsions, post-ictal confusion, tongue biting/incontinence); vertebrobasilar TIA/CVA (LOC only WITH focal signs like vertigo/dysarthria); hypoglycemia (impaired rather than lost consciousness; no recovery without treatment).</td></tr>
+    <tr><td>Can syncope cause convulsions?</td><td>Yes — brief myoclonic jerks ("convulsive syncope"). Distinguish from seizure by the absence of a post-ictal state.</td></tr>
+    <tr><td>The perfusion cascade used to classify all syncope?</td><td>CPP = MAP − ICP; MAP = CO × SVR; CO = HR × SV; SV ← preload, afterload, contractility.</td></tr>
+    <tr><td>Diagnostic criteria for orthostatic hypotension?</td><td>Postural drop in SBP ≥20 or DBP ≥10; ESC also accepts SBP &lt;90 with symptoms (not in ACC/AHA).</td></tr>
+    <tr><td>Most common cause of orthostatic hypotension?</td><td>Drug-induced (vasodilators, antidepressants, diuretics, AV-nodal blockers).</td></tr>
+    <tr><td>OH vs reflex syncope — the autonomic response in one word each?</td><td>OH: insufficient. Reflex: inappropriate (to a physiologic trigger).</td></tr>
+    <tr><td>Two hemodynamic subtypes of reflex syncope?</td><td>Cardioinhibitory (vagal surge → bradycardia) and vasodepressive (sympathetic withdrawal → ↓SVR); mixed is common.</td></tr>
+    <tr><td>Four mechanisms of cardiac syncope with one example each?</td><td>↑Afterload (aortic stenosis, HOCM); ↓contractility (MI, VT); ↓HR (AV block, sinus node dysfunction); ↓preload (PE, tamponade, pulmonary HTN, dissection).</td></tr>
+    <tr><td>How common is PE among patients with syncope?</td><td>&lt;1% of all-comers, &lt;3% of those hospitalized (2018 multinational study) — the 17% figure (Prandoni 2016) applied to a selected hospitalized cohort. Uncommon cause overall.</td></tr>
+    <tr><td>The four things every syncope patient gets?</td><td>History, physical exam, orthostatic vital signs, 12-lead ECG.</td></tr>
+    <tr><td>Three tests NOT routinely useful in syncope?</td><td>Head CT/MRI (without trauma/focal findings), EEG (without seizure-suggestive history), carotid imaging.</td></tr>
+    <tr><td>Historical profile of cardiac syncope?</td><td>Structural heart disease/CAD or family history of sudden death; occurs supine/at rest (arrhythmia) or with exertion (structural); no prodrome or sudden palpitations.</td></tr>
+    <tr><td>High-risk exam and ECG features mandating admission (name 5)?</td><td>SBP &lt;90; awake HR &lt;40; undiagnosed systolic murmur; GI bleed signs; ECG — acute ischemia, Mobitz II/3rd-degree block, pauses &gt;3 s, VT, pre-excitation, QTc &lt;340 or &gt;460 ms, Brugada, BBB/Q waves.</td></tr>
+    <tr><td>Cardiac monitor choice by syncope frequency?</td><td>Daily–weekly: Holter 24–72 h. Weekly–monthly with prodrome: event/loop monitor 2–6 wk or 2-wk patch. Infrequent/unexplained: implantable loop recorder (years).</td></tr>
+    <tr><td>First-line treatment of vasovagal syncope, and who gets a pacemaker?</td><td>Reassurance, trigger avoidance, counter-pressure maneuvers (± midodrine/fludrocortisone/salt). Pacing: selected patients &gt;40 with documented cardioinhibitory (asystolic) syncope, frequent and unpredictable — strengthened by BIOSync/ESC 2021.</td></tr>
+  </table>
+</section>
+
+<section id="dotphrase">
+  <h2>Attending Dotphrase <span class="tag">NEW — EMR-ready A&amp;P smart phrase</span></h2>
+  <p class="small">Dense assessment-and-plan template for the EMR. <code>*</code> = wildcard to edit at the bedside; brackets = pick-lists. <button onclick="navigator.clipboard.writeText(document.getElementById('dp').innerText).then(()=>{this.textContent='Copied ✓';setTimeout(()=>this.textContent='Copy to clipboard',2000)})" style="font-family:Helvetica,Arial,sans-serif;font-size:.9em;cursor:pointer;padding:3px 12px;border:1px solid var(--accent);background:var(--soft);color:var(--accent);border-radius:5px">Copy to clipboard</button></p>
+  <pre id="dp" style="white-space:pre-wrap;background:#f4f7f9;border:1px solid var(--line);border-radius:6px;padding:14px;font-size:.82em;line-height:1.5;font-family:Consolas,Menlo,monospace">#Syncope: transient LOC. witnessed/unwitnessed, w/wo prodrome, exertional/at-rest/postural, w/wo injury. likely 2/2 * [reflex/vasovagal, orthostatic, cardiac (arrhythmic/structural), neuro-mimic, med/vol]. r/o serious cause [arrhythmia, ACS, AS/HOCM, PE, GIB, AAA, SAH]; excl mimics [szr, hypoglycemia, intox, TIA, pseudosyncope]. CSRS = * [vlow ≤−2 / low −1–0 / med 1–3 / high 4–5 / vhigh ≥6]. HDS/HDUS.
+- core w/u: H&amp;P [prodrome, trigger, EXERTIONAL, palpitations pre-event, FHx SCD/&lt;50yo, structural HD, QT/AVN/diuretic/antiHTN meds, lat tongue bite/post-ictal] + 12-lead ECG [ischemia, AVB, BBB, QTc, Brugada, WPW, epsilon/ARVC, LVH] + orthostatics [SBP ↓≥20 / DBP ↓≥10 w/in 3min]
+- CSRS pts: vasovagal predispo −1 / hx heart dz (CAD/AF/CHF/valv) +1 / ED SBP &lt;90 or &gt;180 +2 / trop &gt;99%ile +2 / abnl QRS axis (&lt;−30 or &gt;100) +1 / QRS &gt;130ms +1 / QTc &gt;480ms +2 / ED dx vasovagal −2 / cardiac +2 → 30d SAE: vlow 0.4% / low 0.7% / med ~8% / high ~20% / vhigh ~51% (low → d/c w/ RTC; high/vhigh → tele/admit)
+- targeted only: hs-trop + ECG if cardiac susp; TTE only if structural HD susp; inpt tele if arrhythmic; outpt monitor [patch/ELR/ILR] if recurrent unexplained; stress if exertional + CAD risk; CTPA only if PE susp; tilt select
+- AVOID in simple syncope (nl neuro, no trauma, no szr features): head CT/MRI, EEG, carotid US (yield ~0.2–1.5%); routine TTE/CTPA/broad labs
+- red flags → admit: exertional/supine, palpitations pre-event, FHx SCD, structural HD/↓EF, abnl ECG, recurrent, injury w/o prodrome, anemia/GIB, new murmur
+- monitoring: tele, orthostatics q*h, hold QT-prolong/AVN/antiHTN, fall precautions
+- labs: CBC, CMP, hs-trop, +/- BNP, +/- BHCG, EKG, +/- TTE, +/- ambulatory monitor [per CSRS + red flags]</pre>
+</section>
+
+<section id="takehome">
+  <h2>Take-Home Points</h2>
+  <ol>
+    <li>Syncope is defined by its mechanism — global cerebral hypoperfusion — which is what separates it from seizure, hypoglycemia, and TIA.</li>
+    <li>Three classifications: orthostatic (insufficient autonomic response), reflex (inappropriate response to a trigger), cardiac (low output — the dangerous one).</li>
+    <li>Who + where/how + prodrome + the med list sorts most patients; ~60% of TLOC is diagnosable on history and exam alone.</li>
+    <li>Everyone gets history, exam, orthostatic vitals, and an ECG; further testing is individualized, and high-risk features buy a hospital bed.</li>
+  </ol>
+</section>
+
+<section id="changelog">
+  <h2>Optimization Changelog <span class="tag">vs. TeachIM original (Oct 2023)</span></h2>
+  <table class="changelog">
+    <tr><th>Type</th><th>Change</th></tr>
+    <tr><td>Currency check</td><td>Verified June 2026: 2017 ACC/AHA/HRS and 2018 ESC remain the standing syncope guidelines; core content confirmed current.</td></tr>
+    <tr><td>Correction (deck)</td><td>Case 3 orthostatics "HR 850" → "HR 85" (typo); hs-troponin units "ng/dL" → "ng/L" (standard hs-cTn reporting). Made surgically in <code>Syncope_Optimized.pptx</code>; all original graphics and click-to-reveal animations preserved.</td></tr>
+    <tr><td>Correction (references)</td><td>Reference 3 page range "2410-2023" corrected to 2410-2423 (JACC 2019 guideline-comparison paper).</td></tr>
+    <tr><td>Content added</td><td>2021 ESC pacing guideline + BIOSync trial context for pacing in cardioinhibitory reflex syncope; cardioneuroablation noted as emerging option; PE-prevalence pearl framed around both Prandoni 2016 and the 2018 multinational data (already cited in original).</td></tr>
+    <tr><td>Pedagogy</td><td>Added 5-min pre-work; timed segments with ASK pause points keyed to the board's existing cursor prompts; hook planted from Case 3; retrieval-based close; cases converted to click-to-reveal text for the facilitator.</td></tr>
+    <tr><td>Assessment</td><td>Added 5 ABIM-style MCQs with explanations and 16 Anki-importable cards.</td></tr>
+    <tr><td>Clinical tool</td><td>Added attending-level EMR dotphrase (dense A&amp;P smart phrase with wildcards, pick-lists, CSRS risk score, targeted vs. avoid testing, red flags, monitoring orders). CSRS 30-day SAE rates verified against the multicenter validation (Thiruganasambandamoorthy, Ann Intern Med 2020): very-low 0.3–0.4%, low 0.7%, medium ~8%, high ~20%, very-high ~51%.</td></tr>
+    <tr><td>One-pager</td><td>Added dense single-page printable clinical reference (Syncope_OnePager.pdf/.html) — all 5 objectives, testing, disposition, and the dotphrase, two-column Letter layout.</td></tr>
+    <tr><td>Deck</td><td>Original interactive board kept intact (16 slides total): 14 original + appended take-home-points slide and attribution/changelog slide.</td></tr>
+    <tr><td>Companion files</td><td>All original companion materials reviewed (no errors found) and copied into this folder unchanged, each linked from the Lesson Files launcher: learner handout (board set-up PDF) and printable teaching/facilitator guide (DOCX).</td></tr>
+    <tr><td>Human review needed</td><td>Case 3 corrected values (HR 85) inferred from context — typo is unambiguous but the intended number wasn't stated; confirm with original authors if desired. Original page notes "pending final expert review."</td></tr>
+  </table>
+</section>
+
+<section id="refs">
+  <h2>References</h2>
+  <ol class="small">
+    <li>Shen WK, et al. 2017 ACC/AHA/HRS Guideline for the Evaluation and Management of Patients With Syncope. <i>Circulation</i>. 2017;136(5):e25-e59.</li>
+    <li>Brignole M, et al. 2018 ESC Guidelines for the diagnosis and management of syncope. <i>Eur Heart J</i>. 2018;39(21):1883-1948.</li>
+    <li>Goldberger ZD, et al. ACC/AHA/HRS Versus ESC Guidelines for the Diagnosis and Management of Syncope. <i>JACC</i>. 2019;74(19):2410-2423.</li>
+    <li>Runser LA, et al. Syncope: Evaluation and Differential Diagnosis. <i>Am Fam Physician</i>. 2017;95(5):303-312B.</li>
+    <li>Prandoni P, et al. Prevalence of Pulmonary Embolism among Patients Hospitalized for Syncope. <i>NEJM</i>. 2016;375:1524-1531.</li>
+    <li>Costantino G, Ruwald MH, Quinn J. Prevalence of Pulmonary Embolism in Patients With Syncope. <i>JAMA Intern Med</i>. 2018;178(3):356-362.</li>
+    <li>Glikson M, et al. 2021 ESC Guidelines on cardiac pacing and cardiac resynchronization therapy. <i>Eur Heart J</i>. 2021;42(35):3427-3520.</li>
+    <li>Brignole M, et al. Cardiac pacing in severe recurrent reflex syncope and tilt-induced asystole (BIOSync CLS). <i>Eur Heart J</i>. 2021;42(5):508-516.</li>
+    <li>Sutton R, et al. Syncope: Advances in Diagnosis and Treatment 2024. <i>J Cardiovasc Electrophysiol</i>. 2025.</li>
+  </ol>
+</section>
+
+</main>
+<footer>
+  Adapted from TeachIM.org "Syncope" (Hibshman M, Dietsche C; eds. Zhang Y, Fainstad B) under <a href="http://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>. Educational use only; not medical advice. Optimized package generated June 2026 — verify doses and guideline currency before teaching.
+</footer>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8">
+<style>
+  @page{size:Letter;margin:0.3in}
+  :root{--fs:12px;--p:#0e6e8c;--o:#b4530a;--g:#2e7d4f;--line:#9bb3bd;}
+  *{box-sizing:border-box}
+  body{font-family:'Helvetica Neue',Arial,sans-serif;font-size:var(--fs);line-height:1.36;color:#15202a;margin:0;
+       column-count:2;column-gap:14px;column-fill:balance}
+  h1{column-span:all;font-size:calc(var(--fs)*1.5);margin:0 0 4px;color:var(--p)}
+  .sub{column-span:all;font-size:calc(var(--fs)*0.9);color:#41525c;margin:0 0 8px;border-bottom:2px solid var(--p);padding-bottom:4px}
+  .blk{break-inside:avoid;margin-bottom:8px}
+  h2{font-size:calc(var(--fs)*1.05);margin:0 0 3px;padding:2px 6px;color:#fff;background:var(--p);border-radius:3px}
+  h2.o{background:var(--o)} h2.g{background:var(--g)}
+  table{border-collapse:collapse;width:100%;font-size:calc(var(--fs)*0.95);margin:2px 0}
+  th,td{border:1px solid var(--line);padding:2px 4px;vertical-align:top;text-align:left}
+  th{background:#e7eff3}
+  ul{margin:2px 0 2px 0;padding-left:15px} li{margin:1px 0}
+  .k{color:var(--p);font-weight:bold} .o-t{color:var(--o);font-weight:bold}
+  p{margin:2px 0}
+</style></head><body>
+<h1>Oxygen Delivery &amp; Hypoxemia &mdash; Bedside Reference</h1>
+<p class="sub">Two levers: FiO<sub>2</sub> (most ward devices) and PEEP (HFNC small / CPAP / BiPAP / vent). Effective FiO<sub>2</sub> falls when inspiratory flow (30&ndash;120 L/min in distress) exceeds device flow. Adapted from TeachIM.org (Zhang, Oct 2021), CC BY-NC 4.0.</p>
+
+<div class="blk">
+<h2>Device ladder (max effective FiO<sub>2</sub>)</h2>
+<table>
+<tr><th>Device</th><th>Flow</th><th>Max FiO<sub>2</sub></th></tr>
+<tr><td>Nasal cannula</td><td>2&ndash;6 L</td><td>~44% @6L (~3&ndash;4%/L)</td></tr>
+<tr><td>Simple face mask</td><td>5&ndash;10 L</td><td>~60&ndash;70% (&gt;6L washes CO<sub>2</sub>)</td></tr>
+<tr><td>Venturi</td><td>set</td><td>~60%, precise fixed FiO<sub>2</sub></td></tr>
+<tr><td>Oxymizer</td><td>~12&ndash;15 L</td><td>&gt;80% (reservoir)</td></tr>
+<tr><td>Non-rebreather</td><td>12&ndash;15 L</td><td>~75&ndash;90% <b>RESCUE only</b></td></tr>
+<tr><td>HFNC</td><td>&le;60 L</td><td>~100% + PEEP ~3&ndash;5 cm H<sub>2</sub>O</td></tr>
+</table>
+<p>Bigger 100%-O<sub>2</sub> reservoir = less entrained air: nasopharynx (~50 mL) &lt; mask cup (100&ndash;250 mL) &lt; NRB bag (600&ndash;1500 mL). HFNC floods the airway as its reservoir.</p>
+</div>
+
+<div class="blk">
+<h2 class="g">CPAP vs BiPAP</h2>
+<table>
+<tr><th></th><th>CPAP</th><th>BiPAP</th></tr>
+<tr><td>Pressure</td><td>Continuous (=PEEP)</td><td>IPAP + EPAP(=PEEP)</td></tr>
+<tr><td>Affects</td><td>Oxygenation</td><td>Oxygenation + ventilation (&Delta;PAP&rarr;Vt)</td></tr>
+<tr><td>Use</td><td>Hypoxemic</td><td>Hypoxemic + hypercapnic</td></tr>
+</table>
+<p>Titrate: &uarr;FiO<sub>2</sub> or both pressures for O<sub>2</sub>; widen &Delta;PAP (&uarr;IPAP) to lower CO<sub>2</sub>.</p>
+</div>
+
+<div class="blk">
+<h2 class="o">NIPPV indications &amp; contraindications</h2>
+<table>
+<tr><th>Strong indications</th><th>Contraindications</th></tr>
+<tr><td>Acute cardiogenic pulmonary edema (CPAP/BiPAP); COPD + hypercapnia (BiPAP); immunocompromised AHRF; post-op/post-extubation; palliative</td><td>AMS / can't protect airway; vomiting/copious secretions; facial trauma; recent esoph/tracheal surgery; hemodynamic instability</td></tr>
+</table>
+<p>PPV hemodynamics: &darr;RV preload, &darr;LV preload, &darr;LV afterload &mdash; unloads the heart in flash edema. <b>Not</b> for ARDS hypoxemia; weak in pneumonia unless concurrent COPD.</p>
+</div>
+
+<div class="blk">
+<h2 class="g">2022&ndash;25 framing</h2>
+<ul>
+<li><b>HFNC first-line</b> for non-cardiogenic/non-COPD AHRF (ESICM 2023, FLORALI NEJM 2015) &mdash; reduces intubation</li>
+<li><b>ROX index</b> = (SpO<sub>2</sub>/FiO<sub>2</sub>)/RR; &ge;4.88 reassuring, falling &rarr; escalate (Roca 2019)</li>
+<li><b>Awake proning</b> adjunct in COVID AHRF &mdash; &darr; intubation (2023 guideline)</li>
+<li>CPAP &darr; intubation/death in COVID (RECOVERY-RS 2022); HFNC &asymp; NIV overall</li>
+</ul>
+</div>
+
+<div class="blk">
+<h2>Targets &amp; pearls</h2>
+<ul>
+<li>SpO<sub>2</sub> goal 92&ndash;96% (88&ndash;92% if CO<sub>2</sub> retainer)</li>
+<li>NRB is rescue &mdash; de-escalate once stable; inflate the bag, need &gt;10 L/min</li>
+<li>Venturi = best for a precise FiO<sub>2</sub> with variable breathing</li>
+<li>HFNC also washes dead space (&darr;CO<sub>2</sub> rebreathing) and &darr;work of breathing</li>
+</ul>
+</div>
+
+</body></html>

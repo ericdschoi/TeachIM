@@ -1,0 +1,17 @@
+What does TiTrATE stand for?	Timing, Triggers, And a Targeted Examination — the evidence-based approach to acute dizziness.
+Why avoid sorting dizziness by symptom quality (vertigo vs lightheaded)?	Patient descriptions are vague, inconsistent, and don't map to cause; timing + triggers are reproducible and point to the right test.
+Four categories in the modified TiTrATE framework?	(1) Episodic positionally triggered, (2) spontaneous episodic, (3) continuous from trauma/toxin, (4) continuous spontaneous (acute vestibular syndrome).
+Duration of triggered episodic vs spontaneous episodic vestibular syndromes?	Triggered episodic: seconds–minutes. Spontaneous episodic: minutes–hours.
+Which test for episodic, positionally triggered dizziness?	Dix-Hallpike maneuver (then orthostatics if negative).
+What does a positive Dix-Hallpike diagnose?	Posterior-canal BPPV — canalith debris in the semicircular canal; transient upbeat-torsional nystagmus + vertigo.
+Dix-Hallpike sensitivity/specificity?	~79% sensitive, ~75% specific — better at ruling in than ruling out.
+Best immediate treatment for pc-BPPV (2023 GRACE-3)?	Epley canalith-repositioning maneuver at the time of diagnosis (strong recommendation).
+Epley vs half-somersault maneuver?	Epley more effective in small trials; half-somersault is a home option with better adherence but lower efficacy.
+When is the HINTS exam appropriate?	Only in acute vestibular syndrome: continuous, spontaneous vertigo WITH nystagmus.
+Three components of HINTS?	Head Impulse, Nystagmus, Test of Skew.
+Head impulse: which result is concerning in continuous vertigo?	A NORMAL/intact head impulse (no catch-up saccade) = central. An abnormal impulse with catch-up saccade = peripheral/reassuring.
+Nystagmus findings — reassuring vs concerning?	Reassuring: horizontal, unidirectional. Concerning: bidirectional (direction-changing) or vertical/torsional.
+Test of skew — reassuring vs concerning?	Reassuring: no vertical realignment on cover-uncover. Concerning: vertical skew deviation (disconjugate).
+HINTS interpretation rule?	ANY concerning finding → central (stroke). ALL reassuring → peripheral (vestibular neuritis).
+Why not rely on early MRI or noncontrast CT to exclude posterior stroke?	MRI-DWI misses ~15–20% of posterior-fossa strokes in the first 24–48 h; noncontrast CT is insensitive for early posterior ischemia (GRACE-3 strong rec against CT for this).
+Steroids in vestibular neuritis (2023 GRACE-3)?	Offer via shared decision-making within 3 days of onset; weak/very-low-certainty evidence. Acute idiopathic SNHL is a clearer steroid indication.

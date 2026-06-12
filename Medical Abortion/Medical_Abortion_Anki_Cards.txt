@@ -1,0 +1,16 @@
+Up to what gestational age is medication abortion used?	11 weeks (77 days); beyond 10 weeks is off-label
+Standard combination regimen for medication abortion?	Mifepristone 200 mg PO x1, then misoprostol 800 mcg buccal or vaginal 24-48 h later
+Efficacy: mifepristone+misoprostol vs misoprostol alone?	Combination 95-98%; misoprostol alone ~76-88% (up to 93% in meta-analysis)
+Misoprostol-only regimen when mifepristone is unavailable?	Misoprostol 800 mcg q3h x 3 doses (vaginal route has fewer GI side effects)
+When is a second misoprostol dose required in the combination regimen?	EGA 9-11 weeks - second 800 mcg dose 3-6 h after the first
+Mechanism of mifepristone?	Progesterone-receptor modulator: placental separation, cervical dilation, sensitizes myometrium to prostaglandins
+Mechanism of misoprostol?	Prostaglandin E1 analogue: cervical softening + uterine contractions
+Absolute contraindications to any medication abortion?	Ectopic pregnancy, IUD in place, known coagulopathy, anticoagulant therapy
+Why is mifepristone contraindicated with chronic corticosteroids or adrenal failure?	It is an antiglucocorticoid - blocks cortisol receptors, can negate exogenous steroids and precipitate adrenal insufficiency
+Misoprostol-specific cautions?	Porphyria; avoid simultaneous magnesium-containing supplements (worse GI effects)
+If the patient vomits within 30 min of mifepristone?	Repeat the dose
+When is ultrasound needed before medication abortion?	Unknown LMP, conception on hormonal contraception, or ectopic risk (prior ectopic, tubal surgery/pathology, IUD, IVF)
+Definition of prolonged/heavy bleeding after medication abortion requiring ED care?	>2 pads/h for 2 consecutive hours (~1% incidence; <0.1% transfused)
+Earliest interpretable urine pregnancy test after medication abortion?	4 weeks post-abortion (residual hCG causes false positives earlier)
+Is Rh testing recommended before abortion <12 weeks?	No - not even for known Rh-negative patients (Society of Family Planning 2022)
+Ultrasound finding that confirms completed medication abortion?	Absent gestational sac (no endometrial-thickness cutoff; do not reflexively re-intervene for "RPOC" reads)

@@ -1,0 +1,18 @@
+The 5 steps of the ischemic-CVA framework?	(1) Exclude hemorrhage, (2) acute reperfusion without causing ICH, (3) determine etiology, (4) secondary prophylaxis, (5) risk-factor modification.
+First test in any acute stroke?	Noncontrast head CT to exclude hemorrhage (~85% ischemic, ~15% hemorrhagic).
+IV thrombolysis time window and agents?	Within 4.5 h of last-known-well; alteplase 0.9 mg/kg or tenecteplase 0.25 mg/kg (TNK now a 2024 Class 1 alternative).
+Door-to-needle and door-to-groin targets?	Door-to-CT <25 min, door-to-needle <30 min, door-to-CTA <40 min, door-to-groin <90 min.
+Name 5 contraindications to IV thrombolysis.	Prior ICH, surgery <3 mo, active bleeding, coagulopathy, BP >185/110 (plus full eligibility checklist).
+Classic thrombectomy selection?	LVO with salvageable brain: ASPECTS >=6 or CT-perfusion mismatch; LKW <6 h, selected to 24 h (DAWN/DEFUSE-3).
+2023-24 expansion of thrombectomy?	Large-core infarcts: anterior LVO, 6-24 h, NIHSS >=6, ASPECTS 3-5, age <80 (SELECT2/ANGEL-ASPECT; 2024 Class 1). Basilar occlusion supported (ATTENTION/BAOCHE).
+Acute BP target if NOT reperfused?	Permissive HTN: treat only if >220/120, for ~48 h.
+Acute BP target if thrombolysed/EVT?	<185/110.
+Imaging pattern -> etiology: large/multi-vessel?	Cardioembolic.
+Imaging pattern -> etiology: lacunar?	HTN or amyloid vasculopathy.
+Imaging pattern -> etiology: small/single vessel + risk factors?	Atherosclerosis.
+When is TEE indicated over TTE?	Mod-high cardioembolic suspicion with no source on TTE, or a confirmed R-to-L shunt; TEE better sees LA appendage, MV, ascending aorta.
+Antithrombotic by etiology?	Atherosclerotic -> antiplatelet (+/- short DAPT); cardioembolic -> anticoagulation after the hemorrhagic-conversion window.
+DAPT indication and duration (2021 AHA/ASA)?	Minor stroke NIHSS <=3 or high-risk TIA ABCD2 >=4: clopidogrel + aspirin started <24 h, continued 21 days, then single-agent. Ticagrelor+aspirin x30 d an alternative (THALES).
+Long-term secondary-prevention targets?	High-intensity statin to LDL <70, BP <130/80, A1c <7, tobacco cessation; acute inpatient glucose <180 mg/dL.
+PFO closure - who benefits?	Cryptogenic embolic stroke, selected patients <60 with otherwise negative work-up (RESPECT/CLOSE/REDUCE).
+Why defer thrombophilia testing acutely?	Low yield during the acute thrombotic state; defer to heme/neuro after it resolves and only with mod-high pretest probability.

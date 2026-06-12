@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+  @page { size: Letter; margin: 0.3in; }
+  :root{ --fs: 11px; --p:#0e6e8c; --o:#b4530a; --g:#2e7d4f; }
+  *{box-sizing:border-box}
+  body{font-family:'Helvetica Neue',Arial,sans-serif;font-size:var(--fs);line-height:1.85;color:#1a2433;margin:0;}
+  h1{font-size:calc(var(--fs) * 1.55);margin:0 0 5px;color:var(--p)}
+  .sub{font-size:calc(var(--fs) * 0.92);color:#555;margin:0 0 15px}
+  .cols{column-count:2;column-gap:18px;column-fill:balance}
+  .blk{break-inside:avoid;margin-bottom:18px}
+  h2{font-size:calc(var(--fs) * 1.08);color:#fff;background:var(--p);margin:0 0 7px;padding:4px 8px;border-radius:3px}
+  h2.o{background:var(--o)} h2.g{background:var(--g)}
+  table{border-collapse:collapse;width:100%;font-size:calc(var(--fs) * 0.96);margin:6px 0}
+  th,td{border:1px solid #c4d0d8;padding:5px 7px;vertical-align:top;text-align:left}
+  th{background:#eef4f7}
+  ul{margin:6px 0 6px 0;padding-left:16px} li{margin:5px 0}
+  b.p{color:var(--p)} b.o{color:var(--o)} b.g{color:var(--g)}
+  .red{color:#9b2226;font-weight:bold}
+  .foot{font-size:calc(var(--fs) * 0.8);color:#666;margin-top:5px;border-top:1px solid #ccc;padding-top:3px}
+</style>
+</head>
+<body>
+<h1>Ischemic CVA — Work-up &amp; Management Reference</h1>
+<p class="sub">5-step spine: r/o bleed &rarr; reperfuse w/o ICH &rarr; etiology &rarr; secondary ppx &rarr; risk modification. Adapted from TeachIM (Fainstad, 2020) &middot; 2021 + 2024 AHA/ASA &middot; CC BY-NC 4.0.</p>
+
+<div class="cols">
+
+  <div class="blk">
+    <h2>Step 1 — Exclude hemorrhage</h2>
+    <ul>
+      <li>Emergent <b>noncontrast head CT</b> first — ~85% ischemic, ~15% hemorrhagic</li>
+      <li>No antithrombotic / no lytic until ICH excluded</li>
+    </ul>
+  </div>
+
+  <div class="blk">
+    <h2 class="o">Step 2 — Reperfuse without ICH</h2>
+    <table>
+      <tr><th>Therapy</th><th>Trigger &amp; action</th></tr>
+      <tr><td>IV lysis</td><td>LKW &lt;4.5 h, no CI, BP &lt;185/110 &rarr; <b>alteplase 0.9</b> or <b>TNK 0.25 mg/kg</b> (2024 Class 1). Door-to-needle &lt;30 min</td></tr>
+      <tr><td>EVT</td><td>CTA LVO + salvageable brain (ASPECTS &ge;6 or CTP mismatch); &lt;6 h, sel to 24 h. Door-to-groin &lt;90 min</td></tr>
+      <tr><td>Large-core EVT</td><td>Ant LVO, 6–24 h, NIHSS &ge;6, <b>ASPECTS 3–5</b>, age &lt;80 (SELECT2/ANGEL-ASPECT 2023)</td></tr>
+    </table>
+    <p style="margin:2px 0"><b>Contraindications to lysis:</b> prior ICH, surgery &lt;3 mo, active bleed, coagulopathy, BP &gt;185/110.</p>
+    <p style="margin:2px 0"><b>Acute BP:</b> permissive &lt;220/120 ×48 h; <b>&lt;185/110 if lysed/EVT</b>. NPO til dysphagia screen; SCD DVT ppx (pharm held &lt;24 h post-tPA); avoid lines/tubes; PT/OT/SLP.</p>
+  </div>
+
+  <div class="blk">
+    <h2 class="g">Step 3 — Determine etiology</h2>
+    <p style="margin:1px 0">Standard: MRI brain, H&amp;N CTA/MRA, carotid/vert/TCD, telemetry, TTE-bubble.</p>
+    <table>
+      <tr><th>Imaging pattern</th><th>Etiology</th></tr>
+      <tr><td>Large / multi-vessel territory</td><td>Cardioembolic</td></tr>
+      <tr><td>Lacunar (small, deep)</td><td>HTN / amyloid</td></tr>
+      <tr><td>Small/single + risk factors</td><td>Atherosclerosis</td></tr>
+    </table>
+    <ul>
+      <li><b>TEE</b> only if mod-high cardioembolic suspicion w/ no TTE source or confirmed shunt</li>
+      <li><b>Thrombophilia</b> testing: defer, heme/neuro-guided, mod-high pretest prob only</li>
+    </ul>
+  </div>
+
+  <div class="blk">
+    <h2 class="o">Step 4 — Secondary prophylaxis</h2>
+    <table>
+      <tr><th>Etiology</th><th>Antithrombotic</th></tr>
+      <tr><td>Atherosclerotic</td><td>Antiplt; if NIHSS &le;3 or ABCD2 &ge;4 &rarr; <b>DAPT (clopidogrel+ASA) ×21 d</b> then mono (CHANCE/POINT). Ticagrelor+ASA ×30 d alt (THALES)</td></tr>
+      <tr><td>Cardioembolic</td><td><b>Anticoagulation</b> after hemorrhagic-conversion window (antiplt bridge ~1–2 wk for large infarct)</td></tr>
+      <tr><td>Cryptogenic + PFO &lt;60 y</td><td>Consider PFO closure (RESPECT/CLOSE/REDUCE)</td></tr>
+    </table>
+  </div>
+
+  <div class="blk">
+    <h2 class="g">Step 5 — Risk modification</h2>
+    <ul>
+      <li>High-intensity statin to <b>LDL &lt;70</b> (± ezetimibe/PCSK9)</li>
+      <li>BP &lt;130/80 long-term; A1c &lt;7; glucose &lt;180 acute inpatient</li>
+      <li>Tobacco cessation; diet (limit processed foods)</li>
+    </ul>
+  </div>
+
+  <div class="blk">
+    <h2 class="o">Do / AVOID</h2>
+    <table>
+      <tr><th>DO</th><th>AVOID</th></tr>
+      <tr><td>Give lytic AND pursue EVT (complementary)</td><td class="red">Withholding EVT for "large/late" stroke without imaging selection</td></tr>
+      <tr><td>Permissive HTN if not reperfused</td><td class="red">Over-lowering BP (&lt;140/90) in non-reperfused stroke</td></tr>
+      <tr><td>Delay full anticoag in large cardioembolic infarct</td><td class="red">Early full anticoagulation &rarr; hemorrhagic conversion</td></tr>
+      <tr><td>Match antithrombotic to etiology</td><td class="red">Routine acute thrombophilia panel</td></tr>
+    </table>
+  </div>
+
+</div>
+<p class="foot">Educational use only — not medical advice; clinician-review before teaching/clinical use. Sources: AHA/ASA 2019 &amp; 2024 acute stroke guidelines; Kleindorfer 2021 secondary-prevention guideline; SELECT2/ANGEL-ASPECT NEJM 2023; CHANCE/POINT; THALES. Optimized June 2026 from TeachIM CC BY-NC 4.0.</p>
+</body>
+</html>

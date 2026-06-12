@@ -1,0 +1,35 @@
+What does TiTrATE stand for?	Timing, Triggers, And a Targeted Examination — the evidence-based approach to acute dizziness.	Neurology::acute-dizziness
+Why avoid sorting dizziness by symptom quality (vertigo vs lightheaded)?	Patient descriptions are vague, inconsistent, and don't map to cause; timing + triggers are reproducible and point to the right test.	Neurology::acute-dizziness
+Four categories in the modified TiTrATE framework?	(1) Episodic positionally triggered, (2) spontaneous episodic, (3) continuous from trauma/toxin, (4) continuous spontaneous (acute vestibular syndrome).	Neurology::acute-dizziness
+Duration of triggered episodic vs spontaneous episodic vestibular syndromes?	Triggered episodic: seconds–minutes. Spontaneous episodic: minutes–hours.	Neurology::acute-dizziness
+Which test for episodic, positionally triggered dizziness?	Dix-Hallpike maneuver (then orthostatics if negative).	Neurology::acute-dizziness
+What does a positive Dix-Hallpike diagnose?	Posterior-canal BPPV — canalith debris in the semicircular canal; transient upbeat-torsional nystagmus + vertigo.	Neurology::acute-dizziness
+Dix-Hallpike sensitivity/specificity?	~79% sensitive, ~75% specific — better at ruling in than ruling out.	Neurology::acute-dizziness
+Best immediate treatment for pc-BPPV (2023 GRACE-3)?	Epley canalith-repositioning maneuver at the time of diagnosis (strong recommendation).	Neurology::acute-dizziness
+Epley vs half-somersault maneuver?	Epley more effective in small trials; half-somersault is a home option with better adherence but lower efficacy.	Neurology::acute-dizziness
+When is the HINTS exam appropriate?	Only in acute vestibular syndrome: continuous, spontaneous vertigo WITH nystagmus.	Neurology::acute-dizziness
+Three components of HINTS?	Head Impulse, Nystagmus, Test of Skew.	Neurology::acute-dizziness
+Head impulse: which result is concerning in continuous vertigo?	A NORMAL/intact head impulse (no catch-up saccade) = central. An abnormal impulse with catch-up saccade = peripheral/reassuring.	Neurology::acute-dizziness
+Nystagmus findings — reassuring vs concerning?	Reassuring: horizontal, unidirectional. Concerning: bidirectional (direction-changing) or vertical/torsional.	Neurology::acute-dizziness
+Test of skew — reassuring vs concerning?	Reassuring: no vertical realignment on cover-uncover. Concerning: vertical skew deviation (disconjugate).	Neurology::acute-dizziness
+HINTS interpretation rule?	ANY concerning finding → central (stroke). ALL reassuring → peripheral (vestibular neuritis).	Neurology::acute-dizziness
+Why not rely on early MRI or noncontrast CT to exclude posterior stroke?	MRI-DWI misses ~15–20% of posterior-fossa strokes in the first 24–48 h; noncontrast CT is insensitive for early posterior ischemia (GRACE-3 strong rec against CT for this).	Neurology::acute-dizziness
+Steroids in vestibular neuritis (2023 GRACE-3)?	Offer via shared decision-making within 3 days of onset; weak/very-low-certainty evidence. Acute idiopathic SNHL is a clearer steroid indication.	Neurology::acute-dizziness
+The 5 steps of the ischemic-CVA framework?	(1) Exclude hemorrhage, (2) acute reperfusion without causing ICH, (3) determine etiology, (4) secondary prophylaxis, (5) risk-factor modification.	Neurology::ischemic-cva
+First test in any acute stroke?	Noncontrast head CT to exclude hemorrhage (~85% ischemic, ~15% hemorrhagic).	Neurology::ischemic-cva
+IV thrombolysis time window and agents?	Within 4.5 h of last-known-well; alteplase 0.9 mg/kg or tenecteplase 0.25 mg/kg (TNK now a 2024 Class 1 alternative).	Neurology::ischemic-cva
+Door-to-needle and door-to-groin targets?	Door-to-CT <25 min, door-to-needle <30 min, door-to-CTA <40 min, door-to-groin <90 min.	Neurology::ischemic-cva
+Name 5 contraindications to IV thrombolysis.	Prior ICH, surgery <3 mo, active bleeding, coagulopathy, BP >185/110 (plus full eligibility checklist).	Neurology::ischemic-cva
+Classic thrombectomy selection?	LVO with salvageable brain: ASPECTS >=6 or CT-perfusion mismatch; LKW <6 h, selected to 24 h (DAWN/DEFUSE-3).	Neurology::ischemic-cva
+2023-24 expansion of thrombectomy?	Large-core infarcts: anterior LVO, 6-24 h, NIHSS >=6, ASPECTS 3-5, age <80 (SELECT2/ANGEL-ASPECT; 2024 Class 1). Basilar occlusion supported (ATTENTION/BAOCHE).	Neurology::ischemic-cva
+Acute BP target if NOT reperfused?	Permissive HTN: treat only if >220/120, for ~48 h.	Neurology::ischemic-cva
+Acute BP target if thrombolysed/EVT?	<185/110.	Neurology::ischemic-cva
+Imaging pattern -> etiology: large/multi-vessel?	Cardioembolic.	Neurology::ischemic-cva
+Imaging pattern -> etiology: lacunar?	HTN or amyloid vasculopathy.	Neurology::ischemic-cva
+Imaging pattern -> etiology: small/single vessel + risk factors?	Atherosclerosis.	Neurology::ischemic-cva
+When is TEE indicated over TTE?	Mod-high cardioembolic suspicion with no source on TTE, or a confirmed R-to-L shunt; TEE better sees LA appendage, MV, ascending aorta.	Neurology::ischemic-cva
+Antithrombotic by etiology?	Atherosclerotic -> antiplatelet (+/- short DAPT); cardioembolic -> anticoagulation after the hemorrhagic-conversion window.	Neurology::ischemic-cva
+DAPT indication and duration (2021 AHA/ASA)?	Minor stroke NIHSS <=3 or high-risk TIA ABCD2 >=4: clopidogrel + aspirin started <24 h, continued 21 days, then single-agent. Ticagrelor+aspirin x30 d an alternative (THALES).	Neurology::ischemic-cva
+Long-term secondary-prevention targets?	High-intensity statin to LDL <70, BP <130/80, A1c <7, tobacco cessation; acute inpatient glucose <180 mg/dL.	Neurology::ischemic-cva
+PFO closure - who benefits?	Cryptogenic embolic stroke, selected patients <60 with otherwise negative work-up (RESPECT/CLOSE/REDUCE).	Neurology::ischemic-cva
+Why defer thrombophilia testing acutely?	Low yield during the acute thrombotic state; defer to heme/neuro after it resolves and only with mod-high pretest probability.	Neurology::ischemic-cva

@@ -1,0 +1,19 @@
+Three psychosocial substance-use screens recommended for all adults annually?	Alcohol (USPSTF: all adults), tobacco (assess every visit, Grade A), and unhealthy drug use (all adults). Each is a question-based screen, not a lab test.
+Preferred alcohol screening tools?	Single Alcohol Screening Question (SASQ: "How many times in the past year have you had 5 [4 for women] or more drinks in a day?") or AUDIT-C. CAGE assesses dependence and is NOT for screening.
+NIAAA thresholds for unhealthy alcohol use?	Men 21–64: >4 drinks/day or >14/week. Men ≥65 and women of all ages: >3 drinks/day or >7/week.
+Single-question drug-use screen?	"How many times in the past year have you used an illegal drug or used a prescription medication for non-medical reasons?"
+USPSTF mental-health screening recommendations?	Screen all adults for depression; screen adults <65 for anxiety (no defined interval). Tools: PHQ-2/PHQ-4/PHQ-9 (depression), GAD-7 (anxiety).
+Hypertension screening?	Office BP for all adults; annually if age ≥40 or increased risk. Confirm elevated readings with ambulatory or home BP before treating.
+Obesity screening and intervention?	Measure BMI in all adults (Grade B). BMI ≥30 → refer to intensive multicomponent behavioral intervention. Classes: 1 (30–34.9), 2 (35–39.9), 3 (≥40).
+Diabetes screening — ADA vs USPSTF?	ADA: screen all at age 35, or any age if overweight/obese (BMI ≥25, or ≥23 in Asian Americans) plus ≥1 risk factor. USPSTF: 35–70 if overweight/obese. A1c, fasting glucose, or OGTT; repeat ≥q3y (yearly if prediabetes).
+Lipid disorder screening (USPSTF)?	Screen/treat ages 40–75 with ≥1 CV risk factor and 10-year CV risk >10% (Grade B); consider a statin at 7.5–10% risk. Insufficient evidence <40 or >75. Repeat ~q5y low-risk, q3y high-risk; need not be fasting for screening.
+AAA screening?	One-time abdominal ultrasound in men 65–75 who have ever smoked. Selective in never-smoking men in that range. Not recommended for women.
+Physical activity recommendation for adults?	150–300 min/week moderate-intensity OR 75–150 min/week vigorous aerobic activity, plus muscle-strengthening ≥2 days/week.
+Folic acid for those who may become pregnant?	0.4–0.8 mg (400–800 µg) daily for all women planning or capable of pregnancy (USPSTF).
+Falls screening in older adults?	Screen adults >65 (or with risk factors) at least annually with 3 questions: feel unsteady? worry about falling? fallen in the past year? A "yes" to any = at risk → offer exercise interventions (CDC STEADI).
+Osteoporosis screening?	DEXA in women ≥65, and postmenopausal women <65 at increased risk. USPSTF finds insufficient evidence to screen men (under review).
+Intimate partner violence screening?	Screen all reproductive-age women, annually/since last visit, in private. Tools: HITS, HARK, PVS, WAST. (USPSTF has no recommendation for screening older/vulnerable adults for abuse — but be alert to it.)
+Advance care planning — who and when?	Consider for adults of ALL ages (more emphasis with multiple comorbidities or older age): durable medical power of attorney, living will, and orders for scope of treatment (e.g., MOST/POLST, varies by state).
+2026 ACC/AHA dyslipidemia guideline — main change to CV risk estimation?	Use the PREVENT calculator (ages 30–79) instead of the Pooled Cohort Equations (which overestimated risk ~40–50%). Risk tiers: low <3%, borderline 3–<5%, intermediate 5–<10%, high ≥10%. Theme: "earlier and lower, for longer."
+2026 ACC/AHA LDL-C targets and earlier-statin triggers?	Targets: very-high-risk <55, high-risk <70, intermediate on statin <100 mg/dL. Start statins earlier in familial hypercholesterolemia, those ≤30 with LDL ≥160, strong family ASCVD history, or high 30-year PREVENT risk.
+Pneumococcal vaccination update (2024 ACIP)?	PCV21 is now an option for all adults ≥50 (and 19–49 with chronic disease), with the age lowered from 65; PCV20 remains valid. If PCV15 is used, follow with PPSV23.

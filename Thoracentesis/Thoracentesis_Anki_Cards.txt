@@ -1,0 +1,17 @@
+Indications for therapeutic thoracentesis?	Large effusion with dyspnea/hypoxemia; effusion at risk of complications if not drained (e.g., parapneumonic). Diagnostic: effusion of unknown etiology.
+Absolute / hard-stop contraindications to thoracentesis?	Overlying skin infection; <2 cm fluid depth; multiloculated effusion needing a chest tube (a diagnostic tap may still be reasonable).
+"Increased-risk" cautions (not absolute) for thoracentesis?	Full anticoagulation / INR >2 / platelets <50K (bleeding); mechanical ventilation (pneumothorax); suspected lung entrapment (re-expansion edema).
+Do abnormal INR/platelets increase bleeding after US-guided thoracentesis?	No — abnormal INR or platelet count alone has not been associated with increased bleeding (Patel AJR 2011; Ault Thorax 2015). Don't delay a needed tap for mild coagulopathy.
+Minimum safe fluid depth for thoracentesis?	≥2 cm (parietal-to-visceral pleura) in all dimensions.
+Three rules of thoracentesis site selection?	Over the UPPER margin of the rib (NV bundle runs under the rib); as lateral as possible (>9–10 cm from spine, vessels most tortuous medially); ≥1 interspace above the diaphragm.
+Which ultrasound transducers are used and for what?	Low-frequency curvilinear/phased-array (depth >8 cm) to map the pocket and landmarks; high-frequency linear with color Doppler to screen for an aberrant subcostal vessel and measure skin-to-pleura depth.
+Why advance the catheter (not just the needle) into the pleural space?	Draining through a rigid needle risks lacerating lung → pneumothorax. After fluid returns, advance 0.5–1 cm more, then thread the soft catheter to the hub and remove the needle.
+Chlorhexidine vs iodine prep technique?	Chlorhexidine: scrub with friction ×30 s. Iodine: apply and let dry. (Thoracentesis uses chlorhexidine.)
+When do you stop draining pleural fluid?	Chest pain, dyspnea, or severe coughing; excessive resistance or pleural pressure < −20 cm H₂O; or when flow stops. Drain to symptoms/pressure, not a fixed volume.
+Is the 1.5 L drainage limit evidence-based?	No — the traditional <1.5 L cap is arbitrary. Large volumes can be removed safely if guided by symptoms/pleural pressure; RPE risk is <1% (manometry doesn't clearly reduce RPE — Lentz 2019).
+Fluid volumes for studies?	Chemistries (cell count, LDH, protein) ≥10 cc; microbiology (Gram stain + culture) ≥20 cc; cytology +30–60 cc. pH on ice in a blood-gas syringe.
+Pleural-fluid pattern that mandates a chest tube in a parapneumonic effusion?	pH <7.2, low glucose, positive Gram stain/culture, or frank pus = complicated parapneumonic effusion/empyema → tube drainage, not antibiotics alone (BTS 2023).
+Workup for suspected chylothorax?	Pleural triglycerides and cholesterol (e.g., after mediastinal/thoracic-duct surgery).
+How is pneumothorax risk reduced during thoracentesis?	Select the largest fluid pocket; keep the catheter (not needle) in the space; pre-procedure/real-time ultrasound. Rule out PTX afterward with lung US (anterior chest, supine) or CXR if concern.
+Light's criteria — exudate if any one is met?	Pleural/serum protein >0.5; pleural/serum LDH >0.6; pleural LDH >⅔ the upper limit of normal serum LDH. Otherwise transudate.
+MPS vs UPS thresholds on the thoracentesis CAT?	MPS (graduate sim): <24 mistakes, Global >2, Entrustment >2 (Angoff-set). UPS (unsupervised practice): <7 mistakes, "proficient," "indirect supervision."

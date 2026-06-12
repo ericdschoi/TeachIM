@@ -1,0 +1,16 @@
+Three ECG features of AF with RVR?	Irregularly irregular rhythm, narrow QRS (<120 ms), no discernible P waves; ventricular rate >100.
+When is AF with RVR wide-complex?	With an underlying bundle branch block or rate-related aberrancy.
+What determines the ventricular rate in AF?	The AV node's refractory period (atria fire ~400 bpm; the AV node gates conduction) — which is why AV-nodal blockers control the rate.
+Universal work-up for new AF?	TTE, chemistry panel (BMP + Mg), TSH — plus CBC and ECG +/- troponin; add CXR/OSA/tox/EtOH per context.
+Cardiac triggers to consider in new AF?	Valvular/structural heart disease, decompensated HF, new ischemia.
+Non-cardiac triggers in new AF?	Pulmonary disease (incl. PE), drugs/toxins/alcohol, metabolic (electrolytes), endocrine (hyperthyroidism), OSA.
+Criteria for an UNSTABLE patient with AF with RVR?	Sustained hypotension (SBP <90) or SBP drop >30 mmHg with chest pain, altered mentation, or dyspnea — attributable to the rhythm.
+Management of unstable AF with RVR?	Synchronized DCCV 120-200 J; sedation/analgesia if feasible but don't delay; anticoagulate.
+Acute vs chronic heart-rate goals?	Acute: HR <130 (IV meds if >130). Chronic: HR <110 (oral meds for 110-130). Lenient <110 acceptable if asymptomatic with preserved EF.
+First-line rate-control agents?	Beta-blocker (metoprolol) and non-dihydropyridine CCB (diltiazem).
+Second-line rate-control agents and their niches?	Digoxin (BP-neutral, positive inotropy — when BP won't tolerate a BB/CCB) and amiodarone (favored in shock).
+Which rate-control class is contraindicated in HFrEF?	Non-dihydropyridine CCBs (diltiazem, verapamil) — negative inotropes. Use a beta-blocker once compensated.
+Best rate-control agent in septic shock / hypotension?	Amiodarone (most hemodynamically neutral); digoxin is an alternative when BP-limited.
+Long-term toxicities of amiodarone?	Lung, liver, and thyroid toxicity — especially with continued long-term use.
+Anticoagulation rule around cardioversion (AF >=48 h or unknown)?	>=3 weeks therapeutic anticoagulation before OR a TEE to exclude thrombus; then >=4 weeks after regardless of CHA2DS2-VASc.
+What guides long-term stroke prophylaxis in AF?	CHA2DS2-VASc (2023 ACC/AHA); the 2024 ESC uses CHA2DS2-VA (drops the sex category).

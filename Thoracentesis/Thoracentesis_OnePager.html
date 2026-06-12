@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8">
+<style>
+@page { size: Letter; margin: 0.3in; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 11px; line-height: 1.3; color: #111; }
+.hdr { display: flex; justify-content: space-between; align-items: baseline; border-bottom: 3px solid #0e6e8c; padding-bottom: 4px; margin-bottom: 6px; }
+.hdr h1 { font-size: 19px; color: #0e6e8c; letter-spacing: 0.3px; }
+.hdr .sub { font-size: 9px; color: #555; max-width: 48%; text-align: right; }
+.cols { column-count: 2; column-gap: 14px; }
+h2 { font-size: 11.5px; color: #fff; background: #0e6e8c; padding: 2.5px 6px; margin: 0 0 3.5px; border-radius: 2.5px; break-after: avoid; }
+h2.alt { background: #b4530a; }
+h2.grn { background: #2e7d4f; }
+.blk { break-inside: avoid; margin-bottom: 6px; }
+table { width: 100%; border-collapse: collapse; margin: 2.5px 0 3.5px; }
+td, th { border: 0.6px solid #bcc7d0; padding: 1.8px 3.5px; vertical-align: top; text-align: left; }
+th { background: #eef4f7; font-weight: 700; }
+td.k { background: #f5f8fa; font-weight: 700; width: 27%; }
+ul { margin: 0 0 0 12px; padding: 0; }
+li { margin-bottom: 1.2px; }
+.tag { font-weight: 700; color: #0e6e8c; }
+.red { color: #b00; font-weight: 700; }
+.pearl { background: #eef7f0; border-left: 3px solid #2e7d4f; padding: 2.5px 6px; margin: 2.5px 0; }
+.warn { background: #fdeeea; border-left: 3px solid #b00; padding: 2.5px 6px; margin: 2.5px 0; }
+.foot { border-top: 0.6px solid #bcc7d0; margin-top: 4px; padding-top: 2.5px; font-size: 8.5px; color: #777; column-span: all; }
+b { font-weight: 700; }
+</style></head>
+<body>
+<div class="hdr">
+  <h1>THORACENTESIS &mdash; Procedure One-Pager</h1>
+  <div class="sub">US-guided bedside pleural tap &middot; TeachIM simulation curriculum &middot; IM resident reference</div>
+</div>
+
+<div class="cols">
+
+  <div class="blk">
+    <h2>1 &middot; INDICATIONS</h2>
+    <table>
+      <tr><td class="k">Diagnostic</td><td>Effusion of unknown etiology</td></tr>
+      <tr><td class="k">Therapeutic</td><td>Large effusion w/ dyspnea/hypoxemia; effusion at risk of complication if not drained (parapneumonic)</td></tr>
+    </table>
+  </div>
+
+  <div class="blk">
+    <h2 class="alt">2 &middot; CONTRAINDICATIONS</h2>
+    <table>
+      <tr><td class="k">Hard stops</td><td>Overlying skin infection; <b>&lt;2 cm fluid</b>; isolated multiloculated effusion needing chest tube (dx tap may still be OK)</td></tr>
+      <tr><td class="k">Cautions (not absolute)</td><td>Full anticoag / INR &gt;2 / plt &lt;50K (bleed); mech vent (PTX); lung entrapment (RPE)</td></tr>
+    </table>
+    <div class="pearl"><b>Coags rarely block the tap:</b> abnormal INR/plt alone NOT linked to more bleeding after US-guided thora (Patel AJR 2011; Ault Thorax 2015). Don't delay a needed dx tap in sepsis for a mild INR.</div>
+  </div>
+
+  <div class="blk">
+    <h2>3 &middot; US SITE SELECTION</h2>
+    <ul>
+      <li><b>Low-freq curvilinear</b> (depth &gt;8 cm): map pocket + 4 landmarks (chest wall, parietal pleura, lung, diaphragm, liver/spleen).</li>
+      <li><b>High-freq linear + color Doppler:</b> screen aberrant subcostal vessel; measure skin&rarr;pleura.</li>
+    </ul>
+    <table>
+      <tr><th>Rule</th><th>Why</th></tr>
+      <tr><td class="k">Pocket &ge;2 cm</td><td>Below 2 cm risks hitting lung</td></tr>
+      <tr><td class="k">OVER upper rib margin</td><td>NV bundle runs UNDER the rib</td></tr>
+      <tr><td class="k">&gt;9&ndash;10 cm lateral to spine</td><td>Vessels most tortuous medially</td></tr>
+      <tr><td class="k">&ge;1 space above diaphragm</td><td>Avoid liver/spleen injury</td></tr>
+    </table>
+  </div>
+
+  <div class="blk">
+    <h2>4 &middot; TECHNIQUE</h2>
+    <ul>
+      <li><b>Time-out</b> (name/DOB/side/site/allergies) before opening sterile supplies.</li>
+      <li><b>Prep:</b> chlorhexidine <b>scrub</b> &times;30 s (iodine = apply &amp; dry); fenestrated drape.</li>
+      <li><b>Anesthesia:</b> 1% lido wheal &rarr; advance under negative pressure to fluid &rarr; ~2 cc just superficial to pleura.</li>
+      <li>#11 scalpel nick &rarr; catheter-over-needle OVER the rib w/ negative pressure; on fluid, advance 0.5&ndash;1 cm, thread catheter to hub, remove needle.</li>
+    </ul>
+    <div class="warn"><b>SAFETY:</b> go over the TOP of the rib; get the <b>CATHETER (not needle)</b> into the space &mdash; needle-in-chest drainage causes pneumothorax. Hit rib &rarr; lift over it, don't pivot.</div>
+  </div>
+
+  <div class="blk">
+    <h2 class="grn">5 &middot; DRAIN &amp; STOP RULES</h2>
+    <ul>
+      <li>IV tubing w/ two one-way valves; pull-to-fill, push-to-empty.</li>
+      <li><b>STOP for:</b> chest pain, dyspnea, severe cough; resistance / pleural pressure &lt; <b>&minus;20 cm H&#8322;O</b>; or no flow.</li>
+    </ul>
+    <div class="pearl"><b>No fixed volume:</b> the &lt;1.5 L "limit" is arbitrary &amp; not evidence-based &mdash; drain to <b>symptoms/pressure</b>. RPE &lt;1%; routine manometry doesn't clearly cut RPE (Lentz 2019).</div>
+  </div>
+
+  <div class="blk">
+    <h2 class="grn">6 &middot; FLUID STUDIES</h2>
+    <table>
+      <tr><th>Suspect</th><th>Send (volume)</th></tr>
+      <tr><td class="k">All</td><td>Cell count+diff, LDH, protein (&ge;10 cc) &mdash; apply Light's</td></tr>
+      <tr><td class="k">Infection</td><td>Gram stain + cx (&ge;20 cc); pH on ice</td></tr>
+      <tr><td class="k">Malignancy</td><td>Cytology (&ge;30&ndash;60 cc)</td></tr>
+      <tr><td class="k">Chylothorax</td><td>Triglycerides, cholesterol</td></tr>
+    </table>
+    <div class="warn"><b>Complicated parapneumonic / empyema</b> = pH &lt;7.2, low glucose, +Gram stain/pus &rarr; <span class="red">CHEST TUBE</span>, not abx alone (BTS 2023).</div>
+  </div>
+
+  <div class="blk">
+    <h2>LIGHT'S CRITERIA (exudate if &ge;1)</h2>
+    <ul>
+      <li>Pleural/serum <b>protein &gt;0.5</b></li>
+      <li>Pleural/serum <b>LDH &gt;0.6</b></li>
+      <li>Pleural <b>LDH &gt;&#8532; ULN</b> of serum LDH</li>
+    </ul>
+    Closure: stopcock to patient &rarr; brisk catheter removal &rarr; pressure &gt;1 min &rarr; dressing. Concern for PTX &rarr; lung US (anterior, supine) or CXR.
+  </div>
+
+  <div class="blk">
+    <h2 class="alt">MASTERY-LEARNING THRESHOLDS</h2>
+    <table>
+      <tr><th>Component</th><th>MPS (sim)</th><th>UPS (clinical)</th></tr>
+      <tr><td class="k">Mistakes (Angoff)</td><td>&lt;24</td><td>&lt;7</td></tr>
+      <tr><td class="k">Global skills</td><td>&gt;2</td><td>&ge;proficient</td></tr>
+      <tr><td class="k">Entrustment</td><td>&gt;2</td><td>indirect supervision</td></tr>
+    </table>
+  </div>
+
+</div>
+<div class="foot">Adapted from TeachIM.org Thoracentesis (Fainstad, Cool et al., Aug 2022; guide rev. 2025), CC BY-NC 4.0 &mdash; non-commercial educational use. Optimized June 2026; currency verified (SHM 2018 US guidance, Schildhouse 2017, Patel 2011, BTS 2023 all current). Clinician-review before teaching. Not medical advice.</div>
+</body>
+</html>

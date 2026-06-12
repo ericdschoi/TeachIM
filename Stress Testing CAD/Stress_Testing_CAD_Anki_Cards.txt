@@ -1,0 +1,16 @@
+Outpatient non-acute chest pain — what is the clinical question?	Is this symptom due to obstructive (>50%) CAD? (The ED question is instead: is this ACS, and will aggressive inpatient care reduce short-term MACE?)
+What does the CAD Consortium Clinical Score estimate, and from what inputs?	Pretest probability of obstructive CAD, from age, sex, chest-pain character, and risk factors (DM, HTN, dyslipidemia, smoking). Outperforms Diamond–Forrester.
+The three pretest-probability bands and the action for each?	Low <5% → seek alternative cause (no stress test). Intermediate 5–70% → stress test. High >70% → ECG + imaging to exclude high-grade disease, start empiric medical therapy.
+For a high-pretest patient, what is the purpose of testing?	Not to diagnose CAD (already likely) but to exclude high-grade disease — left main, proximal LAD, or 3-vessel disease / significant cardiomyopathy — that carries sudden-death risk.
+First branch point in choosing a stress test?	Can the patient exercise? Yes → exercise test (adds functional info, reproduces symptom). No → pharmacologic stress.
+When can you use exercise treadmill ECG (ETT) vs. needing imaging?	ETT requires the ability to exercise AND an interpretable baseline ECG. Uninterpretable ECG (LBBB, paced, pre-excitation, LVH w/ strain, >1 mm ST-dep) → use imaging stress.
+Why is ETT the preferred first functional test when feasible?	Cheap, gives functional capacity (METs) and prognostic data, and reproduces the symptom under observation.
+Stress echo vs. nuclear MPI — how to choose?	Institution-dependent; both give EF and detect ischemia. Echo adds valve assessment; nuclear may be preferred with poor echo windows/body habitus.
+"Markedly positive" exercise/ECG findings?	Significant ST depression at low workload, ST elevation, or exertional hypotension.
+"Markedly positive" imaging findings?	Resting EF <35%, EF reduction or LV dilation with stress, or ischemia in >2 vascular territories.
+After a positive (not markedly positive) stress test, next step?	Start medical management of stable CAD; defer coronary anatomy (CCTA or LHC) unless markedly positive or medical therapy fails.
+Empiric medical therapy buckets for stable CAD?	Risk-factor modification (diet/exercise, smoking cessation, A1c <7, BP <130/80); cardioprotective (ASA 81, high-intensity statin, ACE-I/ARB if DM/CKD/EF<40%); anti-anginal (SL nitro PRN, beta-blocker, long-acting nitrate or CCB, consider ranolazine).
+2021 Chest Pain Guideline — how should chest pain be described?	Cardiac / possibly cardiac / noncardiac — "typical/atypical" is discouraged.
+2021 guideline — role of coronary artery calcium (CAC) in low-risk stable patients?	Useful first-line gatekeeper; CAC = 0 supports a low risk of obstructive CAD and deferral of further testing.
+2021 guideline — status of CCTA for intermediate-high risk stable chest pain?	Class 1 first-line anatomic test (alongside stress imaging). CCTA favored if <65 y or less obstructive CAD suspected; stress favored if >65 y or more obstructive CAD suspected.
+ISCHEMIA trial bottom line for stable CAD with moderate–severe ischemia?	An initial invasive strategy did not reduce death/MI vs. optimal medical therapy; revascularization improves angina-related quality of life. Treat medically first; revascularize for refractory symptoms or high-risk anatomy.

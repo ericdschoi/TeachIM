@@ -1,0 +1,16 @@
+Early ACS therapy given to ALL patients (no contraindications)?	Aspirin 325 mg chewed, anticoagulation (heparin if PCI planned / enoxaparin if medical mgmt), nitroglycerin, beta-blocker <24 h; morphine last-line.
+When is supplemental oxygen indicated in ACS?	SpO2 <90%, respiratory distress, or high-risk hypoxemia. Routine O2 in normoxic STEMI may be harmful (AVOID 2015).
+Heparin vs enoxaparin in ACS — when each?	Heparin if PCI planned (quick on/off peri-procedure). Enoxaparin for medical management of NSTEMI (lowers death/MI/angina vs heparin, ESSENCE).
+Contraindications to nitroglycerin in ACS?	RV/inferior MI, SBP <90, severe AS, HCM, PDE5 inhibitor within 24 h.
+Why is morphine last-line in ACS?	Increases mortality and masks refractory angina (an indication for urgent PCI).
+STEMI at a PCI-capable hospital — reperfusion target?	Primary PCI within 90 min (door-to-balloon), if onset <12 h.
+STEMI at a non-PCI hospital — transfer vs lytics?	Transfer if PCI achievable <120 min; else fibrinolytics <90 min then transfer for angiography (3-24 h).
+NSTEMI very-high-risk features that mandate immediate PCI (<2 h)?	Cardiogenic shock, hemodynamic instability, refractory angina, unstable arrhythmia (VT/VF).
+NSTEMI high-risk features → early invasive (<24 h)?	GRACE >140, TIMI 6-7, new ST depression, rising troponin, age >75.
+NSTEMI very-low-risk strategy?	GRACE <109 or TIMI 0-1 → ischemia-guided: medical mgmt, angiography only if refractory angina / objective ischemia / high prognostic risk.
+GRACE vs TIMI — what each estimates?	GRACE: in-hospital / 6-month mortality. TIMI: 14-day composite (death, MI, urgent revascularization).
+Two ACS meds started within 24 h (beyond early Tx)?	High-intensity statin and a P2Y12 inhibitor (post-PCI).
+Preferred P2Y12 inhibitor in ACS (2025 guideline)?	Ticagrelor or prasugrel over clopidogrel; default DAPT >=12 mo if not high bleeding risk.
+ACEi/ARB indications in ACS?	All STEMI; NSTEMI if LVEF <40%, HTN, DM, or CKD. 30-day mortality benefit.
+MRA indications post-ACS?	LVEF <40%, HF, or DM — once tolerating beta-blocker + ACEi/ARB. Watch K+/renal.
+2025 ACS guideline — lipid escalation rule?	High-intensity statin for all; add non-statin (ezetimibe/PCSK9i/inclisiran/bempedoic acid) if LDL-C >=70 on max statin. Radial > femoral access.

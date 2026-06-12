@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Acute Kidney Injury — Optimized Lesson Package</title>
+<style>
+  :root{--ink:#1a2433;--accent:#0e6e8c;--accent2:#b4530a;--bg:#fafbfc;--card:#fff;--line:#dde4ea;--soft:#eef4f7;}
+  *{box-sizing:border-box}
+  body{font-family:Georgia,'Times New Roman',serif;color:var(--ink);background:var(--bg);margin:0;line-height:1.55}
+  header{background:var(--accent);color:#fff;padding:28px 24px}
+  header h1{margin:0 0 6px;font-size:1.7em}
+  header p{margin:2px 0;font-size:.95em;opacity:.92}
+  nav{background:#0b5870;padding:8px 24px;position:sticky;top:0;z-index:5}
+  nav a{color:#fff;text-decoration:none;font-family:Helvetica,Arial,sans-serif;font-size:.82em;margin-right:14px;white-space:nowrap}
+  nav a:hover{text-decoration:underline}
+  main{max-width:880px;margin:0 auto;padding:24px}
+  section{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:22px 26px;margin-bottom:22px}
+  h2{font-family:Helvetica,Arial,sans-serif;color:var(--accent);font-size:1.25em;margin-top:0;border-bottom:2px solid var(--soft);padding-bottom:8px}
+  h3{font-family:Helvetica,Arial,sans-serif;font-size:1.02em;color:var(--accent2);margin-bottom:6px}
+  table{border-collapse:collapse;width:100%;font-size:.92em;margin:12px 0}
+  th{background:var(--soft);text-align:left;font-family:Helvetica,Arial,sans-serif}
+  th,td{border:1px solid var(--line);padding:7px 10px;vertical-align:top}
+  .tag{display:inline-block;font-family:Helvetica,Arial,sans-serif;font-size:.72em;background:var(--soft);color:var(--accent);border-radius:10px;padding:2px 10px;margin-left:8px;vertical-align:middle}
+  .time{font-family:Helvetica,Arial,sans-serif;font-size:.78em;color:#fff;background:var(--accent2);border-radius:10px;padding:2px 10px;margin-left:8px}
+  .ask{background:#fdf6ec;border-left:4px solid var(--accent2);padding:10px 14px;margin:12px 0;border-radius:0 6px 6px 0}
+  .ask b{font-family:Helvetica,Arial,sans-serif;font-size:.85em;letter-spacing:.04em;color:var(--accent2)}
+  .pearl{background:#eef7f0;border-left:4px solid #2e7d4f;padding:10px 14px;margin:12px 0;border-radius:0 6px 6px 0}
+  details{border:1px solid var(--line);border-radius:6px;padding:10px 14px;margin:10px 0;background:#fff}
+  details summary{cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:.9em;color:var(--accent);font-weight:bold}
+  details[open]{background:var(--soft)}
+  .mcq{border:1px solid var(--line);border-radius:8px;padding:16px 18px;margin:14px 0}
+  .mcq ol{list-style-type:upper-alpha;margin:8px 0 8px 22px;padding:0}
+  .mcq ol li{margin:4px 0}
+  .files{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px;margin-top:14px}
+  .fcard{display:block;border:1px solid var(--line);border-radius:8px;padding:12px 14px;text-decoration:none;color:var(--ink);background:#fff}
+  .fcard:hover{border-color:var(--accent);background:var(--soft)}
+  .fcard b{font-family:Helvetica,Arial,sans-serif;color:var(--accent);font-size:.95em}
+  .fcard span{display:block;font-size:.8em;color:#5a6877;margin-top:3px}
+  .changelog td:first-child{font-family:Helvetica,Arial,sans-serif;font-size:.85em;white-space:nowrap}
+  footer{font-size:.82em;color:#5a6877;padding:18px 24px;max-width:880px;margin:0 auto}
+  .small{font-size:.85em;color:#5a6877}
+  code{background:var(--soft);padding:1px 5px;border-radius:4px;font-size:.9em}
+  pre{background:#f4f6f8;border:1px solid var(--line);border-radius:6px;padding:14px;font-size:.8em;overflow-x:auto;white-space:pre-wrap;line-height:1.45}
+  button.copy{font-family:Helvetica,Arial,sans-serif;font-size:.8em;background:var(--accent);color:#fff;border:none;border-radius:5px;padding:6px 12px;cursor:pointer;margin-bottom:8px}
+  @media print{nav{display:none}section{border:none;page-break-inside:avoid}}
+</style>
+</head>
+<body>
+<header>
+  <h1>Acute Kidney Injury — Pre / Intra / Post Framework</h1>
+  <p>Optimized lesson package &middot; Facilitator-led interactive chalk talk for IM residents &middot; 25&ndash;35 min</p>
+  <p class="small">Adapted from <a href="https://teachim.org/teaching_material/acute-kidney-injury/" style="color:#cde9f2">TeachIM.org — Acute Kidney Injury</a> (Mack Holmberg, MD; expert review Raj Mehrotra, MD, MS, Univ. of Washington Nephrology; 2020), CC BY-NC 4.0. Optimized June 10, 2026: framework verified current (KDIGO 2012 unchanged), two deck typos corrected on both boards, a framework-notes slide appended, pedagogy restructured and assessments added. Companion files: <code>AKI_Optimized.pptx</code> (presenter board), <code>AKI-Learner-Board-Final.pptx</code> (learning board, corrected), <code>AKI-learner-handout.pdf</code>.</p>
+</header>
+<nav>
+  <a href="#files">Files</a>
+  <a href="#objectives">Objectives</a>
+  <a href="#prework">Pre-work</a>
+  <a href="#script">Teaching script</a>
+  <a href="#cases">Cases</a>
+  <a href="#mcq">Board MCQs</a>
+  <a href="#anki">Anki cards</a>
+  <a href="#dotphrase">Dotphrase</a>
+  <a href="#takehome">Take-home</a>
+  <a href="#changelog">What changed</a>
+  <a href="#refs">References</a>
+</nav>
+<main>
+
+<section id="files">
+  <h2>Lesson Files</h2>
+  <p class="small">Click a card to open. Links resolve only when these files sit in the same folder as this HTML.</p>
+  <div class="files">
+    <a class="fcard" href="AKI_Optimized.pptx"><b>Presenter Board (optimized)</b><span>AKI_Optimized.pptx — corrected + framework / take-home / attribution slides</span></a>
+    <a class="fcard" href="AKI-Learner-Board-Final.pptx"><b>Learning Board (corrected)</b><span>For self-study &amp; preparing — more text/pop-ups. Original filename kept.</span></a>
+    <a class="fcard" href="AKI-learner-handout.pdf"><b>Learner Handout (PDF)</b><span>Print for residents to follow along &amp; take notes</span></a>
+    <a class="fcard" href="AKI_OnePager.pdf"><b>One-Pager (PDF)</b><span>Single-page reference — define, 3 buckets, causes, manage</span></a>
+    <a class="fcard" href="AKI_Anki_Cards.txt"><b>Anki Cards (TSV)</b><span>18 spaced-repetition cards, tab-separated for import</span></a>
+    <a class="fcard" href="AKI_OnePager.html"><b>One-Pager (source HTML)</b><span>Editable source for the PDF</span></a>
+  </div>
+</section>
+
+<section id="objectives">
+  <h2>Learning Objectives</h2>
+  <ol>
+    <li>Build a framework that differentiates the cause of AKI as pre-renal, intra-renal, or post-renal.</li>
+    <li>Diagnose and manage common AKI presentations using that framework and the bedside tests (history, urinalysis, FeNa, renal ultrasound).</li>
+  </ol>
+</section>
+
+<section id="prework">
+  <h2>Pre-work <span class="tag">send the day before</span></h2>
+  <details><summary>1. Give the KDIGO definition of AKI and explain why eGFR shouldn't be reported during one.</summary>
+  <p>AKI = ↑Cr ≥0.3 mg/dL in 48 h, OR ↑Cr ≥1.5× baseline in 7 days, OR urine output &lt;0.5 mL/kg/h. eGFR equations assume a <b>steady-state</b> GFR, which is false during AKI, so the number is invalid.</p></details>
+  <details><summary>2. A patient is oliguric with a bland UA, normal renal US, and FeNa 0.3%. Which bucket, and why?</summary>
+  <p>Pre-renal: bland sediment + no hydronephrosis + FeNa &lt;1% while oliguric all point to a perfusion problem rather than intrinsic injury or obstruction.</p></details>
+  <details><summary>3. Name the three intra-renal compartments and one classic urine finding for each.</summary>
+  <p>Glomerular — dysmorphic RBCs / RBC casts; Tubular (ATN) — muddy-brown granular casts; Interstitial (AIN) — pyuria with WBC casts. (Vascular is the fourth sub-bucket: MAHA / cholesterol emboli.)</p></details>
+</section>
+
+<section id="script">
+  <h2>Teaching Script <span class="time">25&ndash;35 min</span></h2>
+
+  <h3>Hook (2 min)</h3>
+  <p>Ask the room: "How do you know a patient has an AKI?" Steer to an abrupt rise in Cr (often with falling urine output) and define it formally with KDIGO. Then drop the key point that anchors the whole talk: <em>eGFR is meaningless during AKI</em> because the equations assume a stable GFR.</p>
+  <div class="ask"><b>ASK</b> — "What's your framework for an AKI differential?" If they don't say pre/intra/post, introduce it and build from there.</div>
+
+  <h3>Segment 1 — Pre- and post-renal first (Objective 1) <span class="time">8 min</span></h3>
+  <p>The board deliberately covers the simpler left side before the busy intra-renal middle. Pre-renal = low effective arterial blood volume; post-renal = obstruction.</p>
+  <table>
+    <tr><th>Bucket</th><th>Diagnosed by</th><th>Causes</th></tr>
+    <tr><td>Pre-renal</td><td>History + bland UA + no hydronephrosis + FeNa &lt;1% (if oliguric)</td><td>Hypovolemia, sepsis, HF (cardiorenal), cirrhosis (hepatorenal); vasogenic (NSAIDs/CNIs constrict afferent; ACEi/ARB dilate efferent); altered vasculature (RVT, IAH)</td></tr>
+    <tr><td>Post-renal</td><td>Hydronephrosis on renal US</td><td>Urethra (stricture, BPH), bladder (clot, malignancy, neurogenic), ureter (calculi, malignancy/LAN, retroperitoneal fibrosis)</td></tr>
+  </table>
+  <div class="pearl"><b>Pearl:</b> Unilateral ureteral obstruction does <em>not</em> cause AKI unless it's the single functioning kidney — you need <b>bilateral</b> obstruction. Rule out obstruction early; it's the most reversible cause.</div>
+  <div class="ask"><b>ASK</b> — "Your patient is on furosemide and the FeNa is 2%. Can you trust it?" (No — use FeUrea &lt;35% on diuretics.)</div>
+
+  <h3>Segment 2 — Intra-renal by compartment (Objective 1) <span class="time">10 min</span></h3>
+  <p>Break the intra-renal bucket anatomically: glomerular → tubulointerstitial → vascular.</p>
+  <table>
+    <tr><th>Compartment</th><th>Key entities</th><th>Urine clue</th></tr>
+    <tr><td>Glomerular</td><td>GN — immune-complex, pauci-immune, anti-GBM; crescentic = RPGN</td><td>Dysmorphic RBCs, RBC casts, proteinuria</td></tr>
+    <tr><td>Tubular</td><td><b>ATN</b> (ischemic / toxic incl. contrast) — most common; tubular obstruction (myoglobin, light chains, crystals)</td><td>Muddy-brown granular casts</td></tr>
+    <tr><td>Interstitial</td><td>AIN — beta-lactams, NSAIDs, PPIs, immunotherapy; infection; Sjögren's/sarcoid</td><td>Pyuria, WBC casts (eosinophils insensitive)</td></tr>
+    <tr><td>Vascular</td><td>MAHA (TTP/HUS, scleroderma renal crisis, malignant HTN, HELLP); cholesterol emboli</td><td>Schistocytes on smear; ± eosinophilia (emboli)</td></tr>
+  </table>
+  <div class="ask"><b>ASK</b> — "Septic patient, fluid-resuscitated, still rising Cr at 24 h, now anuric, muddy-brown casts. Diagnosis?" (Ischemic ATN.)</div>
+
+  <h3>Segment 3 — Apply it (Objective 2) <span class="time">10 min</span></h3>
+  <p>Run the six cases below. For each, ask for the bucket, the diagnosis/etiology, and the next management step before revealing. Reinforce the management-by-bucket rule: pre-renal → perfusion; intra-renal → treat cause + pull nephrotoxins; post-renal → relieve obstruction.</p>
+
+  <h3>Retrieval close (3 min)</h3>
+  <p>Erase the board. Have learners rebuild the three buckets, the three discriminating tests, and the four intra-renal compartments from memory.</p>
+</section>
+
+<section id="cases">
+  <h2>Cases <span class="tag">click to reveal</span></h2>
+
+  <h3>Case 1 — 35F, 1 week of vomiting/diarrhea, low UOP</h3>
+  <p>Cr 1.5 (baseline 0.7), BUN 45, FeNa &lt;0.2%; UA hyaline casts; renal US normal.</p>
+  <details><summary>Diagnosis &amp; next step?</summary><p><b>Pre-renal azotemia from hypovolemia</b> (BUN:Cr &gt;20, very low FeNa, bland UA). Control nausea and give aggressive rehydration.</p></details>
+
+  <h3>Case 2 — 70M, worsening obstructive voiding after starting allergy meds</h3>
+  <p>Cr 2.0 (baseline 0.8), BUN 40, FeNa 1.5%; UA normal; renal US bilateral moderate hydronephrosis.</p>
+  <details><summary>Diagnosis &amp; next step?</summary><p><b>Post-renal AKI from BPH plus anticholinergic-induced retention.</b> Stop the anticholinergic, start tamsulosin, and consider a urinary catheter to decompress.</p></details>
+
+  <h3>Case 3 — 23-year-old transman, SLE off therapy, arthralgias + dark urine</h3>
+  <p>Cr 3.6 (baseline 0.9), BUN 30, FeNa 2.8%; UA dysmorphic RBCs and RBC casts; renal US normal.</p>
+  <details><summary>Diagnosis &amp; next step?</summary><p><b>Acute glomerulonephritis from a lupus flare.</b> Induction therapy with steroids plus cyclophosphamide or mycophenolate (coordinate with nephrology/rheumatology).</p></details>
+
+  <h3>Case 4 — 40F, day 5 of amoxicillin/clavulanate, rash, low UOP</h3>
+  <p>Cr 2.5 (baseline 0.9), BUN 30, FeNa 2.2%; UA proteinuria, WBCs &amp; WBC casts, no eosinophils; renal US normal.</p>
+  <details><summary>Diagnosis &amp; next step?</summary><p><b>Acute interstitial nephritis from the beta-lactam.</b> Discontinue the antibiotic, repeat labs in ~3 days, and consider biopsy ± steroids if not improving. (Absence of urine eosinophils does not exclude AIN.)</p></details>
+
+  <h3>Case 5 — 42M, DM2, pneumonia with severe sepsis, rising Cr despite fluids, now anuric</h3>
+  <p>Cr 3.4 (2.5 on admission, baseline 1.2), FeNa 2.3%; UA muddy-brown casts; renal US normal.</p>
+  <details><summary>Diagnosis &amp; next step?</summary><p><b>Ischemic ATN</b> from prolonged hypoperfusion (hypovolemia + sepsis). Monitor electrolytes, maintain euvolemia, <em>avoid overhydration</em> now that he's anuric, and avoid nephrotoxins.</p></details>
+
+  <h3>Case 6 — 36M, diffuse myalgias + dark urine after a new intense workout</h3>
+  <p>Cr 3.6 (baseline 1.2), BUN 30, FeNa 3%, CK 20,000; dipstick 3+ blood with no RBCs on micro; renal US normal.</p>
+  <details><summary>Diagnosis &amp; next step?</summary><p><b>Pigment (myoglobin) tubular obstruction from rhabdomyolysis</b>, plus a hemodynamic hit from NSAIDs. Dipstick reads myoglobin as "blood" without RBCs. Aggressive IV fluid resuscitation and stop the NSAIDs.</p></details>
+</section>
+
+<section id="mcq">
+  <h2>Board-Style MCQs <span class="tag">click for answer</span></h2>
+
+  <div class="mcq"><p><b>1.</b> A 68-year-old man on chronic furosemide presents with AKI. He looks dry. Cr 2.4 (baseline 1.1), FeNa 2.5%, BUN:Cr 28, bland UA, no hydronephrosis. Which test best clarifies the etiology?</p>
+  <ol><li>Repeat FeNa</li><li>Fractional excretion of urea</li><li>Renal biopsy</li><li>Urine eosinophils</li><li>CK</li></ol>
+  <details><summary>Answer</summary><p><b>B.</b> Diuretics drive sodium wasting and falsely raise FeNa, so it can't distinguish pre-renal here. <b>FeUrea &lt;35%</b> supports a pre-renal state on diuretics. The clinical picture (dry, high BUN:Cr, bland UA) already favors pre-renal; the others don't address the diuretic confounder.</p></details></div>
+
+  <div class="mcq"><p><b>2.</b> A 75-year-old woman with new anuria and suprapubic fullness has Cr 3.0 (baseline 1.0). What is the single most important first test?</p>
+  <ol><li>FeNa</li><li>Renal ultrasound</li><li>Urine protein:creatinine</li><li>ANA</li><li>Renal biopsy</li></ol>
+  <details><summary>Answer</summary><p><b>B.</b> Abrupt anuria with suprapubic fullness screams obstruction — <b>renal US</b> shows hydronephrosis (and a distended bladder), and relief is curative. Rule out the reversible post-renal cause before pursuing intrinsic workup.</p></details></div>
+
+  <div class="mcq"><p><b>3.</b> A 30-year-old develops AKI 5 days into a course of a PPI and an NSAID, with low-grade fever, a rash, pyuria, and WBC casts. Which is most likely?</p>
+  <ol><li>Acute tubular necrosis</li><li>Pre-renal azotemia</li><li>Acute interstitial nephritis</li><li>Rapidly progressive glomerulonephritis</li><li>Post-renal obstruction</li></ol>
+  <details><summary>Answer</summary><p><b>C.</b> Drug exposure (NSAID, PPI), fever, rash, sterile pyuria, and WBC casts are classic <b>AIN</b>. <b>A</b> shows muddy-brown casts without the allergic features. <b>D</b> shows dysmorphic RBCs/RBC casts. <b>B</b>/<b>E</b> have bland sediment. Stop the offending drug; consider steroids if no improvement.</p></details></div>
+
+  <div class="mcq"><p><b>4.</b> A 50-year-old man has AKI after a CT with iodinated contrast and a stormy ICU course with hypotension. UA shows muddy-brown granular casts; FeNa 3%. Best description?</p>
+  <ol><li>Pre-renal azotemia</li><li>Acute tubular necrosis</li><li>Acute interstitial nephritis</li><li>Glomerulonephritis</li><li>Obstructive nephropathy</li></ol>
+  <details><summary>Answer</summary><p><b>B.</b> Ischemic plus toxic (contrast) injury with muddy-brown granular casts and an elevated FeNa while injured is <b>ATN</b>. Pre-renal would have FeNa &lt;1% and bland urine; the other options have distinct sediment or imaging findings. Supportive care; remove ongoing nephrotoxins.</p></details></div>
+
+  <div class="mcq"><p><b>5.</b> Which statement about evaluating AKI is correct?</p>
+  <ol><li>eGFR accurately reflects function during AKI</li><li>A unilateral obstructed ureter reliably causes AKI</li><li>FeNa &lt;1% in an oliguric patient suggests a pre-renal state</li><li>Absence of urine eosinophils excludes AIN</li><li>Renal US is unnecessary if the FeNa is elevated</li></ol>
+  <details><summary>Answer</summary><p><b>C.</b> A low FeNa while oliguric supports avid sodium retention (pre-renal). <b>A</b> is false — eGFR assumes steady state. <b>B</b> is false — you need bilateral obstruction (or a single functioning kidney). <b>D</b> is false — eosinophils are insensitive and nonspecific. <b>E</b> is false — always rule out obstruction with US.</p></details></div>
+</section>
+
+<section id="anki">
+  <h2>Spaced-Repetition Cards</h2>
+  <p class="small">All 18 cards are in <code>AKI_Anki_Cards.txt</code> (tab-separated, Anki-importable). A sample:</p>
+  <table>
+    <tr><th>Front</th><th>Back</th></tr>
+    <tr><td>KDIGO definition of AKI?</td><td>↑Cr ≥0.3 mg/dL in 48 h, OR ↑Cr ≥1.5× baseline in 7 d, OR UOP &lt;0.5 mL/kg/h.</td></tr>
+    <tr><td>Why is eGFR invalid during AKI?</td><td>eGFR assumes a steady-state GFR, which is false during AKI.</td></tr>
+    <tr><td>Three discriminating findings for the buckets?</td><td>FeNa &lt;1% + bland UA → pre-renal; active sediment → intra-renal; hydronephrosis → post-renal.</td></tr>
+    <tr><td>Most common intra-renal cause + urine finding?</td><td>ATN (ischemic/toxic); muddy-brown granular casts.</td></tr>
+    <tr><td>FeNa unreliable on diuretics — use?</td><td>FeUrea &lt;35% supports pre-renal.</td></tr>
+  </table>
+</section>
+
+<section id="dotphrase">
+  <h2>Attending Dotphrase <span class="tag">EMR-paste ready</span></h2>
+  <p class="small">Dense AKI assessment-and-plan smart phrase. <code>*</code> marks bedside-editable values; brackets are pick-lists.</p>
+  <button class="copy" onclick="navigator.clipboard.writeText(document.getElementById('dp').innerText)">Copy dotphrase</button>
+  <pre id="dp">#AKI: Cr *___ from baseline *___ (KDIGO: ↑Cr ≥0.3/48h OR ≥1.5x/7d OR UOP <0.5 mL/kg/h), *[non-oliguric / oliguric / anuric]
+fx: pre / intra / post — eGFR NOT valid in AKI
+likely 2/2 *[prerenal-↓EABV / intrarenal-(GN/ATN/AIN/vascular) / postrenal-obstruction]
+core w/u: hx + vol exam + UA w/ micro (sediment) + FeNa *[<1% if oliguric → prerenal] (FeUrea <35% if on diuretics) + renal US [hydronephrosis?] + BMP/CBC
+  - prerenal: ↓EABV [hypovolemia/sepsis/HF/cirrhosis]; vasogenic [NSAID/CNI afferent, ACEi/ARB efferent] → restore perfusion
+  - intrarenal: glomerular [dysm RBC/RBC casts] / tubular ATN [muddy-brown casts, ischemic vs toxic incl contrast] / AIN [drug, pyuria/WBC casts] / vascular [MAHA, emboli] → treat cause
+  - postrenal: hydronephrosis on US [BPH/stone/clot/malignancy/RPF] → relieve obstruction (cath/stent/PCN); NOTE unilateral ≠ AKI unless single kidney
+targeted only: FeUrea (on diuretics); UPEP/SPEP/light chains (cast neph); CK/UA-blood-no-RBC (rhabdo); complement/ANCA/anti-GBM (GN); smear/LDH/hapto/plt (MAHA)
+mgmt: *[IVF / diuretic-hold]; D/C nephrotoxins [NSAID, contrast, ACEi/ARB, aminoglycoside]; renally dose meds; maintain euvolemia (AVOID overhydration if anuric); monitor K/HCO3/PO4
+red flags → urgent: refractory hyperK, acidosis, volume overload, uremic sx → consider RRT (AEIOU)
+dispo: *[admit / obs]; nephrology consult if intrinsic/unclear/RRT</pre>
+  <p class="small">Source: KDIGO AKI Guideline, Kidney Int Suppl 2012; AAFP AKI review 2019.</p>
+</section>
+
+<section id="takehome">
+  <h2>Take-Home Points</h2>
+  <ol>
+    <li>AKI = an abrupt rise in Cr (KDIGO thresholds); <b>eGFR is meaningless during AKI</b>.</li>
+    <li>Three buckets: pre-renal (↓EABV), intra-renal (glomerular / tubulointerstitial / vascular), post-renal (obstruction).</li>
+    <li>Three quick discriminators: history + bland UA + FeNa &lt;1% (if oliguric) → pre-renal; active sediment → intra-renal; hydronephrosis on US → post-renal.</li>
+    <li>Rule out obstruction <b>early</b> with renal US — it's the most reversible cause; unilateral obstruction needs the single functioning kidney to cause AKI.</li>
+    <li>ATN (ischemic/toxic) is the most common intra-renal cause; remove nephrotoxins and maintain euvolemia.</li>
+  </ol>
+</section>
+
+<section id="changelog">
+  <h2>Optimization Changelog</h2>
+  <table class="changelog">
+    <tr><th>Category</th><th>What changed</th></tr>
+    <tr><td>Currency check</td><td>Framework and bedside tests verified current — KDIGO 2012 AKI definition and the pre/intra/post approach remain standard (AAFP 2019; KDIGO). No reversal of original teaching; added a framework-notes slide with the KDIGO criteria and the FeNa/FeUrea caveat.</td></tr>
+    <tr><td>Content added</td><td>Explicit KDIGO thresholds, FeUrea &lt;35% on diuretics, and management-by-bucket framing surfaced in the HTML, one-pager, and appended slide.</td></tr>
+    <tr><td>Corrections</td><td>Two deck spelling errors fixed surgically on both boards (single XML runs, animations preserved): "Glomerularnephritis" → "Glomerulonephritis" (presenter slide 1, learner slide 1); "Inta-Abdominal" → "Intra-Abdominal" (learner slide 1).</td></tr>
+    <tr><td>Pedagogy</td><td>Restructured into a 2-min hook, three timed segments, ≥4 ASK pause-points, callout pearls, HTML tables, and a retrieval-based close.</td></tr>
+    <tr><td>Assessment</td><td>3 pre-work retrieval questions, all 6 original cases converted to click-to-reveal, 5 ABIM-style MCQs with full distractor explanations, 18 spaced-repetition cards.</td></tr>
+    <tr><td>Clinical tool</td><td>EMR-paste-ready attending dotphrase for AKI (pre/intra/post template with workup, targeted tests, and management).</td></tr>
+    <tr><td>One-pager</td><td>Single-page Letter reference (two-column, 13px) — define, 3 buckets, causes by compartment, manage. Verified exactly 1 page.</td></tr>
+    <tr><td>Deck format</td><td>3 slides appended to the presenter board (framework notes / take-home / attribution); both original animated/click-to-reveal slides preserved → 5 total.</td></tr>
+    <tr><td>Companion files</td><td>Learner board corrected (same two typos). Learner handout PDF reviewed: it is a flattened (per-glyph) PDF export that mirrors the board and carries the same two cosmetic label typos ("Glomerularnephritis", "Inta-Abdominal") in a non-editable text layer; copied unchanged with the original filename.</td></tr>
+    <tr><td>Human review needed</td><td>Case 1 sex inconsistency: the cases slide (both boards) reads "35yo woman," but the learner board's detail slide (slide 3) reads "35yom." Left unedited because the intended sex is ambiguous from a single token — confirm and align. Medical content should be clinician-reviewed before teaching.</td></tr>
+  </table>
+</section>
+
+<section id="refs">
+  <h2>References</h2>
+  <ol>
+    <li>Levey AS, Eckardt K-U, Dorman NM, et al. Nomenclature for Kidney Function and Disease: Executive Summary and Glossary From a KDIGO Consensus Conference. <i>Kidney Int Rep.</i> 2020;5(7):965-972.</li>
+    <li>Rangaswami J, Bhalla V, Blair JEA, et al. Cardiorenal Syndrome: Classification, Pathophysiology, Diagnosis, and Treatment Strategies: A Scientific Statement From the AHA. <i>Circulation.</i> 2019;139(16):e840-e878.</li>
+    <li class="small"><b>Cited in optimization:</b> KDIGO Clinical Practice Guideline for Acute Kidney Injury. <i>Kidney Int Suppl.</i> 2012;2(1):1-138. &middot; Mercado MG, Smith DK, Guard EL. Acute Kidney Injury: Diagnosis and Management. <i>Am Fam Physician.</i> 2019;100(11):687-694.</li>
+  </ol>
+</section>
+
+</main>
+<footer>
+  Adapted from <a href="https://teachim.org/teaching_material/acute-kidney-injury/">TeachIM.org — "Acute Kidney Injury"</a> (Mack Holmberg, MD; expert review Raj Mehrotra, MD, MS; 2020). Original and this optimized package licensed under <a href="http://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a> — attribution required, non-commercial use only. Optimized June 10, 2026. Educational use only; not medical advice. Medical content should be clinician-reviewed before teaching.
+</footer>
+</body>
+</html>

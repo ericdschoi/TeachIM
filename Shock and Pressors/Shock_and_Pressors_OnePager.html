@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8">
+<style>
+:root{ --fs: 12px; }
+@page { size: Letter; margin: 0.3in; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: "Helvetica Neue", Arial, sans-serif; font-size: var(--fs); line-height: 1.34; color: #111; }
+.hdr { display: flex; justify-content: space-between; align-items: baseline; border-bottom: 0.25em solid #0e6e8c; padding-bottom: 0.3em; margin-bottom: 0.5em; }
+.hdr h1 { font-size: 1.7em; color: #0e6e8c; letter-spacing: 0.02em; }
+.hdr .sub { font-size: 0.82em; color: #555; max-width: 50%; text-align: right; }
+.cols { column-count: 2; column-gap: 1.1em; }
+h2 { font-size: 1.02em; color: #fff; background: #0e6e8c; padding: 0.2em 0.5em; margin: 0 0 0.3em; border-radius: 0.2em; break-after: avoid; }
+h2.alt { background: #b4530a; }
+h2.grn { background: #2e7d4f; }
+.blk { break-inside: avoid; margin-bottom: 0.55em; }
+table { width: 100%; border-collapse: collapse; margin: 0.2em 0 0.3em; }
+td, th { border: 0.05em solid #bcc7d0; padding: 0.15em 0.32em; vertical-align: top; text-align: left; }
+th { background: #eef4f7; font-weight: 700; }
+td.k { background: #f5f8fa; font-weight: 700; width: 22%; }
+ul { margin: 0 0 0 1em; padding: 0; }
+li { margin-bottom: 0.1em; }
+.tag { font-weight: 700; color: #0e6e8c; }
+.red { color: #b00; font-weight: 700; }
+.pearl { background: #eef7f0; border-left: 0.25em solid #2e7d4f; padding: 0.2em 0.5em; margin: 0.2em 0; }
+.warn { background: #fdeeea; border-left: 0.25em solid #b00; padding: 0.2em 0.5em; margin: 0.2em 0; }
+.foot { border-top: 0.05em solid #bcc7d0; margin-top: 0.3em; padding-top: 0.2em; font-size: 0.72em; color: #777; column-span: all; }
+b { font-weight: 700; }
+</style></head>
+<body>
+<div class="hdr">
+  <h1>SHOCK &amp; PRESSORS &mdash; Clinical One-Pager</h1>
+  <div class="sub">Four categories &middot; hemodynamic profile &rarr; treatment lever &middot; 2021 Surviving Sepsis Campaign &middot; IM resident reference</div>
+</div>
+
+<div class="cols">
+
+  <div class="blk">
+    <h2>1 &middot; CATEGORIES &amp; HEMODYNAMICS</h2>
+    <table>
+      <tr><th>Type</th><th>CVP</th><th>CO</th><th>SVR</th><th>1st lever</th></tr>
+      <tr><td class="k">Hypovolemic</td><td>&darr;&darr;</td><td>&darr;</td><td>&uarr;</td><td>Volume / blood</td></tr>
+      <tr><td class="k">Cardiogenic</td><td>&uarr;</td><td>&darr;&darr;</td><td>&uarr;</td><td>Inotrope &plusmn; diurese</td></tr>
+      <tr><td class="k">Obstructive</td><td>&uarr;</td><td>&darr;</td><td>&uarr;</td><td>Relieve cause</td></tr>
+      <tr><td class="k">Distributive</td><td>&darr;-nml</td><td>nml-&uarr;</td><td>&darr;</td><td>IVF + NE</td></tr>
+    </table>
+    <div class="small"><b>Causes:</b> hypovolemic = hemorrhage, GI/renal loss; cardiogenic = HF, valve, arrhythmia; obstructive = PE, tension PTX, tamponade; distributive = sepsis, anaphylaxis, neurogenic, adrenal crisis.</div>
+  </div>
+
+  <div class="blk">
+    <h2 class="grn">2 &middot; SORT AT THE BEDSIDE FIRST</h2>
+    <ul>
+      <li><b>Warm + wide pulse pressure</b> = low SVR = <b>distributive</b></li>
+      <li><b>Cold/clammy + narrow pulse pressure</b> = low output = <b>cardiogenic or hypovolemic</b></li>
+      <li><b>SvO2:</b> &darr; cardiogenic, &uarr; established sepsis (&darr; early sepsis). Confounded by CO, SaO2, Hgb.</li>
+      <li>POCUS/TTE: EF, IVC fill, effusion, RV strain.</li>
+    </ul>
+  </div>
+
+  <div class="blk">
+    <h2 class="alt">3 &middot; TANK / PUMP / SQUEEZE</h2>
+    <div class="pearl"><b>TANK</b> (hypovolemic): blood + IVF, 2 large-bore IV. <span class="red">No pressors until preload repleted.</span></div>
+    <div class="pearl"><b>PUMP</b> (cardiogenic): dobutamine (mild &darr;SVR can &uarr;BP via &uarr;CO) &plusmn; diuresis. <span class="red">No bolus IVF in pulmonary edema.</span></div>
+    <div class="pearl"><b>SQUEEZE</b> (distributive): IVF + norepinephrine to MAP &ge;65; add vasopressin early.</div>
+    <div class="pearl"><b>OBSTRUCTIVE:</b> fix the lesion &mdash; thrombolyse/anticoag (PE), needle/chest tube (PTX), pericardiocentesis (tamponade).</div>
+  </div>
+
+  <div class="blk">
+    <h2>4 &middot; PRESSORS &amp; INOTROPES</h2>
+    <table>
+      <tr><th>Agent</th><th>Receptors</th><th>Effect / use</th></tr>
+      <tr><td class="k">Norepinephrine</td><td>&alpha;1&gt;&beta;1</td><td>&uarr;&uarr;SVR, mild&uarr;CO; <b>septic 1st-line</b></td></tr>
+      <tr><td class="k">Vasopressin</td><td>V1</td><td>&uarr;SVR; <b>NE-sparing add-on</b></td></tr>
+      <tr><td class="k">Epinephrine</td><td>&alpha;1,&beta;1,&beta;2</td><td>&uarr;HR/CO/SVR; <b>anaphylaxis</b>, refractory</td></tr>
+      <tr><td class="k">Phenylephrine</td><td>&alpha;1</td><td>&uarr;SVR, reflex&darr;HR; when tachyarrhythmia limits NE</td></tr>
+      <tr><td class="k">Dobutamine</td><td>&beta;1&gt;&beta;2</td><td>&uarr;&uarr;CO, mild&darr;SVR; <b>cardiogenic</b></td></tr>
+      <tr><td class="k">Dopamine</td><td>dose-dep</td><td>More arrhythmia; largely supplanted by NE</td></tr>
+    </table>
+    <div class="small"><b>Receptors:</b> &alpha;1 vasoconstrict &middot; &beta;1 &uarr;HR/contractility &middot; &beta;2 vasodilate &middot; V1 non-adrenergic vasoconstrict.</div>
+  </div>
+
+  <div class="blk">
+    <h2 class="grn">5 &middot; 2021 SURVIVING SEPSIS UPDATES</h2>
+    <ul>
+      <li><b>Norepinephrine</b> remains first-line for septic shock.</li>
+      <li><b>Balanced crystalloids</b> (LR/Plasma-Lyte) over 0.9% saline; 30 mL/kg bolus now a <b>weak</b> rec.</li>
+      <li><b>Add vasopressin</b> (0.03 U/min) at NE ~0.25&ndash;0.5 mcg/kg/min rather than escalating NE.</li>
+      <li><b>Start NE peripherally</b> to restore MAP &mdash; don't wait for a central line.</li>
+      <li><b>CLOVERS (2023):</b> restrictive vs liberal fluids = no mortality difference.</li>
+      <li><b>Angiotensin II</b> (ATHOS-3): add-on for catecholamine + vasopressin-refractory vasodilatory shock.</li>
+    </ul>
+  </div>
+
+  <div class="blk">
+    <h2 class="alt">DO / AVOID</h2>
+    <div class="warn"><b>AVOID:</b> pressors in an unfilled tank (hypovolemia); IVF bolus in cardiogenic pulmonary edema; routine dopamine first-line (arrhythmia); &beta;-blockade in catecholamine excess.</div>
+    <div class="pearl"><b>DO:</b> read the exam first (warm/cold, full/empty); MAP goal &ge;65; cultures + antibiotics within 1 h and source control in sepsis; epinephrine first for anaphylaxis; a-line for any vasopressor drip.</div>
+  </div>
+
+  <div class="foot">
+    Adapted from TeachIM.org &ldquo;Shock and Pressors&rdquo; (Zhang Y, Fainstad B; 2020) under CC BY-NC 4.0. Optimized June 2026 &mdash; Surviving Sepsis Campaign 2021; CLOVERS NEJM 2023; ATHOS-3 NEJM 2017. Educational use only; not medical advice. Verify doses &amp; clinician review before teaching.
+  </div>
+
+</div>
+</body>
+</html>

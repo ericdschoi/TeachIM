@@ -1,0 +1,15 @@
+What single sonographic feature distinguishes a gallstone from sludge or a polyp?	An acoustic (echogenic) shadow — stones cast one; sludge and polyps do not.
+What do gallstones look like on ultrasound?	Gravity-dependent echogenic material with a hyperechoic rim and a posterior acoustic shadow.
+What is tumefactive sludge and how is it told apart from a stone?	Discrete, layering echogenic sludge that can mimic a mass; unlike a stone it casts NO acoustic shadow (and rarely obstructs).
+What is the normal gallbladder wall thickness?	<3 mm (TG18 uses >4 mm as the diagnostic threshold for cholecystitis).
+Besides cholecystitis, what causes a thickened gallbladder wall?	Cirrhosis, hepatitis, pancreatitis, and hypoalbuminemia (low oncotic pressure) — wall thickening is non-specific.
+Which probe is used to evaluate biliary pathology?	A low-frequency curvilinear (abdominal) probe.
+Why is a non-fasting gallbladder hard to image?	It is contracted, and overlying intestinal gas obscures the view.
+What is the sonographic Murphy sign?	Maximal tenderness elicited when the ultrasound probe is pressed directly over the gallbladder — a key bedside POCUS sign of cholecystitis.
+What sonographic findings support acute cholecystitis?	Gallstones (often impacted at the GB neck), wall thickening, pericholecystic fluid, GB enlargement, and a positive sonographic Murphy sign.
+Why is this case less concerning for choledocholithiasis or cholangitis?	Normal LFTs — these are unlikely with normal liver function tests.
+When should you pursue CBD imaging / MRCP?	When LFTs are abnormal; CBD visualization is technically difficult and low-yield with normal LFTs.
+What are the TG18 (Tokyo Guidelines 2018) diagnostic components for acute cholecystitis?	A: local inflammation (Murphy's sign, RUQ mass/pain/tenderness); B: systemic inflammation (fever, ↑CRP, ↑WBC); C: imaging findings. Definite dx = one A + one B + one C.
+What imaging findings count under TG18 criterion C?	GB wall thickening >4 mm, pericholecystic fluid, gallstones/debris, enlarged GB (long axis ≥8 cm, short axis ≥4 cm), sonographic Murphy sign.
+Classic demographic risk for gallstone disease?	The "4 Fs" — female, forty, fertile, overweight (e.g., the 55yo obese woman in this case).
+Where are obstructing gallstones typically lodged in cholecystitis?	Impacted at the neck of the gallbladder (cystic duct), causing persistent pain.

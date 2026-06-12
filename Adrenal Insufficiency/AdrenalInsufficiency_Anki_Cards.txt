@@ -1,0 +1,16 @@
+Primary vs secondary vs tertiary AI — where is the lesion?	Primary = adrenal cortex; secondary = pituitary (ACTH); tertiary = hypothalamus (CRH).
+Why does primary AI cause adrenal crisis more readily than central AI?	Primary AI also loses aldosterone (mineralocorticoid) → salt wasting, hypovolemia, hyperkalemia, hyponatremia. Central AI spares the RAAS-driven aldosterone axis.
+ACTH and aldosterone in primary AI?	ACTH high (loss of cortisol feedback → also hyperpigmentation); aldosterone low, renin high.
+ACTH and aldosterone in central (secondary/tertiary) AI?	ACTH low/normal; aldosterone preserved (RAAS intact). Tertiary: ACTH stays low even after CRH.
+Most common cause of AI overall?	Exogenous glucocorticoids (tertiary, HPA suppression).
+Most common cause of primary AI in resource-rich settings?	Autoimmune adrenalitis (check 21-hydroxylase antibodies).
+Drug causes of AI?	Steroids, azoles, etomidate, mitotane (synthesis); rifampin/phenytoin/phenobarbital (↑metabolism); checkpoint inhibitors (hypophysitis + adrenalitis).
+First diagnostic test for AI and why that time?	8 AM serum cortisol — cortisol peaks in the morning, maximizing sensitivity.
+8 AM cortisol interpretation (older assay)?	<3 µg/dL rules in; <10 suspicious; >18 rules out. Indeterminate → ACTH stimulation test.
+How do modern cortisol assays change the cutoffs?	Specific monoclonal immunoassays and LC-MS/MS read ~20-30% lower, so rule-out / stim-test peak threshold is ~14-15 µg/dL, not 18. Use your lab's assay-specific value.
+How is the ACTH (cosyntropin) stimulation test performed?	250 µg cosyntropin IV/IM; cortisol at baseline and 30-60 min; a subnormal peak confirms AI. Then ACTH level localizes primary vs central.
+Why can early central AI pass a cosyntropin stim test?	The adrenals haven't yet atrophied and can still respond acutely. If suspicion is high, retest or use another test and treat empirically.
+Replacement in primary AI?	Hydrocortisone 20-25 mg/24h split (AM-weighted) + fludrocortisone 0.1 mg qAM (mineralocorticoid) ± DHEA 25-50 mg.
+Replacement in central AI?	Hydrocortisone 15-20 mg/24h split; no fludrocortisone needed (RAAS intact).
+Adrenal crisis presentation and treatment?	Hypotension/shock ± fever, abdominal pain, nausea, fatigue. Treat empirically: hydrocortisone 100 mg IV then 200 mg/24h (or 50 mg q6h) + IV fluids — before confirmatory testing.
+Which steroid preserves a pending cortisol stim test?	Dexamethasone — it does not cross-react in the cortisol assay (but never delay treatment for testing).

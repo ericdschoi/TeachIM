@@ -1,0 +1,52 @@
+Three organisms that hospital exposure keeps adding across infection sites?	MRSA, Pseudomonas, and Enterococcus.	Infectious_Disease::antibiotics-part-2-sites-of-infection
+Empiric bugs and drugs for inpatient CAP?	S. pneumoniae, GNRs (H. flu, Moraxella), atypicals -> ceftriaxone + azithromycin/doxycycline, or a respiratory fluoroquinolone (regardless of severity).	Infectious_Disease::antibiotics-part-2-sites-of-infection
+Two features that justify adding MRSA/Pseudomonas coverage to CAP?	(1) Prior MRSA or Pseudomonas isolation; (2) hospitalization + IV antibiotics within 90 days. HCAP was retired in 2019.	Infectious_Disease::antibiotics-part-2-sites-of-infection
+HAP vs VAP definitions?	HAP: pneumonia >48 h after admission, not ventilator-associated. VAP: pneumonia >48 h after intubation.	Infectious_Disease::antibiotics-part-2-sites-of-infection
+When do you add anaerobic coverage for aspiration pneumonia?	Only for lung abscess or empyema. Routine aspiration events rarely involve anaerobes.	Infectious_Disease::antibiotics-part-2-sites-of-infection
+Value of a negative MRSA nares PCR in pneumonia?	High negative predictive value -- use it to stop empiric vancomycin (most reassuring in low-prevalence settings).	Infectious_Disease::antibiotics-part-2-sites-of-infection
+Most common cause of uncomplicated cystitis, and its share?	E. coli, 75-95% of cases. Others: Proteus, Klebsiella, S. saprophyticus.	Infectious_Disease::antibiotics-part-2-sites-of-infection
+First-line options for simple cystitis?	Nitrofurantoin 100 mg BID x5 d; TMP-SMX x3 d (if local resistance <20%); fosfomycin 3 g x1.	Infectious_Disease::antibiotics-part-2-sites-of-infection
+Two drugs that must NEVER be used for pyelonephritis?	Nitrofurantoin and fosfomycin -- they don't reach renal/tissue concentrations (bladder-only).	Infectious_Disease::antibiotics-part-2-sites-of-infection
+Definition of CAUTI?	Symptoms/signs of UTI + bacteriuria (>=10^5 CFU) in a patient with an indwelling, suprapubic, or intermittent catheter, or one removed within 48 h. Don't treat asymptomatic bacteriuria.	Infectious_Disease::antibiotics-part-2-sites-of-infection
+UTI MDR risk factors (within 3 months)?	Prior MDR/ESBL organism; inpatient/care-facility stay; recent fluoroquinolone, Bactrim, or broad-spectrum beta-lactam; travel to a high-MDR area.	Infectious_Disease::antibiotics-part-2-sites-of-infection
+Nonpurulent cellulitis -- bug and treatment?	Streptococci >> S. aureus -> cephalexin (PO) or cefazolin/ceftriaxone (IV). No role for superficial wound cultures.	Infectious_Disease::antibiotics-part-2-sites-of-infection
+Purulent SSTI -- bug and primary treatment?	S. aureus, MRSA > MSSA -> incision & drainage first; add MRSA coverage (vanc/dapto IV, or Bactrim/doxycycline PO). Culture the pus.	Infectious_Disease::antibiotics-part-2-sites-of-infection
+NSTI -- exam red flags and management?	Pain/tenderness beyond the erythema, rapid progression, systemic toxicity, crepitus, bullae, "woody" edema, necrosis -> urgent surgery + vanc + Zosyn/meropenem + clindamycin (antitoxin).	Infectious_Disease::antibiotics-part-2-sites-of-infection
+Why add clindamycin in NSTI / streptococcal toxic shock?	It inhibits ribosomal protein synthesis, shutting off exotoxin production (antitoxin / "Eagle" effect) independent of bactericidal activity.	Infectious_Disease::antibiotics-part-2-sites-of-infection
+Community-acquired intra-abdominal infection -- bugs and first-line drugs?	Enteric GNRs, streptococci, anaerobes (B. fragilis) -> 3rd-gen cephalosporin + metronidazole (or FQ + metronidazole). Enterococcus/Pseudomonas not routine.	Infectious_Disease::antibiotics-part-2-sites-of-infection
+What does hospital-acquired IAI add, and what's the non-negotiable adjunct?	Adds Pseudomonas and Enterococcus (+/- MRSA): Zosyn or cefepime+metronidazole or meropenem +/- vancomycin. Source control is essential in every IAI.	Infectious_Disease::antibiotics-part-2-sites-of-infection
+The 4 questions to ask of any antibiotic?	(1) GPCs (Staph/Strep; +MRSA? +Enterococcus?); (2) GNRs (+Pseudomonas? +ESBL?); (3) atypicals; (4) anaerobes (+B. fragilis/gut?).	Infectious_Disease::antibiotics-part-1-spectrum
+General rules for penicillins?	No MRSA, no atypicals; GN coverage increases across classes (Pen -> antistaph -> amino+BLI -> pip-tazo).	Infectious_Disease::antibiotics-part-1-spectrum
+One difference between amp-sulbactam and pip-tazo?	Pip-tazo adds Pseudomonas. Both cover GPCs, enteric GNRs, and gut anaerobes.	Infectious_Disease::antibiotics-part-1-spectrum
+First-line for MSSA?	Antistaphylococcal penicillins (nafcillin, oxacillin, dicloxacillin) or cefazolin (1st-gen cephalosporin).	Infectious_Disease::antibiotics-part-1-spectrum
+E. faecalis vs E. faecium ampicillin/VRE mnemonic?	E. faecaLESS = LESS resistant (~90% amp-sensitive, rarely VRE). E. faecium = more resistant (~10% amp-sensitive, more often VRE).	Infectious_Disease::antibiotics-part-1-spectrum
+General rules for cephalosporins?	No Enterococcus, no atypicals; GN coverage increases by generation (except the special 5th).	Infectious_Disease::antibiotics-part-1-spectrum
+Which cephalosporins cover Pseudomonas? Any oral?	Ceftazidime (3rd) and cefepime (4th). No oral cephalosporin covers Pseudomonas.	Infectious_Disease::antibiotics-part-1-spectrum
+Which cephalosporin covers MRSA?	Ceftaroline ("5th generation") -- the only beta-lactam with MRSA activity.	Infectious_Disease::antibiotics-part-1-spectrum
+Carbapenem general rules?	Broadest (GP/GN/anaerobe), most reliable ESBL; no MRSA/atypical, poor Enterococcus.	Infectious_Disease::antibiotics-part-1-spectrum
+Which carbapenem lacks Pseudomonas coverage, and its niche?	Ertapenem -- once-daily, first-line for ESBL E. coli. Meropenem/imipenem/doripenem add Pseudomonas.	Infectious_Disease::antibiotics-part-1-spectrum
+Cipro vs levo vs moxifloxacin?	Cipro = urinary (GN/PsA, poor Strep, not for respiratory). Levo = urinary+respiratory (adds S. pneumo). Moxi = respiratory, best anaerobe, weak PsA/poor renal.	Infectious_Disease::antibiotics-part-1-spectrum
+Fluoroquinolone class harms?	QT prolongation, aortic aneurysm/dissection, tendon rupture, encephalopathy, C. difficile.	Infectious_Disease::antibiotics-part-1-spectrum
+Aztreonam spectrum and the one allergy caveat?	Aerobic GN + Pseudomonas only (no GP/anaerobe/atypical). Minimal beta-lactam cross-reactivity except ceftazidime (shared side chain).	Infectious_Disease::antibiotics-part-1-spectrum
+Aminoglycoside coverage and toxicities?	Aerobic GNR + Pseudomonas; no anaerobe/atypical. Oto- and nephrotoxic. Gentamicin adds GP synergy for enterococcal endocarditis.	Infectious_Disease::antibiotics-part-1-spectrum
+Oral CA-MRSA options and a key caveat for each?	Clindamycin (antitoxin; C. diff; B. fragilis resistant), TMP-SMX (variable Strep -- add beta-lactam for nonpurulent cellulitis), doxycycline (minimal Strep).	Infectious_Disease::antibiotics-part-1-spectrum
+IV HA-MRSA agents?	Vancomycin (1st-line; also Enterococcus/CoNS), daptomycin (NOT for pneumonia; rhabdo), linezolid (PO/IV; 1st-line VRE; often preferred for MRSA pneumonia).	Infectious_Disease::antibiotics-part-1-spectrum
+Why not daptomycin for MRSA pneumonia?	Inactivated by pulmonary surfactant.	Infectious_Disease::antibiotics-part-1-spectrum
+Newer MDR Gram-negative agents (escalate with ID)?	Cefiderocol (CRE/CRAB/Stenotrophomonas/PsA); ceftazidime-avibactam, ceftolozane-tazobactam, meropenem-vaborbactam, imipenem-relebactam; aztreonam-avibactam for metallo-beta-lactamases.	Infectious_Disease::antibiotics-part-1-spectrum
+Colonization vs infection — who do you test?	Only symptomatic patients (≥3 unformed stools/24 h or ileus). Colonization is common.	Infectious_Disease::c-diff-infection
+C. diff colonization rates?	4–15% healthy adults; ~21% hospitalized; 15–30% LTC residents.	Infectious_Disease::c-diff-infection
+Risk factors for CDI?	Age >65, healthcare exposure, antibiotics; also IBD, cardiac disease, CKD (community-acquired).	Infectious_Disease::c-diff-infection
+Two-step diagnostic algorithm for CDI?	GDH antigen + toxin A/B; if discordant/indeterminate, confirm with C. diff NAAT.	Infectious_Disease::c-diff-infection
+What does GDH antigen detect?	An enzyme from ALL C. diff strains (high sensitivity); can't distinguish toxigenic strains.	Infectious_Disease::c-diff-infection
+What does the toxin assay add?	High specificity for toxigenic strains; false negatives with poor specimen handling.	Infectious_Disease::c-diff-infection
+Severe CDI criteria?	WBC >15,000 OR Cr ≥1.5 mg/dL.	Infectious_Disease::c-diff-infection
+Fulminant CDI?	Severe PLUS hypotension/shock OR ileus/megacolon.	Infectious_Disease::c-diff-infection
+Recurrent CDI definition?	Recurrent diarrhea + positive test within 8 weeks of the initial episode (~20%).	Infectious_Disease::c-diff-infection
+Preferred first-line for non-severe/severe CDI?	Fidaxomicin 200 mg BID ×10 d; PO vancomycin 125 mg q6h ×10 d acceptable alternative.	Infectious_Disease::c-diff-infection
+Role of metronidazole in CDI?	PO metronidazole only for low-risk non-severe CDI when fidaxomicin/vancomycin unavailable.	Infectious_Disease::c-diff-infection
+Fulminant CDI treatment?	PO vancomycin 500 mg q6h (PR if ileus) + IV metronidazole 500 mg q8h; surgery consult.	Infectious_Disease::c-diff-infection
+First-recurrence CDI treatment?	Fidaxomicin (preferred) or tapered/pulsed PO vancomycin.	Infectious_Disease::c-diff-infection
+Durable prevention of recurrent CDI (2022–23)?	Rebyota (rectal, live-jslm) or Vowst (oral spores, live-brpk); FMT by referral.	Infectious_Disease::c-diff-infection
+Bezlotoxumab status?	Discontinued by Merck effective Jan 31, 2025 — no longer available.	Infectious_Disease::c-diff-infection
+Do you test for cure in CDI?	No — shedding persists (~56%); post-infectious IBS up to 25%.	Infectious_Disease::c-diff-infection
+Probiotics or stopping PPIs for CDI prevention?	Not recommended.	Infectious_Disease::c-diff-infection

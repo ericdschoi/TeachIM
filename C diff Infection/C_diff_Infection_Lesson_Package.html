@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>C. diff Infection — Optimized Lesson Package</title>
+<style>
+  :root{--ink:#1a2433;--accent:#0e6e8c;--accent2:#b4530a;--bg:#fafbfc;--card:#fff;--line:#dde4ea;--soft:#eef4f7;}
+  *{box-sizing:border-box}
+  body{font-family:Georgia,'Times New Roman',serif;color:var(--ink);background:var(--bg);margin:0;line-height:1.55}
+  header{background:var(--accent);color:#fff;padding:28px 24px}
+  header h1{margin:0 0 6px;font-size:1.7em}
+  header p{margin:2px 0;font-size:.95em;opacity:.92}
+  nav{background:#0b5870;padding:8px 24px;position:sticky;top:0;z-index:5}
+  nav a{color:#fff;text-decoration:none;font-family:Helvetica,Arial,sans-serif;font-size:.82em;margin-right:14px;white-space:nowrap}
+  nav a:hover{text-decoration:underline}
+  main{max-width:880px;margin:0 auto;padding:24px}
+  section{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:22px 26px;margin-bottom:22px}
+  h2{font-family:Helvetica,Arial,sans-serif;color:var(--accent);font-size:1.25em;margin-top:0;border-bottom:2px solid var(--soft);padding-bottom:8px}
+  h3{font-family:Helvetica,Arial,sans-serif;font-size:1.02em;color:var(--accent2);margin-bottom:6px}
+  table{border-collapse:collapse;width:100%;font-size:.92em;margin:12px 0}
+  th{background:var(--soft);text-align:left;font-family:Helvetica,Arial,sans-serif}
+  th,td{border:1px solid var(--line);padding:7px 10px;vertical-align:top}
+  .tag{display:inline-block;font-family:Helvetica,Arial,sans-serif;font-size:.72em;background:var(--soft);color:var(--accent);border-radius:10px;padding:2px 10px;margin-left:8px;vertical-align:middle}
+  .time{font-family:Helvetica,Arial,sans-serif;font-size:.78em;color:#fff;background:var(--accent2);border-radius:10px;padding:2px 10px;margin-left:8px}
+  .ask{background:#fdf6ec;border-left:4px solid var(--accent2);padding:10px 14px;margin:12px 0;border-radius:0 6px 6px 0}
+  .ask b{font-family:Helvetica,Arial,sans-serif;font-size:.85em;letter-spacing:.04em;color:var(--accent2)}
+  .pearl{background:#eef7f0;border-left:4px solid #2e7d4f;padding:10px 14px;margin:12px 0;border-radius:0 6px 6px 0}
+  details{border:1px solid var(--line);border-radius:6px;padding:10px 14px;margin:10px 0;background:#fff}
+  details summary{cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:.9em;color:var(--accent);font-weight:bold}
+  details[open]{background:var(--soft)}
+  .mcq{border:1px solid var(--line);border-radius:8px;padding:16px 18px;margin:14px 0}
+  .mcq ol{list-style-type:upper-alpha;margin:8px 0 8px 22px;padding:0}
+  .mcq ol li{margin:4px 0}
+  .changelog td:first-child{font-family:Helvetica,Arial,sans-serif;font-size:.85em;white-space:nowrap}
+  footer{font-size:.82em;color:#5a6877;padding:18px 24px;max-width:880px;margin:0 auto}
+  .small{font-size:.85em;color:#5a6877}
+  code{background:var(--soft);padding:1px 5px;border-radius:4px;font-size:.9em}
+  .copybtn{font-family:Helvetica,Arial,sans-serif;font-size:.8em;background:var(--accent);color:#fff;border:none;border-radius:5px;padding:6px 12px;cursor:pointer;margin-bottom:8px}
+  pre{background:#0f1b22;color:#d7e7ee;padding:14px 16px;border-radius:8px;overflow-x:auto;font-size:.82em;line-height:1.45;white-space:pre-wrap}
+  @media print{nav{display:none}section{border:none;page-break-inside:avoid}}
+</style>
+</head>
+<body>
+<header>
+  <h1>C. diff Infection</h1>
+  <p>Optimized lesson package &middot; Facilitator-led interactive chalk talk for IM residents &middot; 15 min (25–30 min with cases)</p>
+  <p class="small">Adapted from <a href="https://teachim.org/teaching_material/cdiffcolitis/" style="color:#cde9f2">TeachIM.org — C. diff Infection</a> (Zhang; Sept 2021), CC BY-NC 4.0. Optimized June 2026: guideline currency verified, three deck typos corrected, bezlotoxumab-discontinuation &amp; microbiota-therapy updates added, pedagogy restructured, assessments added. Companion deck: <code>C_diff_Infection_Optimized.pptx</code> (original interactive board, surgically corrected).</p>
+</header>
+<nav>
+  <a href="#files">Files</a>
+  <a href="#objectives">Objectives</a>
+  <a href="#prework">Pre-work</a>
+  <a href="#script">Teaching script</a>
+  <a href="#update">2023–25 update</a>
+  <a href="#cases">Cases</a>
+  <a href="#mcq">Board MCQs</a>
+  <a href="#anki">Anki cards</a>
+  <a href="#dotphrase">Dotphrase</a>
+  <a href="#takehome">Take-home</a>
+  <a href="#changelog">What changed</a>
+  <a href="#refs">References</a>
+</nav>
+<main>
+
+<section id="files">
+  <h2>Lesson Files <span class="tag">click to open — keep files in the same folder as this page</span></h2>
+  <div style="display:flex;flex-wrap:wrap;gap:12px">
+    <a href="C_diff_Infection_Optimized.pptx" style="flex:1;min-width:200px;display:block;text-decoration:none;border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:6px;padding:12px 16px;background:var(--soft)">
+      <span style="font-family:Helvetica,Arial,sans-serif;font-weight:bold;color:var(--accent)">▶ Presentation board</span><br>
+      <span class="small">C_diff_Infection_Optimized.pptx — corrected interactive deck (project this)</span></a>
+    <a href="C_diff_Infection_Anki_Cards.txt" style="flex:1;min-width:200px;display:block;text-decoration:none;border:1px solid var(--line);border-left:4px solid var(--accent2);border-radius:6px;padding:12px 16px;background:#fdf6ec">
+      <span style="font-family:Helvetica,Arial,sans-serif;font-weight:bold;color:var(--accent2)">⬇ Anki cards</span><br>
+      <span class="small">C_diff_Infection_Anki_Cards.txt — import into Anki (File → Import, tab-separated)</span></a>
+    <a href="C_diff_Infection_OnePager.pdf" style="flex:1;min-width:200px;display:block;text-decoration:none;border:1px solid var(--line);border-left:4px solid #6d2e46;border-radius:6px;padding:12px 16px;background:#f7eef2">
+      <span style="font-family:Helvetica,Arial,sans-serif;font-weight:bold;color:#6d2e46">⎙ One-page summary</span><br>
+      <span class="small">C_diff_Infection_OnePager.pdf — dense single-page clinical reference; prints on one page</span></a>
+  </div>
+  <p class="small" style="margin-bottom:0">Links are relative — they work when the named files are in the same folder as this HTML page. The TeachIM lesson page publishes no separate learner handout for this talk, so none is bundled.</p>
+</section>
+
+<section id="objectives">
+  <h2>Learning Objectives</h2>
+  <ol>
+    <li>Identify risk factors for <i>C. diff</i> infection (CDI), including community-acquired CDI.</li>
+    <li>Diagnose CDI and recognize the value and limitations of each stool test.</li>
+    <li>Differentiate non-severe, severe, fulminant, and recurrent CDI.</li>
+    <li>Manage non-severe, severe, fulminant, and recurrent CDI.</li>
+  </ol>
+</section>
+
+<section id="prework">
+  <h2>Pre-work <span class="tag">send the day before</span></h2>
+  <p class="small">Three retrieval questions to prime the session. Answers hidden — try first, then check.</p>
+  <details><summary>1. Why shouldn’t you test an asymptomatic patient for C. diff?</summary>
+    <p>Colonization is common (4–15% of healthy adults, ~21% of hospitalized adults, 15–30% of LTC residents). A positive test in an asymptomatic patient reflects colonization, not infection — test only patients with ≥3 unformed stools/24 h (or ileus with clinical concern).</p></details>
+  <details><summary>2. What two lab values define SEVERE CDI?</summary>
+    <p>WBC &gt;15,000 OR creatinine ≥1.5 mg/dL. Fulminant adds hypotension/shock or ileus/megacolon.</p></details>
+  <details><summary>3. What is the preferred first-line antibiotic for an initial episode of CDI in current guidelines?</summary>
+    <p>Fidaxomicin (preferred over vancomycin per the 2021 IDSA/SHEA focused update). PO vancomycin remains an acceptable first-line alternative. Metronidazole is reserved for low-risk non-severe disease when neither is available.</p></details>
+</section>
+
+<section id="script">
+  <h2>Teaching Script <span class="tag">restructured into timed segments</span></h2>
+
+  <h3>Hook (0:00–0:02)</h3>
+  <p>"Your hospitalized patient has a positive C. diff PCR. Treat or not? It depends entirely on one thing the lab can’t tell you — are they actually having diarrhea? Up to a fifth of inpatients are colonized." The talk builds the discipline of testing the right patient, classifying severity, and picking the right drug.</p>
+
+  <div class="ask"><b>ASK</b> — "Who should we test for C. diff, and who should we NOT?" Anchor on symptomatic-only testing.</div>
+
+  <h3>Objective 1 — Epidemiology &amp; risk factors (0:02–0:05) <span class="time">3 min</span></h3>
+  <p>Distinguish <b>colonization</b> (detection without symptoms — common) from <b>infection</b>. Community-acquired CDI is rising (~40% of cases).</p>
+  <table>
+    <tr><th>Classic risk factors</th><th>Notable for community-acquired CDI</th></tr>
+    <tr><td>Age &gt;65, healthcare exposure, antibiotic use</td><td>IBD, cardiac disease, CKD — and younger patients without recent hospitalization</td></tr>
+  </table>
+  <div class="pearl"><b>Pearl.</b> A positive test never makes the diagnosis by itself — symptoms do. Sending C. diff on formed stool or in an asymptomatic patient generates false "infections" and unnecessary treatment.</div>
+
+  <h3>Objective 2 — Diagnosis (0:05–0:09) <span class="time">4 min</span></h3>
+  <p>Test when: new diarrhea (≥3 unformed stools/24 h) OR ileus (a rectal swab works in ileus). Two-step algorithm:</p>
+  <table>
+    <tr><th>Test</th><th>Detects</th><th>Performance</th></tr>
+    <tr><td>GDH antigen</td><td>Enzyme made by ALL C. diff strains (toxigenic or not)</td><td>High sensitivity (94–96%); can’t distinguish toxin vs non-toxin strains</td></tr>
+    <tr><td>Toxin A/B (EIA/PCR)</td><td>Toxins from toxigenic strains</td><td>High specificity (94–98%); false negatives with poor specimen handling</td></tr>
+    <tr><td>C. diff NAAT</td><td>Gene encoding toxin</td><td>Confirms a toxigenic strain; can’t distinguish colonization from infection — use to resolve discordant GDH/toxin results</td></tr>
+  </table>
+  <p>Algorithm: <b>GDH + / toxin +</b> → CDI. <b>GDH − / toxin −</b> → rule out. <b>Discordant/indeterminate</b> → confirm with NAAT.</p>
+  <div class="pearl"><b>Pearl.</b> Do NOT repeat stool tests within 7 days, and do NOT test for cure — shedding persists in ~56% after symptoms resolve, and post-infectious IBS occurs in up to 25%.</div>
+
+  <h3>Objective 3 — Severity classification (0:09–0:11) <span class="time">2 min</span></h3>
+  <div class="ask"><b>ASK</b> — "What separates severe from fulminant CDI?"</div>
+  <table>
+    <tr><th>Class</th><th>Definition</th></tr>
+    <tr><td>Non-severe</td><td>Absence of severe criteria</td></tr>
+    <tr><td>Severe</td><td>WBC &gt;15,000 OR Cr ≥1.5 mg/dL</td></tr>
+    <tr><td>Fulminant</td><td>Severe PLUS hypotension/shock OR ileus/megacolon</td></tr>
+    <tr><td>Recurrent</td><td>Recurrent diarrhea + confirmatory test within 8 weeks of the initial episode (~20% of patients)</td></tr>
+  </table>
+
+  <h3>Objective 4 — Treatment (0:11–0:15) <span class="time">4 min</span></h3>
+  <table>
+    <tr><th>Scenario</th><th>Treatment</th></tr>
+    <tr><td>Non-severe / severe (initial)</td><td><b>Fidaxomicin 200 mg BID ×10 d (preferred)</b> or PO vancomycin 125 mg q6h ×10 d. PO metronidazole only if neither available (low-risk non-severe).</td></tr>
+    <tr><td>Fulminant</td><td>PO vancomycin 500 mg q6h (PR if ileus) + IV metronidazole 500 mg q8h; surgical consult if no improvement; FMT if not a surgical candidate.</td></tr>
+    <tr><td>1st recurrence</td><td>Fidaxomicin (preferred) or tapered/pulsed PO vancomycin, or standard PO vancomycin.</td></tr>
+    <tr><td>≥2 recurrences</td><td>Tapered/pulsed vancomycin, vancomycin→rifaximin, or FMT / microbiota-based therapy (see update). Refer.</td></tr>
+  </table>
+  <div class="ask"><b>ASK</b> — "Once you’ve treated, how do you know they’re cured?" (Trick: you don’t re-test — judge clinically.)</div>
+  <p><b>Prevention:</b> contact + enteric precautions until 48 h after diarrhea resolves; consider low-dose PO vancomycin 125 mg daily prophylaxis in high-risk patients on systemic antibiotics. Probiotics and stopping PPIs are NOT recommended as preventive measures.</p>
+
+  <h3>Retrieval close (0:15) <span class="time">1 min</span></h3>
+  <p>Board off: "Rebuild who to test, the two-step algorithm, the severe/fulminant definitions, and the preferred first-line drug." Fill gaps from what they reconstruct.</p>
+</section>
+
+<section id="update">
+  <h2>2023–2025 Treatment Update</h2>
+  <p>The standing teaching (fidaxomicin-preferred, severity definitions, two-step testing) is current. Two material changes since publication are surfaced here and on the appended deck slide:</p>
+  <ul>
+    <li><b>Bezlotoxumab discontinued.</b> Merck discontinued bezlotoxumab (Zinplava) effective <b>January 31, 2025</b> — it is no longer commercially available in the US. Where the deck lists "± bezlotoxumab" for recurrence prevention, treat that option as unavailable.</li>
+    <li><b>FDA-approved live biotherapeutics for preventing recurrent CDI</b> (given after the CDI antibiotic course completes) now standardize what the deck calls "FMT": <b>Rebyota</b> (fecal microbiota, live-jslm; rectal; approved Nov 2022) and <b>Vowst</b> (fecal microbiota spores, live-brpk; <i>oral</i>; approved Apr 2023). Conventional FMT remains an option, usually by referral.</li>
+    <li><b>Unchanged:</b> fidaxomicin preferred (2021 IDSA/SHEA; 2021 ACG); severity thresholds; symptomatic-only testing; no test-of-cure.</li>
+  </ul>
+</section>
+
+<section id="cases">
+  <h2>Cases <span class="tag">original cases · sub-questions click-to-reveal</span></h2>
+
+  <h3>Case 1 — From acute to severe to recurrent CDI</h3>
+  <p>33-year-old with fever, abdominal pain, and 4–5 watery BMs/day for 4 days, recently treated for a UTI with Bactrim. VS: T 37.4 °C, HR 110, BP 100/50s. Na 128, BUN 18, Cr 1.7, WBC 18. Stool: GDH Ag +, toxin PCR − (culture pending).</p>
+  <details><summary>What is the diagnosis and what test resolves it?</summary>
+    <p>Likely CDI, but GDH+/toxin− is <b>discordant/indeterminate</b> → send <b>C. diff NAAT</b> to confirm or exclude. (NAAT returns positive.)</p></details>
+  <details><summary>How is the severity classified?</summary>
+    <p><b>Severe CDI</b> — Cr &gt;1.5 (1.7) and WBC &gt;15k (18). Treat with fidaxomicin (preferred) or PO vancomycin.</p></details>
+  <p class="small">Treated with a prolonged PO vancomycin course; 2 weeks after completion, diarrhea returns.</p>
+  <details><summary>What is the diagnosis now, and the management?</summary>
+    <p><b>Recurrent (non-severe) CDI</b> — symptoms with a positive test within 8 weeks of the initial episode. Manage with fidaxomicin (preferred) or tapered/pulsed PO vancomycin.</p></details>
+
+  <h3>Case 2 — Fulminant CDI</h3>
+  <p>82-year-old with recurrent UTIs admitted with fever, abdominal pain, nausea/vomiting, and constipation/obstipation ×2 d. VS: T 38.4 °C, HR 110, BP 80/50s. Na 128, BUN 18, Cr 1.7, WBC 18. KUB shows ileus.</p>
+  <details><summary>How would you diagnose CDI here, and what is the classification?</summary>
+    <p>Use a <b>rectal swab</b> (the patient has ileus). This is <b>fulminant CDI</b> — severe criteria plus hypotension and ileus.</p></details>
+  <details><summary>What is the management?</summary>
+    <p><b>PO vancomycin 500 mg q6h</b> (can give by NG tube) + <b>IV metronidazole 500 mg q8h</b> + <b>PR vancomycin 500 mg q6h</b> (because of ileus). Obtain a surgical consult; consider FMT if not a surgical candidate.</p></details>
+
+  <h3>Case 3 — Recurrence and prevention</h3>
+  <p>33-year-old recently treated for severe CDI with 10 days of PO vancomycin returns 5 weeks later with recurrent watery diarrhea, no interval antibiotics. C. diff testing positive; afebrile, stable vitals, normal CBC/BMP.</p>
+  <details><summary>What is the diagnosis and management?</summary>
+    <p><b>Recurrent (non-severe) CDI.</b> Treat with fidaxomicin (preferred) or tapered/pulsed PO vancomycin.</p></details>
+  <details><summary>Two months later they’re readmitted for a UTI. How do you prevent another recurrence?</summary>
+    <p>They’re high-risk for recurrence with new antibiotics — consider <b>PO vancomycin 125 mg daily for secondary prophylaxis while on systemic antibiotics</b> (continue 5 days after finishing them). For durable prevention after the CDI course, microbiota-based therapy (Rebyota/Vowst/FMT) is now available. Bezlotoxumab is no longer available.</p></details>
+</section>
+
+<section id="mcq">
+  <h2>Board-style MCQs <span class="tag">ABIM single-best-answer</span></h2>
+
+  <div class="mcq">
+    <p><b>1.</b> A 70-year-old inpatient on day 4 of ceftriaxone has one formed stool and a routine C. diff PCR sent by the night team returns positive. He has no diarrhea. What is the best next step?</p>
+    <ol>
+      <li>Start fidaxomicin</li>
+      <li>Start oral vancomycin</li>
+      <li>No CDI treatment — this likely reflects colonization</li>
+      <li>Send C. diff NAAT to confirm</li>
+      <li>Start IV metronidazole</li>
+    </ol>
+    <details><summary>Answer &amp; explanation</summary>
+      <p><b>C.</b> Without diarrhea, a positive test reflects colonization, not infection — don’t treat, and don’t have sent the test in the first place. <b>A/B/E</b> wrong: treating colonization is inappropriate. <b>D</b> wrong: more testing won’t change that there are no symptoms to treat.</p>
+    </details>
+  </div>
+
+  <div class="mcq">
+    <p><b>2.</b> A 60-year-old with CDI has WBC 19,000 and Cr 1.8 but normal blood pressure and no ileus. How is this classified and treated?</p>
+    <ol>
+      <li>Non-severe — PO metronidazole</li>
+      <li>Severe — fidaxomicin (preferred) or PO vancomycin</li>
+      <li>Fulminant — PO + PR vancomycin and IV metronidazole</li>
+      <li>Severe — IV vancomycin</li>
+      <li>Recurrent — FMT</li>
+    </ol>
+    <details><summary>Answer &amp; explanation</summary>
+      <p><b>B.</b> WBC &gt;15k or Cr ≥1.5 = severe; without hypotension/shock or ileus/megacolon it is not fulminant. Treat with fidaxomicin (preferred) or PO vancomycin. <b>A</b> wrong: not non-severe, and metronidazole isn’t first-line. <b>C</b> wrong: no fulminant features. <b>D</b> wrong: IV vancomycin doesn’t reach the colonic lumen — useless for CDI. <b>E</b> wrong: this is a first episode.</p>
+    </details>
+  </div>
+
+  <div class="mcq">
+    <p><b>3.</b> A patient with fulminant CDI has an ileus. Which regimen is most appropriate?</p>
+    <ol>
+      <li>IV vancomycin + IV metronidazole</li>
+      <li>PO vancomycin 125 mg q6h alone</li>
+      <li>PO vancomycin 500 mg q6h + PR vancomycin 500 mg q6h + IV metronidazole</li>
+      <li>Fidaxomicin 200 mg BID alone</li>
+      <li>Oral metronidazole alone</li>
+    </ol>
+    <details><summary>Answer &amp; explanation</summary>
+      <p><b>C.</b> Fulminant CDI with ileus needs high-dose PO vancomycin (500 mg q6h) PLUS PR vancomycin (drug may not reach the colon orally with ileus) PLUS IV metronidazole; consult surgery. <b>A</b> wrong: IV vancomycin doesn’t enter the gut lumen. <b>B/D/E</b> wrong: inadequate for fulminant disease.</p>
+    </details>
+  </div>
+
+  <div class="mcq">
+    <p><b>4.</b> A patient finishes treatment for CDI and feels well, but is about to start an unrelated course of antibiotics. Which is most appropriate for preventing recurrence?</p>
+    <ol>
+      <li>Repeat C. diff testing to confirm cure first</li>
+      <li>Add a probiotic</li>
+      <li>Stop the patient’s PPI</li>
+      <li>Consider PO vancomycin 125 mg daily prophylaxis while on the antibiotics</li>
+      <li>Give a single dose of bezlotoxumab</li>
+    </ol>
+    <details><summary>Answer &amp; explanation</summary>
+      <p><b>D.</b> Low-dose vancomycin prophylaxis during systemic antibiotics is reasonable for high-risk patients. <b>A</b> wrong: never test for cure (shedding persists). <b>B/C</b> wrong: probiotics and PPI discontinuation are not recommended preventive measures. <b>E</b> wrong: bezlotoxumab was discontinued (Jan 2025) and is unavailable.</p>
+    </details>
+  </div>
+
+  <div class="mcq">
+    <p><b>5.</b> A patient has had three episodes of recurrent CDI despite appropriate antibiotics. Which durable option is now FDA-approved for preventing further recurrence?</p>
+    <ol>
+      <li>Bezlotoxumab infusion</li>
+      <li>An oral fecal microbiota spore product (Vowst) or rectal fecal microbiota (Rebyota)</li>
+      <li>Long-term daily metronidazole</li>
+      <li>IV immunoglobulin</li>
+      <li>Rifaximin monotherapy indefinitely</li>
+    </ol>
+    <details><summary>Answer &amp; explanation</summary>
+      <p><b>B.</b> Vowst (oral, 2023) and Rebyota (rectal, 2022) are FDA-approved live biotherapeutics for preventing recurrent CDI after an antibiotic course; conventional FMT is also an option. <b>A</b> wrong: bezlotoxumab is discontinued. <b>C/E</b> wrong: chronic metronidazole or rifaximin monotherapy is not a standard durable prevention strategy. <b>D</b> wrong: IVIG is not standard.</p>
+    </details>
+  </div>
+</section>
+
+<section id="anki">
+  <h2>Spaced-repetition Cards <span class="tag">also exported as Anki TSV</span></h2>
+  <table>
+    <tr><th>Front</th><th>Back</th></tr>
+    <tr><td>Colonization vs infection — who do you test?</td><td>Only symptomatic patients (≥3 unformed stools/24 h or ileus). Colonization is common.</td></tr>
+    <tr><td>C. diff colonization rates?</td><td>4–15% healthy adults; ~21% hospitalized; 15–30% LTC residents.</td></tr>
+    <tr><td>Risk factors for CDI?</td><td>Age &gt;65, healthcare exposure, antibiotics; also IBD, cardiac disease, CKD (community-acquired).</td></tr>
+    <tr><td>Two-step diagnostic algorithm?</td><td>GDH antigen + toxin A/B; if discordant/indeterminate, confirm with C. diff NAAT.</td></tr>
+    <tr><td>What does GDH detect?</td><td>An enzyme from ALL C. diff strains (high sensitivity); can’t distinguish toxigenic.</td></tr>
+    <tr><td>What does the toxin assay add?</td><td>High specificity for toxigenic strains; false negatives with poor specimen handling.</td></tr>
+    <tr><td>Severe CDI criteria?</td><td>WBC &gt;15,000 OR Cr ≥1.5 mg/dL.</td></tr>
+    <tr><td>Fulminant CDI?</td><td>Severe PLUS hypotension/shock OR ileus/megacolon.</td></tr>
+    <tr><td>Recurrent CDI definition?</td><td>Recurrent diarrhea + positive test within 8 weeks of the initial episode (~20%).</td></tr>
+    <tr><td>Preferred first-line for non-severe/severe CDI?</td><td>Fidaxomicin 200 mg BID ×10 d; PO vancomycin 125 mg q6h ×10 d acceptable alternative.</td></tr>
+    <tr><td>Role of metronidazole?</td><td>PO metronidazole only for low-risk non-severe CDI when fidaxomicin/vancomycin unavailable.</td></tr>
+    <tr><td>Fulminant CDI treatment?</td><td>PO vancomycin 500 mg q6h (PR if ileus) + IV metronidazole 500 mg q8h; surgery consult.</td></tr>
+    <tr><td>First-recurrence treatment?</td><td>Fidaxomicin (preferred) or tapered/pulsed PO vancomycin.</td></tr>
+    <tr><td>Durable prevention of recurrent CDI (2022–23)?</td><td>Rebyota (rectal, live-jslm) or Vowst (oral spores, live-brpk); FMT by referral.</td></tr>
+    <tr><td>Bezlotoxumab status?</td><td>Discontinued by Merck effective Jan 31, 2025 — no longer available.</td></tr>
+    <tr><td>Do you test for cure?</td><td>No — shedding persists (~56%); post-infectious IBS up to 25%.</td></tr>
+    <tr><td>Probiotics / stopping PPIs for prevention?</td><td>Not recommended.</td></tr>
+  </table>
+</section>
+
+<section id="dotphrase">
+  <h2>Attending Dotphrase <span class="tag">EMR-paste-ready A&amp;P smart phrase</span></h2>
+  <button class="copybtn" onclick="navigator.clipboard.writeText(document.getElementById('dp').innerText)">Copy dotphrase</button>
+  <pre id="dp">#C. diff infection (CDI): *[non-severe/severe/fulminant/recurrent]
+ test ONLY if symptomatic: &ge;3 unformed stools/24h OR ileus (rectal swab ok)
+ dx: GDH Ag *[+/-] + toxin A/B *[+/-]; if discordant/indeterminate &rarr; C. diff NAAT *
+  -- do NOT repeat test <7d; do NOT test for cure (shedding ~56%)
+ severity: WBC *>15k? / Cr *&ge;1.5? &rarr; severe if either; FULMINANT if + hypotension/shock or ileus/megacolon
+ recurrence: sx + confirmatory test within 8 wk of prior episode
+RF: age>65, healthcare exposure, abx; community-acq: IBD, cardiac dz, CKD
+TREATMENT:
+ non-severe/severe (initial): fidaxomicin 200 mg BID x10d [PREFERRED] | PO vanc 125 mg q6h x10d
+   -- PO metronidazole only if low-risk non-severe & neither available
+ fulminant: PO vanc 500 mg q6h (NGT ok) + IV metronidazole 500 mg q8h + PR vanc 500 mg q6h if ileus; SURGERY consult; FMT if non-surgical
+ 1st recurrence: fidaxomicin [pref] | tapered/pulsed PO vanc | std PO vanc
+ &ge;2 recurrences: tapered/pulsed vanc | vanc&rarr;rifaximin | FMT/microbiota therapy [REFER]
+ recurrence PREVENTION (post-course): Rebyota (rectal) or Vowst (oral) live biotherapeutic; bezlotoxumab DISCONTINUED (Jan 2025 - unavailable)
+PREVENTION/precautions: contact + enteric precautions until 48h after diarrhea resolves
+ -- high-risk on systemic abx: consider PO vanc 125 mg daily ppx (cont x5d after abx)
+ -- probiotics NOT rec; do NOT stop PPI for prevention</pre>
+  <p class="small">Every <code>*</code> is a bedside-editable value. Numbers from 2021 IDSA/SHEA &amp; 2021 ACG CDI guidelines plus the 2023–25 updates (see References). Clinician-review before use.</p>
+</section>
+
+<section id="takehome">
+  <h2>Take-Home Points</h2>
+  <ol>
+    <li>Colonization is common — test ONLY symptomatic patients, and never test for cure.</li>
+    <li>Diagnose with a two-step algorithm: GDH + toxin A/B; confirm discordant results with NAAT.</li>
+    <li>Severe = WBC &gt;15k or Cr ≥1.5; fulminant = severe + hypotension/shock or ileus/megacolon; recurrence = symptoms + positive test within 8 weeks.</li>
+    <li>Fidaxomicin is preferred first-line for non-severe, severe, and first-recurrence CDI; PO vancomycin is an acceptable alternative. Fulminant: high-dose PO ± PR vancomycin + IV metronidazole ± surgery.</li>
+    <li>For durable recurrence prevention, use microbiota-based therapy (Rebyota, Vowst, or FMT). Bezlotoxumab is no longer available.</li>
+  </ol>
+</section>
+
+<section id="changelog">
+  <h2>Optimization Changelog</h2>
+  <table class="changelog">
+    <tr><th>Area</th><th>What changed</th></tr>
+    <tr><td>Currency check</td><td>Verified against 2021 IDSA/SHEA focused update and 2021 ACG CDI guideline (the original basis). Fidaxomicin-preferred teaching and severity definitions remain current.</td></tr>
+    <tr><td>Content added</td><td>Bezlotoxumab discontinued (Merck, eff. Jan 31, 2025); FDA-approved live biotherapeutics Rebyota (2022) and Vowst (2023) for recurrent-CDI prevention — added as an HTML section and one appended deck slide.</td></tr>
+    <tr><td>Corrections</td><td>Three surgical deck typos: "rifaxmin"→"rifaximin" and "Bezlotuoxumab"→"Bezlotoxumab" (slide 4); pie-chart label "Hospital acquried"→"acquired" (slide 1). All animations/graphics preserved.</td></tr>
+    <tr><td>Pedagogy</td><td>Restructured into timed segments; added 2-min hook, ASK pause-points, pearls, HTML tables, and a retrieval close.</td></tr>
+    <tr><td>Assessment</td><td>Added 3 pre-work retrieval questions, click-to-reveal case sub-questions (all 3 original cases), 5 ABIM-style MCQs with distractor explanations, and 17 spaced-repetition cards.</td></tr>
+    <tr><td>Clinical tool</td><td>Added an EMR-paste-ready attending dotphrase (CDI diagnosis/severity/treatment template) with copy button.</td></tr>
+    <tr><td>One-pager</td><td>Added a dense single-page PDF clinical reference (separate print-CSS build).</td></tr>
+    <tr><td>Format</td><td>Built HTML launcher matching the Syncope exemplar. No companion handout is published on the lesson page, so none is bundled.</td></tr>
+    <tr><td>Human review needed</td><td>None. The deck teaches "± bezlotoxumab"; left on the original slides to preserve animations, with discontinuation flagged on the appended update slide and in the HTML.</td></tr>
+  </table>
+</section>
+
+<section id="refs">
+  <h2>References</h2>
+  <ol>
+    <li>Johnson S, Lavergne V, Skinner AM, et al. Clinical Practice Guideline by IDSA and SHEA: 2021 Focused Update Guidelines on Management of <i>Clostridioides difficile</i> Infection in Adults. <i>Clin Infect Dis.</i> 2021;73(5):e1029–e1044.</li>
+    <li>Kelly CR, Fischer M, Allegretti JR, et al. ACG Clinical Guidelines: Prevention, Diagnosis, and Treatment of <i>Clostridioides difficile</i> Infections. <i>Am J Gastroenterol.</i> 2021;116(6):1124–1147.</li>
+    <li>McDonald LC, Gerding DN, Johnson S, et al. Clinical Practice Guidelines for <i>C. difficile</i> Infection in Adults and Children: 2017 Update (IDSA/SHEA). <i>Clin Infect Dis.</i> 2018;66(7):e1–e48.</li>
+    <li>US FDA. Approval of REBYOTA (fecal microbiota, live-jslm) for prevention of recurrent CDI. Nov 2022. <span class="small">(newly cited)</span></li>
+    <li>US FDA. Approval of VOWST (fecal microbiota spores, live-brpk), oral, for prevention of recurrent CDI. Apr 2023. <span class="small">(newly cited)</span></li>
+    <li>Merck/FDA Drug Shortages. Bezlotoxumab (Zinplava) discontinuation, effective Jan 31, 2025. <span class="small">(newly cited)</span></li>
+  </ol>
+</section>
+
+</main>
+<footer>
+  Adapted from <a href="https://teachim.org/teaching_material/cdiffcolitis/">TeachIM.org — C. diff Infection</a> (Zhang; published Sept 2021). Original content © its author under <a href="http://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>; this optimized package is shared under the same license. Non-commercial educational use only. Optimized June 2026. Medical content should be clinician-reviewed before teaching.
+</footer>
+</body>
+</html>

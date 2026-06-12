@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8">
+<style>
+@page { size: Letter; margin: 0.3in; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { --fs: 13px; font-family: "Helvetica Neue", Arial, sans-serif; font-size: var(--fs); line-height: 1.32; color: #111; }
+.hdr { display: flex; justify-content: space-between; align-items: baseline; border-bottom: calc(var(--fs)*0.25) solid #0e6e8c; padding-bottom: calc(var(--fs)*0.3); margin-bottom: calc(var(--fs)*0.5); }
+.hdr h1 { font-size: calc(var(--fs)*1.75); color: #0e6e8c; letter-spacing: 0.02em; }
+.hdr .sub { font-size: calc(var(--fs)*0.8); color: #555; max-width: 52%; text-align: right; }
+.cols { column-count: 2; column-gap: calc(var(--fs)*1.1); }
+h2 { font-size: calc(var(--fs)*1.02); color: #fff; background: #0e6e8c; padding: calc(var(--fs)*0.2) calc(var(--fs)*0.5); margin: 0 0 calc(var(--fs)*0.3); border-radius: 2px; break-after: avoid; }
+h2.alt { background: #b4530a; }
+h2.grn { background: #2e7d4f; }
+.blk { break-inside: avoid; margin-bottom: calc(var(--fs)*0.5); }
+table { width: 100%; border-collapse: collapse; margin: calc(var(--fs)*0.2) 0 calc(var(--fs)*0.3); }
+td, th { border: 0.5px solid #bcc7d0; padding: calc(var(--fs)*0.15) calc(var(--fs)*0.3); vertical-align: top; text-align: left; }
+th { background: #eef4f7; font-weight: 700; }
+td.k { background: #f5f8fa; font-weight: 700; width: 22%; }
+ul { margin: 0 0 0 calc(var(--fs)*1); padding: 0; }
+li { margin-bottom: calc(var(--fs)*0.1); }
+.tag { font-weight: 700; color: #0e6e8c; }
+.red { color: #b00; font-weight: 700; }
+.pearl { background: #eef7f0; border-left: calc(var(--fs)*0.25) solid #2e7d4f; padding: calc(var(--fs)*0.2) calc(var(--fs)*0.5); margin: calc(var(--fs)*0.2) 0; }
+.warn { background: #fdeeea; border-left: calc(var(--fs)*0.25) solid #b00; padding: calc(var(--fs)*0.2) calc(var(--fs)*0.5); margin: calc(var(--fs)*0.2) 0; }
+.foot { border-top: 0.5px solid #bcc7d0; margin-top: calc(var(--fs)*0.3); padding-top: calc(var(--fs)*0.2); font-size: calc(var(--fs)*0.72); color: #777; column-span: all; }
+b { font-weight: 700; }
+</style></head>
+<body>
+<div class="hdr">
+  <h1>LUNG CANCER &mdash; Screening, Dx &amp; First Steps</h1>
+  <div class="sub">#1 cancer death worldwide &middot; Stage I 5-yr ~73&ndash;90% vs Stage IV ~0&ndash;10% &middot; USPSTF 2021 / ACS 2023 &middot; IM resident reference</div>
+</div>
+
+<div class="cols">
+
+  <div class="blk">
+    <h2>1 &middot; WHO TO SCREEN (asymptomatic)</h2>
+    <table>
+      <tr><th>Guideline</th><th>Annual low-dose CT if&hellip;</th></tr>
+      <tr><td class="k">USPSTF 2021 <span style="font-weight:400">(coverage)</span></td><td>Age 50&ndash;80 &middot; &ge;20 pack-yr &middot; current smoker OR quit &le;15 yr ("A-50-80-20-15")</td></tr>
+      <tr><td class="k">ACS 2023 <span style="font-weight:400">(expanded)</span></td><td>Age 50&ndash;80 &middot; &ge;20 pack-yr &middot; current OR former &mdash; <b>no</b> quit-time limit</td></tr>
+    </table>
+    Not eligible &rarr; reassess risk annually + <b>smoking cessation</b> (highest-yield). Other RFs: radon, occupational/chemical, 2nd-hand smoke, FHx (1st-deg), COPD/pulm fibrosis, prior CA.
+  </div>
+
+  <div class="blk">
+    <h2 class="alt">2 &middot; SYMPTOMATIC PATHWAY</h2>
+    Sx: cough, hemoptysis, dyspnea, chest pain; advanced &rarr; wt loss, malaise, bone pain (mets), HA/seizure (brain).
+    <ul>
+      <li><b>CXR first.</b> Not concerning &rarr; risk-assess (hemoptysis/persistent sx still &rarr; CT). Concerning &rarr; CT chest &plusmn; A/P (contrast for nodes).</li>
+    </ul>
+    <b class="tag">CT red flags:</b> &gt;15 mm &middot; irregular/spiculated &middot; thick-walled cavity &middot; solid component in GGO &middot; extrapulmonary lesions &middot; interval growth.
+    <div class="pearl"><b>Tissue is the issue.</b> Core/excisional &gt; FNA (preserves tissue for molecular).</div>
+  </div>
+
+  <div class="blk">
+    <h2 class="grn">3 &middot; WHERE TO BIOPSY</h2>
+    <b>Biopsy the MOST ADVANCED safe lesion</b> &mdash; one sample = diagnosis + staging (distant met = stage IV).
+    <table>
+      <tr><th>Site</th><th>Service</th></tr>
+      <tr><td class="k">Peripheral lung</td><td>IR / Surgery (CT-guided)</td></tr>
+      <tr><td class="k">Endobronchial</td><td>Pulmonology (bronch)</td></tr>
+      <tr><td class="k">Liver</td><td>IR (CT/US-guided)</td></tr>
+      <tr><td class="k">Node / soft tissue</td><td>Gen surg (excis.) or IR (core)</td></tr>
+      <tr><td class="k">Bone</td><td>Ortho / IR</td></tr>
+    </table>
+  </div>
+
+  <div class="blk">
+    <h2>4 &middot; STAGING THE CONFIRMED CANCER</h2>
+    <table>
+      <tr><th>Domain</th><th>Test</th></tr>
+      <tr><td class="k">Distant</td><td>CT C/A/P w/ contrast OR PET-CT</td></tr>
+      <tr><td class="k">CNS</td><td>MRI brain &plusmn;contrast (PET poor &mdash; brain always lights up)</td></tr>
+      <tr><td class="k">Nodes</td><td>Bronch &plusmn; mediastinoscopy</td></tr>
+      <tr><td class="k">Surgical</td><td>PFTs (if resection candidate)</td></tr>
+      <tr><td class="k">Labs/molec</td><td>CBC, BMP+Ca, LFTs; PD-L1; EGFR/ALK/ROS1</td></tr>
+    </table>
+    <div class="pearl"><b>~50% of never-smokers</b> have a targetable driver &mdash; molecular testing is mandatory; changes early-stage care too.</div>
+  </div>
+
+  <div class="blk">
+    <h2 class="alt">5 &middot; SCLC vs NSCLC</h2>
+    <table>
+      <tr><th></th><th>SCLC (10&ndash;15%)</th><th>NSCLC (80&ndash;85%)</th></tr>
+      <tr><td class="k">Character</td><td>Smoking, aggressive, brain mets, paraneoplastic</td><td>Adeno/squam/other; molecular-driven</td></tr>
+      <tr><td class="k">Stage</td><td>Limited vs Extensive</td><td>I&ndash;IV</td></tr>
+      <tr><td class="k">Tx</td><td>Chemo+RT; limited may resect; PCI</td><td>Early: resect/RT; adv: systemic</td></tr>
+      <tr><td class="k">5-yr</td><td>Ltd ~10&ndash;13% / Ext ~1&ndash;2%</td><td>I ~73&ndash;90% &rarr; IV ~0&ndash;10%</td></tr>
+    </table>
+  </div>
+
+  <div class="blk">
+    <h2 class="grn">6 &middot; SYSTEMIC THERAPY</h2>
+    <b>Intent:</b> neoadjuvant (pre-op shrink) / adjuvant (post-op clear residual) / palliative (control, not curative &ne; pall care svc).
+    <table>
+      <tr><th>Class</th><th>Examples</th><th>Tox</th></tr>
+      <tr><td class="k">Chemo</td><td>Carbo/cis, pemetrexed, etoposide, taxanes, lurbinectedin</td><td>N/V, cytopenias, neuropathy, AKI</td></tr>
+      <tr><td class="k">Immuno</td><td>Pembro, nivo&plusmn;ipi, atezo, durva</td><td>The "-itises" (any organ, may be late)</td></tr>
+      <tr><td class="k">Targeted (-tinib)</td><td>Osimertinib(EGFR), alectinib(ALK), entrectinib(ROS1)</td><td>Rash, diarrhea; rare pneumonitis/QTc</td></tr>
+    </table>
+    <div class="pearl"><b>2023&ndash;25:</b> Resectable NSCLC &rarr; periop immunotherapy (CheckMate 816, KEYNOTE-671); EGFR-mut resected &rarr; adjuvant <b>osimertinib</b> (ADAURA, OS benefit).</div>
+  </div>
+
+</div>
+<div class="foot">Adapted from TeachIM.org "Lung Cancer Screening" (Nie; ed. Geiger; exec. eds. Zhang, Fainstad; Dec 2023) &middot; CC BY-NC 4.0 &middot; educational use only, not medical advice &middot; oncology therapy evolves &mdash; verify &amp; have clinician-reviewed before teaching &middot; optimized June 2026.</div>
+</body></html>

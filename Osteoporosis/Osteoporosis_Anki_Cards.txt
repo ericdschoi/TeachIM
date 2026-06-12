@@ -1,0 +1,18 @@
+Definition of osteoporosis at the bone level?	Low bone mass + microarchitectural deterioration → skeletal fragility and increased fracture risk.
+Three diagnostic criteria for osteoporosis?	T-score ≤ −2.5 on DXA; a fragility fracture (any T-score); or high FRAX (≥20% 10-yr major OR ≥3% hip).
+DXA T-score classification?	Normal > −1.0; osteopenia −1.0 to −2.5; osteoporosis < −2.5.
+Who should be screened with DXA?	All women ≥65; postmenopausal women <65 with ≥1 risk factor; men with major risk factors.
+Why does T-score alone underestimate fracture risk?	Most fragility fractures occur in patients with T-scores better than −2.5; use clinical risk factors and FRAX, not BMD alone.
+What is a fragility fracture, and where do they occur?	A fracture from minor trauma (ground-level fall): hip, vertebra, wrist, pelvis, ribs, proximal humerus. Diagnostic of osteoporosis regardless of T-score.
+Most common clinical manifestation of osteoporosis?	Vertebral fracture — two-thirds are asymptomatic/incidental.
+1-year mortality and return-to-independence after hip fracture?	~25% one-year mortality; only ~50% return to independent living.
+Who needs a secondary work-up for osteoporosis?	All men; premenopausal women; osteoporosis that is unexplained or under age 50. Initial labs: CBC, CMP, Mg, Phos, 25-OH vitamin D, testosterone (men).
+Primary interventions for everyone with/at risk for osteoporosis?	Calcium ~1200 mg/day (dietary preferred), vitamin D 800 IU/day, weight-bearing high-impact exercise, smoking cessation, limit alcohol.
+What did the VITAL trial show about vitamin D?	No fracture reduction from vitamin D in community-dwelling adults with normal baseline levels (NEJM 2022). Still replete to normal when starting a bisphosphonate, but don't delay the bisphosphonate.
+First-line drug for most osteoporosis, and the eGFR limit?	Bisphosphonate (alendronate PO weekly or zoledronic acid IV yearly); use if eGFR ≥35.
+How to take an oral bisphosphonate?	First thing AM, empty stomach, with 8 oz water; sit upright ≥30 min; nothing by mouth ≥30 min. Stop if esophagitis symptoms.
+Bisphosphonate adverse effects?	Esophagitis, hypocalcemia; rare osteonecrosis of the jaw (~1/10,000-1/100,000 pt-yr) and atypical femur fracture (~0.2% after 5 yr).
+Denosumab — mechanism, line, and the critical caution?	Anti-RANKL antibody, SQ q6 months, second-line. Effectively lifelong — stopping causes rebound vertebral fractures, so always transition to a bisphosphonate (never to a PTH analog).
+When are anabolic agents indicated, and which sequence?	Very-high-risk (T ≤ −3.5, or ≤ −2.5 + fragility fracture) or antiresorptive failure. Use the anabolic (teriparatide/romosozumab) FIRST, then follow with a bisphosphonate. Avoid romosozumab with recent MI/stroke.
+DXA monitoring intervals by risk?	Low risk ~15 yr; moderate (osteopenia) 1-2 yr; on IV bisphosphonate ~3 yr; on oral ~5 yr; during drug holiday every 2-4 yr.
+When to consider a bisphosphonate drug holiday?	After ~5 yr oral or ~3 yr IV if BMD is stable/improved and risk has fallen — benefit persists, and cumulative use raises atypical-fracture risk.

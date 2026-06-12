@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><style>
+  @page{size:Letter;margin:0.3in}
+  :root{--fs:13px;--p:#0e6e8c;--o:#b4530a;--g:#2e7d4f;--line:#bcc8d2}
+  *{box-sizing:border-box}
+  body{font-family:'Helvetica Neue',Arial,sans-serif;font-size:var(--fs);line-height:1.28;color:#1a2433;margin:0;column-count:2;column-fill:balance;column-gap:0.22in}
+  h1{font-size:calc(var(--fs)*1.5);margin:0 0 1px;color:var(--p);column-span:all}
+  .sub{column-span:all;font-size:calc(var(--fs)*0.92);color:#444;margin:0 0 5px;border-bottom:2px solid var(--p);padding-bottom:3px}
+  .blk{break-inside:avoid;margin-bottom:5px}
+  h2{font-size:calc(var(--fs)*1.02);color:#fff;background:var(--p);margin:0 0 3px;padding:2px 6px;border-radius:3px}
+  h2.o{background:var(--o)} h2.g{background:var(--g)}
+  table{border-collapse:collapse;width:100%;font-size:calc(var(--fs)*0.95);margin:2px 0}
+  th,td{border:1px solid var(--line);padding:2px 4px;vertical-align:top;text-align:left}
+  th{background:#eef4f7;font-weight:bold}
+  ul{margin:2px 0;padding-left:14px} li{margin:1px 0}
+  b{color:#0b3a49} .hi{color:var(--o);font-weight:bold}
+  p{margin:2px 0}
+</style></head><body>
+
+<h1>Adrenal Insufficiency — Clinical One-Pager</h1>
+<p class="sub">Localize the level &middot; diagnose with AM cortisol &amp; stim test &middot; treat crisis empirically. Endocrine Society 2016 / ESE-ES 2024. Adapted from TeachIM.org (CC BY-NC 4.0) — clinician-reviewed.</p>
+
+<div class="blk"><h2>Three levels</h2>
+<table>
+<tr><th>Level</th><th>Lesion</th><th>ACTH</th><th>Aldo/RAAS</th></tr>
+<tr><td>Primary</td><td>Adrenal</td><td>&uarr; (hyperpigment)</td><td>Lost</td></tr>
+<tr><td>Secondary</td><td>Pituitary</td><td>low/nl</td><td>Intact</td></tr>
+<tr><td>Tertiary</td><td>Hypothal / exog GC</td><td>low (even post-CRH)</td><td>Intact</td></tr>
+</table>
+<p class="hi">Primary AI loses aldosterone &rarr; hypovolemia, &uarr;K, &darr;Na &rarr; crisis-prone. Central spares RAAS.</p></div>
+
+<div class="blk"><h2>Causes</h2>
+<ul>
+<li><b>Primary:</b> autoimmune adrenalitis (most common); infection (TB, fungi, syphilis); hemorrhage; mets/tumor; drugs.</li>
+<li><b>Central:</b> exogenous glucocorticoids (<span class="hi">most common cause overall</span>); mass/craniopharyngioma/mets; XRT; infiltrative (hemochromatosis, sarcoid); Sheehan; surgery.</li>
+<li><b>Drugs:</b> steroids, azoles, etomidate, mitotane, checkpoint inhibitors; rifampin/phenytoin/PBT (&uarr;metabolism).</li>
+</ul></div>
+
+<div class="blk"><h2 class="o">Diagnosis</h2>
+<ul>
+<li><b>1st test: 8 AM serum cortisol.</b> Very low rules in; clearly high rules out; indeterminate &rarr; stim test.</li>
+<li>Board cutoffs (older assay): &lt;3 ruled-in; &lt;10 suspected; &gt;18 ruled-out.</li>
+<li><span class="hi">Cutoffs are ASSAY-SPECIFIC:</span> modern monoclonal/LC-MS-MS read ~20-30% lower &rarr; rule-out / stim peak ~<b>14-15 &micro;g/dL</b>, not 18.</li>
+<li><b>ACTH (cosyntropin) stim:</b> 250 &micro;g IV/IM, cortisol at 0 + 30-60 min; subnormal peak = AI.</li>
+<li><b>ACTH level localizes:</b> &uarr; = primary; low/nl = central. Then 21-OH-Ab (primary) or pituitary MRI (central).</li>
+</ul></div>
+
+<div class="blk"><h2 class="g">Chronic replacement</h2>
+<table>
+<tr><th>Type</th><th>Regimen</th></tr>
+<tr><td>Primary</td><td>Hydrocortisone 20-25 mg/24h split (AM-weighted) + <b>fludrocortisone 0.1 mg qAM</b> &plusmn; DHEA</td></tr>
+<tr><td>Central</td><td>Hydrocortisone 15-20 mg/24h split; <b>no fludrocortisone</b> (RAAS intact)</td></tr>
+</table>
+<p>At stress doses (HC &gt;~50 mg/d) mineralocorticoid effect is adequate — fludro can be held.</p></div>
+
+<div class="blk"><h2 class="o">Adrenal crisis — treat NOW</h2>
+<ul>
+<li>Presents: hypotension/shock &plusmn; fever, abd pain, N/V, fatigue; &plusmn; &uarr;K / &darr;Na / hypoglycemia.</li>
+<li><b>Hydrocortisone 100 mg IV bolus &rarr; 200 mg/24h (or 50 mg q6h) + aggressive IV fluids.</b> Treat empirically — do NOT await testing.</li>
+<li>If a stim test is still pending, use <b>dexamethasone</b> (no cortisol-assay cross-reaction).</li>
+</ul></div>
+
+<div class="blk"><h2 class="g">Patient safety / sick-day rules</h2>
+<ul>
+<li>Double/triple the oral dose for febrile illness or stress; IV hydrocortisone for major stress/surgery.</li>
+<li>Every AI patient: emergency IM hydrocortisone kit + medical-alert ID.</li>
+<li>Under-replacement during stress is what precipitates crisis.</li>
+</ul></div>
+
+</body></html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8">
+<style>
+:root{ --fs:13px; --p:#0e6e8c; --o:#b4530a; --g:#2e7d4f; }
+@page{ size:Letter; margin:0.3in; }
+*{ box-sizing:border-box; }
+body{ font-family:"Helvetica Neue",Arial,sans-serif; font-size:var(--fs); line-height:1.55; color:#1a1a1a; margin:0; }
+.title{ font-size:calc(var(--fs)*1.55); font-weight:700; color:var(--p); margin:0 0 2px; }
+.sub{ font-size:calc(var(--fs)*0.95); color:#444; margin:0 0 12px; }
+.cols{ column-count:2; column-gap:16px; column-fill:balance; }
+section{ break-inside:avoid; margin-bottom:13px; }
+h2{ font-size:calc(var(--fs)*1.05); color:#fff; background:var(--p); margin:0 0 5px; padding:4px 7px; border-radius:3px; }
+h2.o{ background:var(--o); } h2.g{ background:var(--g); }
+table{ border-collapse:collapse; width:100%; font-size:calc(var(--fs)*0.96); }
+td,th{ border:1px solid #bbb; padding:4px 5px; vertical-align:top; text-align:left; }
+th{ background:#eef4f6; }
+ul{ margin:4px 0 4px; padding-left:16px; } li{ margin-bottom:4px; }
+p{ margin:4px 0; } b.k{ color:var(--p); } .pearl{ background:#fbf3e8; border-left:3px solid var(--o); padding:3px 6px; }
+.foot{ font-size:calc(var(--fs)*0.85); color:#666; margin-top:9px; border-top:1px solid #ccc; padding-top:5px; }
+</style></head><body>
+<div class="title">Transplant Medicine &mdash; Immunosuppression &amp; Post-Transplant Complications</div>
+<div class="sub">Balancing rejection vs. infection/cancer/toxicity &middot; induction vs. maintenance &middot; complications by time from transplant. IM facilitator reference.</div>
+<div class="cols">
+
+<section><h2>The Core Balance</h2>
+<p><b class="k">More immunosuppression</b> &rarr; less rejection, but more <b>infection, malignancy, drug toxicity</b>. Therapy is titrated to each organ's rejection risk and time from transplant.</p>
+<p><b class="k">Allogenicity (rejection risk):</b> Lung &gt; heart/kidney &gt; liver. Lung ~50% reject by 5 yr (often on all 3 classes for life); liver least (may be on CNI alone).</p>
+</section>
+
+<section><h2 class="o">Induction vs. Maintenance</h2>
+<table>
+<tr><th>Phase</th><th>When</th><th>Agents</th></tr>
+<tr><td><b>Induction</b></td><td>At transplant</td><td>Anti-lymphocyte Ab (rATG, alemtuzumab) or anti&ndash;IL-2R (basiliximab) + high-dose steroids. <i>OKT3 discontinued 2010.</i></td></tr>
+<tr><td><b>Maintenance</b></td><td>Long-term</td><td>CNI + antimetabolite &plusmn; prednisone</td></tr>
+</table>
+<p style="margin-top:3px"><b class="k">Maintenance classes:</b> CNI (tacrolimus, cyclosporine) &middot; antimetabolite (mycophenolate, azathioprine) &middot; steroid (prednisone) &middot; mTOR inhibitor (sirolimus, everolimus).</p>
+</section>
+
+<section><h2 class="g">Complication Timeline</h2>
+<table>
+<tr><th>Time</th><th>Infection</th><th>Other</th></tr>
+<tr><td><b>&lt;1 mo</b></td><td>Nosocomial; donor/recipient-derived</td><td>Surgical (leaks, kinks, fistulas, stenoses)</td></tr>
+<tr><td><b>1&ndash;6 mo</b></td><td>Reactivation/OIs: CMV, BK, HSV/VZV, TB, HBV; PJP, Crypto, Toxo (&darr; w/ prophylaxis)</td><td>Acute rejection peak; PTLD (EBV) can begin</td></tr>
+<tr><td><b>&gt;6 mo</b></td><td>Community-acquired &raquo; OIs; late viral</td><td>Chronic rejection; late solid malignancies</td></tr>
+</table>
+</section>
+
+<section><h2>Rejection</h2>
+<ul>
+<li><b>Acute cellular</b> (T-cell): biopsy = lymphocytic infiltrate &rarr; pulse methylpred 1 g &times;3 d &plusmn; anti-lymphocyte Ab.</li>
+<li><b>Acute humoral</b> (Ab-mediated): biopsy C4d / donor-specific Abs &rarr; &uarr; immunosuppression, IVIg, plasmapheresis, rituximab, bortezomib, eculizumab.</li>
+<li><b>Chronic:</b> lung = bronchiolitis obliterans (obstructive, &darr;FEV<sub>1</sub>; azithromycin 3&times;/wk); kidney = chronic allograft dysfunction (&uarr;Cr, proteinuria).</li>
+<li><b>First</b> acute rejection &gt;6 mo unlikely if adherent (~25% have an acute episode overall).</li>
+</ul>
+</section>
+
+<section><h2 class="o">Drug Toxicities &amp; Malignancy</h2>
+<ul>
+<li><b>CNI:</b> nephro/neurotoxicity, &uarr;K, &uarr;uric acid, metabolic syndrome.</li>
+<li><b>Antimetabolite:</b> marrow suppression, GI (colitis). <b>Steroid:</b> metabolic syndrome.</li>
+<li><b>Cancer ~2&times;</b> general population &mdash; virally driven (PTLD/EBV early; skin/anogenital HPV, liver late).</li>
+</ul>
+</section>
+
+<section><h2 class="g">Newer Context (cite before teaching)</h2>
+<ul>
+<li><b>Belatacept</b> (Nulojix, 2011): CD28 costimulation blocker, CNI-sparing; better long-term GFR. <b>Contraindicated if EBV-seronegative</b> (PTLD/PML).</li>
+<li><b>Letermovir</b> (2023): CMV prophylaxis in high-risk D+/R&ndash; kidney Tx; less myelosuppression than valganciclovir. <b>Maribavir</b> (2021): refractory/resistant CMV.</li>
+</ul>
+</section>
+
+<section><h2>High-Yield Pearls</h2>
+<ul>
+<li>A NEW fever in a transplant patient = think infection AND rejection; both can present with malaise and graft dysfunction.</li>
+<li>Match the bug to the clock: nosocomial &lt;1 mo, opportunistic/reactivation 1&ndash;6 mo, community-acquired &gt;6 mo.</li>
+<li>CNI levels are critical: too low &rarr; rejection; too high &rarr; nephrotoxicity. Watch drug&ndash;drug interactions (azoles, macrolides, diltiazem &uarr; levels).</li>
+<li>Standard prophylaxis 1&ndash;6 mo: TMP-SMX (PJP), valganciclovir or letermovir (CMV per donor/recipient serostatus).</li>
+</ul>
+</section>
+
+</div>
+<div class="foot">Adapted from TeachIM.org &ldquo;Transplant Medicine&rdquo; (Zhang &amp; Fainstad, Dec 2020), CC BY-NC 4.0, non-commercial. Optimized 2026-06-11. Educational use only &mdash; clinician-review before teaching.</div>
+</body></html>

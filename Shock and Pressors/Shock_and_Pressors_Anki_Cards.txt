@@ -1,0 +1,16 @@
+Four broad categories of shock?	Hypovolemic, cardiogenic, obstructive, distributive.
+Hemodynamic profile of hypovolemic shock (CVP / CO / SVR)?	CVP down-down, CO down, SVR up. Treat with volume (blood for hemorrhage).
+Hemodynamic profile of cardiogenic shock (CVP / CO / SVR)?	CVP up, CO down-down, SVR up. Treat with an inotrope +/- diuresis; do NOT give IVF.
+Hemodynamic profile of obstructive shock (CVP / CO / SVR)?	CVP up, CO down, SVR up. Relieve the obstruction (PE, tension PTX, tamponade); inotrope as a bridge.
+Hemodynamic profile of distributive shock (CVP / CO / SVR)?	CVP down-to-normal, CO normal-to-up, SVR down. Treat with IVF + norepinephrine (+/- vasopressin).
+Bedside clues that point to distributive vs low-output shock?	Distributive: warm extremities + wide pulse pressure (low SVR). Low-output (cardiogenic/hypovolemic): cold, clammy, narrow pulse pressure.
+First-line vasopressor for septic shock?	Norepinephrine.
+First-line agent for cardiogenic shock and why?	Dobutamine (an inotrope); its mild SVR drop (afterload reduction) can paradoxically improve BP by raising cardiac output.
+"No role for vasopressors if ___"?	"...the tank is not full." Hypovolemic shock needs volume/blood first; pressors squeeze an empty space and risk ischemia.
+What does SvO2 tell you in shock?	Low in cardiogenic shock; typically high in established septic shock (low in early sepsis). Affected by CO, SaO2, and hemoglobin, so it can read falsely low with hypoxemia/anemia.
+Receptor effects: alpha1, beta1, beta2, V1?	alpha1 = vasoconstriction (up SVR); beta1 = up HR + up contractility; beta2 = vasodilation; V1 = non-adrenergic vasoconstriction (vasopressin).
+Receptor profile and use of norepinephrine?	alpha1 > beta1; up-up SVR, mild up CO; first-line for distributive/septic shock.
+Vasopressor of choice in anaphylaxis?	Epinephrine (alpha1, beta1, beta2).
+2021 Surviving Sepsis Campaign - three practice changes since this talk?	Balanced crystalloids over 0.9% saline; 30 mL/kg bolus downgraded to a weak recommendation; add vasopressin early (NE ~0.25-0.5 mcg/kg/min) rather than escalating NE; start NE peripherally to avoid delay.
+CLOVERS trial (2023) bottom line?	No difference in 90-day mortality between restrictive-fluid/early-vasopressor and liberal-fluid strategies for sepsis-induced hypotension.
+Add-on agent for catecholamine-refractory vasodilatory shock?	Angiotensin II (ATHOS-3; FDA-approved) when norepinephrine + vasopressin are insufficient.

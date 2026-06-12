@@ -1,0 +1,52 @@
+Three required criteria for ALF?	Acute liver injury (<26 wks, no chronic liver disease) + coagulopathy (INR >1.5) + hepatic encephalopathy.	Hepatology::acute-liver-failure
+What separates ALF from acute liver injury?	Hepatic encephalopathy.	Hepatology::acute-liver-failure
+Exceptions allowing ALF despite preexisting liver disease?	HBV, autoimmune hepatitis, Wilson's disease.	Hepatology::acute-liver-failure
+Most common ALF cause in the US?	Acetaminophen (drugs/toxins ~50%).	Hepatology::acute-liver-failure
+Two categories causing >50% of ALF?	Drugs/toxins and viral hepatitis.	Hepatology::acute-liver-failure
+Does alcohol cause ALF?	No — but it can worsen another insult (e.g., acetaminophen).	Hepatology::acute-liver-failure
+West Haven HE grades I–IV?	I altered sleep-wake/attention; II lethargy + asterixis; III stupor/gross disorientation; IV coma.	Hepatology::acute-liver-failure
+Empiric drug for all ALF?	N-acetylcysteine (NAC) — improves transplant-free survival even in non-APAP ALF.	Hepatology::acute-liver-failure
+When is NAC benefit greatest in non-APAP ALF?	Early-stage disease with low-grade (I–II) hepatic encephalopathy.	Hepatology::acute-liver-failure
+Why avoid correcting INR in ALF?	INR is a key prognostic marker; reverse only for active bleeding (vitamin K is ok).	Hepatology::acute-liver-failure
+Why minimize IV fluids in ALF?	Can precipitate/worsen cerebral edema (even with rising creatinine).	Hepatology::acute-liver-failure
+Ammonia threshold predicting intracranial hypertension?	Arterial ammonia >150–200 µmol/L.	Hepatology::acute-liver-failure
+HE grade prompting intubation?	Grade III–IV (airway protection).	Hepatology::acute-liver-failure
+King's College Criteria for acetaminophen ALF?	pH <7.3, OR all of: INR >6.5, Cr >3.3 mg/dL, grade III–IV HE.	Hepatology::acute-liver-failure
+King's College Criteria for non-APAP ALF?	INR >6.5, OR ≥3 of: age <10/>40; HAV/HBV/drug; jaundice >7 d before HE; INR >3.5; Tbili >18.	Hepatology::acute-liver-failure
+Wilson's clue in acute ALF?	ALP:total-bilirubin ratio <4, young age, Coombs-negative hemolysis; ceruloplasmin may be normal acutely.	Hepatology::acute-liver-failure
+Most important ALF disposition step?	Early transfer to a liver-transplant center before progression precludes safe transfer.	Hepatology::acute-liver-failure
+The spectrum of ALD, in order?	Hepatic steatosis → steatohepatitis (ASH) → fibrosis → cirrhosis.	Hepatology::alcohol-related-liver-disease
+Which ALD stages are reversible with abstinence?	Steatosis and inflammation regress; established fibrosis/cirrhosis is largely irreversible.	Hepatology::alcohol-related-liver-disease
+Prevalence of hepatic steatosis in heavy drinkers?	~90%.	Hepatology::alcohol-related-liver-disease
+Single most important factor improving survival in ALD?	Complete alcohol abstinence.	Hepatology::alcohol-related-liver-disease
+First-line FDA-approved agents for relapse prevention in ALD?	Naltrexone and acamprosate.	Hepatology::alcohol-related-liver-disease
+Which AUD medication is avoided in ALD?	Disulfiram (hepatotoxicity).	Hepatology::alcohol-related-liver-disease
+Acamprosate caution?	Avoid in severe renal dysfunction (renally cleared).	Hepatology::alcohol-related-liver-disease
+Who to screen for ALD?	All adults >18 with current or prior unhealthy alcohol use (CAGE, AUDIT-C).	Hepatology::alcohol-related-liver-disease
+Initial ALD work-up?	RUQ ultrasound + CMP, CBC, INR.	Hepatology::alcohol-related-liver-disease
+What clinches alcohol vs MASLD steatosis?	Clinical history — they are indistinguishable on US/biopsy.	Hepatology::alcohol-related-liver-disease
+Non-invasive fibrosis tests in ALD?	FIB-4, APRI, FibroSure/FibroTest, ELF; elastography; MRI.	Hepatology::alcohol-related-liver-disease
+Lab signature of alcohol-related hepatitis (AH)?	AST:ALT >2, both usually <400 IU/L; total bilirubin >3 mg/dL; recent heavy use; jaundice ≤8 wks.	Hepatology::alcohol-related-liver-disease
+Transaminases >400–500 in a drinker — implication?	Look for another cause (ischemic, acetaminophen, viral) — not pure AH.	Hepatology::alcohol-related-liver-disease
+Severity threshold for severe AH?	MDF ≥32 (or MELD >20).	Hepatology::alcohol-related-liver-disease
+Pharmacotherapy for severe AH without contraindications?	Prednisolone 40 mg/day (short-term survival benefit); IV NAC may add short-term benefit.	Hepatology::alcohol-related-liver-disease
+Contraindications to steroids in AH?	Active infection, AKI Cr >2.5, uncontrolled GI bleed, multiorgan failure/shock, alternative cause.	Hepatology::alcohol-related-liver-disease
+Lille score: when and cutoff?	Day 4–7; <0.45 = responder (continue 28-day course, ~85% 6-mo survival); ≥0.45 = stop steroids.	Hepatology::alcohol-related-liver-disease
+Nutrition in ALD?	High-protein diet + thiamine, folate, B-complex; low-sodium if portal HTN; consider zinc in AH.	Hepatology::alcohol-related-liver-disease
+The "cirrhosis one-liner" — 4 elements?	Cause; compensated vs decompensated; baseline MELD; history of complications.	Hepatology::management-of-decompensated-cirrhosis
+Define decompensation in cirrhosis?	A rise in MELD or a new complication (ascites, variceal bleed, HE, SBP, HRS).	Hepatology::management-of-decompensated-cirrhosis
+Median survival: compensated vs decompensated cirrhosis?	Compensated >12 y; decompensated much shorter (~2 y by current data).	Hepatology::management-of-decompensated-cirrhosis
+Current US liver-transplant allocation score?	MELD 3.0 (adds albumin + sex; replaced MELD-Na in 2023).	Hepatology::management-of-decompensated-cirrhosis
+MELD 3-month mortality at 20 / 30 / 40?	~3–4% / 27–32% / 65–66%.	Hepatology::management-of-decompensated-cirrhosis
+Three overlapping precipitants of decompensation?	Infection/SBP, GI bleeding, portal vein thrombosis.	Hepatology::management-of-decompensated-cirrhosis
+Reflex work-up of acute decompensation?	Diagnostic paracentesis, evaluate for bleeding, RUQ US with Doppler.	Hepatology::management-of-decompensated-cirrhosis
+Who gets a diagnostic paracentesis?	Essentially everyone admitted with cirrhosis + ascites.	Hepatology::management-of-decompensated-cirrhosis
+SBP diagnostic threshold?	Ascitic fluid ANC ≥250 cells/µL.	Hepatology::management-of-decompensated-cirrhosis
+SBP treatment?	Cefotaxime or ceftriaxone PLUS IV albumin (1.5 g/kg day 1, 1 g/kg day 3).	Hepatology::management-of-decompensated-cirrhosis
+Uncomplicated ascites management?	Sodium restriction + diuretics (spironolactone ± furosemide); LVP + albumin if tense.	Hepatology::management-of-decompensated-cirrhosis
+HRS-AKI first-line treatment?	Albumin + terlipressin (first-line) or octreotide/midodrine + albumin; stop diuretics/nephrotoxins.	Hepatology::management-of-decompensated-cirrhosis
+HRS nomenclature update?	Type 1 HRS → HRS-AKI (ICA 2015 / AASLD 2021); terlipressin FDA-approved 2022.	Hepatology::management-of-decompensated-cirrhosis
+Hepatic encephalopathy treatment?	Lactulose + rifaximin; PEG is an alternative for overt HE; find/treat the precipitant.	Hepatology::management-of-decompensated-cirrhosis
+Acute variceal bleed bundle?	Restrictive transfusion (Hgb ~7), octreotide, PPI, ceftriaxone prophylaxis, urgent EGD.	Hepatology::management-of-decompensated-cirrhosis
+Baveno VII prevention pearl?	Carvedilol in compensated cirrhosis with CSPH reduces first decompensation and mortality.	Hepatology::management-of-decompensated-cirrhosis
+NASH/NAFLD current names?	MASH / MASLD (2023 nomenclature).	Hepatology::management-of-decompensated-cirrhosis

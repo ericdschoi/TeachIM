@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+  @page { size: Letter; margin: 0.3in; }
+  :root{ --fs: 13px; --primary:#0e6e8c; --orange:#b4530a; --green:#2e7d4f; --line:#bcc7d0; }
+  *{box-sizing:border-box}
+  body{font-family:'Helvetica Neue',Arial,sans-serif;font-size:var(--fs);line-height:1.28;color:#1a2433;margin:0;
+       column-count:2;column-gap:14px;column-fill:balance;}
+  .title{column-span:all;text-align:center;margin:0 0 5px;}
+  .title h1{font-size:calc(var(--fs)*1.55);margin:0;color:var(--primary);}
+  .title .sub{font-size:calc(var(--fs)*0.92);color:#44525e;margin-top:1px;}
+  .block{break-inside:avoid;margin-bottom:6px;border:1px solid var(--line);border-radius:4px;overflow:hidden;}
+  h2{font-size:calc(var(--fs)*1.02);color:#fff;margin:0;padding:2.5px 6px;background:var(--primary);}
+  h2.o{background:var(--orange)} h2.g{background:var(--green)}
+  .body{padding:4px 7px;}
+  table{border-collapse:collapse;width:100%;font-size:calc(var(--fs)*0.96);}
+  td,th{border:1px solid var(--line);padding:2px 4px;vertical-align:top;text-align:left;}
+  th{background:#eef4f7;}
+  ul{margin:2px 0;padding-left:14px;} li{margin:1px 0;}
+  p{margin:2px 0;}
+  .k{color:var(--primary);font-weight:bold;}
+  .ko{color:var(--orange);font-weight:bold;}
+  .avoid{color:#a11;font-weight:bold;}
+  .def{column-span:all;text-align:center;font-size:calc(var(--fs)*0.96);background:#eef4f7;border:1px solid var(--line);border-radius:4px;padding:3px 6px;margin-bottom:6px;}
+</style>
+</head>
+<body>
+  <div class="title">
+    <h1>Clostridioides difficile Infection (CDI) — Clinical One-Pager</h1>
+    <div class="sub">Facilitator quick reference · TeachIM (Zhang, Sept 2021), optimized Jun 2026 · CC BY-NC 4.0 · clinician-review before use</div>
+  </div>
+
+  <div class="def"><span class="k">Test ONLY symptomatic patients</span> (&ge;3 unformed stools/24 h or ileus). Colonization is common (~21% inpatients) &mdash; <b>do NOT test asymptomatic patients and do NOT test for cure.</b></div>
+
+  <div class="block">
+    <h2>Diagnosis (2-step)</h2>
+    <div class="body">
+      <table>
+        <tr><th>Test</th><th>Detects / performance</th></tr>
+        <tr><td>GDH Ag</td><td>Enzyme from ALL strains; high sens (94–96%)</td></tr>
+        <tr><td>Toxin A/B</td><td>Toxigenic strains; high spec (94–98%)</td></tr>
+        <tr><td>NAAT</td><td>Toxin gene; confirms toxigenic — use for discordant results</td></tr>
+      </table>
+      <p><b>GDH+ / toxin+</b> &rarr; CDI · <b>both −</b> &rarr; r/o · <b>discordant</b> &rarr; NAAT. No repeat test &lt;7 d.</p>
+    </div>
+  </div>
+
+  <div class="block">
+    <h2 class="o">Severity Classification</h2>
+    <div class="body">
+      <table>
+        <tr><th>Class</th><th>Definition</th></tr>
+        <tr><td>Non-severe</td><td>Absence of severe criteria</td></tr>
+        <tr><td>Severe</td><td>WBC &gt;15k <b>OR</b> Cr &ge;1.5 mg/dL</td></tr>
+        <tr><td>Fulminant</td><td>Severe + hypotension/shock OR ileus/megacolon</td></tr>
+        <tr><td>Recurrent</td><td>Sx + positive test within 8 wk (~20%)</td></tr>
+      </table>
+      <p><span class="k">RF:</span> age &gt;65, healthcare exposure, antibiotics; community-acq: IBD, cardiac dz, CKD.</p>
+    </div>
+  </div>
+
+  <div class="block">
+    <h2 class="g">Treatment</h2>
+    <div class="body">
+      <table>
+        <tr><th>Scenario</th><th>Regimen</th></tr>
+        <tr><td>Non-severe / severe (initial)</td><td><b>Fidaxomicin 200 mg BID ×10 d (preferred)</b> or PO vanc 125 mg q6h ×10 d</td></tr>
+        <tr><td>Fulminant</td><td>PO vanc 500 mg q6h (PR if ileus) + IV metronidazole 500 mg q8h; surgery consult</td></tr>
+        <tr><td>1st recurrence</td><td>Fidaxomicin (pref) or tapered/pulsed PO vanc</td></tr>
+        <tr><td>&ge;2 recurrences</td><td>Tapered/pulsed vanc, vanc&rarr;rifaximin, or FMT/microbiota — refer</td></tr>
+      </table>
+      <p>Metronidazole PO only if low-risk non-severe &amp; neither agent available.</p>
+    </div>
+  </div>
+
+  <div class="block">
+    <h2>Recurrence Prevention &amp; Precautions</h2>
+    <div class="body">
+      <ul>
+        <li><b>Microbiota therapy (post-course):</b> Rebyota (rectal, 2022), Vowst (oral spores, 2023), or FMT.</li>
+        <li><span class="avoid">Bezlotoxumab discontinued Jan 2025</span> — no longer available.</li>
+        <li>High-risk on systemic abx: consider PO vanc 125 mg daily ppx (continue 5 d after abx).</li>
+        <li>Contact + enteric precautions until 48 h after diarrhea resolves.</li>
+        <li><span class="avoid">NOT recommended:</span> probiotics; stopping PPIs for prevention.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="block">
+    <h2 class="o">Pearls</h2>
+    <div class="body">
+      <ul>
+        <li>A positive test ≠ infection — symptoms make the diagnosis.</li>
+        <li>IV vancomycin does NOT treat CDI (no luminal delivery).</li>
+        <li>No test-of-cure: shedding persists ~56%; post-infectious IBS up to 25%.</li>
+        <li>Community-acquired CDI (~40%) is rising — consider it in younger patients.</li>
+      </ul>
+    </div>
+  </div>
+
+</body>
+</html>

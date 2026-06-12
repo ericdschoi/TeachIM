@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+  @page { size: Letter; margin: 0.3in; }
+  :root{ --fs: 13px; --primary:#0e6e8c; --orange:#b4530a; --green:#2e7d4f; --line:#9bb3bf; }
+  *{box-sizing:border-box}
+  body{ font-family:'Helvetica Neue',Arial,sans-serif; font-size:var(--fs); line-height:1.32; color:#15212b; margin:0; column-count:2; column-gap:0.34in; column-fill:balance; }
+  .hdr{ column-span:all; border-bottom:2.5px solid var(--primary); padding-bottom:3px; margin-bottom:6px; }
+  .hdr h1{ font-size:calc(var(--fs)*1.5); color:var(--primary); margin:0; }
+  .hdr .sub{ font-size:calc(var(--fs)*0.92); color:#3a4a55; margin-top:1px; }
+  h2{ font-size:calc(var(--fs)*1.04); color:#fff; margin:8px 0 3px; padding:2px 6px; border-radius:3px; }
+  h2.p{ background:var(--primary);} h2.o{ background:var(--orange);} h2.g{ background:var(--green);}
+  .block{ break-inside:avoid; margin-bottom:5px; }
+  table{ border-collapse:collapse; width:100%; margin:2px 0; }
+  td,th{ border:1px solid var(--line); padding:2px 4px; vertical-align:top; text-align:left; }
+  th{ background:#e7eff3; font-weight:700; }
+  ul{ margin:2px 0 2px 0; padding-left:14px; }
+  li{ margin:1px 0; }
+  .k{ color:var(--primary); font-weight:700; }
+  .ko{ color:var(--orange); font-weight:700; }
+  .tag{ display:inline-block; background:#e7eff3; color:var(--primary); border-radius:7px; padding:0 5px; font-size:calc(var(--fs)*0.82); font-weight:700; }
+  p{margin:2px 0;}
+  .foot{ column-span:all; border-top:1px solid var(--line); margin-top:5px; padding-top:2px; font-size:calc(var(--fs)*0.8); color:#5a6877; }
+</style>
+</head>
+<body>
+  <div class="hdr">
+    <h1>Abnormal Uterine Bleeding &mdash; Clinical One-Pager</h1>
+    <div class="sub">Reproductive-age bleeding outside FIGO norms &middot; define &rarr; rule out pregnancy &rarr; PALM-COEIN &rarr; universal + targeted work-up. Adapted from TeachIM.org (CC BY-NC 4.0); FIGO 2018 / ACOG.</div>
+  </div>
+
+  <div class="block">
+    <h2 class="p">1 &middot; Define: 4 FIGO parameters</h2>
+    <table>
+      <tr><th>Parameter</th><th>Normal</th><th>Abnormal</th></tr>
+      <tr><td><span class="k">Frequency</span></td><td>q24&ndash;38 d</td><td>&lt;24 frequent; &gt;38 infrequent; none = amenorrhea (no menses &times;3 mo)</td></tr>
+      <tr><td><span class="k">Duration</span></td><td>&le;8 d</td><td>&gt;8 d prolonged</td></tr>
+      <tr><td><span class="k">Regularity</span></td><td>variation &le;7&ndash;9 d</td><td>&gt;9 d (&le;9 if age &lt;25 or &gt;42; &le;7 if 26&ndash;41); intermenstrual spotting</td></tr>
+      <tr><td><span class="k">Volume</span></td><td>no interference</td><td>subjective; or soak pad/tampon q2h, overnight changes, flooding/clots</td></tr>
+    </table>
+  </div>
+
+  <div class="block">
+    <h2 class="o">2 &middot; PALM-COEIN differential</h2>
+    <p><b>Step 0: rule out pregnancy in everyone.</b></p>
+    <table>
+      <tr><th>PALM &mdash; structural</th><th>COEIN &mdash; non-structural</th></tr>
+      <tr><td><span class="ko">P</span> Polyp (endometrial&gt;cervical)</td><td><span class="ko">C</span> Coagulopathy (vWD, plt, liver/renal)</td></tr>
+      <tr><td><span class="ko">A</span> Adenomyosis (boggy/tender uterus)</td><td><span class="ko">O</span> Ovulatory dysfxn (PCOS, thyroid, prolactin, perimenopause, POI)</td></tr>
+      <tr><td><span class="ko">L</span> Leiomyoma (fibroid)</td><td><span class="ko">E</span> Endometrial (endometritis/PID, STI)</td></tr>
+      <tr><td><span class="ko">M</span> Malignancy/hyperplasia (endometrial; also cervix/vagina/vulva)</td><td><span class="ko">I</span> <b>Iatrogenic</b> &mdash; hormonal contraception/IUD/implant, anticoag, SERM, dopamine antagonist<br><span class="ko">N</span> Not yet classified (AVM, isthmocele)</td></tr>
+    </table>
+    <p><span class="tag">Key fix</span> The "I" = <b>Iatrogenic</b>, not "idiopathic" (FIGO 2018). Prototype = new-IUD/implant spotting.</p>
+  </div>
+
+  <div class="block">
+    <h2 class="p">3 &middot; Universal work-up (ALL patients)</h2>
+    <ul>
+      <li><span class="k">Pelvic exam</span> &mdash; non-uterine source? blood from os? enlarged/tender uterus, adnexal mass?</li>
+      <li><span class="k">3 labs</span>: pregnancy test &middot; CBC (anemia/thrombocytopenia) &middot; iron studies (<b>ferritin &lt;50 ng/mL = low</b> pre-menopause; treat even without anemia)</li>
+    </ul>
+  </div>
+
+  <div class="block">
+    <h2 class="g">4 &middot; Targeted tests by clue</h2>
+    <table>
+      <tr><th>Clue</th><th>Suspect</th><th>Test</th></tr>
+      <tr><td>HMB since menarche; fam/postpartum/surgical bleeding (~20% of HMB)</td><td>Coagulopathy</td><td>vWF panel, PT/PTT, factor activity</td></tr>
+      <tr><td>Hirsutism, insulin resistance, irregular</td><td>PCOS/androgen excess</td><td>Total testosterone (&plusmn;17-OHP, DHEAS)</td></tr>
+      <tr><td>Galactorrhea</td><td>Prolactinoma</td><td>Prolactin</td></tr>
+      <tr><td>Weight&uarr;/fatigue/hair loss; or weight&darr;/heat</td><td>Thyroid dysfxn</td><td>TSH</td></tr>
+      <tr><td>Hot flashes, 40s, &uarr;cycle length</td><td>Perimenopause</td><td>FSH (&plusmn;LH)</td></tr>
+      <tr><td>Dyspareunia, discharge</td><td>Endometritis/PID/STI</td><td>GC + chlamydia</td></tr>
+      <tr><td>New IUD/implant/AC/SERM</td><td>Iatrogenic</td><td>Med review; reassure (settles 3&ndash;6 mo)</td></tr>
+    </table>
+  </div>
+
+  <div class="block">
+    <h2 class="o">5 &middot; Structural branch &amp; biopsy</h2>
+    <ul>
+      <li><span class="ko">TVUS</span> for uterus/ovaries/endometrial stripe.</li>
+      <li><b>AUB is the most common symptom of endometrial cancer.</b></li>
+      <li><span class="ko">Endometrial biopsy</span> if: <b>any postmenopausal bleeding</b>; age &gt;45; chronic anovulation/obesity; unopposed estrogen (incl. tamoxifen); persists despite rx.</li>
+    </ul>
+  </div>
+
+  <div class="block">
+    <h2 class="g">6 &middot; HPO axis &amp; first-line rx</h2>
+    <ul>
+      <li><b>Hypothyroid:</b> &uarr;TSH &rarr; feedback &rarr; &darr;GnRH &rarr; &darr;FSH/LH &rarr; anovulation.</li>
+      <li><b>Perimenopause:</b> &darr;ovarian estradiol &rarr; lost feedback &rarr; &uarr;GnRH &rarr; <b>&uarr;FSH</b>.</li>
+      <li><b>Non-structural HMB rx (ACOG):</b> levonorgestrel IUD or tranexamic acid first-line; treat underlying cause.</li>
+    </ul>
+  </div>
+
+  <div class="foot">
+    Adapted from TeachIM.org &mdash; Abnormal Uterine Bleeding (Zarling, deQuillfeldt, Fainstad, Brett; 2022), CC BY-NC 4.0. FIGO PALM-COEIN 2018 (Munro). Educational use only; clinician-reviewed before teaching. Optimized June 2026.
+  </div>
+</body>
+</html>

@@ -1,0 +1,17 @@
+What are the 3 labs (and 3 questions) for diagnosing hyponatremia?	Serum osm — "is it real?"; urine osm — "is ADH on or off?"; urine Na — "are the kidneys seeing enough fluid?"
+Why not classify hyponatremia by volume status at the bedside?	Physician assessment of volume status is classically unreliable; the 3-lab approach interrogates the physiology (osmolality, ADH, renal perfusion) directly.
+What defines TRUE hyponatremia?	Hypo-osmolar hyponatremia: serum osm < 290. Normal or high serum osm means something else is in the blood.
+What is pseudohyponatremia?	Normal serum osm + low measured Na: excess lipids (hypertriglyceridemia) or protein (multiple myeloma) dilute whole plasma while water-plasma [Na] is normal. Confirm with a whole-blood Na.
+What causes hyperosmolar hyponatremia, and how do you correct the Na?	An extra ACTIVE osmole (glucose, mannitol, sorbitol) pulls water out of cells, diluting Na. Corrected Na = measured Na + 1.6 × (glucose − 100)/100. (BUN and ethanol are INACTIVE osmoles — they raise measured osm but cross membranes and do not cause hyponatremia.)
+What does a urine osm < 100 mean in hyponatremia?	ADH is OFF — the only causes are excess free-water intake (primary polydipsia) or inadequate solute (beer potomania, tea-and-toast diet).
+What does a high urine osm (>100) mean in hyponatremia?	ADH is ON (appropriately or not) — the kidney is concentrating urine; next ask whether ADH secretion is appropriate using the urine Na.
+What triggers ADH release physiologically?	Low volume/effective circulating volume (baroreceptors) and high serum osm — ADH makes the kidney reclaim free water, concentrating the urine.
+ADH on + urine Na < 25: what does it mean?	RAAS is activated — the kidneys see low volume: true hypovolemia (GI losses) OR low effective circulating volume with high total body volume (heart failure, cirrhosis).
+ADH on + urine Na > 40: what's the differential?	The kidneys see enough fluid → inappropriate ADH: SIADH, hypothyroidism, adrenal insufficiency — or diuretic use (salt wasting falsely raises urine Na).
+What is the exception that breaks the "low urine Na = low volume" rule?	Diuretics (loop, thiazide) — they waste salt, so urine Na stays high even in a hypovolemic patient.
+Common SIADH triggers?	Medications (antidepressants, antiepileptics, antipsychotics), surgery/pain, brain injury, lung disease, malignancy. SIADH patients are euvolemic.
+How does cerebral salt wasting differ from SIADH?	Both follow CNS insults (esp. SAH) with high urine Na, but cerebral salt wasting patients are HYPOVOLEMIC; SIADH patients are euvolemic.
+How do hypothyroidism and adrenal insufficiency cause hyponatremia?	Both drive excess ADH secretion; the hyponatremia corrects when the hormone deficiency is replaced — always check TSH and cortisol in "SIADH-pattern" labs.
+A patient with alcohol use disorder has Na 125, SOsm 270, UOsm 60, UNa 65. Diagnosis?	Beer potomania — true (hypo-osmolar) hyponatremia with ADH OFF (UOsm < 100): solute intake too low to excrete the ingested water.
+A patient with DM1 has glucose 500 and Na 125 with SOsm 310. Interpretation?	Hyperosmolar hyponatremia from glucose: corrected Na = 125 + 1.6 × 4 = ~131 — a mild true hyponatremia (here from hypovolemia) plus glucose effect.
+Has the 3-lab diagnostic approach changed in recent guidelines?	No — the 2024 Austrian Society for Nephrology consensus confirms serum osm, urine osm, and urine Na identify most causes of hyponatremia. (This lesson covers diagnosis only, not treatment.)

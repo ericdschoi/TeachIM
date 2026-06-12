@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8">
+<style>
+@page { size: Letter; margin: 0.3in; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { --fs: 13px; font-family: "Helvetica Neue", Arial, sans-serif; font-size: var(--fs); line-height: 1.5; color: #111; }
+.hdr { display: flex; justify-content: space-between; align-items: baseline; border-bottom: calc(var(--fs)*0.25) solid #0e6e8c; padding-bottom: calc(var(--fs)*0.3); margin-bottom: calc(var(--fs)*0.5); }
+.hdr h1 { font-size: calc(var(--fs)*1.5); color: #0e6e8c; letter-spacing: 0.02em; }
+.hdr .sub { font-size: calc(var(--fs)*0.8); color: #555; max-width: 46%; text-align: right; }
+.cols { column-count: 2; column-gap: calc(var(--fs)*1.1); }
+h2 { font-size: calc(var(--fs)*1.02); color: #fff; background: #0e6e8c; padding: calc(var(--fs)*0.2) calc(var(--fs)*0.5); margin: 0 0 calc(var(--fs)*0.3); border-radius: 2px; break-after: avoid; }
+h2.alt { background: #b4530a; }
+h2.grn { background: #2e7d4f; }
+.blk { break-inside: avoid; margin-bottom: calc(var(--fs)*0.5); }
+table { width: 100%; border-collapse: collapse; margin: calc(var(--fs)*0.2) 0 calc(var(--fs)*0.3); }
+td, th { border: 0.5px solid #bcc7d0; padding: calc(var(--fs)*0.3) calc(var(--fs)*0.4); vertical-align: top; text-align: left; }
+th { background: #eef4f7; font-weight: 700; }
+td.k { background: #f5f8fa; font-weight: 700; width: 26%; }
+ul { margin: 0 0 0 calc(var(--fs)*1); padding: 0; }
+li { margin-bottom: calc(var(--fs)*0.1); }
+.tag { font-weight: 700; color: #0e6e8c; }
+.red { color: #b00; font-weight: 700; }
+.pearl { background: #eef7f0; border-left: calc(var(--fs)*0.25) solid #2e7d4f; padding: calc(var(--fs)*0.2) calc(var(--fs)*0.5); margin: calc(var(--fs)*0.2) 0; }
+.foot { border-top: 0.5px solid #bcc7d0; margin-top: calc(var(--fs)*0.3); padding-top: calc(var(--fs)*0.2); font-size: calc(var(--fs)*0.72); color: #777; column-span: all; }
+b { font-weight: 700; }
+</style></head>
+<body>
+<div class="hdr">
+  <h1>MANAGEMENT OF VTE &mdash; One-Pager</h1>
+  <div class="sub">Four decisions for any clot: IF &middot; WHERE &middot; WHICH &middot; HOW LONG &middot; IM resident reference</div>
+</div>
+
+<div class="cols">
+
+  <div class="blk">
+    <h2>1) IF &mdash; SHOULD IT BE TREATED?</h2>
+    <table>
+      <tr><th>Clot</th><th>Decision</th></tr>
+      <tr><td class="k">Proximal DVT / main or segmental PE</td><td>Anticoagulate</td></tr>
+      <tr><td class="k">Isolated distal (calf) DVT</td><td>Low-risk &rarr; repeat duplex 1&ndash;2 wk, treat if extends; treat now if severe sx/high risk</td></tr>
+      <tr><td class="k">Isolated subsegmental PE, no proximal DVT</td><td>LE duplex; surveillance an option if low recurrence risk (CHEST 2021)</td></tr>
+    </table>
+  </div>
+
+  <div class="blk">
+    <h2 class="alt">2) WHERE &mdash; INPATIENT vs OUTPATIENT</h2>
+    Risk-stratify PE with <b>PESI / sPESI</b>:
+    <table>
+      <tr><td class="k">PESI &lt;85 (I&ndash;II)</td><td>Outpatient OK if no high bleed risk, instability, or social barrier</td></tr>
+      <tr><td class="k">PESI &ge;85 / unstable</td><td>Inpatient (massive PE &rarr; thrombolysis + ICU)</td></tr>
+    </table>
+    <div class="pearl">Always screen the <b>social/logistic</b> factors (reliable follow-up, drug access) &mdash; as important as the score.</div>
+  </div>
+
+  <div class="blk">
+    <h2 class="grn">3) WHICH &mdash; AGENT</h2>
+    <table>
+      <tr><th>Agent</th><th>Bridge</th><th>Role</th></tr>
+      <tr><td class="k">DOAC</td><td>No (apix/riva); dabig/edox need ~5d heparin</td><td>First-line for stable VTE incl most cancer VTE</td></tr>
+      <tr><td class="k">LMWH</td><td>&mdash;</td><td>Pregnancy, poor PO absorption, luminal GI cancer, bridging</td></tr>
+      <tr><td class="k">Warfarin</td><td>Yes</td><td>APS, mech valve, CrCl &lt;25&ndash;30</td></tr>
+    </table>
+    <div class="pearl"><b>Cancer VTE:</b> DOAC &gt; LMWH (CARAVAGGIO). <span class="red">Luminal GI cancer &rarr; apixaban or LMWH</span> (GI bleed). <span class="red">APS &rarr; warfarin, NOT DOAC</span> (TRAPS).</div>
+  </div>
+
+  <div class="blk">
+    <h2 class="alt">4) HOW LONG &mdash; DURATION</h2>
+    <table>
+      <tr><th>Scenario</th><th>Duration</th></tr>
+      <tr><td class="k">Provoked (reversible cause)</td><td>~3 months</td></tr>
+      <tr><td class="k">Unprovoked + high bleed risk</td><td>~3 months, then reassess</td></tr>
+      <tr><td class="k">Unprovoked, not high bleed risk</td><td>Indefinite</td></tr>
+      <tr><td class="k">Irreversible cause (active cancer, APS)</td><td>Indefinite (while cause persists)</td></tr>
+    </table>
+    <div class="pearl"><b>Extended phase:</b> reduced-dose DOAC &mdash; apixaban 2.5 mg BID (AMPLIFY-EXT) or rivaroxaban 10 mg daily (EINSTEIN-CHOICE) &mdash; cuts bleeding.</div>
+  </div>
+
+  <div class="blk">
+    <h2>STARTING DOSES (CrCl-permitting)</h2>
+    <table>
+      <tr><td class="k">Apixaban</td><td>10 mg BID &times;7d &rarr; 5 mg BID</td></tr>
+      <tr><td class="k">Rivaroxaban</td><td>15 mg BID &times;21d &rarr; 20 mg daily (with food)</td></tr>
+      <tr><td class="k">Edoxaban / Dabigatran</td><td>After ~5d parenteral heparin</td></tr>
+    </table>
+  </div>
+
+  <div class="blk">
+    <h2 class="grn">WORK-UP &amp; COUNSELING</h2>
+    <ul>
+      <li>Baseline CBC, renal, LFTs; weight; assess bleeding risk &amp; drug interactions</li>
+      <li>Unprovoked &rarr; age-appropriate cancer screening; thrombophilia testing only if it changes management</li>
+      <li>Counsel adherence, bleeding precautions, follow-up timing</li>
+    </ul>
+  </div>
+
+</div>
+<div class="foot">Adapted from TeachIM.org "Management of VTE" (Wong, Fainstad; expert review Garcia; 2020) &middot; CC BY-NC 4.0 &middot; educational use only, not medical advice &middot; anticoagulation is individualized &mdash; confirm dosing/renal function &amp; have clinician-reviewed before teaching &middot; optimized June 2026.</div>
+</body></html>

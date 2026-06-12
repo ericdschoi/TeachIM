@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8">
+<style>
+:root{ --fs: 13px; }
+@page { size: Letter; margin: 0.3in; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: "Helvetica Neue", Arial, sans-serif; font-size: var(--fs); line-height: 1.6; color: #111; }
+.hdr { display: flex; justify-content: space-between; align-items: baseline; border-bottom: 0.25em solid #0e6e8c; padding-bottom: 0.3em; margin-bottom: 0.7em; }
+.hdr h1 { font-size: 1.62em; color: #0e6e8c; letter-spacing: 0.01em; }
+.hdr .sub { font-size: 0.8em; color: #555; max-width: 46%; text-align: right; }
+.cols { column-count: 2; column-gap: 1.1em; }
+h2 { font-size: 1.02em; color: #fff; background: #0e6e8c; padding: 0.32em 0.55em; margin: 0 0 0.45em; border-radius: 0.2em; break-after: avoid; }
+h2.alt { background: #b4530a; }
+h2.grn { background: #2e7d4f; }
+.blk { break-inside: avoid; margin-bottom: 0.95em; }
+table { width: 100%; border-collapse: collapse; margin: 0.2em 0 0.3em; }
+td, th { border: 0.05em solid #bcc7d0; padding: 0.32em 0.42em; vertical-align: top; text-align: left; }
+th { background: #eef4f7; font-weight: 700; }
+td.k { background: #f5f8fa; font-weight: 700; width: 23%; }
+ul { margin: 0 0 0 1em; padding: 0; }
+li { margin-bottom: 0.1em; }
+.tag { font-weight: 700; color: #0e6e8c; }
+.red { color: #b00; font-weight: 700; }
+.pearl { background: #eef7f0; border-left: 0.25em solid #2e7d4f; padding: 0.2em 0.5em; margin: 0.2em 0; }
+.warn { background: #fdeeea; border-left: 0.25em solid #b00; padding: 0.2em 0.5em; margin: 0.2em 0; }
+.foot { border-top: 0.05em solid #bcc7d0; margin-top: 0.3em; padding-top: 0.2em; font-size: 0.72em; color: #777; column-span: all; }
+b { font-weight: 700; }
+</style></head>
+<body>
+<div class="hdr">
+  <h1>ATRIAL FIBRILLATION WITH RVR &mdash; Clinical One-Pager</h1>
+  <div class="sub">Irregularly irregular, narrow QRS, no P waves, rate &gt;100 &middot; 2023 ACC/AHA/ACCP/HRS &middot; IM resident reference</div>
+</div>
+
+<div class="cols">
+
+  <div class="blk">
+    <h2>1 &middot; RECOGNIZE</h2>
+    <b>AF w/ RVR</b> = irregularly irregular rhythm &middot; narrow QRS (&lt;120 ms) &middot; no discernible P waves &middot; ventricular rate &gt;100. Atria fire ~400 bpm; <b>AV-node refractory period</b> gates the rate (&rarr; AV-nodal blockers work).
+    <div class="pearl"><b>Wide-complex</b> AF only with underlying BBB or rate-related aberrancy &mdash; irregular irregularity still points to AF.</div>
+  </div>
+
+  <div class="blk">
+    <h2>2 &middot; WORK-UP (new AF)</h2>
+    <b class="tag">Universal:</b> TTE, BMP + Mg, TSH (&plusmn; reflex T4), CBC, ECG &plusmn; troponin. Order the rest in context.
+    <table>
+      <tr><th>Cardiac</th><th>Non-cardiac</th></tr>
+      <tr><td>Valvular / structural HD; decompensated HF (&plusmn;BNP); ischemia (trop)</td><td>Pulmonary/PE (&plusmn;CXR); OSA screen; drugs/EtOH (&plusmn;tox); electrolytes; hyperthyroid</td></tr>
+    </table>
+  </div>
+
+  <div class="blk">
+    <h2 class="grn">3 &middot; STABILITY FIRST</h2>
+    <table>
+      <tr><th>UNSTABLE?</th><th>Action</th></tr>
+      <tr><td class="k red">YES</td><td>SBP &lt;90, or SBP&darr; &gt;30 + [CP / AMS / SOB] from rhythm &rarr; <b>synchronized DCCV 120-200 J</b> (sedate if able, don't delay) + anticoag</td></tr>
+      <tr><td class="k">NO</td><td>Rate control to <b>HR &lt;110</b>. Acute HR &gt;130 &rarr; IV meds; HR 110-130 &rarr; PO meds</td></tr>
+    </table>
+    Lenient HR &lt;110 acceptable if asymptomatic + preserved EF (RACE II).
+  </div>
+
+  <div class="blk">
+    <h2 class="alt">4 &middot; RATE-CONTROL AGENTS</h2>
+    <table>
+      <tr><th>Agent</th><th>Line / dose / caution</th></tr>
+      <tr><td class="k">Metoprolol (BB)</td><td>1st; IV 5 mg q5min &times;3, PO 12.5-37.5 q6h; <span class="red">&darr;&darr;BP, caution decomp HFrEF/sepsis</span></td></tr>
+      <tr><td class="k">Diltiazem (CCB)</td><td>1st; IV 10-20 mg bolus+drip, PO 30-90 q6h; <span class="red">&darr;&darr;BP, AVOID HFrEF</span></td></tr>
+      <tr><td class="k">Digoxin</td><td>2nd; IV 0.25-0.5 mg load &rarr; 0.25 q6h; BP-neutral + inotropy; caution elderly/renal</td></tr>
+      <tr><td class="k">Amiodarone</td><td>2nd; IV 150 mg bolus + drip; favored in shock; caution chronic AF (may cardiovert); lung/liver/thyroid tox</td></tr>
+    </table>
+    Fail one agent &rarr; add a second class (e.g., CCB on top of BB).
+  </div>
+
+  <div class="blk">
+    <h2 class="grn">SCENARIO PICKS</h2>
+    <ul>
+      <li><b>HFrEF:</b> avoid CCB; use BB once compensated; digoxin/amiodarone OK</li>
+      <li><b>Septic shock / hypotension:</b> amiodarone (most BP-neutral); digoxin alt</li>
+      <li><b>BP-limited after BB:</b> digoxin (BP-neutral + inotropy)</li>
+      <li><b>Unstable / decompensating:</b> synchronized DCCV</li>
+    </ul>
+  </div>
+
+  <div class="blk">
+    <h2 class="alt">5 &middot; ANTICOAGULATION</h2>
+    <div class="warn"><b>Cardioversion</b> + AF &ge;48 h or unknown duration: &ge;3 wk therapeutic anticoag <u>before</u> OR TEE to exclude thrombus &rarr; then <b>&ge;4 wk after, regardless of score</b> (atrial stunning).</div>
+    Long-term stroke prophylaxis by <b>CHA<sub>2</sub>DS<sub>2</sub>-VASc</b> (OAC if &ge;2 M / &ge;3 F). 2024 ESC: <b>CHA<sub>2</sub>DS<sub>2</sub>-VA</b> (drops sex). Anticoagulate everyone cardioverted.
+  </div>
+
+  <div class="foot">
+    Adapted from TeachIM.org &ldquo;Management of Atrial Fibrillation with Rapid Ventricular Response&rdquo; (Buchanan, Prouse, Zhang; April 2021) under CC BY-NC 4.0. Optimized June 2026 &mdash; 2023 ACC/AHA/ACCP/HRS, RACE II, ESC 2024. Educational use only; not medical advice. Verify doses; clinician review before teaching.
+  </div>
+
+</div>
+</body>
+</html>

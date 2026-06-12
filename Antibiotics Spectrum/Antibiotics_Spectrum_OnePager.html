@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+  @page { size: Letter; margin: 0.3in; }
+  :root{ --fs: 13px; --p:#0e6e8c; --o:#b4530a; --g:#2e7d4f; --line:#9bb3bf; }
+  *{box-sizing:border-box;}
+  body{ font-family:'Helvetica Neue',Arial,sans-serif; font-size:var(--fs); line-height:1.3; color:#16202b; margin:0; }
+  h1{ font-size:calc(var(--fs)*1.45); margin:0 0 2px; color:var(--p); }
+  .sub{ font-size:calc(var(--fs)*0.9); color:#4a5763; margin:0 0 6px; }
+  .cols{ column-count:2; column-gap:11px; column-fill:balance; }
+  .box{ break-inside:avoid; border:1px solid var(--line); border-radius:4px; margin:0 0 6px; overflow:hidden; }
+  h2{ font-size:calc(var(--fs)*1.02); margin:0; padding:3px 7px; color:#fff; background:var(--p); }
+  h2.o{ background:var(--o); } h2.g{ background:var(--g); }
+  .body{ padding:4px 7px; }
+  table{ border-collapse:collapse; width:100%; font-size:calc(var(--fs)*0.9); }
+  td,th{ border:1px solid var(--line); padding:1.5px 4px; vertical-align:top; text-align:left; }
+  th{ background:#e7eff3; }
+  .full td{ text-align:center; } .full td:first-child{ text-align:left; }
+  ul{ margin:3px 0 2px 0; padding-left:14px; } li{ margin:2px 0; }
+  .k{ font-weight:bold; color:var(--p); } .kr{ font-weight:bold; color:var(--o); }
+  p{ margin:3px 0; }
+</style>
+</head>
+<body>
+  <h1>Antibiotic Spectrum &mdash; Quick Reference</h1>
+  <p class="sub">Ask 4 questions of any antibiotic: <b>GPC</b> (+MRSA/Enterococcus?) &middot; <b>GNR</b> (+Pseudomonas/ESBL?) &middot; <b>atypical</b> &middot; <b>anaerobe</b> (+gut/B.&nbsp;fragilis?). Adapted from TeachIM (CC BY-NC 4.0); confirm vs local antibiogram.</p>
+  <div class="cols">
+
+    <div class="box"><h2>Antibiogram grid</h2><div class="body">
+      <table class="full">
+        <tr><th>Agent</th><th>MRSA</th><th>Ent</th><th>PsA</th><th>ESBL</th><th>Atyp</th><th>Anae</th></tr>
+        <tr><td>Nafcillin/cefazolin</td><td>&ndash;</td><td>&ndash;</td><td>&ndash;</td><td>&ndash;</td><td>&ndash;</td><td>&ndash;</td></tr>
+        <tr><td>Amp-sulb / amox-clav</td><td>&ndash;</td><td>+</td><td>&ndash;</td><td>&ndash;</td><td>&ndash;</td><td>+</td></tr>
+        <tr><td>Pip-tazo</td><td>&ndash;</td><td>+</td><td>+</td><td>&ndash;</td><td>&ndash;</td><td>+</td></tr>
+        <tr><td>Ceftriaxone</td><td>&ndash;</td><td>&ndash;</td><td>&ndash;</td><td>&ndash;</td><td>&ndash;</td><td>&ndash;</td></tr>
+        <tr><td>Ceftazidime/cefepime</td><td>&ndash;</td><td>&ndash;</td><td>+</td><td>&ndash;</td><td>&ndash;</td><td>&ndash;</td></tr>
+        <tr><td>Ceftaroline (5th)</td><td>+</td><td>&ndash;</td><td>&ndash;</td><td>&ndash;</td><td>&ndash;</td><td>&ndash;</td></tr>
+        <tr><td>Ertapenem</td><td>&ndash;</td><td>&ndash;</td><td>&ndash;</td><td>+</td><td>&ndash;</td><td>+</td></tr>
+        <tr><td>Meropenem</td><td>&ndash;</td><td>~</td><td>+</td><td>+</td><td>&ndash;</td><td>+</td></tr>
+        <tr><td>Ciprofloxacin</td><td>&ndash;</td><td>&ndash;</td><td>+</td><td>&ndash;</td><td>+</td><td>&ndash;</td></tr>
+        <tr><td>Levofloxacin</td><td>&ndash;</td><td>~</td><td>+</td><td>&ndash;</td><td>+</td><td>~</td></tr>
+        <tr><td>Moxifloxacin</td><td>&ndash;</td><td>&ndash;</td><td>~</td><td>&ndash;</td><td>+</td><td>+</td></tr>
+        <tr><td>Aztreonam / aminoglyc.</td><td>&ndash;</td><td>&ndash;</td><td>+</td><td>~</td><td>&ndash;</td><td>&ndash;</td></tr>
+        <tr><td>Vanc/dapto/linezolid</td><td>+</td><td>+</td><td>&ndash;</td><td>&ndash;</td><td>&ndash;</td><td>&ndash;</td></tr>
+        <tr><td>Clinda/TMP-SMX/doxy</td><td>+</td><td>~</td><td>&ndash;</td><td>&ndash;</td><td>~</td><td>~</td></tr>
+      </table>
+    </div></div>
+
+    <div class="box"><h2 class="g">Escalation ladders</h2><div class="body">
+      <p><span class="k">GPC / MRSA / Enterococcus:</span> MSSA [nafcillin/cefazolin] &rarr; MRSA [vancomycin] &rarr; [daptomycin, <i>not lung</i>] &rarr; [linezolid, VRE &amp; MRSA-PNA] &rarr; [ceftaroline].</p>
+      <p><span class="k">GNR / Pseudomonas / ESBL:</span> [ceftriaxone] &rarr; +PsA [ceftazidime/cefepime/pip-tazo] &rarr; ESBL [ertapenem (no PsA) / meropenem (+PsA)] &rarr; CRE/MDR (ID only) [ceftaz-avibactam, mero-vaborbactam, cefiderocol].</p>
+      <p>Severe PCN allergy &rarr; aztreonam (avoid if ceftazidime allergy) or aminoglycoside.</p>
+    </div></div>
+
+    <div class="box"><h2 class="o">High-yield traps</h2><div class="body">
+      <ul>
+        <li><span class="kr">Ertapenem</span> has NO Pseudomonas coverage.</li>
+        <li><span class="kr">No oral cephalosporin</span> covers Pseudomonas.</li>
+        <li><span class="kr">Daptomycin</span> inactivated by surfactant &rarr; never for pneumonia (toxicity: rhabdo).</li>
+        <li><span class="kr">Ceftazidime</span> poor CNS &rarr; not for meningitis.</li>
+        <li><span class="kr">Ciprofloxacin</span> poor Strep &rarr; not for respiratory infections.</li>
+        <li><span class="kr">Carbapenems</span> = best ESBL but poor Enterococcus.</li>
+        <li><span class="kr">Aztreonam</span> cross-reacts with ceftazidime (shared side chain).</li>
+      </ul>
+    </div></div>
+
+    <div class="box"><h2>Class rules &amp; pearls</h2><div class="body">
+      <ul>
+        <li><span class="k">Penicillins:</span> no MRSA/atypical; GN rises Pen&rarr;antistaph&rarr;amino+BLI&rarr;pip-tazo (the one with PsA).</li>
+        <li><span class="k">Cephalosporins:</span> no Enterococcus/atypical; GN rises by gen; ceftaroline (5th) = MRSA.</li>
+        <li><span class="k">FQs:</span> cipro (urinary), levo (urinary+resp), moxi (resp, best anaerobe, weak PsA). Harms: QT, aneurysm, tendon, C. diff.</li>
+        <li><span class="k">faecaLESS</span> = less resistant (amp-S, rarely VRE); <span class="k">faecium</span> = more resistant (often VRE&rarr;linezolid/dapto).</li>
+        <li><span class="k">Macrolides:</span> atypicals; rising Strep resistance. Fidaxomicin 1st-line for C. diff.</li>
+      </ul>
+    </div></div>
+
+    <div class="box"><h2 class="o">Newer agents (ID only)</h2><div class="body">
+      <ul>
+        <li><span class="k">Cefiderocol</span> &mdash; CRE, CRAB/Acinetobacter, Stenotrophomonas, PsA.</li>
+        <li><span class="k">BL/BLI combos:</span> ceftazidime-avibactam, ceftolozane-tazobactam, meropenem-vaborbactam, imipenem-relebactam; aztreonam-avibactam (metallo-&beta;-lactamases).</li>
+        <li><span class="k">Long-acting anti-MRSA:</span> dalbavancin, oritavancin (single/2-dose ABSSSI).</li>
+      </ul>
+    </div></div>
+
+  </div>
+</body>
+</html>

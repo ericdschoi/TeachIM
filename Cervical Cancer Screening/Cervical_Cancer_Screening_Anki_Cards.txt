@@ -1,0 +1,18 @@
+What causes nearly all cervical cancer?	Persistent high-risk HPV infection, chiefly types 16 and 18
+Where do >90% of cervical cancers arise?	The transformation zone (squamocolumnar junction) - must be sampled during screening
+Two cervical cancer histologies and their origin?	Squamous cell carcinoma (~75%, ectocervix); adenocarcinoma (~25%, endocervix)
+What % of new HPV infections clear within 2 years?	~90% (about 70% within 12 months)
+Average-risk screening, ages 21-29?	Cytology alone every 3 years (no HPV-based testing <30)
+Average-risk screening, ages 30-65?	Cytology q3y OR HPV-based testing (primary hrHPV or co-test) q5y
+USPSTF 2025 preferred strategy for 30-65?	Primary hrHPV every 5 years (preferred); self-collection on FDA-approved platform now endorsed
+When can average-risk screening stop?	Age >65 if no CIN2+ in 25 y AND adequate prior screening (3 neg cytology/10 y or 2 neg HPV-based/10 y)
+Post-hysterectomy: when stop screening?	After total hysterectomy (cervix removed) for benign indication with no CIN2+ in 25 y
+Does HPV vaccination change the screening schedule?	No - follow age-specific recommendations regardless of vaccination status
+Who counts as high-risk for cervical cancer?	Immunocompromised/immunosuppressed: HIV, transplant, SLE, IBD/RA on immunosuppression, chronic steroids
+HIV screening: stop at 65?	No - screen with cytology or co-test, continue throughout life
+ASCCP 2019 management threshold?	Immediate CIN3+ risk: <4% -> surveillance; >=4% -> colposcopy/treatment ("equal management for equal risk")
+ASCCP surveillance intervals (immediate risk <4%)?	5-yr risk >0.55% -> 1 y; 0.15-0.55% -> 3 y; <0.15% -> 5 y
+ASCCP further management (immediate risk >=4%)?	4-24% colposcopy; 25-59% colposcopy or expedited tx; 60-100% expedited treatment
+Cytology result categories (increasing severity)?	NILM -> ASC-US -> LSIL -> ASC-H -> AGC -> HSIL
+Excision vs ablation - which is preferred and why?	Excision (LEEP/cone) preferred for histologic HSIL and AIS - yields tissue for pathology
+Surveillance after a history of CIN2+?	HPV-based test at 6 mo, then 3 annual HPV-based tests, then q3y for >=25 years (even >65)

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+  @page { size: Letter; margin: 0.3in; }
+  :root{ --fs: 13px; --primary:#0e6e8c; --orange:#b4530a; --green:#2e7d4f; --line:#bcc7d0; }
+  *{box-sizing:border-box}
+  body{font-family:'Helvetica Neue',Arial,sans-serif;font-size:var(--fs);line-height:1.28;color:#1a2433;margin:0;
+       column-count:2;column-gap:14px;column-fill:balance;}
+  .title{column-span:all;text-align:center;margin:0 0 5px;}
+  .title h1{font-size:calc(var(--fs)*1.55);margin:0;color:var(--primary);}
+  .title .sub{font-size:calc(var(--fs)*0.92);color:#44525e;margin-top:1px;}
+  .block{break-inside:avoid;margin-bottom:6px;border:1px solid var(--line);border-radius:4px;overflow:hidden;}
+  h2{font-size:calc(var(--fs)*1.02);color:#fff;margin:0;padding:2.5px 6px;background:var(--primary);}
+  h2.o{background:var(--orange)} h2.g{background:var(--green)}
+  .body{padding:4px 7px;}
+  table{border-collapse:collapse;width:100%;font-size:calc(var(--fs)*0.96);}
+  td,th{border:1px solid var(--line);padding:2px 4px;vertical-align:top;text-align:left;}
+  th{background:#eef4f7;}
+  ul{margin:2px 0;padding-left:14px;} li{margin:1px 0;}
+  p{margin:2px 0;}
+  .k{color:var(--primary);font-weight:bold;}
+  .ko{color:var(--orange);font-weight:bold;}
+  .avoid{color:#a11;font-weight:bold;}
+  .def{column-span:all;text-align:center;font-size:calc(var(--fs)*0.96);background:#eef4f7;border:1px solid var(--line);border-radius:4px;padding:3px 6px;margin-bottom:6px;}
+</style>
+</head>
+<body>
+  <div class="title">
+    <h1>Alcohol-related Liver Disease (ALD) — Clinical One-Pager</h1>
+    <div class="sub">Facilitator quick reference · TeachIM (Mowry/Haydek, Nov 2022), optimized Jun 2026 · CC BY-NC 4.0 · clinician-review before use</div>
+  </div>
+
+  <div class="def"><span class="k">Spectrum:</span> hepatic steatosis &rarr; steatohepatitis (ASH) &rarr; fibrosis &rarr; cirrhosis. Steatosis &amp; inflammation regress with abstinence; <b>fibrosis is largely irreversible.</b></div>
+
+  <div class="block">
+    <h2>Stages &amp; Risk Factors</h2>
+    <div class="body">
+      <table>
+        <tr><th>Stage</th><th>Features / reversibility</th></tr>
+        <tr><td>Steatosis</td><td>~90% of heavy drinkers; benign marker; reversible</td></tr>
+        <tr><td>Steatohepatitis (ASH)</td><td>Inflammatory; indolent or acute AH; infl. reversible, fibrosis not</td></tr>
+        <tr><td>Cirrhosis</td><td>End-stage fibrosis; irreversible</td></tr>
+      </table>
+      <p><span class="k">Risk:</span> &ge;2 drinks/d (F), &ge;3/d (M); binging; genetics; obesity; female sex; smoking; concurrent liver dz.</p>
+    </div>
+  </div>
+
+  <div class="block">
+    <h2 class="o">Diagnostic Evaluation</h2>
+    <div class="body">
+      <p><span class="ko">Screen</span> all adults &gt;18 w/ unhealthy use (CAGE, AUDIT-C). <span class="ko">Initial:</span> RUQ US + CMP, CBC, INR.</p>
+      <table>
+        <tr><th>Entity</th><th>Key features</th></tr>
+        <tr><td>Steatosis</td><td>Incidental; LFTs nl/mild &uarr;; indistinguishable from MASLD &rarr; <b>history clinches it</b></td></tr>
+        <tr><td>AH</td><td>Clinical dx; AST:ALT &gt;2, both &lt;400; &uarr;Tbili</td></tr>
+        <tr><td>Fibrosis/cirrhosis</td><td>FIB-4, APRI, FibroTest, ELF; elastography/MRI; nodular liver</td></tr>
+      </table>
+      <p class="def" style="margin:3px 0 0;padding:2px 4px"><b>AST/ALT &gt;400–500 &rarr; not pure AH:</b> r/o ischemic, APAP, viral.</p>
+    </div>
+  </div>
+
+  <div class="block">
+    <h2 class="g">Management — 4 Pillars</h2>
+    <div class="body">
+      <table>
+        <tr><th>Pillar</th><th>Specifics</th></tr>
+        <tr><td>Abstinence<br>(#1 survival)</td><td><b>Naltrexone</b> PO/IM (hepatic; caution adv dz) or <b>acamprosate</b> PO TID (<span class="avoid">avoid eGFR&lt;30</span>); <span class="avoid">AVOID disulfiram</span>; + psychosocial/MAT</td></tr>
+        <tr><td>Nutrition</td><td>High-protein diet; thiamine/folate/B-complex; low-Na if portal HTN; consider zinc in AH</td></tr>
+        <tr><td>Complications</td><td>Ascites/SBP, varices (EGD), HE, HCC surveillance, viral hep vacc/screen</td></tr>
+        <tr><td>Transplant</td><td>Refer non-recovering cirrhosis; consider early LT for select severe AH non-responders</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="block">
+    <h2>Acute Alcohol-related Hepatitis (AH)</h2>
+    <div class="body">
+      <p><span class="k">Dx (AASLD clinical):</span> heavy use (F &ge;3 / M &ge;4 drinks/d &times; &ge;60 d), jaundice &le;8 wk, AST:ALT &gt;2 (both &lt;400 IU/L), Tbili &gt;3 mg/dL. Often &uarr;WBC/PMN, RUQ pain. <b>R/o infection in EVERY pt.</b></p>
+      <p><span class="k">Severity:</span> MDF (Tbili+INR) <b>&ge;32</b> or MELD <b>&gt;20</b> = severe (30–50% 30-d mortality).</p>
+      <p><span class="k">Steroids:</span> <b>prednisolone 40 mg/d</b> if no contraindication; <span class="avoid">contraindic:</span> active infxn, AKI Cr&gt;2.5, uncontrolled GIB, MOF/shock, alt cause. &plusmn; IV NAC (short-term survival, 2024 ACG).</p>
+      <table>
+        <tr><th>Lille (day 4–7)</th><th>Action</th></tr>
+        <tr><td><b>&lt;0.45</b> responder</td><td>Complete 28-d course (~85% 6-mo survival)</td></tr>
+        <tr><td><b>&ge;0.45</b> non-resp</td><td>Stop steroids &rarr; palliative / LT eval</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="block">
+    <h2 class="o">Pearls &amp; 2024 Updates</h2>
+    <div class="body">
+      <ul>
+        <li>Abstinence beats every drug; at steatosis the liver can fully recover.</li>
+        <li>Steroids in AH buy <b>weeks, not years</b>, and only in Lille responders.</li>
+        <li><b>2024 ACG ALD guideline</b> reaffirms MDF&ge;32 / MELD&gt;20 + Lille rule; pred+NAC adjunct; early LT for select severe AH.</li>
+        <li><b>2023 nomenclature:</b> NAFLD&rarr;MASLD, NASH&rarr;MASH; MetALD = metabolic dysfunction + moderate alcohol.</li>
+        <li>STOPAH (2015): pentoxifylline no benefit; prednisolone short-term only.</li>
+      </ul>
+    </div>
+  </div>
+
+</body>
+</html>

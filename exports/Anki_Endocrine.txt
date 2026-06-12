@@ -1,0 +1,51 @@
+Primary vs secondary vs tertiary AI — where is the lesion?	Primary = adrenal cortex; secondary = pituitary (ACTH); tertiary = hypothalamus (CRH).	Endocrine::adrenal-insufficiency
+Why does primary AI cause adrenal crisis more readily than central AI?	Primary AI also loses aldosterone (mineralocorticoid) → salt wasting, hypovolemia, hyperkalemia, hyponatremia. Central AI spares the RAAS-driven aldosterone axis.	Endocrine::adrenal-insufficiency
+ACTH and aldosterone in primary AI?	ACTH high (loss of cortisol feedback → also hyperpigmentation); aldosterone low, renin high.	Endocrine::adrenal-insufficiency
+ACTH and aldosterone in central (secondary/tertiary) AI?	ACTH low/normal; aldosterone preserved (RAAS intact). Tertiary: ACTH stays low even after CRH.	Endocrine::adrenal-insufficiency
+Most common cause of AI overall?	Exogenous glucocorticoids (tertiary, HPA suppression).	Endocrine::adrenal-insufficiency
+Most common cause of primary AI in resource-rich settings?	Autoimmune adrenalitis (check 21-hydroxylase antibodies).	Endocrine::adrenal-insufficiency
+Drug causes of AI?	Steroids, azoles, etomidate, mitotane (synthesis); rifampin/phenytoin/phenobarbital (↑metabolism); checkpoint inhibitors (hypophysitis + adrenalitis).	Endocrine::adrenal-insufficiency
+First diagnostic test for AI and why that time?	8 AM serum cortisol — cortisol peaks in the morning, maximizing sensitivity.	Endocrine::adrenal-insufficiency
+8 AM cortisol interpretation (older assay)?	<3 µg/dL rules in; <10 suspicious; >18 rules out. Indeterminate → ACTH stimulation test.	Endocrine::adrenal-insufficiency
+How do modern cortisol assays change the cutoffs?	Specific monoclonal immunoassays and LC-MS/MS read ~20-30% lower, so rule-out / stim-test peak threshold is ~14-15 µg/dL, not 18. Use your lab's assay-specific value.	Endocrine::adrenal-insufficiency
+How is the ACTH (cosyntropin) stimulation test performed?	250 µg cosyntropin IV/IM; cortisol at baseline and 30-60 min; a subnormal peak confirms AI. Then ACTH level localizes primary vs central.	Endocrine::adrenal-insufficiency
+Why can early central AI pass a cosyntropin stim test?	The adrenals haven't yet atrophied and can still respond acutely. If suspicion is high, retest or use another test and treat empirically.	Endocrine::adrenal-insufficiency
+Replacement in primary AI?	Hydrocortisone 20-25 mg/24h split (AM-weighted) + fludrocortisone 0.1 mg qAM (mineralocorticoid) ± DHEA 25-50 mg.	Endocrine::adrenal-insufficiency
+Replacement in central AI?	Hydrocortisone 15-20 mg/24h split; no fludrocortisone needed (RAAS intact).	Endocrine::adrenal-insufficiency
+Adrenal crisis presentation and treatment?	Hypotension/shock ± fever, abdominal pain, nausea, fatigue. Treat empirically: hydrocortisone 100 mg IV then 200 mg/24h (or 50 mg q6h) + IV fluids — before confirmatory testing.	Endocrine::adrenal-insufficiency
+Which steroid preserves a pending cortisol stim test?	Dexamethasone — it does not cross-react in the cortisol assay (but never delay treatment for testing).	Endocrine::adrenal-insufficiency
+Definition of osteoporosis at the bone level?	Low bone mass + microarchitectural deterioration → skeletal fragility and increased fracture risk.	Endocrine::osteoporosis
+Three diagnostic criteria for osteoporosis?	T-score ≤ −2.5 on DXA; a fragility fracture (any T-score); or high FRAX (≥20% 10-yr major OR ≥3% hip).	Endocrine::osteoporosis
+DXA T-score classification?	Normal > −1.0; osteopenia −1.0 to −2.5; osteoporosis < −2.5.	Endocrine::osteoporosis
+Who should be screened with DXA?	All women ≥65; postmenopausal women <65 with ≥1 risk factor; men with major risk factors.	Endocrine::osteoporosis
+Why does T-score alone underestimate fracture risk?	Most fragility fractures occur in patients with T-scores better than −2.5; use clinical risk factors and FRAX, not BMD alone.	Endocrine::osteoporosis
+What is a fragility fracture, and where do they occur?	A fracture from minor trauma (ground-level fall): hip, vertebra, wrist, pelvis, ribs, proximal humerus. Diagnostic of osteoporosis regardless of T-score.	Endocrine::osteoporosis
+Most common clinical manifestation of osteoporosis?	Vertebral fracture — two-thirds are asymptomatic/incidental.	Endocrine::osteoporosis
+1-year mortality and return-to-independence after hip fracture?	~25% one-year mortality; only ~50% return to independent living.	Endocrine::osteoporosis
+Who needs a secondary work-up for osteoporosis?	All men; premenopausal women; osteoporosis that is unexplained or under age 50. Initial labs: CBC, CMP, Mg, Phos, 25-OH vitamin D, testosterone (men).	Endocrine::osteoporosis
+Primary interventions for everyone with/at risk for osteoporosis?	Calcium ~1200 mg/day (dietary preferred), vitamin D 800 IU/day, weight-bearing high-impact exercise, smoking cessation, limit alcohol.	Endocrine::osteoporosis
+What did the VITAL trial show about vitamin D?	No fracture reduction from vitamin D in community-dwelling adults with normal baseline levels (NEJM 2022). Still replete to normal when starting a bisphosphonate, but don't delay the bisphosphonate.	Endocrine::osteoporosis
+First-line drug for most osteoporosis, and the eGFR limit?	Bisphosphonate (alendronate PO weekly or zoledronic acid IV yearly); use if eGFR ≥35.	Endocrine::osteoporosis
+How to take an oral bisphosphonate?	First thing AM, empty stomach, with 8 oz water; sit upright ≥30 min; nothing by mouth ≥30 min. Stop if esophagitis symptoms.	Endocrine::osteoporosis
+Bisphosphonate adverse effects?	Esophagitis, hypocalcemia; rare osteonecrosis of the jaw (~1/10,000-1/100,000 pt-yr) and atypical femur fracture (~0.2% after 5 yr).	Endocrine::osteoporosis
+Denosumab — mechanism, line, and the critical caution?	Anti-RANKL antibody, SQ q6 months, second-line. Effectively lifelong — stopping causes rebound vertebral fractures, so always transition to a bisphosphonate (never to a PTH analog).	Endocrine::osteoporosis
+When are anabolic agents indicated, and which sequence?	Very-high-risk (T ≤ −3.5, or ≤ −2.5 + fragility fracture) or antiresorptive failure. Use the anabolic (teriparatide/romosozumab) FIRST, then follow with a bisphosphonate. Avoid romosozumab with recent MI/stroke.	Endocrine::osteoporosis
+DXA monitoring intervals by risk?	Low risk ~15 yr; moderate (osteopenia) 1-2 yr; on IV bisphosphonate ~3 yr; on oral ~5 yr; during drug holiday every 2-4 yr.	Endocrine::osteoporosis
+When to consider a bisphosphonate drug holiday?	After ~5 yr oral or ~3 yr IV if BMD is stable/improved and risk has fallen — benefit persists, and cumulative use raises atypical-fracture risk.	Endocrine::osteoporosis
+Four diagnostic criteria for T2DM?	Random glucose >200 + symptoms; fasting glucose ≥126; A1c ≥6.5%; 2-h OGTT glucose ≥200. Confirm asymptomatic cases with a repeat or second test.	Endocrine::outpatient-t2dm
+At what age do you screen everyone for T2DM?	Age 35. Earlier if BMI ≥25 (≥23 in Asian Americans) plus a risk factor, or on diabetogenic drugs, or prior gestational DM.	Endocrine::outpatient-t2dm
+Screening frequency for T2DM?	Every 3 years; yearly if prediabetes (A1c 5.7-6.4%); in 3-6 months for marginal results.	Endocrine::outpatient-t2dm
+When is the A1c falsely HIGH?	Low RBC turnover — iron, B12, or folate deficiency; asplenia (old, heavily glycated cells dominate).	Endocrine::outpatient-t2dm
+When is the A1c falsely LOW?	High RBC turnover — hemolysis, recent EPO or B12/folate repletion, pregnancy, advanced CKD.	Endocrine::outpatient-t2dm
+Three microvascular complications of T2DM and how each is screened?	Retinopathy (annual dilated retinal exam); nephropathy (annual urine albumin:Cr, abnl >30 mg/g); neuropathy (annual foot exam + monofilament).	Endocrine::outpatient-t2dm
+Three macrovascular complications, and how are they screened?	CAD/MI, stroke, PAD. No routine screening test — evaluate by symptoms; prevent by treating BP, lipids, and tobacco.	Endocrine::outpatient-t2dm
+Does tight glycemic control prevent microvascular or macrovascular disease?	Microvascular yes (A1c ~7%, benefit takes ~10 yr). Macrovascular — not in longstanding disease; aggressive BP/lipid/tobacco control matters more. Early control in new diabetes may help later (legacy effect).	Endocrine::outpatient-t2dm
+BP and lipid targets in T2DM?	Moderate-intensity statin for primary prevention; BP <130/80 if higher CV risk (10-yr risk >15% or ASCVD), else <140/90.	Endocrine::outpatient-t2dm
+The single most important rule of modern T2DM pharmacotherapy?	Choose the drug by comorbidity (ASCVD/HF/CKD) FIRST, then by A1c — even if the A1c is already at goal.	Endocrine::outpatient-t2dm
+Which agents have a mortality/cardiorenal benefit in T2DM, and which does not?	SGLT2 inhibitors and GLP-1 RAs do; insulin does not.	Endocrine::outpatient-t2dm
+Preferred agent in T2DM + HF (HFrEF or HFpEF)?	SGLT2 inhibitor — fewer HF hospitalizations; recommended in both reduced and preserved EF (2025-26 ADA).	Endocrine::outpatient-t2dm
+Preferred agent in T2DM + ASCVD or high CV risk?	GLP-1 RA and/or SGLT2 inhibitor with proven benefit, regardless of A1c.	Endocrine::outpatient-t2dm
+T2DM + CKD with persistent albuminuria despite ACEi/ARB + SGLT2i — next drug?	Finerenone (nonsteroidal MRA) — slows CKD progression and reduces CV events (2025-26 ADA).	Endocrine::outpatient-t2dm
+Key side effects: metformin, GLP-1 RA, SGLT2i?	Metformin — GI upset, avoid eGFR<30. GLP-1 RA — GI upset, pancreatitis, medullary thyroid ca contraindication. SGLT2i — genital/UTI infection, euglycemic DKA, volume depletion, ↑amputation (canagliflozin).	Endocrine::outpatient-t2dm
+Which sulfonylurea to avoid in CKD, and why?	Glyburide — renally cleared active metabolites accumulate and cause prolonged hypoglycemia. Use glipizide instead.	Endocrine::outpatient-t2dm
+A1c target in a frail elderly patient with dementia and falls?	Liberalize to <8% (up to 8.5%); prioritize avoiding hypoglycemia and de-intensify insulin/sulfonylureas.	Endocrine::outpatient-t2dm

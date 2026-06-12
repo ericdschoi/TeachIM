@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Central Venous Catheter Insertion — Optimized Procedure Package</title>
+<style>
+  :root{--ink:#1a2433;--accent:#0e6e8c;--accent2:#b4530a;--bg:#fafbfc;--card:#fff;--line:#dde4ea;--soft:#eef4f7;}
+  *{box-sizing:border-box}
+  body{font-family:Georgia,'Times New Roman',serif;color:var(--ink);background:var(--bg);margin:0;line-height:1.55}
+  header{background:var(--accent);color:#fff;padding:28px 24px}
+  header h1{margin:0 0 6px;font-size:1.7em}
+  header p{margin:2px 0;font-size:.95em;opacity:.92}
+  nav{background:#0b5870;padding:8px 24px;position:sticky;top:0;z-index:5}
+  nav a{color:#fff;text-decoration:none;font-family:Helvetica,Arial,sans-serif;font-size:.82em;margin-right:14px;white-space:nowrap}
+  nav a:hover{text-decoration:underline}
+  main{max-width:880px;margin:0 auto;padding:24px}
+  section{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:22px 26px;margin-bottom:22px}
+  h2{font-family:Helvetica,Arial,sans-serif;color:var(--accent);font-size:1.25em;margin-top:0;border-bottom:2px solid var(--soft);padding-bottom:8px}
+  h3{font-family:Helvetica,Arial,sans-serif;font-size:1.02em;color:var(--accent2);margin-bottom:6px}
+  table{border-collapse:collapse;width:100%;font-size:.92em;margin:12px 0}
+  th{background:var(--soft);text-align:left;font-family:Helvetica,Arial,sans-serif}
+  th,td{border:1px solid var(--line);padding:7px 10px;vertical-align:top}
+  .tag{display:inline-block;font-family:Helvetica,Arial,sans-serif;font-size:.72em;background:var(--soft);color:var(--accent);border-radius:10px;padding:2px 10px;margin-left:8px;vertical-align:middle}
+  .time{font-family:Helvetica,Arial,sans-serif;font-size:.78em;color:#fff;background:var(--accent2);border-radius:10px;padding:2px 10px;margin-left:8px}
+  .ask{background:#fdf6ec;border-left:4px solid var(--accent2);padding:10px 14px;margin:12px 0;border-radius:0 6px 6px 0}
+  .ask b{font-family:Helvetica,Arial,sans-serif;font-size:.85em;letter-spacing:.04em;color:var(--accent2)}
+  .pearl{background:#eef7f0;border-left:4px solid #2e7d4f;padding:10px 14px;margin:12px 0;border-radius:0 6px 6px 0}
+  .warn{background:#fdeeea;border-left:4px solid #b00;padding:10px 14px;margin:12px 0;border-radius:0 6px 6px 0}
+  details{border:1px solid var(--line);border-radius:6px;padding:10px 14px;margin:10px 0;background:#fff}
+  details summary{cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:.9em;color:var(--accent);font-weight:bold}
+  details[open]{background:var(--soft)}
+  .mcq{border:1px solid var(--line);border-radius:8px;padding:16px 18px;margin:14px 0}
+  .mcq ol{list-style-type:upper-alpha;margin:8px 0 8px 22px;padding:0}
+  .mcq ol li{margin:4px 0}
+  .changelog td:first-child{font-family:Helvetica,Arial,sans-serif;font-size:.85em;white-space:nowrap}
+  footer{font-size:.82em;color:#5a6877;padding:18px 24px;max-width:880px;margin:0 auto}
+  .small{font-size:.85em;color:#5a6877}
+  code{background:var(--soft);padding:1px 5px;border-radius:4px;font-size:.9em}
+  @media print{nav{display:none}section{border:none;page-break-inside:avoid}}
+</style>
+</head>
+<body>
+<header>
+  <h1>Central Venous Catheter (CVC) Insertion</h1>
+  <p>Optimized procedure package &middot; Facilitator-led simulation-based mastery learning for IM residents &middot; Pre-work ~20 min + simulation ~60 min</p>
+  <p class="small">Adapted from <a href="https://teachim.org/teaching_material/cvc-insertion/" style="color:#cde9f2">TeachIM.org — Central Venous Catheter Insertion</a> (Fainstad, Longino, Held, Kramer, Ortiz-Lopez, Neumeier, Ma; sec. ed. Cool; published June 2022, materials rev. June 2024/Apr 2025), CC BY-NC 4.0. Optimized June 2026: guideline currency verified, teaching design upgraded, assessments and clinical tools added. <b>Procedure-type lesson</b> — TeachIM publishes no slide deck for procedures; the package is built around the original instructional guide, simulation &amp; clinical assessment checklists, and pre-quiz (all included below).</p>
+</header>
+<nav>
+  <a href="#files">Files</a>
+  <a href="#objectives">Objectives</a>
+  <a href="#prework">Pre-work</a>
+  <a href="#script">Simulation script</a>
+  <a href="#cases">Cases</a>
+  <a href="#mcq">Board MCQs</a>
+  <a href="#anki">Anki cards</a>
+  <a href="#dotphrase">Procedure note</a>
+  <a href="#takehome">Take-home</a>
+  <a href="#changelog">What changed</a>
+  <a href="#refs">References</a>
+</nav>
+<main>
+
+<section id="files">
+  <h2>Lesson Files <span class="tag">click to open — keep files in the same folder as this page</span></h2>
+  <div style="display:flex;flex-wrap:wrap;gap:12px">
+    <a href="CVC-Instructional-Guide-TeachIM.pdf" style="flex:1;min-width:200px;display:block;text-decoration:none;border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:6px;padding:12px 16px;background:var(--soft)">
+      <span style="font-family:Helvetica,Arial,sans-serif;font-weight:bold;color:var(--accent)">▶ Instructional guide / clinical checklist</span><br>
+      <span class="small">CVC-Instructional-Guide-TeachIM.pdf — step-by-step procedure reference + supply list (the "board" for this lesson)</span></a>
+    <a href="CVC-Simulation-Assessment-TeachIM.pdf" style="flex:1;min-width:200px;display:block;text-decoration:none;border:1px solid var(--line);border-left:4px solid #2e7d4f;border-radius:6px;padding:12px 16px;background:#eef7f0">
+      <span style="font-family:Helvetica,Arial,sans-serif;font-weight:bold;color:#2e7d4f">✔ Simulation assessment checklist</span><br>
+      <span class="small">CVC-Simulation-Assessment-TeachIM.pdf — mastery-learning checklist; every item must be performed correctly &amp; independently to graduate the sim (rev. June 2024)</span></a>
+    <a href="CVC-Clinical-Assessment-Checklist-TeachIM.pdf" style="flex:1;min-width:200px;display:block;text-decoration:none;border:1px solid var(--line);border-left:4px solid #2e7d4f;border-radius:6px;padding:12px 16px;background:#eef7f0">
+      <span style="font-family:Helvetica,Arial,sans-serif;font-weight:bold;color:#2e7d4f">⎙ Clinical assessment checklist (CAT)</span><br>
+      <span class="small">CVC-Clinical-Assessment-Checklist-TeachIM.pdf — observed clinical checklist + Global Skills Assessment + Entrustment rating</span></a>
+    <a href="CVC-Pre-Quiz-3.pdf" style="flex:1;min-width:200px;display:block;text-decoration:none;border:1px solid var(--line);border-left:4px solid var(--accent2);border-radius:6px;padding:12px 16px;background:#fdf6ec">
+      <span style="font-family:Helvetica,Arial,sans-serif;font-weight:bold;color:var(--accent2)">✎ Pre-quiz (questions + answer key)</span><br>
+      <span class="small">CVC-Pre-Quiz-3.pdf — 10-item quiz; answers bolded on pages 3–4. Send the questions the day before</span></a>
+    <a href="CVC_Insertion_Anki_Cards.txt" style="flex:1;min-width:200px;display:block;text-decoration:none;border:1px solid var(--line);border-left:4px solid var(--accent2);border-radius:6px;padding:12px 16px;background:#fdf6ec">
+      <span style="font-family:Helvetica,Arial,sans-serif;font-weight:bold;color:var(--accent2)">⬇ Anki cards</span><br>
+      <span class="small">CVC_Insertion_Anki_Cards.txt — import into Anki (File → Import, tab-separated)</span></a>
+    <a href="CVC_Insertion_OnePager.pdf" style="flex:1;min-width:200px;display:block;text-decoration:none;border:1px solid var(--line);border-left:4px solid #6d2e46;border-radius:6px;padding:12px 16px;background:#f7eef2">
+      <span style="font-family:Helvetica,Arial,sans-serif;font-weight:bold;color:#6d2e46">⎙ One-page summary</span><br>
+      <span class="small">CVC_Insertion_OnePager.pdf — dense single-page procedure reference; prints on one page</span></a>
+  </div>
+  <p class="small" style="margin-bottom:0">Links are relative — they work when the named files are in the same folder as this HTML page. If a click does nothing, the file is missing from the folder.</p>
+</section>
+
+<section id="objectives">
+  <h2>Learning Objectives</h2>
+  <ol>
+    <li>Identify appropriate indications and relevant contraindications to performing a central venous catheter insertion.</li>
+    <li>Achieve a Minimum Passing Score (MPS) on the validated assessment checklist in a simulation setting.</li>
+    <li>Perform a CVC insertion under full or partial supervision in the clinical setting until demonstrating the Unsupervised Practice Standard (UPS) on the validated assessment checklist.</li>
+  </ol>
+  <p class="small">Framework: <i>Learn → See → Practice → Prove → Do → Maintain</i> (Sawyer et&nbsp;al., <i>Acad Med</i> 2015). Simulation-Based Mastery Learning (SBML) — the learner does not graduate the sim until every checklist item is performed correctly and independently — improves skill retention and reduces clinical complications (McGaghie, <i>Med Educ</i> 2014; Barsuk).</p>
+</section>
+
+<section id="prework">
+  <h2>Pre-work <span class="tag">NEW — send the day before with the procedure video + quiz</span></h2>
+  <p>Watch the procedural <a href="https://teachim.org/teaching_material/cvc-insertion/">video</a>, skim the instructional guide and clinical checklist, and answer these without looking anything up. (The full 10-item quiz with answer key is included as a file above.)</p>
+  <details><summary>Q1. Which transducer and which real-time technique do you use to cannulate the internal jugular vein, and why is dynamic (not static) better?</summary>
+  The <b>high-frequency linear</b> transducer. Use the <b>"follow-the-tip"</b> dynamic technique: keep the transducer just caudal to the advancing needle so the <i>tip</i> comes into view, then slide caudally and repeat. With a static probe you can't tell whether you're seeing the needle tip or a cross-section of the shaft — so you can advance past the vein without knowing it. Confirm the wire in the vein in both short- and long-axis views before dilating.</details>
+  <details><summary>Q2. Before you dilate, what two things must the ultrasound confirm — and what one error during wire placement should you watch the monitor for?</summary>
+  Confirm (1) the <b>guidewire is in the IJV</b> (not the carotid) in both short and long axis, and (2) venous (not arterial) cannulation. Watch the <b>telemetry for ectopy</b> while advancing the wire — ventricular ectopy means the wire is in the right atrium/ventricle; withdraw it a few centimeters. Real-time ultrasound visualization of the wire in the vein is the most reliable confirmation of venous placement (more reliable than dark blood color, ease of wire passage, or a non-pulsatile drip).</details>
+  <details><summary>Q3. How do you confirm correct line position and rule out a pneumothorax afterward?</summary>
+  Two acceptable approaches: <b>chest radiograph</b> — catheter tip at the cavo-atrial junction, no pneumothorax; or <b>bedside ultrasound</b> — directly visualize the catheter in the vessel, inject 10 cc agitated saline and confirm <b>turbulent flow in the right atrium within ~2 s</b> (rapid atrial swirl sign), and confirm <b>pleural sliding</b> in multiple anterior interspaces to exclude pneumothorax (sens ~91%, spec ~98% vs CT).</details>
+</section>
+
+<section id="script">
+  <h2>Simulation Teaching Script <span class="tag">Restructured into Learn–See–Practice–Prove with timing &amp; engagement cues</span></h2>
+  <p class="small">Run the simulation as a true clinical encounter with full sterile technique. Keep the <code>clinical checklist</code> in clear view during teaching, then remove it for the graded run. The cursor icons below mark built-in ASK prompts — pose the question before you demonstrate. Target ~60 min depending on experience.</p>
+
+  <h3>Hook &amp; framing (2 min)</h3>
+  <p>"Your patient is in septic shock and needs norepinephrine now — but you place the line, and ten minutes later the nurse pages that the post-line CXR shows a new pneumothorax. Walk it back: which two moments in the procedure determine whether that happens?" Hold the answer; you'll return to it. Establish that the two highest-yield safety levers are <b>real-time ultrasound (follow-the-tip + confirming the wire in the vein)</b> and <b>maintaining control of the guidewire</b> — not needle dexterity.</p>
+
+  <h3>LEARN — Indications &amp; contraindications <span class="time">8 min</span></h3>
+  <div class="ask"><b>ASK:</b> "Give me three indications for a CVC — and one common scenario where a triple-lumen CVC is actually the <i>wrong</i> line."</div>
+  <table>
+    <tr><th>Indications</th><th>Not a good fit for a standard triple-lumen CVC</th></tr>
+    <tr><td>Vasopressor / peripherally-incompatible (vesicant, TPN) infusion · inadequate peripheral access · hemodynamic monitoring (CVP, ScvO₂) · hemodialysis (via a dedicated HD catheter) · transvenous pacing / pulmonary-artery catheter</td><td><b>Massive transfusion / rapid volume resuscitation</b> — the long, narrow lumens of a TLC have high resistance and slow flow; use a large-bore peripheral IV or an introducer/Cordis instead.</td></tr>
+  </table>
+  <div class="ask"><b>ASK:</b> "Which of these blocks the line: INR 4, an IJ thrombus on ultrasound, a facial maculopapular rash, or end-stage kidney disease?"</div>
+  <table>
+    <tr><th>Absolute / site-specific hard stops</th><th>Increased-risk cautions (weigh &amp; mitigate)</th></tr>
+    <tr><td><b>Thrombus in the target vein</b> · overlying skin infection/cellulitis at the site · distorted anatomy or hardware (e.g., contralateral) — pick another site</td><td>Coagulopathy (INR ↑, thrombocytopenia) — bleeding risk; correct only if clearly excessive, prefer a compressible site (IJ/femoral) over subclavian; uncooperative patient; severe COPD/single lung (PTX consequences). ESKD and a self-limited rash are <i>not</i> contraindications.</td></tr>
+  </table>
+  <div class="pearl"><b>Pearl — pick the site for the patient:</b> Real-time ultrasound makes the <b>IJ</b> the default for most IM bedside lines. <b>Subclavian</b> has the lowest infection and thrombosis rate but the highest mechanical risk (pneumothorax, non-compressible bleeding); <b>femoral</b> is fastest in a code but has the highest infection/thrombosis risk — avoid it for elective lines (3SITES trial, Parienti <i>NEJM</i> 2015).</div>
+
+  <h3>LEARN — Positioning &amp; pre-procedure ultrasound <span class="time">8 min</span></h3>
+  <div class="ask"><b>ASK:</b> "What position best engorges the IJ, and what's the one thing you must check on ultrasound before you ever open the kit?"</div>
+  <ul>
+    <li><b>Trendelenburg</b> (head below feet) for an IJ or subclavian line engorges and stabilizes the target vein; the goal is simply to <b>engorge the vessel for cannulation while keeping the patient comfortable and stable</b> — drop it if not tolerated.</li>
+    <li><b>Pre-procedure scan (linear probe):</b> confirm the IJV is well visualized and follows a predictable path relative to the internal carotid artery, then confirm <b>patency with compression</b> from mid-neck to clavicle. A non-compressible vein = <b>thrombus</b> → do not cannulate; choose another site.</li>
+    <li>Set up ergonomically: patient at a comfortable height, trash can and tray in reach, ultrasound screen directly in your line of sight across the patient.</li>
+  </ul>
+  <div class="warn"><b>Safety anchor — the IJ sits lateral/superficial to the carotid:</b> always confirm the vein <i>compresses</i> and the artery <i>pulsates</i>. Cannulating a non-compressible structure or one that pulsates risks an arterial stick.</div>
+
+  <h3>SEE — Sterile prep &amp; supply preparation <span class="time">10 min — instructor demonstrates each step</span></h3>
+  <ol>
+    <li><b>Time-out</b> with the patient's nurse (name, DOB, procedure, site, allergies, consent) <b>before opening any sterile supplies.</b></li>
+    <li><b>Maximal sterile barrier:</b> cap, mask, eye protection, sterile gown and gloves; full-body drape head-to-feet. (Maximal barrier + chlorhexidine + checklist is the CLABSI-prevention bundle — Pronovost <i>NEJM</i> 2006.)</li>
+    <li><b>Skin prep:</b> <b>chlorhexidine</b> scrub ×2, 30 s each, over an area larger than the drape aperture. (Chlorhexidine is <i>scrubbed</i> — unlike iodine, which is applied and allowed to dry.) Chlorhexidine is the preferred antiseptic.</li>
+    <li>Sterile probe cover on the transducer; place it securely on the chest.</li>
+    <li><b>Prepare supplies:</b> draw up lidocaine with the largest needle/filtered catheter; <b>prime the guidewire</b> (retract until the curved tip is flush with the straight end of the coil); <b>flush all lumens</b> with sterile saline and clamp/cap each with a Luer lock.</li>
+  </ol>
+
+  <h3>SEE — Cannulation, wire, dilation &amp; catheter <span class="time">16 min</span></h3>
+  <ol>
+    <li><b>Anesthetize</b> a dermal wheal with a 21–25 g needle and the track under US guidance.</li>
+    <li><b>Advance the introducer needle</b> at 45–60°, maintaining negative pressure, using the <b>follow-the-tip</b> technique with dynamic ultrasound, until dark venous blood is aspirated; then unscrew the syringe. <i>(If the angle is too steep — e.g., 90° — you can't follow the tip.)</i></li>
+    <li><b>Introduce the guidewire</b>: pinch with a thumb at the end of the coil while advancing, release and pull back, repeat until ≥10 cm of wire is in. <b>Watch telemetry — withdraw a few cm if ectopy develops.</b></li>
+    <li><b>Withdraw the needle</b> over the wire; <b>confirm the wire is in the IJV</b> on ultrasound in both short and long axis, beyond the clavicle along the posterior wall.</li>
+    <li><b>Nick</b> the skin with a #11 scalpel to ~½ the blade width, contiguous with the wire puncture. <b>Advance the dilator</b> over the wire with a clockwise–counterclockwise twist only to the depth of the vessel; remove it and hold pressure.</li>
+    <li><b>Advance the triple-lumen catheter</b> over the wire; near the skin, <b>unclamp the distal port</b> (the one the wire exits — labeled "1," typically the brown/distal port), feed the wire out the distal port, <b>grasp the wire tip</b>, and advance the catheter to <b>~12–16 cm at the skin (R IJ, by height)</b>. <b>Remove the wire</b> and Luer-lock the distal port.</li>
+    <li><b>Confirm blood return</b> in all lumens, flush each clear, then clamp/cap. <b>Secure</b> with a hub fastener (≥2 sutures at the insertion site, 1–2 at the lumen junction), apply a chlorhexidine-impregnated sponge and sterile dressing.</li>
+  </ol>
+  <div class="warn"><b>Safety anchor — never lose the wire:</b> Maintain control of the guidewire at <i>every</i> step — it must not be contaminated, advanced too far (ectopy/arrhythmia), or left in the vessel after the catheter is placed. The wire is removed <b>after</b> the catheter is in, not before.</div>
+  <div class="pearl"><b>Pearl — venous vs arterial confirmation:</b> The most reliable check is <b>real-time ultrasound visualization of the wire in the vein</b>. Dark-vs-bright blood color, ease of wire passage, and a non-pulsatile drip are all unreliable in hypoxemia, hypotension, or shock. If you're unsure, transduce the pressure or send a blood gas before dilating.</div>
+
+  <h3>SEE — Clean-up &amp; line verification <span class="time">6 min</span></h3>
+  <ul>
+    <li>Secure ultrasound and <b>dispose of all sharps</b> before removing the drape; reassess vitals and update the nurse.</li>
+    <li><b>Confirm placement &amp; exclude pneumothorax</b> — by CXR (tip at the cavo-atrial junction) or bedside ultrasound: directly see the catheter in the vessel, inject <b>10 cc agitated saline</b> and confirm <b>turbulent flow in the right atrium within ~2 s</b> (and that the tip does <i>not</i> sit in the RA), plus <b>pleural sliding</b> in multiple anterior interspaces (sens ~91%, spec ~98% vs CT).</li>
+    <li>Place the <b>"okay to use"</b> order only after the tip is confirmed at the cavo-atrial junction (for supradiaphragmatic lines).</li>
+  </ul>
+
+  <h3>PRACTICE → PROVE — Mastery learning <span class="time">remaining time</span></h3>
+  <p>The learner familiarizes themselves with the kit and rehearses each step, then signals readiness for a graded run. With the checklist out of view, quiz the non-technical steps; then run a full simulation with it visible, correcting each mistake and having the learner repeat until correct. For any step the simulator can't physically reproduce, have the learner <b>verbalize</b> the intended step.</p>
+  <table>
+    <tr><th>Stage</th><th>Standard</th></tr>
+    <tr><td>Simulation (MPS)</td><td>Every item on the simulation assessment checklist performed <b>correctly and independently</b> (indications ×3, contraindications ×2, US patency, CHG scrub &gt;30 s, prime/flush, follow-the-tip with negative pressure, wire &gt;10 cm, wire confirmed both axes, wire control + removed after catheter, catheter to depth, blood return + Luer-lock, ≥2 sutures, verbalize CXR confirmation).</td></tr>
+    <tr><td>Clinical (UPS)</td><td>Observed clinical assessment checklist + <b>Global Skills Assessment</b> and an <b>Entrustment</b> rating of "perform safely and effectively <b>without direct supervision</b>."</td></tr>
+  </table>
+
+  <h3>Close (2 min)</h3>
+  <p>Hide the guide. Ask the learner to rebuild: three indications and the one scenario where a TLC is the wrong line; the pre-scan check that rules out a thrombus; the most reliable confirmation of venous cannulation; the two ways to confirm tip position and exclude pneumothorax; and the one rule about the guidewire.</p>
+</section>
+
+<section id="cases">
+  <h2>Case Vignettes <span class="tag">From the quiz — answers click-to-reveal</span></h2>
+
+  <div class="mcq"><h3>Case 1 — Choosing the line (and the site)</h3>
+  <p>A 58-year-old in septic shock needs norepinephrine and central access; they also have a GI bleed and may need rapid transfusion. INR 1.8, platelets 90K. The intern asks whether the triple-lumen CVC you're about to place will cover the transfusion too, and whether the coags should be corrected first.</p>
+  <details><summary>How do you answer?</summary>A triple-lumen CVC is correct for the <b>vasopressor</b>, but it is a poor conduit for <b>massive transfusion</b> — the long narrow lumens have high resistance and slow flow. Place a <b>large-bore peripheral IV or an introducer/Cordis</b> for volume resuscitation. INR 1.8 / plt 90K are <b>cautions, not absolute contraindications</b>; use a compressible site (IJ) under ultrasound and don't delay a needed line in shock to chase a mild coagulopathy. Confirm IJ <b>patency by compression</b> before cannulating.</details></div>
+
+  <div class="mcq"><h3>Case 2 — Confirming placement</h3>
+  <p>You've placed a right IJ triple-lumen catheter under ultrasound. Blood returns dark and non-pulsatile from all lumens. Before calling the line "okay to use," you confirm position at the bedside.</p>
+  <details><summary>What confirms correct supradiaphragmatic placement, and how do you exclude a pneumothorax?</summary>Inject <b>10 cc agitated sterile saline</b> through a lumen and confirm <b>turbulent flow in the right atrium within ~2 s</b> on a subxiphoid/apical view (rapid atrial swirl) — turbulent flow confirms the tip is in the central venous system and not, e.g., arterial or extravascular. The tip should sit at the <b>cavo-atrial junction</b> (on CXR: lower SVC / cavo-atrial junction, <i>not</i> deep in the RA). Exclude pneumothorax with <b>anterior lung sliding</b> in multiple interspaces (or CXR). Only then place the "okay to use" order.</details></div>
+</section>
+
+<section id="mcq">
+  <h2>Board-Style MCQs <span class="tag">NEW — 5 items, ABIM single-best-answer</span></h2>
+
+  <div class="mcq"><p><b>1.</b> Which of the following is the <i>least</i> appropriate indication for placing a standard triple-lumen central venous catheter?</p>
+  <ol><li>Norepinephrine infusion in septic shock</li><li>Total parenteral nutrition</li><li>Rapid massive transfusion in hemorrhagic shock</li><li>Central venous pressure monitoring</li></ol>
+  <details><summary>Answer &amp; explanation</summary><b>C.</b> A triple-lumen CVC has long, narrow, high-resistance lumens, so flow rates are slow — it is a poor choice for rapid massive transfusion, where a short large-bore peripheral IV or an introducer/Cordis is preferred. Vasopressors (A), TPN (B), and CVP monitoring (D) are all standard indications for a TLC.</details></div>
+
+  <div class="mcq"><p><b>2.</b> On the pre-procedure scan of the right internal jugular vein, the vessel does not fully collapse with probe compression. What is the most appropriate next step?</p>
+  <ol><li>Apply more Trendelenburg and proceed</li><li>Cannulate quickly before the vein collapses</li><li>Do not cannulate this vein — suspect thrombus and select another site</li><li>Transfuse platelets and proceed</li></ol>
+  <details><summary>Answer &amp; explanation</summary><b>C.</b> A non-compressible vein suggests <b>thrombus</b>, an absolute contraindication to cannulating that vein; choose another site. Thrombus in the target vein is the classic site-specific contraindication. More Trendelenburg (A) or rushing (B) doesn't change the obstruction, and platelet count (D) is irrelevant here.</details></div>
+
+  <div class="mcq"><p><b>3.</b> Why is dynamic "follow-the-tip" ultrasound preferred over holding the probe in a fixed position while advancing the needle?</p>
+  <ol><li>It is faster and requires less sterile setup</li><li>A static image cannot distinguish the needle tip from a cross-section of the shaft, so you can advance past the vein unknowingly</li><li>It avoids the need to confirm the wire in the vein</li><li>It eliminates the risk of arterial puncture entirely</li></ol>
+  <details><summary>Answer &amp; explanation</summary><b>B.</b> With a static probe you can't tell whether the bright dot is the advancing <i>tip</i> or a cross-section of the shaft, so the tip can travel through the back wall of the vein and into the carotid without your knowing. Following the tip (probe just caudal to the needle, advancing in steps) keeps the tip in view. It does not remove the need to confirm the wire in the vein (C) and does not eliminate arterial puncture risk (D).</details></div>
+
+  <div class="mcq"><p><b>4.</b> After cannulating the IJ you advance the guidewire and the monitor shows new frequent PVCs. What should you do?</p>
+  <ol><li>Continue advancing — ectopy is expected and harmless</li><li>Withdraw the guidewire a few centimeters until the ectopy resolves</li><li>Remove the wire entirely and restart</li><li>Give amiodarone before continuing</li></ol>
+  <details><summary>Answer &amp; explanation</summary><b>B.</b> Ectopy means the wire tip is irritating the right atrium/ventricle. Withdraw the wire a few centimeters and the ectopy should resolve; this is why you monitor telemetry during wire placement. You do not need to abort the procedure (C) or give antiarrhythmics (A, D) for transient wire-induced ectopy.</details></div>
+
+  <div class="mcq"><p><b>5.</b> Which finding most reliably confirms <i>venous</i> (rather than arterial) cannulation of the internal jugular vein before dilation?</p>
+  <ol><li>Dark (rather than bright) red blood in the syringe</li><li>Ease of passing the wire to 10–15 cm</li><li>Real-time ultrasound visualization of the wire within the IJ vein</li><li>A slow non-pulsatile drip of blood from the needle hub</li></ol>
+  <details><summary>Answer &amp; explanation</summary><b>C.</b> Direct ultrasound visualization of the wire <i>in the vein</i> (both axes) is the most reliable confirmation. Blood color (A) and non-pulsatile flow (D) are unreliable in hypoxemia/hypotension/shock, and easy wire passage (B) can occur with arterial cannulation too. Confirming venous placement before dilating is critical — dilating an inadvertently cannulated carotid causes catastrophic injury.</details></div>
+</section>
+
+<section id="anki">
+  <h2>Spaced-Repetition Cards <span class="tag">NEW — 18 cards, importable file: CVC_Insertion_Anki_Cards.txt</span></h2>
+  <table>
+    <tr><th style="width:50%">Front</th><th>Back</th></tr>
+    <tr><td>Common indications for a triple-lumen CVC?</td><td>Vasopressors / peripherally-incompatible infusion (TPN, vesicants), inadequate peripheral access, hemodynamic monitoring (CVP/ScvO₂), transvenous pacing/PA catheter; hemodialysis via a dedicated HD catheter.</td></tr>
+    <tr><td>Why is a triple-lumen CVC a poor choice for massive transfusion?</td><td>Long, narrow, high-resistance lumens → slow flow. Use a short large-bore peripheral IV or an introducer/Cordis for rapid volume/blood.</td></tr>
+    <tr><td>Site-specific / absolute contraindication to cannulating a vein for CVC?</td><td>Thrombus in the target vein (non-compressible on US); overlying skin infection; distorted anatomy. ESKD and a self-limited rash are NOT contraindications.</td></tr>
+    <tr><td>Are coagulopathy/thrombocytopenia absolute contraindications to CVC?</td><td>No — cautions. Correct only if clearly excessive; prefer a compressible site (IJ/femoral) over subclavian; don't delay a needed line in shock for a mild INR.</td></tr>
+    <tr><td>Site trade-offs: IJ vs subclavian vs femoral?</td><td>IJ = default for US-guided bedside lines. Subclavian = lowest infection/thrombosis but highest mechanical risk (PTX, non-compressible). Femoral = fastest in a code but highest infection/thrombosis; avoid for elective (3SITES, Parienti NEJM 2015).</td></tr>
+    <tr><td>Preferred patient position for an IJ/subclavian CVC?</td><td>Trendelenburg (head below feet) to engorge/stabilize the vein. Goal = engorge the vessel while keeping the patient comfortable/stable.</td></tr>
+    <tr><td>Preferred skin antiseptic for CVC, and how is it applied?</td><td>Chlorhexidine — SCRUBBED (×2, 30 s each) over an area larger than the drape aperture. (Iodine is applied and left to dry.)</td></tr>
+    <tr><td>Which ultrasound transducer for real-time IJ cannulation?</td><td>High-frequency LINEAR transducer.</td></tr>
+    <tr><td>What must the pre-procedure scan confirm?</td><td>IJV is well visualized with a predictable path relative to the carotid, and is PATENT (fully compressible mid-neck to clavicle). Non-compressible = thrombus → use another site.</td></tr>
+    <tr><td>"Follow-the-tip" technique — and why dynamic beats static?</td><td>Keep the probe just caudal to the advancing needle so the TIP comes into view, slide caudally, repeat. Static can't distinguish tip from shaft cross-section → can pass through the vein unknowingly.</td></tr>
+    <tr><td>How far is the guidewire advanced, and what do you monitor?</td><td>≥10 cm of wire. Watch telemetry — withdraw a few cm if ectopy develops (wire in RA/RV).</td></tr>
+    <tr><td>Most reliable confirmation of venous (vs arterial) cannulation?</td><td>Real-time ultrasound visualization of the wire IN the vein (both axes). Blood color, ease of wire passage, and non-pulsatile drip are all unreliable in shock/hypoxemia.</td></tr>
+    <tr><td>Maximal sterile barrier / CLABSI-prevention bundle?</td><td>Cap, mask, eye protection, sterile gown + gloves, full-body drape; chlorhexidine prep; checklist in view; CHG-impregnated dressing (Pronovost NEJM 2006).</td></tr>
+    <tr><td>Which port does the guidewire exit, and why?</td><td>The DISTAL port (labeled "1," typically brown) — unclamp it so the wire feeds out the catheter tip; grasp the wire before advancing the catheter.</td></tr>
+    <tr><td>When is the guidewire removed?</td><td>AFTER the catheter is fully inserted — never before. Maintain control of the wire at every step (don't contaminate, over-advance, or retain it).</td></tr>
+    <tr><td>Appropriate depth for a right IJ triple-lumen catheter?</td><td>≈12–16 cm at the skin depending on patient height (≈12 cm for ~5 ft, ≈15 cm for ~6 ft). Tip should sit at the cavo-atrial junction.</td></tr>
+    <tr><td>Bedside-ultrasound confirmation of supradiaphragmatic CVC placement?</td><td>Inject 10 cc agitated saline → turbulent flow in the right atrium within ~2 s (rapid atrial swirl); tip should NOT sit in the RA. Plus directly visualize the catheter in the vessel.</td></tr>
+    <tr><td>How do you exclude pneumothorax after a CVC, and how good is bedside US?</td><td>Anterior chest lung sliding in multiple interspaces, supine (sens ~91%, spec ~98% vs CT — Alrajhi Chest 2012), or CXR. CXR also confirms tip at cavo-atrial junction.</td></tr>
+  </table>
+</section>
+
+<section id="dotphrase">
+  <h2>Procedure Note / Time-out Dotphrase <span class="tag">NEW — EMR-ready CVC note template</span></h2>
+  <p class="small">Indication/contraindication checklist → consent/time-out → key steps with the safety stop → post-procedure confirmation → documentation. <code>*</code> = wildcard to edit at the bedside; brackets = pick-lists. <button onclick="navigator.clipboard.writeText(document.getElementById('dp').innerText).then(()=>{this.textContent='Copied ✓';setTimeout(()=>this.textContent='Copy to clipboard',2000)})" style="font-family:Helvetica,Arial,sans-serif;font-size:.9em;cursor:pointer;padding:3px 12px;border:1px solid var(--accent);background:var(--soft);color:var(--accent);border-radius:5px">Copy to clipboard</button></p>
+  <pre id="dp" style="white-space:pre-wrap;background:#f4f7f9;border:1px solid var(--line);border-radius:6px;padding:14px;font-size:.82em;line-height:1.5;font-family:Consolas,Menlo,monospace">PROCEDURE: Central venous catheter insertion — *[triple-lumen / introducer-Cordis / HD] catheter, *R/L *[internal jugular / subclavian / femoral]
+Indication: *[vasopressors / periph-incompatible infusion or TPN / inadequate access / hemodynamic monitoring / HD / transvenous pacing]
+Pre-proc checklist:
+ - contraindic reviewed: NO target-vein thrombus (vein FULLY COMPRESSIBLE on US), NO overlying skin infection, anatomy suitable. Cautions weighed: coags INR *__/plt *__ (compressible site chosen), *cooperative.
+ - consent obtained from *[pt/surrogate] *(or emergent indication); risks (arterial puncture, pneumothorax, bleeding, arrhythmia, infection/CLABSI, malposition, failure) & alternatives discussed
+ - TIME-OUT w/ RN: name/DOB/procedure/SIDE/site/allergies confirmed BEFORE opening sterile supplies
+Sterile: maximal barrier (cap, mask, eye protn, sterile gown+gloves, full-body drape); chlorhexidine scrub x2 (30 s each); sterile probe cover.
+Pre-scan (high-freq linear): *R/L IJV well visualized, predictable path vs carotid, PATENT to compression mid-neck→clavicle.
+Technique: position *Trendelenburg. 1% lidocaine *__ mL (dermal wheal → tract under US). Introducer needle advanced 45-60° w/ negative pressure using FOLLOW-THE-TIP dynamic US until dark venous blood aspirated. Guidewire advanced >10 cm — *no/transient ectopy (wire withdrawn). Needle removed. WIRE CONFIRMED in *R/L IJV in short + long axis. #11 skin nick; dilator over wire to vessel depth; catheter advanced over wire (wire out DISTAL port, grasped) to *__ cm (~12-16 cm R IJ by height). SAFETY: wire control maintained throughout; wire removed AFTER catheter placed.
+Post: blood return + flush all *3 lumens, Luer-locked/clamped; hub secured w/ *≥2 sutures; CHG sponge + sterile dressing. Sharps disposed. Vitals stable, *EBL minimal, no immediate complication.
+Confirmation: *[CXR — tip at cavo-atrial junction, no PTX] / *[bedside US — catheter in vessel, agitated-saline turbulent RA flow <2 s, anterior lung sliding present b/l]. "Okay to use" order placed.
+Lidocaine used (mL): *__   Performing provider: *  | Supervising: *</pre>
+</section>
+
+<section id="takehome">
+  <h2>Take-Home Points</h2>
+  <ol>
+    <li><b>Match the line to the job:</b> a triple-lumen CVC is for vasopressors, incompatible infusions, monitoring, and access — <b>not</b> for massive transfusion (use a large-bore peripheral or introducer).</li>
+    <li><b>Scan before you stick:</b> confirm the target vein is <b>patent and fully compressible</b> — a non-compressible vein means thrombus, so pick another site. Thrombus and overlying infection are the hard stops; coagulopathy is a caution.</li>
+    <li><b>Real-time ultrasound is the core safety skill:</b> use the high-frequency <b>linear</b> probe and the <b>follow-the-tip</b> technique, and <b>confirm the wire in the vein in both axes before you dilate</b> — the single best protection against dilating the carotid.</li>
+    <li><b>Never lose the wire:</b> watch telemetry for ectopy, keep control of the wire at every step, and remove it only <b>after</b> the catheter is in.</li>
+    <li><b>Confirm and clear before use:</b> tip at the <b>cavo-atrial junction</b> and no pneumothorax — by CXR or bedside ultrasound (agitated-saline RA swirl + anterior lung sliding).</li>
+    <li><b>Prove competence by mastery learning:</b> reach the <b>MPS</b> (every sim checklist item correct &amp; independent), then the <b>UPS</b> (clinical checklist + entrustment "without direct supervision") before unsupervised practice.</li>
+  </ol>
+</section>
+
+<section id="changelog">
+  <h2>Optimization Changelog</h2>
+  <table class="changelog">
+    <tr><th>Area</th><th>What changed</th></tr>
+    <tr><td>Currency check</td><td>Verified against current standards (June 2026): the ASA 2020 Practice Guidelines for Central Venous Access remain the major guideline and are not superseded. Real-time ultrasound guidance is reaffirmed as first-line for all sites (ACS revised recommendations; Annals of Intensive Care 2023 narrative review — US reduces complications ~3× for IJ/femoral, ~2× for subclavian). Site trade-offs unchanged (3SITES, Parienti <i>NEJM</i> 2015). No standing-content change required.</td></tr>
+    <tr><td>Content added</td><td>Added explicit site-selection trade-offs (IJ/subclavian/femoral, with 3SITES infection/thrombosis/mechanical-risk framing); the "match the line to the job" teaching point (TLC is wrong for massive transfusion — the keyed quiz answer); the CLABSI-prevention bundle framing (maximal barrier + chlorhexidine + checklist, Pronovost <i>NEJM</i> 2006); and the bedside-ultrasound confirmation pathway (agitated-saline rapid atrial swirl + anterior lung sliding sens ~91%/spec ~98%).</td></tr>
+    <tr><td>Corrections</td><td>No factual errors found in the instructional guide, simulation/clinical assessment checklists, or quiz.</td></tr>
+    <tr><td>Pedagogy</td><td>Restructured into the Learn–See–Practice–Prove arc with a 2-min hook, ≥4 ASK pause-points, pearls/safety-anchor callouts, HTML tables for indications/contraindications and MPS/UPS, and a retrieval close.</td></tr>
+    <tr><td>Assessment</td><td>Added 3 pre-work retrieval questions, 5 ABIM-style board MCQs with full distractor explanations, 2 case vignettes (from the quiz), and 18 spaced-repetition cards.</td></tr>
+    <tr><td>Clinical tool</td><td>Added an EMR-ready CVC procedure-note / time-out dotphrase (procedure-type structure).</td></tr>
+    <tr><td>One-pager</td><td>Built a dense single-page procedure reference (separate print-CSS HTML → PDF, one page).</td></tr>
+    <tr><td>Format</td><td>Self-contained HTML launcher linking all original companion files (instructional guide, simulation assessment, clinical assessment, pre-quiz w/ answer key) + generated files; matches the Syncope/Thoracentesis design system. <b>No <code>_Optimized.pptx</code></b> — TeachIM publishes no slide deck for procedures; per the no-rebuild rule none was created.</td></tr>
+    <tr><td><b>Human review needed</b></td><td>Catheter-depth figures vary slightly across the source materials: the lesson page/quiz state ≈12–16 cm by height (used here), while the June-2024 simulation checklist lists "15–20 cm." This is a known across-document inconsistency; depth should always be individualized and confirmed by tip position at the cavo-atrial junction. Flagged for the authors to harmonize.</td></tr>
+  </table>
+</section>
+
+<section id="refs">
+  <h2>References</h2>
+  <ol>
+    <li>Practice Guidelines for Central Venous Access 2020: An Updated Report by the American Society of Anesthesiologists Task Force on Central Venous Access. <i>Anesthesiology</i>. 2020;132(1):8-43.</li>
+    <li>Sawyer T, White M, Zaveri P, et al. Learn, see, practice, prove, do, maintain: an evidence-based pedagogical framework for procedural skill training in medicine. <i>Acad Med</i>. 2015;90(8):1025-1033.</li>
+    <li>McGaghie WC, Issenberg SB, Barsuk JH, Wayne DB. A critical review of simulation-based mastery learning with translational outcomes. <i>Med Educ</i>. 2014;48(4):375-385.</li>
+    <li>Huang GC, Newman LR, Schwartzstein RM, et al. Procedural competence in internal medicine residents: validity of a central venous catheter insertion assessment instrument. <i>Acad Med</i>. 2009;84(8):1127-1134.</li>
+    <li>Saugel B, Scheeren TWL, Teboul J-L. Ultrasound-guided central venous catheter placement: a structured review and recommendations for clinical practice. <i>Crit Care</i>. 2017;21(1):225.</li>
+    <li>Parienti JJ, Mongardon N, Mégarbane B, et al. Intravascular complications of central venous catheterization by insertion site (3SITES). <i>N Engl J Med</i>. 2015;373(13):1220-1229.</li>
+    <li>Pronovost P, Needham D, Berenholtz S, et al. An intervention to decrease catheter-related bloodstream infections in the ICU. <i>N Engl J Med</i>. 2006;355(26):2725-2732.</li>
+    <li>Smit JM, Raadsen R, Blans MJ, et al. Bedside ultrasound to detect central venous catheter misplacement and associated iatrogenic complications: a systematic review and meta-analysis. <i>Crit Care</i>. 2018;22(1):65.</li>
+    <li>Wilson SP, Assaf S, Lahham S, et al. Simplified point-of-care ultrasound protocol to confirm central venous catheter placement. <i>World J Emerg Med</i>. 2017;8(1):25-28.</li>
+    <li>Alrajhi K, Woo MY, Vaillancourt C. Test characteristics of ultrasonography for the detection of pneumothorax: a systematic review and meta-analysis. <i>Chest</i>. 2012;141(3):703-708.</li>
+    <li>Bodenham A, et al.; updated real-time ultrasound guidance recommendations for CVC placement. American College of Surgeons revised recommendations (current as of 2026).</li>
+  </ol>
+</section>
+
+</main>
+<footer>
+  Adapted from the TeachIM.org Central Venous Catheter Insertion procedure materials (Brandon Fainstad MD, Josephine Cool MD and colleagues; published June 2022, materials revised 2024–2025), licensed under <a href="http://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>. This optimized package is released under the same license for non-commercial educational use. Optimized June 2026. Medical content should be reviewed by a qualified clinician before teaching or clinical use. Not medical advice.
+</footer>
+</body>
+</html>

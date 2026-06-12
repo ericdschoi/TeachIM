@@ -1,0 +1,18 @@
+Two levers that improve oxygenation	FiO2 (more O2 molecules for gas exchange) and PEEP (recruits alveoli).
+Two determinants of ventilation	Tidal volume (Vt) and respiratory rate; minute ventilation = Vt × RR.
+Why does effective FiO2 fall with respiratory distress?	Inspiratory flow can reach 30–120 L/min, far exceeding device flow, so delivered O2 is diluted by entrained ambient air (21%).
+Nasal cannula — practical range and max FiO2	Ideal ~2–4 L/min; ~3–4% FiO2 per L; max ~44% at 6 L/min.
+Simple face mask — FiO2 range and a caveat	~40–60% at 5–8 L/min (max ~60–70%); needs >6 L/min to wash out CO2 and prevent rebreathing.
+What is a Venturi mask best for?	Delivering a precise, fixed FiO2 to a patient with a variable breathing pattern (max ~60%).
+Non-rebreather mask — key teaching point	Rescue device only (effective FiO2 ~75–90% at 12–15 L/min); de-escalate once stable; bag must be inflated.
+Oxymizer — how it helps	A small (~20 mL) pendant/mustache reservoir raises effective FiO2 and allows higher flows more comfortably than plain nasal cannula.
+High flow nasal cannula — what makes it unique	Heated/humidified high flow (up to ~60 L/min) matches inspiratory demand, finely titratable FiO2 up to ~100%, and provides a small PEEP (~3–5 cm H2O); improves work of breathing and minute ventilation.
+CPAP — what it affects	Oxygenation only (continuous pressure = PEEP); use for hypoxemic respiratory failure.
+BiPAP — what it affects and how	IPAP and EPAP; EPAP = PEEP (oxygenation); IPAP−EPAP (ΔPAP) increases Vt (ventilation) → use for hypercapnic failure.
+Hemodynamic effects of positive pressure ventilation	↓ RV preload, ↓ LV preload, ↓ LV afterload — beneficial in acute cardiogenic pulmonary edema.
+Strongest indications for NIPPV in acute respiratory failure	Acute cardiogenic pulmonary edema (CPAP or BiPAP) and COPD exacerbation with hypercapnia (BiPAP).
+Contraindications to NIPPV	Can't protect/remove mask (AMS, paralysis), active vomiting/copious secretions, facial trauma, recent esophageal/tracheal surgery, hemodynamic instability.
+FLORALI trial (Frat NEJM 2015) take-away	In AHRF, HFNC vs standard O2 vs NIPPV: no difference in 28-day intubation overall, but lower 90-day mortality and more ventilator-free days with HFNC; fewer intubations with HFNC if P/F <200.
+2023 ESICM recommendation for non-intubated AHRF	HFNC over conventional oxygen to reduce intubation — except cardiogenic pulmonary edema and COPD exacerbation (use NIPPV).
+ROX index — formula and use	(SpO2/FiO2) ÷ RR; ≥4.88 predicts HFNC success; low/falling ROX flags failure — escalate, don't delay intubation.
+Awake prone positioning — role	Adjunct for non-intubated COVID-related hypoxemic AHRF on HFNC/NIPPV; reduces intubation (strong rec, 2023 guideline).

@@ -1,0 +1,17 @@
+Three descriptors in an HF "one-liner"?	NYHA class (symptom burden) + ejection fraction category + etiology (ischemic vs non-ischemic).
+EF cut-offs: HFrEF / HFmrEF / HFpEF / HFimpEF?	HFrEF ≤40%; HFmrEF 41–49%; HFpEF ≥50%; HFimpEF = prior ≤40% improved ≥10 pts to >40%.
+Four GDMT pillars for HFrEF?	Beta-blocker + ARNI (or ACEi/ARB) + MRA + SGLT2 inhibitor. ~73% combined mortality reduction at target doses.
+Evidence-based beta-blockers in HFrEF?	Metoprolol succinate, carvedilol, bisoprolol. (Metoprolol tartrate is NOT evidence-based for HFrEF.)
+ARNI vs ACEi: what washout is required?	36-h washout after stopping an ACEi before starting an ARNI; switching from an ARB can be immediate. ARNI is preferred over ACEi/ARB.
+MRA contraindications?	K+ >5, GFR <30, or Cr >2.5 (men)/>2 (women).
+SGLT2i contraindications in HF?	GFR <20 (empagliflozin; <30 dapagliflozin), type 1 DM, prior DKA; caution with recurrent UTIs.
+Is a <30% creatinine rise on ACEi/ARNI + SGLT2i a reason to stop?	No — expected hemodynamic change. Reassess volume/diuretics for true AKI before reducing GDMT.
+How often to titrate GDMT, and the core rule?	Every 1–2 weeks (faster is safe — STRONG-HF). Add or titrate something at every visit.
+Managing hypotension on GDMT?	Treat symptoms not the number (asymptomatic SBP 90–100 OK); avoid CCB/thiazide; stagger dosing; carvedilol → metoprolol succinate.
+Persistent EF <35% after ≥3 mo GDMT + wide QRS/LBBB?	Cardiac resynchronization therapy (CRT), NNT 8; add ICD given EF (CRT-D).
+ICD indication in HFrEF?	EF <35% after adequate GDMT with life expectancy >1 yr — sudden-death prevention (MADIT-II, SCD-HeFT), NNT 23.
+Hydralazine + isosorbide dinitrate — who?	Class 1a in self-identified African-Americans on background GDMT (A-HeFT, NNT 8); also when ACEi/ARB/ARNI can't be used.
+HFimpEF management?	Continue full GDMT indefinitely — TRED-HF showed >40% relapse after withdrawal vs none who continued.
+Guideline therapy for HFmrEF and HFpEF?	SGLT2 inhibitor (reduces HF hospitalizations; 2a US 2022, 1A ESC 2023). MRA/ARNI 2b in HFpEF.
+Finerenone in HF — what changed (2024–25)?	FINEARTS-HF (NEJM 2024): cut CV death/worsening HF in LVEF ≥40%. FDA-approved July 2025 for HF with LVEF ≥40% — first MRA proven beneficial in HFmrEF/HFpEF.
+Obesity drugs in HFpEF?	STEP-HFpEF (semaglutide, 2023) improved symptoms/function; SUMMIT (tirzepatide, 2025) cut CV death/worsening HF ~38% in HFpEF + obesity.

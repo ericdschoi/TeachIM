@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8">
+<style>
+:root{ --fs: 13px; }
+@page { size: Letter; margin: 0.42in; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: "Helvetica Neue", Arial, sans-serif; font-size: var(--fs); line-height: 1.5; color: #111; }
+.hdr { display: flex; justify-content: space-between; align-items: baseline; border-bottom: 0.25em solid #0e6e8c; padding-bottom: 0.45em; margin-bottom: 0.75em; }
+.hdr h1 { font-size: 1.7em; color: #0e6e8c; letter-spacing: 0.02em; }
+.hdr .sub { font-size: 0.82em; color: #555; max-width: 48%; text-align: right; }
+.cols { column-count: 2; column-gap: 1.3em; }
+h2 { font-size: 1.04em; color: #fff; background: #0e6e8c; padding: 0.3em 0.6em; margin: 0 0 0.45em; border-radius: 0.2em; break-after: avoid; }
+h2.alt { background: #b4530a; }
+h2.grn { background: #2e7d4f; }
+.blk { break-inside: avoid; margin-bottom: 0.95em; }
+table { width: 100%; border-collapse: collapse; margin: 0.3em 0 0.45em; }
+td, th { border: 0.05em solid #bcc7d0; padding: 0.32em 0.42em; vertical-align: top; text-align: left; }
+th { background: #eef4f7; font-weight: 700; }
+td.k { background: #f5f8fa; font-weight: 700; width: 26%; }
+ul { margin: 0 0 0 1em; padding: 0; }
+li { margin-bottom: 0.28em; }
+.tag { font-weight: 700; color: #0e6e8c; }
+.red { color: #b00; font-weight: 700; }
+.pearl { background: #eef7f0; border-left: 0.25em solid #2e7d4f; padding: 0.35em 0.6em; margin: 0.35em 0; }
+.warn { background: #fdeeea; border-left: 0.25em solid #b00; padding: 0.35em 0.6em; margin: 0.35em 0; }
+.foot { border-top: 0.05em solid #bcc7d0; margin-top: 0.5em; padding-top: 0.35em; font-size: 0.72em; color: #777; column-span: all; }
+b { font-weight: 700; }
+</style></head>
+<body>
+<div class="hdr">
+  <h1>SVT &mdash; Clinical One-Pager</h1>
+  <div class="sub">Sort 7 SVTs by regularity + P waves &middot; 2015 ACC/AHA/HRS &amp; 2019 ESC &middot; IM resident reference</div>
+</div>
+
+<div class="cols">
+
+  <div class="blk">
+    <h2>1 &middot; FRAMEWORK</h2>
+    Every tachycardia = <b>increased automaticity</b> (node/ectopic focus) <b>or re-entry circuit</b> (re-entry is faster). Then sort with two questions: <b>regular vs irregular</b> and <b>the P waves</b>.
+    <div class="pearl"><b>Stable, unsure?</b> Slow AV conduction (vagal or adenosine) to expose hidden atrial activity &mdash; saw-tooth, retro-P, or organized atrial tach.</div>
+  </div>
+
+  <div class="blk">
+    <h2>2 &middot; THE SEVEN SVTs</h2>
+    <table>
+      <tr><th>Rhythm</th><th>ECG</th><th>Mgmt</th></tr>
+      <tr><td class="k">Sinus tach</td><td>Reg; nl sinus P</td><td>Treat driver</td></tr>
+      <tr><td class="k">Atrial tach</td><td>Reg; non-sinus/inv P</td><td>AVN blocker + driver</td></tr>
+      <tr><td class="k">AVNRT</td><td>Reg; no sinus P (retro)</td><td>Vagal / adenosine</td></tr>
+      <tr><td class="k">AVRT orthodromic</td><td>Reg narrow; retro-P, short R-P</td><td>Vagal / adenosine</td></tr>
+      <tr><td class="k">AVRT antidromic</td><td>Reg <b>wide</b>; delta + short PR</td><td>Procainamide / DCCV</td></tr>
+      <tr><td class="k">Atrial flutter</td><td>Saw-tooth, atrial ~300, 2:1</td><td>Rate control</td></tr>
+      <tr><td class="k">Atrial fib</td><td>Irreg-irreg; no P</td><td>Rate control + AC</td></tr>
+      <tr><td class="k">MAT</td><td>Irreg; &ge;3 P morphologies</td><td>Treat cause (COPD)</td></tr>
+    </table>
+    <div class="small">(Board lists "7 SVTs"; AVRT shown as orthodromic + antidromic of one re-entry mechanism.)</div>
+  </div>
+
+  <div class="blk">
+    <h2 class="grn">3 &middot; THREE MANAGEMENT BUCKETS</h2>
+    <ul>
+      <li><b>Address the driver:</b> sinus tach, atrial tach, MAT</li>
+      <li><b>Interrupt re-entry</b> (vagal / adenosine): AVNRT, AVRT</li>
+      <li><b>Rate control</b> (AV-nodal blockers): AF, atrial flutter</li>
+      <li><b>Unstable at any point</b> &rarr; synchronized cardioversion</li>
+    </ul>
+  </div>
+
+  <div class="blk">
+    <h2 class="alt">4 &middot; ADENOSINE &amp; VAGAL</h2>
+    <ul>
+      <li><b>Vagal first:</b> modified (REVERT) Valsalva &mdash; strain into 10-mL syringe, then supine + passive leg raise (~43% vs ~17%).</li>
+      <li><b>Adenosine</b> 6 &rarr; 12 &rarr; 12 mg rapid push + flush: terminates AVNRT/AVRT, <b>unmasks</b> flutter/atrial tach, <b>no effect on VT</b> &mdash; diagnostic + therapeutic.</li>
+    </ul>
+  </div>
+
+  <div class="blk">
+    <h2 class="alt">SAFETY / AVOID</h2>
+    <div class="warn"><b>Pre-excited AF (WPW):</b> irregular + <b>wide</b> + very fast. <span class="red">AVOID AV-nodal blockers</span> (adenosine, CCB, &beta;-blocker, digoxin) &rarr; can accelerate accessory-pathway conduction &rarr; VF. Give <b>procainamide</b> or <b>synchronized cardioversion</b>.</div>
+    <div class="warn"><b>MAT:</b> avoid non-selective &beta;-blockers with active bronchospasm; correct K/Mg.</div>
+    <div class="pearl"><b>VT clue:</b> wide-complex with extreme right-axis (positive aVR) favors VT &mdash; when in doubt, treat as VT.</div>
+  </div>
+
+  <div class="foot">
+    Adapted from TeachIM.org &ldquo;Supraventricular Tachycardia (SVT)&rdquo; (Fainstad B; expert review Goldberger Z; 2020) under CC BY-NC 4.0. Optimized June 2026 &mdash; 2015 ACC/AHA/HRS &amp; 2019 ESC SVT guidelines; REVERT (Lancet 2015). Educational use only; not medical advice. Clinician review before teaching.
+  </div>
+
+</div>
+</body>
+</html>

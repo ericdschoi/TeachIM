@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8">
+<style>
+@page { size: Letter; margin: 0.3in; }
+:root { --fs: 13px; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: "Helvetica Neue", Arial, sans-serif; font-size: var(--fs); line-height: 1.32; color: #111; }
+.hdr { display: flex; justify-content: space-between; align-items: baseline; border-bottom: 3px solid #0e6e8c; padding-bottom: 4px; margin-bottom: 6px; }
+.hdr h1 { font-size: calc(var(--fs) * 1.7); color: #0e6e8c; letter-spacing: 0.3px; }
+.hdr .sub { font-size: calc(var(--fs) * 0.82); color: #555; max-width: 48%; text-align: right; }
+.cols { column-count: 2; column-gap: 14px; }
+h2 { font-size: calc(var(--fs) * 1.05); color: #fff; background: #0e6e8c; padding: 2.5px 6px; margin: 0 0 3.5px; border-radius: 2.5px; break-after: avoid; }
+h2.alt { background: #b4530a; }
+h2.grn { background: #2e7d4f; }
+.blk { break-inside: avoid; margin-bottom: 6px; }
+table { width: 100%; border-collapse: collapse; margin: 2.5px 0 3.5px; }
+td, th { border: 0.6px solid #bcc7d0; padding: 1.8px 3.5px; vertical-align: top; text-align: left; }
+th { background: #eef4f7; font-weight: 700; }
+td.k { background: #f5f8fa; font-weight: 700; width: 30%; }
+ul { margin: 0 0 0 12px; padding: 0; }
+li { margin-bottom: 1.2px; }
+.tag { font-weight: 700; color: #0e6e8c; }
+.red { color: #b00; font-weight: 700; }
+.pearl { background: #eef7f0; border-left: 3px solid #2e7d4f; padding: 2.5px 6px; margin: 2.5px 0; }
+.warn { background: #fdeeea; border-left: 3px solid #b00; padding: 2.5px 6px; margin: 2.5px 0; }
+.foot { border-top: 0.6px solid #bcc7d0; margin-top: 4px; padding-top: 2.5px; font-size: calc(var(--fs) * 0.78); color: #777; column-span: all; }
+b { font-weight: 700; }
+</style></head>
+<body>
+<div class="hdr">
+  <h1>CENTRAL VENOUS CATHETER (CVC) &mdash; Procedure One-Pager</h1>
+  <div class="sub">US-guided IJ triple-lumen insertion &middot; TeachIM simulation curriculum &middot; IM resident reference</div>
+</div>
+
+<div class="cols">
+
+  <div class="blk">
+    <h2>1 &middot; INDICATIONS</h2>
+    <ul>
+      <li>Vasopressors / periph-incompatible infusion (TPN, vesicants)</li>
+      <li>Inadequate peripheral access</li>
+      <li>Hemodynamic monitoring (CVP, ScvO&#8322;)</li>
+      <li>Hemodialysis (dedicated HD catheter) &middot; transvenous pacing / PA catheter</li>
+    </ul>
+    <div class="warn"><b>WRONG line for massive transfusion:</b> TLC lumens are long/narrow &rarr; high resistance, slow flow. Use large-bore peripheral IV or introducer/Cordis.</div>
+  </div>
+
+  <div class="blk">
+    <h2 class="alt">2 &middot; CONTRAINDICATIONS</h2>
+    <table>
+      <tr><td class="k">Hard stops (site)</td><td><b>Thrombus in target vein</b> (non-compressible on US); overlying skin infection; distorted anatomy &rarr; pick another site</td></tr>
+      <tr><td class="k">Cautions (not absolute)</td><td>Coagulopathy / low plt (compressible site, IJ&gt;SC); uncooperative pt; severe lung dz (PTX). ESKD &amp; rash are NOT contraindications</td></tr>
+    </table>
+    <div class="pearl"><b>Site trade-offs (3SITES, NEJM 2015):</b> IJ = US-guided default. Subclavian = lowest infxn/clot, highest mechanical (PTX). Femoral = fast in a code, highest infxn/clot &mdash; avoid elective.</div>
+  </div>
+
+  <div class="blk">
+    <h2>3 &middot; SETUP &amp; STERILE PREP</h2>
+    <ul>
+      <li><b>Position:</b> Trendelenburg to engorge vein.</li>
+      <li><b>Pre-scan (linear probe):</b> IJV visualized, predictable path vs carotid, PATENT to compression. Non-compressible = thrombus.</li>
+      <li><b>TIME-OUT</b> w/ RN before opening sterile supplies.</li>
+      <li><b>Maximal barrier:</b> cap, mask, eye protn, sterile gown+gloves, full-body drape.</li>
+      <li><b>Prep:</b> chlorhexidine <b>scrub x2, 30 s</b> (iodine = apply &amp; dry).</li>
+      <li><b>Prepare:</b> prime guidewire; flush + clamp/cap all lumens.</li>
+    </ul>
+  </div>
+
+  <div class="blk">
+    <h2>4 &middot; CANNULATION &rarr; CATHETER</h2>
+    <ul>
+      <li>Lidocaine wheal + tract under US.</li>
+      <li><b>Introducer needle</b> 45&ndash;60&deg;, negative pressure, <b>FOLLOW-THE-TIP</b> dynamic US &rarr; dark venous blood.</li>
+      <li><b>Guidewire</b> &gt;10 cm; <b>watch telemetry</b> &mdash; withdraw few cm if ectopy.</li>
+      <li>Remove needle; <b>CONFIRM wire in vein, both axes.</b></li>
+      <li>#11 nick &rarr; dilator to vessel depth &rarr; catheter over wire (wire out <b>DISTAL port</b>, grasp it) to <b>~12&ndash;16 cm</b> (R IJ, by height).</li>
+      <li>Remove wire AFTER catheter in; blood return + flush all lumens, Luer-lock; &ge;2 sutures + CHG sponge + dressing.</li>
+    </ul>
+    <div class="warn"><b>SAFETY:</b> confirm wire IN VEIN before dilating (dilating the carotid = catastrophe). <b>Never lose the wire</b> &mdash; remove only after catheter placed.</div>
+  </div>
+
+  <div class="blk">
+    <h2 class="grn">5 &middot; VENOUS vs ARTERIAL</h2>
+    <div class="pearl">Most reliable = <b>real-time US of the wire in the vein.</b> Blood color, easy wire passage, non-pulsatile drip are UNRELIABLE in shock/hypoxemia. Unsure &rarr; transduce pressure or send a gas before dilating.</div>
+  </div>
+
+  <div class="blk">
+    <h2 class="grn">6 &middot; CONFIRM &amp; CLEAR</h2>
+    <table>
+      <tr><th>Method</th><th>Confirms</th></tr>
+      <tr><td class="k">CXR</td><td>Tip at cavo-atrial junction; no PTX</td></tr>
+      <tr><td class="k">Bedside US</td><td>Catheter in vessel; 10 cc agitated saline &rarr; turbulent RA flow &lt;~2 s (tip NOT in RA); anterior lung sliding (PTX sens ~91/spec ~98%)</td></tr>
+    </table>
+    Place "okay to use" only after tip confirmed at cavo-atrial junction.
+  </div>
+
+  <div class="blk">
+    <h2 class="alt">MASTERY-LEARNING THRESHOLDS</h2>
+    <table>
+      <tr><th>Stage</th><th>Standard</th></tr>
+      <tr><td class="k">MPS (sim)</td><td>Every sim-checklist item performed <b>correctly &amp; independently</b></td></tr>
+      <tr><td class="k">UPS (clinical)</td><td>Clinical checklist + Global Skills + Entrustment = "<b>without direct supervision</b>"</td></tr>
+    </table>
+  </div>
+
+  <div class="blk">
+    <h2>CLABSI BUNDLE</h2>
+    <ul>
+      <li>Maximal sterile barrier + chlorhexidine prep + checklist in view (Pronovost NEJM 2006)</li>
+      <li>CHG-impregnated sponge + sterile dressing</li>
+      <li>Avoid femoral for elective lines; remove line when no longer needed</li>
+    </ul>
+  </div>
+
+</div>
+<div class="foot">Adapted from TeachIM.org Central Venous Catheter Insertion (Fainstad, Cool et al., June 2022; materials rev. 2024&ndash;25), CC BY-NC 4.0 &mdash; non-commercial educational use. Optimized June 2026; currency verified (ASA 2020 guideline, ACS US-guidance recommendations, 3SITES NEJM 2015 all current). Clinician-review before teaching. Not medical advice.</div>
+</body>
+</html>

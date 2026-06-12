@@ -1,0 +1,18 @@
+What is the classic presentation of an acute gout flare?	Abrupt onset of a warm, red, excruciatingly painful, swollen peripheral joint, sometimes with fever; up to 90% of gout patients involve the first MTP at some point (~73% of flares are at the MTP).
+Why must arthrocentesis be done when gout is suspected with signs of infection?	Septic arthritis is a surgical emergency (rapid joint destruction) and can mimic — or coexist with — gout; crystals do NOT exclude infection.
+Synovial fluid cell count ranges for non-inflammatory, inflammatory, and septic?	<2,000 = non-inflammatory; 2,000–75,000 = inflammatory; >75,000 = high risk for septic (overlaps exist — gout can exceed 100K; septic can be lower after antibiotics).
+Crystal appearance of gout vs pseudogout?	Gout = needle-shaped, negatively birefringent monosodium urate (yellow when parallel to the red compensator). Pseudogout (CPPD) = rhomboid, weakly positively birefringent calcium pyrophosphate.
+Three first-line options for an acute gout flare?	NSAIDs, corticosteroids (systemic or intra-articular), or colchicine; choose by comorbidities.
+When are NSAIDs a poor choice for a gout flare?	History of GI bleeding, renal disease, or ischemic cardiac disease.
+When should colchicine be used for a flare, and key cautions?	Only effective within ~48 h of onset; renally dose in CKD; main side effect is diarrhea; caution with statins (myotoxicity) and CYP3A4 inhibitors.
+What agent treats a gout flare when NSAIDs, steroids, and colchicine are all contraindicated?	Anakinra (IL-1 receptor antagonist), off-label but far cheaper than canakinumab; with rheumatology referral; avoid in active infection.
+Common medication precipitants of gout?	Loop and thiazide diuretics, aspirin, ACE inhibitors, ARBs (except losartan), ethambutol, pyrazinamide, niacin.
+Which antihypertensives lower gout risk?	Losartan (uricosuric via URAT1 inhibition) and amlodipine — reasonable preferential BP agents in gout patients.
+Dietary contributors to gout vs protective?	Increase risk: red meat, shellfish, alcohol (beer & spirits), fructose-rich drinks. Protective: higher dairy intake.
+Indications to start urate-lowering therapy (ACR 2020)?	>=2 flares/year, tophi, or 1 flare + radiographic erosions; also consider after 1 flare if CKD stage >=3, serum urate >9 mg/dL, or urolithiasis.
+First-line urate-lowering therapy and the serum urate target?	Allopurinol (a xanthine oxidase inhibitor), treat-to-target serum urate <6 mg/dL (often <5 to dissolve tophi).
+How is allopurinol started and titrated?	Start 100 mg daily (≤50 mg/day if CKD), up-titrate q2–4 weeks to target urate <6; max ~800 mg/day.
+Why is prophylaxis given when starting ULT, and for how long?	Starting ULT without prophylaxis precipitates flares as urate falls; give low-dose colchicine, NSAID, or prednisone for 3–6 months until the target ULT dose is reached.
+What is allopurinol hypersensitivity syndrome and who is at risk?	Cutaneous reaction, fever, eosinophilia, abnormal LFTs, and renal failure; risk markedly higher with HLA-B*5801 (highest in Han Chinese, Korean, Thai ~7.4%, and African American ~3.8%) — screen these groups and avoid allopurinol if positive.
+Why is febuxostat second-line?	FDA boxed warning for increased cardiovascular and all-cause death (CARES, NEJM 2018); reserve for allopurinol intolerance or failure.
+Does starting ULT during an acute flare worsen it, and should chronic ULT be stopped during a flare?	No — starting ULT during a flare does not worsen or prolong it; patients already on ULT should continue it through flares.

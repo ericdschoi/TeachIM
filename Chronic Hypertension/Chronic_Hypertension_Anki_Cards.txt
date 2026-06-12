@@ -1,0 +1,17 @@
+ACC/AHA definition of hypertension?	Sustained BP >=130/80 (2017, reaffirmed 2025).
+2025 AHA/ACC BP treatment target for most adults?	<130/80 (a single target; replaces the older split of low-risk <140/90 vs high-risk <130/80).
+Which risk calculator does the 2025 guideline use, and what did it replace?	PREVENT (ages 30-79; includes eGFR, statin use, social factors) — replaces the Pooled Cohort Equations.
+Whom do you treat with a drug at stage 1 (130-139/80-89)?	Known CVD, DM, CKD, or 10-yr risk >=7.5% -> start a drug; lower risk -> lifestyle 3-6 mo, then a drug if still >=130/80.
+Initial drug strategy for stage 2 HTN (>=140/90)?	Start two first-line agents of different classes, ideally as a single-pill combination.
+The four first-line antihypertensive classes (with examples)?	Thiazide-like (chlorthalidone), dihydropyridine CCB (amlodipine), ACE inhibitor (lisinopril), ARB (losartan).
+Which two first-line classes must never be combined?	ACE inhibitor + ARB (dual RAAS blockade).
+Why is chlorthalidone preferred over HCTZ?	Longer half-life and greater potency (likely more CV risk reduction), at the cost of more hypokalemia.
+Monitoring after starting an ACEi/ARB?	Check a BMP in 1-2 weeks; a GFR drop <30% is expected and acceptable; watch K and Cr; angioedema risk.
+Best first-line agent in diabetic nephropathy / proteinuria?	ACE inhibitor (or ARB) — reno-protective; preferred despite somewhat less BP-lowering in Black patients.
+First-line agent to avoid (or use cautiously) in HFrEF?	Dihydropyridine CCB — avoid in HFrEF (amlodipine acceptable if needed).
+Preferred combination by CV outcomes (ACCOMPLISH)?	ACE inhibitor + dihydropyridine CCB > ACE inhibitor + thiazide.
+Drug to add for resistant HTN (on ACEi/ARB + CCB + thiazide-like)?	An MRA — spironolactone — if eGFR >=45; aprocitentan (endothelin antagonist) is a newer add-on.
+Four triggers to evaluate for a secondary cause of HTN?	Severe/resistant HTN; acute rise or new lability; age <30 (or pre-puberty) without obesity/FHx; associated electrolyte abnormalities.
+Most common secondary cause of HTN and its screen?	Primary hyperaldosteronism (20-30%); aldosterone:renin ratio >20 off spironolactone.
+Highest-yield lifestyle changes and rough BP effect?	Sodium <2 g/d (~5/2.5), high-K diet (~5/3), weight loss (~0.5-2 mmHg/kg), exercise (~4-6/3), limit alcohol; DASH diet overall.
+How should white-coat hypertension be handled?	Don't treat empirically; it's a higher-risk pre-hypertensive state — manage other CV risk factors and monitor for progression to true HTN.

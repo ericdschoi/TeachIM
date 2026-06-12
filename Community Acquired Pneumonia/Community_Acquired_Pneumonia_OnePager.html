@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+  @page { size: Letter; margin: 0.3in; }
+  :root{ --fs: 13px; --p:#0e6e8c; --o:#b4530a; --g:#2e7d4f; --line:#9bb3bf; }
+  *{box-sizing:border-box;}
+  body{ font-family:'Helvetica Neue',Arial,sans-serif; font-size:var(--fs); line-height:1.34; color:#16202b; margin:0; }
+  h1{ font-size:calc(var(--fs)*1.5); margin:0 0 2px; color:var(--p); }
+  .sub{ font-size:calc(var(--fs)*0.9); color:#4a5763; margin:0 0 7px; }
+  .cols{ column-count:2; column-gap:11px; column-fill:balance; }
+  .box{ break-inside:avoid; border:1px solid var(--line); border-radius:4px; margin:0 0 7px; overflow:hidden; }
+  h2{ font-size:calc(var(--fs)*1.04); margin:0; padding:3px 7px; color:#fff; background:var(--p); }
+  h2.o{ background:var(--o); } h2.g{ background:var(--g); }
+  .body{ padding:4px 7px; }
+  table{ border-collapse:collapse; width:100%; font-size:calc(var(--fs)*0.94); }
+  td,th{ border:1px solid var(--line); padding:2px 5px; vertical-align:top; text-align:left; }
+  th{ background:#e7eff3; }
+  ul{ margin:3px 0 2px 0; padding-left:15px; } li{ margin:2px 0; }
+  .k{ font-weight:bold; color:var(--p); } .kr{ font-weight:bold; color:var(--o); }
+  p{ margin:3px 0; }
+  .tight td{ padding:1.5px 5px; }
+</style>
+</head>
+<body>
+  <h1>Community Acquired Pneumonia &mdash; Quick Reference</h1>
+  <p class="sub">Two questions drive everything: <b>how severe</b> (site of care) and <b>MDR risk factors</b> (how broad to cover). Adapted from TeachIM (CC BY-NC 4.0); reflects 2019 IDSA/ATS + 2025 ATS update.</p>
+  <div class="cols">
+
+    <div class="box"><h2>Microbiology</h2><div class="body">
+      <ul>
+        <li><span class="k">GPCs:</span> S. pneumoniae (#1), S. aureus.</li>
+        <li><span class="k">GNRs:</span> H. influenzae, M. catarrhalis.</li>
+        <li><span class="k">Atypicals:</span> Legionella, Chlamydia, Mycoplasma.</li>
+        <li><span class="k">Viruses:</span> influenza, COVID-19 (major cause).</li>
+      </ul>
+      <p><span class="kr">MDR risk (MRSA/PsA):</span> prior MRSA/PsA isolation, <i>or</i> hospitalization + IV abx within 90 d. <b>HCAP retired (2019).</b></p>
+    </div></div>
+
+    <div class="box"><h2>Severity &amp; Site of Care</h2><div class="body">
+      <table class="tight">
+        <tr><th>Tool</th><th>Decides</th><th>Cut-offs</th></tr>
+        <tr><td>PSI (pref.)</td><td>Site</td><td>I&ndash;II outpt; III obs; IV&ndash;V inpt</td></tr>
+        <tr><td>CURB-65</td><td>Site</td><td>0&ndash;1 outpt; 2 admit; 3&ndash;5 inpt</td></tr>
+        <tr><td>ATS</td><td>ICU</td><td>&gt;1 major or &ge;3 minor</td></tr>
+      </table>
+      <p><span class="k">CURB-65:</span> Confusion, Urea&gt;20, RR&ge;30, BP&lt;90, age&ge;65.</p>
+      <p><span class="k">ATS major:</span> septic shock on pressors, mech vent. <span class="k">Minor (&ge;3):</span> RR&gt;30, P:F&lt;250, multilobar, confusion, BUN&gt;20, WBC&lt;4k, plt&lt;100k, T&lt;36, hypotension&rarr;fluids.</p>
+    </div></div>
+
+    <div class="box"><h2 class="o">Inpatient Management</h2><div class="body">
+      <table class="tight">
+        <tr><th>Scenario</th><th>Cx?</th><th>Coverage</th></tr>
+        <tr><td>Severe</td><td>Yes*</td><td>Standard + MRSA + PsA</td></tr>
+        <tr><td>Prior MRSA/PsA</td><td>Yes</td><td>Standard + MRSA &plusmn; PsA</td></tr>
+        <tr><td>Hosp+IV abx &lt;90d</td><td>Yes</td><td>Standard CAP</td></tr>
+        <tr><td>No RF</td><td>No</td><td>Standard CAP</td></tr>
+      </table>
+      <p>*blood, sputum, Legionella + pneumococcal urine Ag, MRSA nares.</p>
+      <ul>
+        <li><span class="k">Standard:</span> IV BL (amp-sulbactam/ceftriaxone) + azithro/doxy, <i>or</i> resp FQ.</li>
+        <li><span class="k">MRSA:</span> vancomycin/linezolid. <span class="k">PsA:</span> zosyn/cefepime/ceftazidime/aztreonam/meropenem (keep atypical cov).</li>
+        <li>De-escalate at 48 h if cx / MRSA nares negative.</li>
+      </ul>
+    </div></div>
+
+    <div class="box"><h2 class="g">Outpatient Management</h2><div class="body">
+      <table class="tight">
+        <tr><th>Group</th><th>Regimen</th></tr>
+        <tr><td>No comorbid/RF</td><td>Amoxicillin <b>1 g TID</b> or doxycycline</td></tr>
+        <tr><td>Comorbidities</td><td>Augmentin/cephalosporin + azithro/doxy, or resp FQ</td></tr>
+      </table>
+      <p>Comorbidities: chronic heart/lung/liver/renal dz, DM, alcoholism, malignancy, asplenia.</p>
+      <p><span class="kr">No macrolide monotherapy</span> (US pneumococcal resistance).</p>
+    </div></div>
+
+    <div class="box"><h2>Adjuncts &amp; Duration</h2><div class="body">
+      <ul>
+        <li><span class="kr">Procalcitonin:</span> NOT for starting abx (sens ~38&ndash;91%); may guide early stop.</li>
+        <li><span class="kr">Steroids (2025 ATS):</span> give for <i>severe</i> CAP (hydrocort &lt;400 mg/d &times;5&ndash;7 d, CAPE COD); <b>not</b> non-severe; dexamethasone if COVID.</li>
+        <li><span class="k">Duration:</span> 5&ndash;7 d, &ge;5 d AND clinically stable. Longer if extrapulm, PsA/Mycobacteria/Burkholderia, or necrotizing/abscess/empyema.</li>
+      </ul>
+    </div></div>
+
+    <div class="box"><h2 class="o">Do / Avoid</h2><div class="body">
+      <ul>
+        <li><span class="k">DO</span> use PSI/CURB-65 for site, ATS criteria for ICU.</li>
+        <li><span class="k">DO</span> draw cultures in severe CAP / MDR risk; narrow promptly.</li>
+        <li><span class="kr">AVOID</span> empiric MRSA/PsA without a risk factor.</li>
+        <li><span class="kr">AVOID</span> using procalcitonin to withhold antibiotics.</li>
+        <li><span class="kr">AVOID</span> azithromycin monotherapy and low-dose amoxicillin.</li>
+      </ul>
+    </div></div>
+
+  </div>
+</body>
+</html>

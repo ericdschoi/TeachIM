@@ -1,0 +1,17 @@
+Four diagnostic criteria for T2DM?	Random glucose >200 + symptoms; fasting glucose ≥126; A1c ≥6.5%; 2-h OGTT glucose ≥200. Confirm asymptomatic cases with a repeat or second test.
+At what age do you screen everyone for T2DM?	Age 35. Earlier if BMI ≥25 (≥23 in Asian Americans) plus a risk factor, or on diabetogenic drugs, or prior gestational DM.
+Screening frequency for T2DM?	Every 3 years; yearly if prediabetes (A1c 5.7-6.4%); in 3-6 months for marginal results.
+When is the A1c falsely HIGH?	Low RBC turnover — iron, B12, or folate deficiency; asplenia (old, heavily glycated cells dominate).
+When is the A1c falsely LOW?	High RBC turnover — hemolysis, recent EPO or B12/folate repletion, pregnancy, advanced CKD.
+Three microvascular complications of T2DM and how each is screened?	Retinopathy (annual dilated retinal exam); nephropathy (annual urine albumin:Cr, abnl >30 mg/g); neuropathy (annual foot exam + monofilament).
+Three macrovascular complications, and how are they screened?	CAD/MI, stroke, PAD. No routine screening test — evaluate by symptoms; prevent by treating BP, lipids, and tobacco.
+Does tight glycemic control prevent microvascular or macrovascular disease?	Microvascular yes (A1c ~7%, benefit takes ~10 yr). Macrovascular — not in longstanding disease; aggressive BP/lipid/tobacco control matters more. Early control in new diabetes may help later (legacy effect).
+BP and lipid targets in T2DM?	Moderate-intensity statin for primary prevention; BP <130/80 if higher CV risk (10-yr risk >15% or ASCVD), else <140/90.
+The single most important rule of modern T2DM pharmacotherapy?	Choose the drug by comorbidity (ASCVD/HF/CKD) FIRST, then by A1c — even if the A1c is already at goal.
+Which agents have a mortality/cardiorenal benefit in T2DM, and which does not?	SGLT2 inhibitors and GLP-1 RAs do; insulin does not.
+Preferred agent in T2DM + HF (HFrEF or HFpEF)?	SGLT2 inhibitor — fewer HF hospitalizations; recommended in both reduced and preserved EF (2025-26 ADA).
+Preferred agent in T2DM + ASCVD or high CV risk?	GLP-1 RA and/or SGLT2 inhibitor with proven benefit, regardless of A1c.
+T2DM + CKD with persistent albuminuria despite ACEi/ARB + SGLT2i — next drug?	Finerenone (nonsteroidal MRA) — slows CKD progression and reduces CV events (2025-26 ADA).
+Key side effects: metformin, GLP-1 RA, SGLT2i?	Metformin — GI upset, avoid eGFR<30. GLP-1 RA — GI upset, pancreatitis, medullary thyroid ca contraindication. SGLT2i — genital/UTI infection, euglycemic DKA, volume depletion, ↑amputation (canagliflozin).
+Which sulfonylurea to avoid in CKD, and why?	Glyburide — renally cleared active metabolites accumulate and cause prolonged hypoglycemia. Use glipizide instead.
+A1c target in a frail elderly patient with dementia and falls?	Liberalize to <8% (up to 8.5%); prioritize avoiding hypoglycemia and de-intensify insulin/sulfonylureas.

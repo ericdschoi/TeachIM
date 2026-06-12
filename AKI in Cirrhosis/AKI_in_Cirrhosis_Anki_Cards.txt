@@ -1,0 +1,16 @@
+Most common category of AKI in cirrhosis, and prevalence?	Pre-renal — 60–70%. Intrarenal 30–40%, post-renal <1%.
+Two things you must always rule out in a cirrhotic with new AKI?	Infection (diagnostic paracentesis for SBP — can be painless) and GI bleeding.
+How much does AKI raise mortality in cirrhosis?	2–6 fold.
+Physiologic definition of HRS?	Pre-renal AKI driven by systemic (splanchnic) vasodilation that does NOT respond to volume — no intrinsic renal disease.
+How is HRS confirmed at the bedside?	Stop diuretics + albumin challenge 1 g/kg/day (max 100 g/day) ×48 h: no Cr improvement, with no shock, no nephrotoxins, no structural kidney disease.
+Modern HRS nomenclature (vs. old type 1/2)?	HRS-1 → HRS-AKI (ICA-AKI criteria: ↑Cr ≥0.3 mg/dL in 48 h or ≥50% in 7 d; old fixed Cr >2.5 dropped). HRS-2 → HRS-NAKI / HRS-CKD. (ICA 2015; AASLD 2021.)
+Core medical treatment of HRS-AKI?	Albumin to expand effective arterial volume + a vasoconstrictor to restore tone.
+US vasoconstrictor options for HRS-AKI in 2026?	Terlipressin (FDA-approved 2022) or norepinephrine (ICU). Midodrine + octreotide + albumin is the older, less effective ward regimen.
+Terlipressin — when to avoid?	ACLF grade 3, pre-existing hypoxia, or SCr >5 mg/dL (respiratory-failure signal; benefit unlikely).
+Only definitive treatment for HRS?	Liver transplant (some need combined liver-kidney transplant). TIPS and HD are bridges.
+Albumin regimen that reduces HRS and death in SBP?	1.5 g/kg on day 1 + 1 g/kg on day 3; greatest benefit if Tbili >4, Cr >1, or BUN >30 (Sort, NEJM 1999).
+Ascitic fluid threshold diagnosing SBP?	≥250 PMNs/µL → start empiric cefotaxime/ceftriaxone (fluoroquinolone if penicillin-allergic).
+Why use FeUrea instead of FeNa in cirrhosis?	Diuretics raise urinary Na and inflate FeNa; FeUrea <35% supports pre-renal AKI.
+Why can urine Na be low even in ATN in advanced cirrhosis?	Persistent RAAS activation (aldosterone) reclaims urinary sodium; granular casts can also appear with severe hyperbilirubinemia — both unreliable for ATN here.
+Pathophysiology one-liner for decompensated cirrhosis → AKI?	↓Hepatic metabolism → splanchnic vasodilation → ↓effective arterial volume → RAAS/ADH/sympathetic activation → renal vasoconstriction + Na/water retention → hyponatremia + pre-renal AKI.
+AIN clue in a cirrhotic with AKI?	WBC casts + NSAID exposure (intrarenal cause); stop the offending drug.

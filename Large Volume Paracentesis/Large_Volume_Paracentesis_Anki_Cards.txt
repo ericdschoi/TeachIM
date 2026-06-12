@@ -1,0 +1,18 @@
+Indication for a therapeutic (large-volume) paracentesis?	Symptomatic ascites: abdominal distention/pain, early satiety, or dyspnea from increased intra-abdominal pressure. (Large ascites alone, asymptomatic, is not by itself an indication.)
+When is a diagnostic paracentesis indicated?	New-onset ascites; and EVERY cirrhotic admitted to hospital with ascites (to exclude SBP), even if asymptomatic.
+What defers a LARGE-VOLUME tap (vs a diagnostic tap)?	Hemodynamic instability / sepsis (large-volume removal worsens circulatory dysfunction); surgical abdomen; DIC/clinically evident fibrinolysis. A diagnostic tap is still indicated in sepsis to evaluate for SBP.
+Are INR >2 or platelets <50K contraindications to paracentesis?	No, coagulopathy alone does not increase clinically significant bleeding; AASLD does not recommend routine FFP/platelet transfusion before the tap.
+Is intra-abdominal hypertension a contraindication to paracentesis?	No, it is relieved BY the paracentesis.
+Minimum "safe pocket" on ultrasound for a tap?	More than 2-3 cm of hypoechoic fluid (peritoneum to viscera) in all 3 dimensions. For a worthwhile therapeutic tap, want maximal depth >5 cm.
+Which ultrasound transducer to evaluate ascites depth?	Low-frequency CURVILINEAR (or phased-array). Use the high-frequency LINEAR probe + Doppler for the vascular screen.
+Insertion landmark for paracentesis?	LLQ (or RLQ) ~2 cm superior and ~2 cm medial to the anterior superior iliac spine, avoids flank musculature, stays lateral to the rectus sheath.
+Two vessels to screen for with Doppler before the tap?	Superficial abdominal-wall veins at the site (compress with light pressure) and the inferior epigastric vessels (just lateral to the rectus abdominis, stay lateral to them).
+Why avoid a too-medial puncture in paracentesis?	The inferior epigastric arteries run just lateral to the rectus sheath; laceration causes a rectus-sheath hematoma.
+Patient positioning for paracentesis?	HOB 15-45 deg, rotate ~15 deg toward the side of the tap so bowel floats up and fluid pools dependently. Matters most late in the drain as the space shrinks.
+Sterile gear for paracentesis vs CVC?	Mask, eye protection, sterile gloves (cap/gown optional), less than the maximal sterile barrier required for a CVC. Chlorhexidine scrub x2, 30 s each.
+Which drainage tubing for paracentesis?	Simple IV tubing with NO one-way valves, to a vacuum bottle/vacutainer (different from the valved thoracentesis set).
+Albumin replacement after large-volume paracentesis?	6-8 g of 25% albumin per liter removed for taps >5 L (~75 g for 10 L). Prevents post-paracentesis circulatory dysfunction; improves survival (AASLD 2021). Not needed for <4-5 L.
+Troubleshooting when ascites flow slows/stops?	(1) Turn off suction + reposition (raise HOB/roll to side); (2) flush catheter 5-10 cc saline (bowel may be plugging it); (3) rotate catheter; (4) withdraw to ~2 cm + skin-to-peritoneum depth (~4 cm). Too little fluid (<2 cm), use dynamic US or IR.
+High SAAG (>=1.1) + HIGH ascitic protein (>2.5) suggests?	Cardiac / post-hepatic cause (e.g., heart failure), get an echocardiogram. Cirrhotic ascites is high-SAAG but LOW-protein.
+SBP diagnosis on fluid cell count?	Ascitic PMN >=250 cells/mm3, treat (e.g., ceftriaxone). 40% of 420 = 168, NOT SBP.
+MPS vs UPS thresholds on the paracentesis CAT?	MPS (graduate sim): <30/41 mistakes, Global >2, Entrustment >2 (Angoff-set). UPS (unsupervised practice): <8/41 mistakes.

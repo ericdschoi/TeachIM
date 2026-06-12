@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8">
+<style>
+  @page{size:Letter;margin:0.3in}
+  :root{--fs:12.5px;--p:#0e6e8c;--o:#b4530a;--g:#2e7d4f;--line:#9bb3bd;}
+  *{box-sizing:border-box}
+  body{font-family:'Helvetica Neue',Arial,sans-serif;font-size:var(--fs);line-height:1.38;color:#15202a;margin:0;
+       column-count:2;column-gap:14px;column-fill:balance}
+  h1{column-span:all;font-size:calc(var(--fs)*1.5);margin:0 0 4px;color:var(--p)}
+  .sub{column-span:all;font-size:calc(var(--fs)*0.9);color:#41525c;margin:0 0 8px;border-bottom:2px solid var(--p);padding-bottom:4px}
+  .blk{break-inside:avoid;margin-bottom:8px}
+  h2{font-size:calc(var(--fs)*1.05);margin:0 0 3px;padding:2px 6px;color:#fff;background:var(--p);border-radius:3px}
+  h2.o{background:var(--o)} h2.g{background:var(--g)}
+  table{border-collapse:collapse;width:100%;font-size:calc(var(--fs)*0.95);margin:2px 0}
+  th,td{border:1px solid var(--line);padding:2px 4px;vertical-align:top;text-align:left}
+  th{background:#e7eff3}
+  ul{margin:2px 0 2px 0;padding-left:15px} li{margin:1px 0}
+  .k{color:var(--p);font-weight:bold} .o-t{color:var(--o);font-weight:bold}
+  .eq{font-family:Georgia,serif;background:#eef4f7;padding:1px 4px;border-radius:3px}
+  p{margin:2px 0}
+</style></head><body>
+<h1>Acute Dyspnea &amp; Hypoxemia &mdash; Bedside Reference</h1>
+<p class="sub">Differential by system, then one number &mdash; the A-a gradient &mdash; splits hypoxemia in half. Adapted from TeachIM.org (Zhang, Dec 2022), CC BY-NC 4.0.</p>
+
+<div class="blk">
+<h2>Dyspnea differential by system</h2>
+<table>
+<tr><th>System</th><th>Causes</th></tr>
+<tr><td>Resp &mdash; airway</td><td>Anaphylaxis/angioedema, mucus plug, stenosis, bronchospasm (COPD/asthma)</td></tr>
+<tr><td>Resp &mdash; alveoli</td><td>Edema, PNA, DAH, atelectasis, pleural process</td></tr>
+<tr><td>Resp &mdash; vessel</td><td>PE</td></tr>
+<tr><td>Cardiac</td><td>MI, arrhythmia, valvular, pericardial/tamponade</td></tr>
+<tr><td>MSK</td><td>Diaphragm dysfunction, abdominal pressure</td></tr>
+<tr><td>3 A's</td><td>Anemia, anxiety, acidosis</td></tr>
+</table>
+<p>Resp + cardiac are most common. Toolbox: <span class="k">CXR, blood gas, CBC, ECG</span> + POCUS.</p>
+</div>
+
+<div class="blk">
+<h2 class="o">A-a gradient</h2>
+<p><span class="eq">PAO<sub>2</sub> = FiO<sub>2</sub>&times;(Patm&minus;PH<sub>2</sub>O) &minus; PaCO<sub>2</sub>/0.8</span> &asymp; 150 &minus; 1.25&times;PaCO<sub>2</sub> (room air)</p>
+<p><span class="eq">A-a = PAO<sub>2</sub> &minus; PaO<sub>2</sub></span>; expected = <span class="k">age/4 + 4</span> (64 yo &rarr; ~20)</p>
+<p>Worked: PaO<sub>2</sub> 50, PaCO<sub>2</sub> 32 &rarr; PAO<sub>2</sub> 110; A-a = 60 (elevated vs expected 20).</p>
+</div>
+
+<div class="blk">
+<h2 class="g">5 causes of hypoxemia</h2>
+<table>
+<tr><th>Cause</th><th>A-a</th><th>Note</th></tr>
+<tr><td>Low FiO<sub>2</sub></td><td>Normal</td><td>Altitude; not acute</td></tr>
+<tr><td>Hypoventilation</td><td>Normal</td><td>&uarr;PaCO<sub>2</sub>; opioids/CNS/NM weakness</td></tr>
+<tr><td>V/Q mismatch</td><td>&uarr;</td><td>Most common; PE, obstruction</td></tr>
+<tr><td>Shunt</td><td>&uarr;</td><td><b>No correction w/ 100% O<sub>2</sub></b></td></tr>
+<tr><td>&darr; Diffusion</td><td>&uarr;</td><td>Chronic (ILD, emphysema)</td></tr>
+</table>
+<p><b>Algorithm:</b> normal A-a &rarr; hypoventilation (check PaCO<sub>2</sub>); elevated A-a &rarr; V/Q vs shunt (100% O<sub>2</sub> challenge).</p>
+</div>
+
+<div class="blk">
+<h2>ABG vs VBG</h2>
+<p>Get an <span class="k">ABG when you need the PaO<sub>2</sub></span>: confirm/grade hypoxemia or compute the A-a gradient. Else VBG suffices.</p>
+<p>ABG pH &asymp; VBG pH + 0.04; ABG PaCO<sub>2</sub> &asymp; VBG PvCO<sub>2</sub> &minus; 4.</p>
+</div>
+
+<div class="blk">
+<h2 class="o">Hypoxia that isn't hypoxemia (normal PaO<sub>2</sub>)</h2>
+<ul>
+<li>Anemic; stagnant (low flow / cardiac)</li>
+<li>Histotoxic &mdash; cyanide (sodium nitroprusside)</li>
+<li>Methemoglobinemia &mdash; nitrates, local anesthetics, sulfonamides</li>
+<li>SpO<sub>2</sub> falsely reassuring in CO poisoning / MetHb &rarr; confirm with co-oximetry</li>
+</ul>
+</div>
+
+<div class="blk">
+<h2 class="g">POCUS / pearls</h2>
+<ul>
+<li>BLUE-protocol lung US: B-lines (edema), consolidation (PNA), absent sliding (PTX), effusion &mdash; high sensitivity</li>
+<li>Dyspnea &ne; hypoxemia; normal PaO<sub>2</sub> 75&ndash;100</li>
+<li>Shunt = perfusion without ventilation; fails the 100% O<sub>2</sub> challenge</li>
+<li>Tamponade clues: hypotension, &uarr;JVP, electrical alternans, enlarged cardiac silhouette</li>
+</ul>
+</div>
+
+</body></html>

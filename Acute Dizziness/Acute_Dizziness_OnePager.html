@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+  @page { size: Letter; margin: 0.3in; }
+  :root{ --fs: 13px; --p:#0e6e8c; --o:#b4530a; --g:#2e7d4f; }
+  *{box-sizing:border-box}
+  body{font-family:'Helvetica Neue',Arial,sans-serif;font-size:var(--fs);line-height:1.32;color:#1a2433;margin:0;}
+  h1{font-size:calc(var(--fs) * 1.55);margin:0 0 2px;color:var(--p)}
+  .sub{font-size:calc(var(--fs) * 0.92);color:#555;margin:0 0 6px}
+  .cols{column-count:2;column-gap:14px;column-fill:balance}
+  .blk{break-inside:avoid;margin-bottom:7px}
+  h2{font-size:calc(var(--fs) * 1.0);color:#fff;background:var(--p);margin:0 0 3px;padding:2px 6px;border-radius:3px}
+  h2.o{background:var(--o)} h2.g{background:var(--g)}
+  table{border-collapse:collapse;width:100%;font-size:calc(var(--fs) * 0.94);margin:2px 0}
+  th,td{border:1px solid #c4d0d8;padding:2px 4px;vertical-align:top;text-align:left}
+  th{background:#eef4f7}
+  ul{margin:2px 0 2px 0;padding-left:14px} li{margin:1px 0}
+  .lead{font-size:calc(var(--fs) * 0.96)}
+  b.p{color:var(--p)} b.o{color:var(--o)} b.g{color:var(--g)}
+  .red{color:#9b2226;font-weight:bold}
+  .foot{font-size:calc(var(--fs) * 0.8);color:#666;margin-top:5px;border-top:1px solid #ccc;padding-top:3px}
+</style>
+</head>
+<body>
+<h1>Acute Dizziness &amp; Vertigo — Clinical Reference</h1>
+<p class="sub">Sort by <b>Timing + Triggers</b> (modified TiTrATE), not by symptom quality. Pick the matched bedside test. Adapted from TeachIM (Melton, 2021) &middot; 2023 GRACE-3 &middot; CC BY-NC 4.0.</p>
+
+<div class="cols">
+
+  <div class="blk">
+    <h2>Step 1 — Categorize (Timing &amp; Trigger)</h2>
+    <table>
+      <tr><th>Category</th><th>Duration</th><th>Test &rarr; lead dx</th></tr>
+      <tr><td>Episodic, positional</td><td>sec–min</td><td>Dix-Hallpike &rarr; BPPV; orthostatics</td></tr>
+      <tr><td>Spontaneous episodic</td><td>min–hr</td><td>Hx, Weber/Rinne &rarr; vestib migraine, Meniere, vasovagal/panic, TIA</td></tr>
+      <tr><td>Continuous, trauma/toxin</td><td>persistent</td><td>Med review, otoscopy &rarr; drug-induced, barotrauma</td></tr>
+      <tr><td>Continuous, spontaneous (AVS)</td><td>hr–days</td><td>HINTS &rarr; neuritis vs stroke</td></tr>
+    </table>
+  </div>
+
+  <div class="blk">
+    <h2>Step 1b — History on everyone</h2>
+    <ul>
+      <li>CV risk: HTN, DM, AF, CAD, smoking (&uarr; posterior-circ stroke)</li>
+      <li>Hearing loss / tinnitus (Meniere, labyrinthitis)</li>
+      <li>Focal neuro sx, new headache/neck pain</li>
+      <li>Meds/changes: AEDs, sedatives, antiHTN, analgesics</li>
+      <li>Substance use; recent trauma/barotrauma</li>
+    </ul>
+  </div>
+
+  <div class="blk">
+    <h2 class="o">Step 2 — Dix-Hallpike (positional)</h2>
+    <ul>
+      <li>Head 45&deg; to side, lay supine, head 20&deg; off table; watch 30 s; repeat other side</li>
+      <li><b class="o">Positive</b> = transient upbeat-torsional nystagmus + vertigo = <b>pc-BPPV</b></li>
+      <li>Sens ~79% / Spec ~75% — better at ruling IN</li>
+      <li><b class="g">Treat now:</b> Epley canalith-repositioning (strong rec, GRACE-3). Half-somersault = home option, less effective. Vestibular PT if refractory.</li>
+      <li><b>Negative</b> &rarr; orthostatics (SBP &darr;&ge;20 / DBP &darr;&ge;10 within 3 min), reconsider</li>
+    </ul>
+  </div>
+
+  <div class="blk">
+    <h2 class="o">Step 3 — HINTS (continuous AVS only)</h2>
+    <p class="lead" style="margin:1px 0"><b>Use ONLY</b> in continuous, spontaneous vertigo <b>with nystagmus</b>, by a trained examiner.</p>
+    <table>
+      <tr><th>Component</th><th>Peripheral (OK)</th><th>Central (bad)</th></tr>
+      <tr><td>Head Impulse</td><td>Catch-up saccade (abnl VOR)</td><td class="red">Normal / intact (no saccade)</td></tr>
+      <tr><td>Nystagmus</td><td>Horizontal, unidirectional</td><td class="red">Bidirectional or vertical</td></tr>
+      <tr><td>Skew</td><td>None</td><td class="red">Vertical skew (cover test)</td></tr>
+    </table>
+    <p style="margin:2px 0"><b>Rule:</b> <span class="red">ANY central finding &rarr; stroke</span>. ALL reassuring &rarr; vestibular neuritis. Mnemonic <b>INFARCT</b> = Impulse Normal, Fast-phase Alternating, Refixation on Cover Test.</p>
+  </div>
+
+  <div class="blk">
+    <h2 class="g">Management by diagnosis</h2>
+    <ul>
+      <li><b>BPPV:</b> Epley at bedside; half-somersault home; PT if refractory. No imaging.</li>
+      <li><b>Vestibular neuritis:</b> antiemetics + short-course vestibular suppressant/anticholinergic (limit to days — chronic use blocks central compensation). Steroids only via shared decision-making if &le;3 days (weak evidence).</li>
+      <li><b>Central / stroke pattern:</b> activate stroke pathway; MRI-DWI + MRA; ASA + statin; tPA/thrombectomy per window &amp; resources.</li>
+      <li><b>Acute idiopathic SNHL:</b> steroids ARE indicated.</li>
+    </ul>
+  </div>
+
+  <div class="blk">
+    <h2>Do / AVOID (2023 GRACE-3)</h2>
+    <table>
+      <tr><th>DO</th><th>AVOID</th></tr>
+      <tr><td>Epley for +Dix-Hallpike (strong)</td><td class="red">Routine noncontrast head CT to r/o posterior stroke (insensitive; strong rec against)</td></tr>
+      <tr><td>HINTS only in AVS w/ nystagmus, trained exam</td><td class="red">HINTS in pts w/o nystagmus or positional-only sx (inaccurate)</td></tr>
+      <tr><td>MRI-DWI/MRA if central suspected</td><td class="red">False reassurance from early negative MRI (misses ~15–20% posterior stroke &lt;48 h)</td></tr>
+    </table>
+  </div>
+
+  <div class="blk">
+    <h2 class="o">Red flags &rarr; central work-up</h2>
+    <ul>
+      <li>Normal head impulse WITH continuous vertigo</li>
+      <li>Direction-changing or vertical/torsional nystagmus; skew</li>
+      <li>Truncal ataxia — can't sit/stand unaided</li>
+      <li>New headache / neck pain; any focal deficit</li>
+      <li>Vascular risk factors + sudden persistent vertigo</li>
+    </ul>
+  </div>
+
+</div>
+<p class="foot">Educational use only — not medical advice; clinician-review before teaching/clinical use. Sources: Newman-Toker Neurol Clin 2015; Kattah Stroke 2009; Edlow GRACE-3 Acad Emerg Med 2023. Optimized June 2026 from TeachIM CC BY-NC 4.0.</p>
+</body>
+</html>

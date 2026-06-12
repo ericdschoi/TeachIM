@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+  @page { size: Letter; margin: 0.3in; }
+  :root{ --fs: 13px; --p:#0e6e8c; --o:#b4530a; --g:#2e7d4f; --line:#9bb3bf; }
+  *{box-sizing:border-box;}
+  body{ font-family:'Helvetica Neue',Arial,sans-serif; font-size:var(--fs); line-height:1.34; color:#16202b; margin:0; }
+  h1{ font-size:calc(var(--fs)*1.5); margin:0 0 2px; color:var(--p); }
+  .sub{ font-size:calc(var(--fs)*0.9); color:#4a5763; margin:0 0 7px; }
+  .cols{ column-count:2; column-gap:11px; column-fill:balance; }
+  .box{ break-inside:avoid; border:1px solid var(--line); border-radius:4px; margin:0 0 7px; overflow:hidden; }
+  h2{ font-size:calc(var(--fs)*1.04); margin:0; padding:3px 7px; color:#fff; background:var(--p); }
+  h2.o{ background:var(--o); } h2.g{ background:var(--g); }
+  .body{ padding:4px 7px; }
+  table{ border-collapse:collapse; width:100%; font-size:calc(var(--fs)*0.94); }
+  td,th{ border:1px solid var(--line); padding:2px 5px; vertical-align:top; text-align:left; }
+  th{ background:#e7eff3; }
+  ul{ margin:3px 0 2px 0; padding-left:15px; } li{ margin:2px 0; }
+  .k{ font-weight:bold; color:var(--p); } .kr{ font-weight:bold; color:var(--o); }
+  p{ margin:3px 0; }
+  .tight td{ padding:1.5px 5px; }
+</style>
+</head>
+<body>
+  <h1>Empiric Antibiotics by Site of Infection</h1>
+  <p class="sub">IM chalk-talk quick reference &middot; community vs. hospital acquisition drives the "bugs" &middot; always narrow to cultures &middot; adapt to local antibiogram. Adapted from TeachIM (CC BY-NC 4.0).</p>
+  <div class="cols">
+
+    <div class="box"><h2>Pneumonia</h2><div class="body">
+      <table class="tight">
+        <tr><th>Type</th><th>Bugs</th><th>Empiric drugs</th></tr>
+        <tr><td>CAP</td><td>S. pneumo, GNR (H.flu, Morax), atypicals</td><td>Ceftriaxone + azithro/doxy, <i>or</i> resp FQ</td></tr>
+        <tr><td>HAP/VAP (&gt;48h)</td><td>+ MRSA, + Pseudomonas, + MDR GNR</td><td>(Vanc/linezolid) + (Zosyn/cefepime/mero/aztreonam)</td></tr>
+        <tr><td>Aspiration</td><td>+ oral anaerobes</td><td>CAP cov; anaerobes <i>only</i> if abscess/empyema</td></tr>
+      </table>
+      <ul>
+        <li><span class="k">HCAP retired (2019).</span> Add MRSA/PsA only if prior MRSA/PsA <i>or</i> hosp + IV abx &lt;90 d.</li>
+        <li>MRSA nares PCR neg &rarr; stop vancomycin.</li>
+        <li><span class="kr">2025 ATS:</span> shorter courses (3&ndash;5 d if stable by 48&ndash;72 h); hydrocortisone &lt;400 mg/d &times;5&ndash;7 d for <i>severe</i> CAP only (CAPE COD).</li>
+      </ul>
+    </div></div>
+
+    <div class="box"><h2>Urinary Tract</h2><div class="body">
+      <table class="tight">
+        <tr><th>Syndrome</th><th>Drugs</th></tr>
+        <tr><td>Cystitis (E. coli 75&ndash;95%)</td><td>Nitrofurantoin &times;5 d / TMP-SMX &times;3 d (R&lt;20%) / fosfomycin &times;1</td></tr>
+        <tr><td>Pyelo / complicated</td><td>Ceftriaxone &rarr; Zosyn/mero if MDR risk or critically ill; + vanc/dapto if Enterococcus</td></tr>
+      </table>
+      <ul>
+        <li><span class="kr">NEVER</span> nitrofurantoin/fosfomycin for pyelonephritis (bladder-only).</li>
+        <li><span class="k">CAUTI</span> = sx/signs + bacteriuria + catheter (or &le;48 h). Adds PsA, Enterococcus. <span class="kr">Don't treat asymptomatic bacteriuria.</span></li>
+        <li>MDR risk (&lt;3 mo): prior MDR/ESBL, care facility, recent FQ/Bactrim/broad BL, high-MDR travel.</li>
+      </ul>
+    </div></div>
+
+    <div class="box"><h2 class="o">Skin &amp; Soft Tissue</h2><div class="body">
+      <table class="tight">
+        <tr><th>Type</th><th>Bug</th><th>Drugs</th></tr>
+        <tr><td>Nonpurulent</td><td>Strep &gt;&gt; MSSA</td><td>Cephalexin / cefazolin / ceftriaxone</td></tr>
+        <tr><td>Purulent</td><td>MRSA &gt; MSSA</td><td><b>I&amp;D first</b> + vanc/dapto, or PO Bactrim/doxy</td></tr>
+        <tr><td>NSTI</td><td>GAS, S.aureus, GNR, Clostridium</td><td><b>STAT surgery</b> + vanc/dapto + Zosyn/mero + clinda</td></tr>
+      </table>
+      <ul>
+        <li>Purulent = drainage problem first; culture pus, not superficial swabs.</li>
+        <li><span class="kr">NSTI red flags:</span> pain/tenderness beyond erythema, rapid spread, toxicity, crepitus, bullae, duskiness &rarr; OR, don't delay.</li>
+        <li>Clindamycin = antitoxin (shuts off exotoxin) in NSTI / strep TSS.</li>
+      </ul>
+    </div></div>
+
+    <div class="box"><h2 class="g">Intra-abdominal</h2><div class="body">
+      <table class="tight">
+        <tr><th>Setting</th><th>Bugs</th><th>Drugs</th></tr>
+        <tr><td>Community</td><td>Enteric GNR, strep, anaerobes (B. frag)</td><td>3rd-gen ceph + metronidazole (or FQ + metro)</td></tr>
+        <tr><td>Hospital/HCA</td><td>+ Pseudomonas, + Enterococcus, &plusmn; MRSA</td><td>Zosyn / (cefepime+metro) / meropenem &plusmn; vanc</td></tr>
+      </table>
+      <ul>
+        <li><span class="kr">Source control is half the treatment</span> (drain / cholecystectomy / repair).</li>
+        <li>Avoid amp-sulbactam empirically (high E. coli resistance).</li>
+      </ul>
+    </div></div>
+
+    <div class="box"><h2>The "Hospital Trio"</h2><div class="body">
+      <p>Across every site, healthcare/hospital exposure adds <span class="k">MRSA</span>, <span class="k">Pseudomonas</span>, and <span class="k">Enterococcus</span>. Escalate empirically only with risk factors; <b>de-escalate by culture at 48&ndash;72 h.</b></p>
+      <p><b>Hospital-acquired triggers:</b> onset &gt;48 h after admission; hospitalization &ge;48 h or care-facility stay within 90 d; broad-spectrum abx &gt;5 d in prior 90 d.</p>
+    </div></div>
+
+    <div class="box"><h2 class="o">Do / Avoid</h2><div class="body">
+      <ul>
+        <li><span class="k">DO</span> draw cultures before/with first dose; narrow promptly.</li>
+        <li><span class="k">DO</span> use a respiratory FQ as a single-agent CAP option when beta-lactam+macrolide isn't feasible.</li>
+        <li><span class="kr">AVOID</span> reflexive anaerobic coverage in aspiration (only abscess/empyema).</li>
+        <li><span class="kr">AVOID</span> treating asymptomatic bacteriuria (except pregnancy / pre-urologic procedure).</li>
+        <li><span class="kr">AVOID</span> antibiotics-without-surgery in NSTI.</li>
+      </ul>
+    </div></div>
+
+  </div>
+</body>
+</html>

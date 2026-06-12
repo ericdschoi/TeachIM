@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8">
+<style>
+  @page{size:Letter;margin:0.3in}
+  :root{--fs:13px;--p:#0e6e8c;--o:#b4530a;--g:#2e7d4f;--line:#9bb3bd;}
+  *{box-sizing:border-box}
+  body{font-family:'Helvetica Neue',Arial,sans-serif;font-size:var(--fs);line-height:1.4;color:#15202a;margin:0;
+       column-count:2;column-gap:14px;column-fill:balance}
+  h1{column-span:all;font-size:calc(var(--fs)*1.55);margin:0 0 4px;color:var(--p)}
+  .sub{column-span:all;font-size:calc(var(--fs)*0.92);color:#41525c;margin:0 0 8px;border-bottom:2px solid var(--p);padding-bottom:4px}
+  .blk{break-inside:avoid;margin-bottom:8px}
+  h2{font-size:calc(var(--fs)*1.05);margin:0 0 3px;padding:2px 6px;color:#fff;background:var(--p);border-radius:3px}
+  h2.o{background:var(--o)} h2.g{background:var(--g)}
+  table{border-collapse:collapse;width:100%;font-size:calc(var(--fs)*0.95);margin:2px 0}
+  th,td{border:1px solid var(--line);padding:2px 4px;vertical-align:top;text-align:left}
+  th{background:#e7eff3}
+  ul{margin:2px 0 2px 0;padding-left:15px} li{margin:1px 0}
+  .k{color:var(--p);font-weight:bold} .o-t{color:var(--o);font-weight:bold}
+  .eq{font-family:Georgia,serif;background:#eef4f7;padding:1px 4px;border-radius:3px}
+  p{margin:2px 0}
+</style></head><body>
+<h1>Pulmonary Mechanics in the Ventilated Patient</h1>
+<p class="sub">High peak-pressure alarm: establish urgency &rarr; get a plateau (inspiratory hold) &rarr; two subtractions tell you resistance vs compliance. Volume-targeted modes. Adapted from TeachIM.org (McLeod/Scudder; Steinbach; Zhang, Apr 2023), CC BY-NC 4.0.</p>
+
+<div class="blk">
+<h2>Key Outputs: set vs monitor</h2>
+<table>
+<tr><th>Mode</th><th>Monitor (outputs)</th></tr>
+<tr><td>Volume-targeted</td><td>Peak &amp; plateau (driving) pressures</td></tr>
+<tr><td>Pressure-targeted</td><td>V<sub>T</sub> &amp; minute ventilation V<sub>E</sub></td></tr>
+</table>
+<p>V<sub>E</sub> = V<sub>T</sub> &times; RR. Plateau measured on an <span class="k">inspiratory hold</span> (no flow).</p>
+</div>
+
+<div class="blk">
+<h2>The two subtractions</h2>
+<table>
+<tr><th>Mechanic</th><th>Formula</th><th>Normal</th></tr>
+<tr><td><span class="k">Resistance</span></td><td class="eq">P<sub>peak</sub> &minus; P<sub>plateau</sub></td><td>&lt;10</td></tr>
+<tr><td><span class="k">Compliance</span> (driving P)</td><td class="eq">P<sub>plateau</sub> &minus; PEEP</td><td>&lt;10*</td></tr>
+</table>
+<p>*for a 4&ndash;6 mL/kg breath. Plateau goal <span class="k">&lt;30</span>. ARDS driving-pressure goal <span class="k">&le;14&ndash;15</span> (Amato 2015).</p>
+<p>Peak = the "everything" pressure (R + C + PEEP + insp flow). Plateau has no flow &rarr; resistance drops out &rarr; reflects lung/chest-wall only.</p>
+</div>
+
+<div class="blk">
+<h2 class="o">Step 1 &mdash; Establish urgency</h2>
+<p class="o-t">Emergency = high peak PLUS any of:</p>
+<ul>
+<li>SpO<sub>2</sub> falling</li>
+<li>V<sub>T</sub> low / V<sub>E</sub> down &gt;50%</li>
+<li>Rising PCO<sub>2</sub></li>
+<li>Dropping BP</li>
+</ul>
+<p>&rarr; <span class="o-t">Call for help + FiO<sub>2</sub> 100%</span>, work the steps in parallel. Don't delay for an ABG.</p>
+</div>
+
+<div class="blk">
+<h2 class="o">Step 2 &mdash; Assess resistance</h2>
+<p><span class="eq">P<sub>peak</sub> &minus; P<sub>plateau</sub> &gt; 10</span> = resistance problem.</p>
+<table>
+<tr><th>Cause</th><th>Action</th></tr>
+<tr><td>Kinked tubing</td><td>Inspect / uncompress</td></tr>
+<tr><td>Biting ETT</td><td>Bite block + sedation/analgesia</td></tr>
+<tr><td>Mucus plug / obstruction</td><td>Deep suction (&plusmn; bronch)</td></tr>
+<tr><td>Bronchospasm</td><td>Bronchodilators</td></tr>
+<tr><td>Refractory kink/block</td><td>Exchange ETT (airway-trained)</td></tr>
+</table>
+</div>
+
+<div class="blk">
+<h2 class="g">Step 3 &mdash; Assess compliance</h2>
+<p><span class="eq">P<sub>plateau</sub> &gt; 30</span> or <span class="eq">driving &gt; 10</span> = compliance problem.</p>
+<table>
+<tr><th>Bucket</th><th>Causes</th></tr>
+<tr><td>Alveolar filling</td><td>Edema, ARDS, pneumonia, DAH</td></tr>
+<tr><td>Alveolar collapse</td><td>Atelectasis, lobar collapse</td></tr>
+<tr><td>Extrapulmonary</td><td>PTX, pleural effusion, ascites, abdominal distention/ACS, stiff chest wall</td></tr>
+</table>
+<p><b>Action:</b> history, targeted exam, CXR/POCUS, ABG; bladder pressure if abdominal compartment syndrome suspected.</p>
+</div>
+
+<div class="blk">
+<h2 class="g">Tempo &amp; pearls</h2>
+<ul>
+<li><b>PTX:</b> spike over min&ndash;hrs &middot; <b>ARDS/fibrosis:</b> climb over hrs&ndash;days &middot; <b>COPD:</b> air-trapping (auto-PEEP)</li>
+<li>R and C problems <b>can co-exist</b></li>
+<li>Auto-PEEP / breath-stacking + hypotension &rarr; <b>disconnect circuit</b> to allow full exhalation, then slow the rate &amp; treat bronchospasm</li>
+<li>Worked Case 1: peak 40, plateau 38, PEEP 12 &rarr; R = 40&minus;38 = 2 (normal); driving = 38&minus;12 = <b>26</b> (high) &rarr; low compliance (worsening ARDS)</li>
+</ul>
+</div>
+
+<div class="blk">
+<h2>2023&ndash;25 framing</h2>
+<ul>
+<li>Driving pressure is the vent variable most tied to ARDS survival &mdash; keep &le;14&ndash;15 even when V<sub>T</sub>/plateau already protective (Amato NEJM 2015)</li>
+<li>Lung-protective: V<sub>T</sub> 4&ndash;6 mL/kg IBW, plateau &lt;30, PEEP &gt;5 (ARDSNet 2000; ATS/ESICM/SCCM 2017; ESICM 2023)</li>
+<li>Global ARDS def 2024: SpO<sub>2</sub>/FiO<sub>2</sub> &le;315, lung US, HFNO recognized</li>
+</ul>
+</div>
+
+</body></html>

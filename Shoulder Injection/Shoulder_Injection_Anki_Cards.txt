@@ -1,0 +1,18 @@
+Which diagnoses get a SUBACROMIAL injection?	Rotator cuff tendinopathy, subacromial bursitis, impingement.
+Which shoulder diagnoses need INTRA-ARTICULAR (glenohumeral) injection instead?	Glenohumeral OA and adhesive capsulitis (GH injection more efficacious than subacromial for frozen shoulder). AC OA, AC-joint injection.
+Landmark & insertion for the posterolateral subacromial approach?	Mark scapular spine + lateral acromion, find posterolateral point of the acromion; insert ~1-2 cm below it in a soft recess, angled under the acromion slightly cephalad toward the coracoid.
+Posterolateral vs lateral subacromial approach, outcome difference?	No significant difference in night pain, function, or SPADI (Ogbeivor 2019). US guidance has mixed data vs landmark.
+Exam findings pointing to cervical radiculopathy (a shoulder-pain mimic)?	Spurling's +LR 4.5; decreased biceps reflex +LR 9.1; neck rotation to involved side <60 deg +LR 1.7 (if rotation NOT limited, -LR 0.2). Image the C-spine, not the shoulder.
+Positive drop-arm test suggests?	Full-thickness rotator cuff tear.
+Speed's + Yergason's + biceps-groove tenderness suggests?	Biceps tendonitis (these tests can also be positive in RC tendinopathy; localized biceps tenderness + negative RC tests favor biceps).
+Global loss of active AND passive ROM suggests?	Adhesive capsulitis (or glenohumeral OA, order an x-ray). Diabetes is a risk factor for adhesive capsulitis.
+Does subacromial CSI work long-term for rotator cuff disease?	Short-term only: better SPADI at ~8 wk, no difference at 6-12 mo (GRASP Lancet 2021). Progressive exercise is core; injection helps adherence.
+Subacromial decompression surgery for impingement, benefit?	Little/no benefit over conservative care (CSAW Lancet 2018).
+Full-thickness vs partial-thickness RC tear, surgery or PT?	Full-thickness with persistent symptoms after ~3 mo PT, surgery better at 2 yr (Cederqvist 2021). Partial-thickness, PT = surgery.
+Best-evidence management of adhesive capsulitis?	PT +/- intra-articular glenohumeral CSI. UK FROST: no clinically important difference between PT+CSI, MUA+CSI, and capsular release; surgical arms had more serious adverse events, so start conservative.
+Strongest reason to defer a subacromial CSI?	Anticipated shoulder surgery within ~3 months (CSI within ~4 wk of arthroscopy raises infection risk); overlying skin infection; CSI in same space within last 3 months.
+Is well-controlled diabetes a contraindication to shoulder CSI?	No, relative; counsel that glucose may rise transiently. Prior shoulder surgery without intra-articular hardware is also not a contraindication.
+Glenohumeral OA without trauma/RC injury, what to consider?	The shoulder is non-weight-bearing, so primary GH OA is uncommon without trauma, consider a metabolic cause (e.g., hemochromatosis: check iron/TIBC/ferritin); RA is also in the differential.
+Supplies for a subacromial injection?	1% lidocaine (5 cc), triamcinolone 40 mg/mL (1 cc), alcohol swabs, 5-10 cc syringe, 18 g draw-up needle, 21-25 g 1.5" injection needle, marker, chlorhexidine, gauze, band-aid.
+What does resistance on injection mean?	The tip is in tendon/soft tissue, NOT the bursa, injecting into tendon risks rupture. Withdraw and redirect under the acromion until it flows freely.
+"No-touch" draw-up tips?	Clean vial tops with alcohol; separate needles for drawing up vs injecting; inject air when withdrawing >3 cc; draw lidocaine first, add a little to the steroid vial to ease aspiration.

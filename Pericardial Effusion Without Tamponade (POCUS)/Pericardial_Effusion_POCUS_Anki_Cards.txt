@@ -1,0 +1,17 @@
+In the PLAX view, where does a pericardial effusion lie relative to the descending thoracic aorta?	Anterior to the descending aorta (a pleural effusion lies posterior to it).
+In the PLAX view, where does a pleural effusion lie relative to the descending thoracic aorta?	Posterior to the descending aorta (a pericardial effusion lies anterior to it).
+Which cardiac window is the MOST sensitive for detecting a pericardial effusion?	The subxiphoid (subcostal) view.
+What is a core POCUS habit when you see any cardiac ultrasound finding?	Always confirm it in a second view before acting on it.
+What three factors determine the clinical significance of a pericardial effusion?	Size, chronicity (compare to prior echo), and clinical evidence of tamponade.
+What are the three key clinical features of cardiac tamponade?	Elevated JVP, tachycardia, and pulsus paradoxus >10 mmHg.
+How does raising the pulsus paradoxus cutoff change its test characteristics for tamponade?	Higher cutoffs increase specificity and decrease sensitivity.
+What is the LR+ of pulsus paradoxus >10 mmHg for tamponade? Of >12 mmHg?	>10 mmHg: LR+ 3.3 (LR- 0.03); >12 mmHg: LR+ 5.9 (LR- 0.05). (Roy, JAMA 2007)
+What is Beck's triad and how reliable is it in medical tamponade?	Elevated JVP, hypotension, and muffled heart tones; present in only 0–19% of medical tamponade — NOT a reliable predictor.
+What is the most common cause of pericardial effusion in the developed world?	Viral (Coxsackie, echovirus, HHV6, parvovirus B19, COVID-19).
+What is the most common cause of pericardial effusion in the developing world?	Tuberculosis (>70% of cases).
+List the major non-infectious causes of pericardial effusion.	Autoimmunity, malignancy, uremia, post-traumatic/post-MI, radiation, and hypothyroidism.
+Per the 2025 ESC guideline, tamponade is best understood as a function of what — not absolute effusion size?	The RATE of fluid accumulation (a dynamic process); a small rapid effusion can tamponade, a large chronic one may not.
+What is first-line management of a hemodynamically significant pericardial effusion or tamponade?	Pericardiocentesis (surgical pericardial window for recurrent/loculated/purulent effusion or when drainage is unsafe/ineffective). (2025 ESC)
+When are CMR and cardiac CT each Class I in pericardial disease (2025 ESC)?	CMR when diagnosis is unclear or myocarditis is suspected; cardiac CT for loculated/complex effusion, calcification, or masses.
+What unifying clinical concept did the 2025 ESC guideline introduce?	Inflammatory Myopericardial Syndrome (IMPS) — merging myocarditis and pericardial disease along the myocardium–pericardium continuum.
+A trace pericardial effusion in an asymptomatic patient — how should it be interpreted?	May be normal; interpret in clinical context. Determine chronicity by reviewing prior echocardiograms.

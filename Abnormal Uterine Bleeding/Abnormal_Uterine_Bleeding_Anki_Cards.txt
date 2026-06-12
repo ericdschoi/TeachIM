@@ -1,0 +1,17 @@
+Four FIGO parameters defining a normal menstrual cycle	Frequency (24-38 d), Duration (<=8 d), Regularity (variation <=7-9 d), Volume (no interference)
+FIGO normal menstrual frequency	Every 24-38 days (frequent <24, infrequent >38, absent = amenorrhea)
+Normal menstrual duration cutoff	<=8 days; >8 days = prolonged
+Expand PALM (structural causes of AUB)	Polyp, Adenomyosis, Leiomyoma (fibroid), Malignancy/hyperplasia
+Expand COEIN (non-structural causes of AUB)	Coagulopathy, Ovulatory dysfunction, Endometrial, Iatrogenic, Not yet classified
+What does the "I" in PALM-COEIN stand for?	Iatrogenic (NOT idiopathic) - hormonal contraception/IUD/implant, anticoagulants, SERMs, dopamine antagonists
+First step in evaluating any reproductive-age patient with AUB	Rule out pregnancy
+Exam + 3 labs every AUB patient needs	Pelvic exam + pregnancy test, CBC, iron studies
+Ferritin threshold considered low in a pre-menopausal patient	<50 ng/mL (treat even without anemia)
+Imaging test for the structural work-up of AUB	Transvaginal ultrasound
+Indications for endometrial biopsy in AUB	Postmenopausal bleeding; age >45; chronic anovulation/obesity; unopposed estrogen (incl. tamoxifen); persistent AUB despite treatment
+Most common symptom of endometrial cancer	Abnormal uterine bleeding
+Approx. % of heavy menstrual bleeding due to a bleeding disorder	~20% (higher in adolescents); vWD most common
+Clues suggesting a coagulopathy cause of AUB	HMB since menarche, postpartum hemorrhage, surgical/dental bleeding, strong family bleeding history
+Targeted tests for suspected ovulatory dysfunction	TSH, prolactin, +/- FSH; total testosterone (+/- 17-OH-progesterone, DHEAS) if androgen excess
+How hypothyroidism causes menstrual irregularity (HPO axis)	Increased TSH -> negative feedback -> decreased GnRH -> decreased FSH/LH -> anovulation
+Why FSH is elevated in perimenopause	Falling ovarian estradiol removes negative feedback -> increased GnRH -> increased FSH/LH

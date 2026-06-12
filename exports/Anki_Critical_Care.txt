@@ -1,0 +1,49 @@
+Four broad categories of shock?	Hypovolemic, cardiogenic, obstructive, distributive.	Critical_Care::shock-and-pressors
+Hemodynamic profile of hypovolemic shock (CVP / CO / SVR)?	CVP down-down, CO down, SVR up. Treat with volume (blood for hemorrhage).	Critical_Care::shock-and-pressors
+Hemodynamic profile of cardiogenic shock (CVP / CO / SVR)?	CVP up, CO down-down, SVR up. Treat with an inotrope +/- diuresis; do NOT give IVF.	Critical_Care::shock-and-pressors
+Hemodynamic profile of obstructive shock (CVP / CO / SVR)?	CVP up, CO down, SVR up. Relieve the obstruction (PE, tension PTX, tamponade); inotrope as a bridge.	Critical_Care::shock-and-pressors
+Hemodynamic profile of distributive shock (CVP / CO / SVR)?	CVP down-to-normal, CO normal-to-up, SVR down. Treat with IVF + norepinephrine (+/- vasopressin).	Critical_Care::shock-and-pressors
+Bedside clues that point to distributive vs low-output shock?	Distributive: warm extremities + wide pulse pressure (low SVR). Low-output (cardiogenic/hypovolemic): cold, clammy, narrow pulse pressure.	Critical_Care::shock-and-pressors
+First-line vasopressor for septic shock?	Norepinephrine.	Critical_Care::shock-and-pressors
+First-line agent for cardiogenic shock and why?	Dobutamine (an inotrope); its mild SVR drop (afterload reduction) can paradoxically improve BP by raising cardiac output.	Critical_Care::shock-and-pressors
+"No role for vasopressors if ___"?	"...the tank is not full." Hypovolemic shock needs volume/blood first; pressors squeeze an empty space and risk ischemia.	Critical_Care::shock-and-pressors
+What does SvO2 tell you in shock?	Low in cardiogenic shock; typically high in established septic shock (low in early sepsis). Affected by CO, SaO2, and hemoglobin, so it can read falsely low with hypoxemia/anemia.	Critical_Care::shock-and-pressors
+Receptor effects: alpha1, beta1, beta2, V1?	alpha1 = vasoconstriction (up SVR); beta1 = up HR + up contractility; beta2 = vasodilation; V1 = non-adrenergic vasoconstriction (vasopressin).	Critical_Care::shock-and-pressors
+Receptor profile and use of norepinephrine?	alpha1 > beta1; up-up SVR, mild up CO; first-line for distributive/septic shock.	Critical_Care::shock-and-pressors
+Vasopressor of choice in anaphylaxis?	Epinephrine (alpha1, beta1, beta2).	Critical_Care::shock-and-pressors
+2021 Surviving Sepsis Campaign - three practice changes since this talk?	Balanced crystalloids over 0.9% saline; 30 mL/kg bolus downgraded to a weak recommendation; add vasopressin early (NE ~0.25-0.5 mcg/kg/min) rather than escalating NE; start NE peripherally to avoid delay.	Critical_Care::shock-and-pressors
+CLOVERS trial (2023) bottom line?	No difference in 90-day mortality between restrictive-fluid/early-vasopressor and liberal-fluid strategies for sepsis-induced hypotension.	Critical_Care::shock-and-pressors
+Add-on agent for catecholamine-refractory vasodilatory shock?	Angiotensin II (ATHOS-3; FDA-approved) when norepinephrine + vasopressin are insufficient.	Critical_Care::shock-and-pressors
+In a volume-targeted mode, which outputs do you monitor?	Pressures — peak and plateau (and driving pressure).	Critical_Care::ventilators-part-2-pulmonary-mechanics
+In a pressure-targeted mode, which outputs do you monitor?	Volumes — tidal volume (VT) and minute ventilation (VE).	Critical_Care::ventilators-part-2-pulmonary-mechanics
+Formula for minute ventilation	VE = VT × RR (L/min).	Critical_Care::ventilators-part-2-pulmonary-mechanics
+How is plateau pressure measured?	Inspiratory hold (no airflow at end-inspiration).	Critical_Care::ventilators-part-2-pulmonary-mechanics
+Resistance is proportional to…	Ppeak − Pplateau; normal <10 cm H2O.	Critical_Care::ventilators-part-2-pulmonary-mechanics
+Driving pressure formula	Pdriving = Pplateau − PEEP; compliance = VT/Pdriving.	Critical_Care::ventilators-part-2-pulmonary-mechanics
+Upper limit for plateau pressure	<30 cm H2O (barotrauma risk above).	Critical_Care::ventilators-part-2-pulmonary-mechanics
+Driving-pressure target in ARDS	≤14–15 cm H2O (Amato NEJM 2015).	Critical_Care::ventilators-part-2-pulmonary-mechanics
+Why does plateau pressure exclude resistance?	It is measured with no airflow, so airway resistance contributes nothing.	Critical_Care::ventilators-part-2-pulmonary-mechanics
+Step 1 of the high peak-pressure algorithm	Establish urgency at bedside (vitals, SpO2, VT/VE); call for help + FiO2 100% if unstable.	Critical_Care::ventilators-part-2-pulmonary-mechanics
+Peak − plateau > 10 indicates…	A resistance problem.	Critical_Care::ventilators-part-2-pulmonary-mechanics
+Plateau > 30 or driving > 10 indicates…	A compliance problem.	Critical_Care::ventilators-part-2-pulmonary-mechanics
+Causes of high resistance	Kinked tube, bitten ETT, mucus plug / large-airway obstruction, bronchospasm.	Critical_Care::ventilators-part-2-pulmonary-mechanics
+Compliance differential — two buckets	Alveolar filling (edema, ARDS, pneumonia, DAH) and alveolar collapse (atelectasis, lobar collapse), ± extrapulmonary (PTX, effusion, ascites/abdominal distention).	Critical_Care::ventilators-part-2-pulmonary-mechanics
+Actions for a resistance problem	Inspect/uncompress tubing, deep suction, bite block + sedation/analgesia, bronchodilators, exchange tube if refractory.	Critical_Care::ventilators-part-2-pulmonary-mechanics
+Acute hypotension + high peak in a ventilated asthmatic — first move	Suspect auto-PEEP/tension physiology; disconnect from vent to allow full exhalation, rule out PTX, slow the rate.	Critical_Care::ventilators-part-2-pulmonary-mechanics
+2023–24 ARDS framing for who you will troubleshoot	ESICM 2023 / Global ARDS definition 2024: SpO2/FiO2 ≤315 may define ARDS, lung US accepted, HFNO a recognized support category.	Critical_Care::ventilators-part-2-pulmonary-mechanics
+The 4 questions for reading any ventilator?	(1) What mode? (2) What level of O2 support? (3) Is ventilation appropriate? (4) How are the respiratory mechanics?	Critical_Care::ventilators-on-the-fly
+Dials vs measured values on the screen?	Right-side dials = clinician-set; left-side numbers = ventilator-measured. They differ when the patient breathes over the set rate.	Critical_Care::ventilators-on-the-fly
+Square wave in PRESSURE means…?	A pressure-targeted mode: PC, PRVC, or PS.	Critical_Care::ventilators-on-the-fly
+Square wave in FLOW means…?	Classic volume control (modern vents can change the flow shape, so its absence does not exclude VC).	Critical_Care::ventilators-on-the-fly
+Control vs support mode — the tell?	Control mode = a set/mandatory RR. Support mode (PS) = no mandatory RR; patient triggers all breaths.	Critical_Care::ventilators-on-the-fly
+Pressure Control — target and monitor?	Target Pcontrol/deltaP; monitor tidal volume and minute ventilation.	Critical_Care::ventilators-on-the-fly
+Volume Control — target and monitor?	Target tidal volume; monitor peak and plateau pressure. Used for ARDS lung-protective VT.	Critical_Care::ventilators-on-the-fly
+PRVC — what is it?	Hybrid: set a target VT; the vent algorithm sets the pressure to achieve it. Square pressure wave; monitor peak/plateau + achieved VT.	Critical_Care::ventilators-on-the-fly
+Pressure Support — use and risk?	Spontaneous mode for SBTs/minimal support; no mandatory RR, so apnea triggers a backup control mode.	Critical_Care::ventilators-on-the-fly
+Which 2 settings set oxygenation in every mode?	FiO2 and PEEP (read against the ARDSNet PEEP/FiO2 ladder).	Critical_Care::ventilators-on-the-fly
+Minute ventilation equation and normal range?	VE = VT x RR. Normal 4-6 L/min (often higher in disease).	Critical_Care::ventilators-on-the-fly
+Target pH range when judging ventilation?	Generally keep pH 7.2-7.5.	Critical_Care::ventilators-on-the-fly
+Patient-driven tachypnea — causes to look for?	CNS injury/suppression, pain, salicylates, metabolic acidosis.	Critical_Care::ventilators-on-the-fly
+Volume mode, deltaP > 10 — next step?	Perform an inspiratory hold to obtain the plateau pressure.	Critical_Care::ventilators-on-the-fly
+Peak minus Plateau > 3-5 indicates…?	A RESISTANCE problem: mucus plug, kinked tube, bronchospasm.	Critical_Care::ventilators-on-the-fly
+Elevated Plateau minus PEEP (>10) indicates…?	A COMPLIANCE problem: pneumothorax, alveolar filling/edema, fibrosis, mainstem intubation, distended abdomen.	Critical_Care::ventilators-on-the-fly

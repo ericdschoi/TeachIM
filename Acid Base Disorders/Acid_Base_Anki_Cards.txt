@@ -1,0 +1,19 @@
+Normal values: pH, PCO2, HCO3, PO2 on an ABG?	pH 7.40 ± 0.05 (acidemia <7.35, alkalemia >7.45); PCO2 40 ± 4; HCO3 24 ± 2; PO2 >80 mmHg on room air.
+"-emia" vs "-osis"?	-emia describes the blood pH (acidemia/alkalemia); -osis is a metabolic or respiratory PROCESS that would derange pH if unchecked — several -oses can coexist with any pH.
+What are the steps of ABG interpretation?	1) Acid-base status (pH). 2) Primary process (match pH against PCO2 and HCO3). 3) Check anion gap in everyone (+ delta-delta if AGMA). 4) Assess compensation.
+Anion gap: formula and normal value?	AG = Na − (Cl + HCO3); normal ≈ 8–12, but EXPECTED AG ≈ 2.5 × albumin (g/dL) — hypoalbuminemia lowers the "normal" gap and can hide an AGMA.
+Why calculate an anion gap in every patient regardless of primary process?	An AGMA can be present even when the primary disorder is respiratory or a metabolic alkalosis — and an elevated AG is never a compensatory change.
+How does the "residual HCO3" (delta-delta) method work?	Add (measured AG − expected AG) back to the measured HCO3. Result normal → pure AGMA; high (>26) → concurrent metabolic alkalosis; low (<22) → concurrent NAGMA.
+Differential for anion gap metabolic acidosis?	MUDPILES: Methanol, Uremia, DKA/ketoacidosis, Paraldehyde, INH/Iron, Lactic acidosis, Ethylene glycol (+EtOH), Salicylates.
+Differential for non-gap metabolic acidosis (NAGMA)?	HCO3 loss via gut (diarrhea, ileostomy) or kidney (RTA, early renal failure, hypoaldosteronism) + excess Cl (normal saline).
+How does the urinary anion gap separate NAGMA causes?	UAG = Na + K − Cl in urine. "neGUTive" = GI HCO3 loss; positive = renal loss (RTA). Unreliable in renal dysfunction.
+Differential for respiratory acidosis?	Decreased CO2 elimination (obstructive/intrinsic lung disease, neuromuscular weakness, decreased respiratory drive — opioids/benzos) or increased CO2 production (sepsis, overfeeding, hyperthyroidism).
+Differential for respiratory alkalosis?	Anxiety/pain, fever/sepsis, CNS disease, drugs (salicylates), liver disease, PE — all drive hyperventilation.
+Metabolic alkalosis: chloride-responsive vs non-responsive causes?	IVF(Cl)-responsive: vomiting/NGT losses, diuretics (thiazide/loop), contraction alkalosis. Non-responsive: hyperaldosteronism, genetic disorders, milk-alkali, hypokalemia.
+Two general rules of compensation?	PCO2 and HCO3 move in the SAME direction; respiratory compensation is fast (minutes), metabolic (renal) compensation slow (2–3 days); compensation never overshoots or fully normalizes the pH.
+Winter's formula (and the bedside shortcut)?	Expected PCO2 = 1.5 × HCO3 + 8 (± 2) for metabolic acidosis. Thumb rule: PCO2 should ≈ the last two digits of the pH (e.g., pH 7.32 → PCO2 ~32).
+Expected PCO2 in metabolic alkalosis?	PCO2 ≈ 0.7 × HCO3 + 21 — hypoventilation raises PCO2, but rarely much above ~55.
+Expected HCO3 change in respiratory acidosis (per 10 mmHg PCO2 rise)?	Acute: HCO3 ↑ ~1; chronic (2–3 d): HCO3 ↑ ~4 — a COPD patient with PCO2 60 and HCO3 32 is chronically compensated.
+Expected HCO3 change in respiratory alkalosis (per 10 mmHg PCO2 fall)?	Acute: HCO3 ↓ ~2; chronic: HCO3 ↓ ~5.
+What does a "base excess" on the ABG represent?	The number of H+ ions required to restore normal pH if PCO2 were normal: positive (> +2) → metabolic alkalosis; negative (< −2) → metabolic acidosis.
+What does measured PCO2 ≠ expected PCO2 (by Winter's) mean?	A second primary respiratory process: measured > expected → concurrent respiratory acidosis; measured < expected → concurrent respiratory alkalosis.

@@ -1,0 +1,18 @@
+Four system categories of acute dyspnea	Respiratory (airways/alveoli/vessels), cardiac, musculoskeletal, and the "3 A's" (anemia, anxiety, acidosis).
+Most common categories of dyspnea	Respiratory and cardiac.
+Core diagnostic toolbox for dyspnea	CXR, blood gas (ABG/VBG), CBC, ECG — plus bedside POCUS.
+Is dyspnea the same as hypoxemia?	No — dyspnea is subjective shortness of breath; hypoxemia is a low PaO2. Either can occur without the other.
+Definition and normal range of PaO2	Hypoxemia = low PaO2 measured on ABG; normal PaO2 ~75–100 mmHg.
+Five causes of hypoxemia	Low FiO2, low diffusion capacity (both normal A-a, not acute inpatient causes), hypoventilation (normal A-a), V/Q mismatch, and shunt (both elevated A-a).
+A-a gradient formula	A-a = PAO2 − PaO2; PAO2 = FiO2 × (Patm − PH2O) − PaCO2/0.8 (≈150 − 1.25×PaCO2 on room air).
+Expected (normal) A-a gradient	Age/4 + 4 (e.g., a 64-year-old ≈ 20).
+Which hypoxemia causes have a NORMAL A-a gradient?	Low FiO2 and hypoventilation (and low diffusion is chronic).
+Which hypoxemia causes have an ELEVATED A-a gradient?	V/Q mismatch and shunt (and chronically, low diffusion capacity).
+How to distinguish shunt from V/Q mismatch at the bedside	Shunt does NOT correct with 100% O2; V/Q mismatch does.
+Mechanism of hypoxemia in hypoventilation	↓ CO2 elimination → ↑ PaCO2 displaces alveolar O2 → ↓ PaO2 (normal A-a). Causes: CNS depression, opioids/benzos, neuromuscular weakness, diaphragm dysfunction.
+What causes a shunt?	Perfusion without ventilation — anatomic shunt or a large alveolar filling/collapse process (blood, water, pus).
+When should you get an ABG instead of a VBG?	When you need the PaO2 — to confirm/grade hypoxemia or calculate the A-a gradient.
+VBG-to-ABG conversion estimates	ABG pH ≈ VBG pH + 0.04; ABG PaCO2 ≈ VBG PvCO2 − 4.
+Causes of hypoxia that are NOT hypoxemia	Stagnant (low flow), anemic, histotoxic (cyanide), and methemoglobinemia — tissue-level hypoxia with a normal PaO2.
+Drugs causing methemoglobinemia / cyanide in hospital	Methemoglobinemia: nitrates, local anesthetics, sulfonamides. Cyanide: sodium nitroprusside.
+Role of POCUS in acute dyspnea	BLUE-protocol lung ultrasound rapidly distinguishes cardiogenic edema, pneumonia, pneumothorax, and effusion (high sensitivity), complementing CXR/ABG/ECG/CBC.
